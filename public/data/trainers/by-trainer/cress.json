@@ -1,0 +1,150 @@
+{
+  "trainerSlug": "cress",
+  "presets": [
+    {
+      "id": "bulba-cress-black-white-1",
+      "name": "Striaton Gym",
+      "trainer": "Cress",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Striaton Gym",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for panpour, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        506,
+        515
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cress",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cress-black-2-white-2-3",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cress",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for basculin, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        516,
+        55,
+        419,
+        184,
+        199,
+        550
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cress",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cress-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cress",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for seismitoad, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        516,
+        342,
+        503,
+        184,
+        199,
+        537
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cress",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cress-black-2-white-2-2",
+      "name": "Striaton City",
+      "trainer": "Cress",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Striaton City",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for simipour, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        550,
+        199,
+        516
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cress",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

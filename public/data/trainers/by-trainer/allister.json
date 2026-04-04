@@ -1,0 +1,150 @@
+{
+  "trainerSlug": "allister",
+  "presets": [
+    {
+      "id": "bulba-allister-sword-shield-1",
+      "name": "Stow-on-Side Stadium",
+      "trainer": "Allister",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Stow-on-Side Stadium",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        562,
+        778,
+        864,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Allister",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-allister-sword-shield-2",
+      "name": "Wyndon Stadium",
+      "trainer": "Allister",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        477,
+        609,
+        864,
+        855,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Allister",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-allister-sword-shield-3",
+      "name": "Wyndon Stadium",
+      "trainer": "Allister",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        477,
+        609,
+        864,
+        867,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Allister",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-allister-sword-shield-4",
+      "name": "Wyndon Stadium",
+      "trainer": "Allister",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        477,
+        864,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Allister",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

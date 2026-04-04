@@ -1,0 +1,261 @@
+{
+  "trainerSlug": "chuck",
+  "presets": [
+    {
+      "id": "bulba-chuck-gold-silver-1",
+      "name": "Cianwood Gym",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Cianwood Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwrath, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "gym-leaders-elite-four-champions",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        57,
+        62
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-heartgold-soulsilver-2",
+      "name": "Cianwood Gym",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Cianwood Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwrath, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-heartgold-soulsilver-3",
+      "name": "Fighting Dojo",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwrath, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        107,
+        106,
+        286,
+        57,
+        62
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-stadium-2-6",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primeape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62,
+        210,
+        67,
+        107,
+        28,
+        57
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-stadium-2-7",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hypno, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62,
+        28,
+        217,
+        181,
+        107,
+        97
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hitmonlee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62,
+        68,
+        57,
+        237,
+        107,
+        106
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-chuck-black-2-white-2-5",
+      "name": "Pokemon World Tournament",
+      "trainer": "Chuck",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hitmonlee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62,
+        68,
+        534,
+        237,
+        107,
+        106
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Chuck",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1422 @@
+{
+  "trainerSlug": "barry",
+  "presets": [
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-32",
+      "name": "Canalave City | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Canalave City | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        397,
+        315,
+        214,
+        77,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-33",
+      "name": "Canalave City | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Canalave City | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        397,
+        418,
+        214,
+        77,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-31",
+      "name": "Canalave City | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Canalave City | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        397,
+        418,
+        214,
+        315,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-44",
+      "name": "Fight Area",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        407,
+        214,
+        78,
+        143,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-45",
+      "name": "Fight Area",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        214,
+        78,
+        143,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-41",
+      "name": "Fight Area | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        407,
+        214,
+        78,
+        143,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-42",
+      "name": "Fight Area | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        214,
+        78,
+        143,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-43",
+      "name": "Fight Area | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        214,
+        407,
+        143,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-26",
+      "name": "Hearthome City | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Hearthome City | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        77,
+        315,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-27",
+      "name": "Hearthome City | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Hearthome City | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        418,
+        77,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-25",
+      "name": "Hearthome City | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Hearthome City | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        418,
+        315,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-29",
+      "name": "Pastoria City | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria City | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        77,
+        315,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-30",
+      "name": "Pastoria City | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria City | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        418,
+        77,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-28",
+      "name": "Pastoria City | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria City | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        418,
+        315,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-38",
+      "name": "Pokemon League | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        407,
+        214,
+        78,
+        143,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-39",
+      "name": "Pokemon League | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        214,
+        78,
+        143,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-37",
+      "name": "Pokemon League | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        214,
+        407,
+        143,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-23",
+      "name": "Route 203 | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Route 203 | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-24",
+      "name": "Route 203 | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Route 203 | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-22",
+      "name": "Route 203 | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Route 203 | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        396,
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-35",
+      "name": "Spear Pillar | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Spear Pillar | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        446,
+        398,
+        315,
+        214,
+        77,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-36",
+      "name": "Spear Pillar | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Spear Pillar | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        446,
+        398,
+        418,
+        214,
+        77,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-brilliant-diamond-and-shining-pearl-34",
+      "name": "Spear Pillar | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Spear Pillar | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        446,
+        398,
+        418,
+        214,
+        315,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-8",
+      "name": "Fight Area | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        78,
+        407,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-9",
+      "name": "Fight Area | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Piplup",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        419,
+        78,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-7",
+      "name": "Fight Area | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Turtwig",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        407,
+        419,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-2",
+      "name": "Pokemon League | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        78,
+        407,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-3",
+      "name": "Pokemon League | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Piplup",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        419,
+        78,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-diamond-pearl-1",
+      "name": "Pokemon League | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Turtwig",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        407,
+        419,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-14",
+      "name": "Fight Area | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        407,
+        78,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-15",
+      "name": "Fight Area | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        78,
+        419,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-13",
+      "name": "Fight Area | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        214,
+        143,
+        419,
+        407,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-11",
+      "name": "Pokemon League | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        78,
+        143,
+        214,
+        407,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-12",
+      "name": "Pokemon League | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        78,
+        419,
+        214,
+        143,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-10",
+      "name": "Pokemon League | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        143,
+        214,
+        407,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-20",
+      "name": "Survival Area | Chimchar| background = E08040",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Survival Area | Chimchar| background = E08040",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        407,
+        78,
+        214,
+        143,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-21",
+      "name": "Survival Area | Piplup",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Survival Area | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        78,
+        419,
+        214,
+        143,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-barry-platinum-19",
+      "name": "Survival Area | Turtwig",
+      "trainer": "Barry",
+      "category": "Rivals",
+      "region": "Sinnoh",
+      "battleLabel": "Survival Area | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "rivals",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        419,
+        407,
+        214,
+        143,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Barry_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

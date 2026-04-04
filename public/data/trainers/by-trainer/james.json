@@ -1,0 +1,315 @@
+{
+  "trainerSlug": "james",
+  "presets": [
+    {
+      "id": "bulba-james-lets-go-pikachu-lets-go-eevee-5",
+      "name": "Mt. Moon",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Mt. Moon",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for koffing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        23,
+        109
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-lets-go-pikachu-lets-go-eevee-7",
+      "name": "Pokemon Tower",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon Tower",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weezing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        24,
+        110
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-lets-go-pikachu-lets-go-eevee-9",
+      "name": "Route 17",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Route 17",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weezing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        24,
+        110
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-lets-go-pikachu-lets-go-eevee-8",
+      "name": "Silph Co.",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weezing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        24,
+        110
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-lets-go-pikachu-lets-go-eevee-6",
+      "name": "Team Rocket Hideout",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Team Rocket Hideout",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weezing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        24,
+        110
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-yellow-1",
+      "name": "Mt. Moon",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Mt. Moon",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for koffing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        23,
+        52,
+        109
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-yellow-3",
+      "name": "Pokemon Tower",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon Tower",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weezing, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        52,
+        24,
+        110
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-yellow-2",
+      "name": "Rocket Hideout",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Rocket Hideout",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ekans, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        109,
+        52,
+        23
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-james-yellow-4",
+      "name": "Silph Co.",
+      "trainer": "James",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowth, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        110,
+        24,
+        52
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/James",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

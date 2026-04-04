@@ -1,0 +1,1358 @@
+{
+  "trainerSlug": "cheren",
+  "presets": [
+    {
+      "id": "bulba-cheren-black-white-3",
+      "name": "Nuvema Town | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Nuvema Town | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for snivy, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        495
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-1",
+      "name": "Nuvema Town | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Nuvema Town | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tepig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        498
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-2",
+      "name": "Nuvema Town | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Nuvema Town | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for oshawott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        501
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-27",
+      "name": "Route 10 | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 10 | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for serperior, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        516,
+        510,
+        497
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-25",
+      "name": "Route 10 | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 10 | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for emboar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        512,
+        510,
+        500
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-26",
+      "name": "Route 10 | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 10 | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for samurott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        514,
+        510,
+        503
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-9",
+      "name": "Route 3 | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 3 | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        495,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-7",
+      "name": "Route 3 | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 3 | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        498,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-8",
+      "name": "Route 3 | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 3 | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        501,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-15",
+      "name": "Route 4 | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 4 | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for servine, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        519,
+        515,
+        510,
+        496
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-13",
+      "name": "Route 4 | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 4 | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pignite, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        519,
+        511,
+        510,
+        499
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-14",
+      "name": "Route 4 | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 4 | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dewott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        519,
+        513,
+        510,
+        502
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-21",
+      "name": "Route 5 | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for servine, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        515,
+        520,
+        496
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-19",
+      "name": "Route 5 | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pignite, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        511,
+        520,
+        499
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-20",
+      "name": "Route 5 | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dewott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        513,
+        520,
+        502
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-6",
+      "name": "Striaton City | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Striaton City | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        495,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-4",
+      "name": "Striaton City | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Striaton City | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        498,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-5",
+      "name": "Striaton City | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Striaton City | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        501,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-24",
+      "name": "Twist Mountain | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Twist Mountain | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for servine, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        516,
+        510,
+        496
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-22",
+      "name": "Twist Mountain | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Twist Mountain | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pignite, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        512,
+        510,
+        499
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-23",
+      "name": "Twist Mountain | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Twist Mountain | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dewott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        521,
+        514,
+        510,
+        502
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-30",
+      "name": "Victory Road | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Victory Road | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for serperior, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        516,
+        521,
+        526,
+        612,
+        497
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-28",
+      "name": "Victory Road | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Victory Road | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for emboar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        512,
+        521,
+        526,
+        612,
+        500
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-29",
+      "name": "Victory Road | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Victory Road | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for samurott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        514,
+        521,
+        526,
+        612,
+        503
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-12",
+      "name": "Wellspring Cave | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Wellspring Cave | Oshawott",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        495,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-10",
+      "name": "Wellspring Cave | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Wellspring Cave | Snivy",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        498,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-white-11",
+      "name": "Wellspring Cave | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Wellspring Cave | Tepig",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        501,
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-31",
+      "name": "Aspertia Gym",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Aspertia Gym",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lillipup, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        504,
+        506
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-32",
+      "name": "Aspertia Gym",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Aspertia Gym",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lillipup, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        504,
+        519,
+        506
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-35",
+      "name": "Pinwheel Forest",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pinwheel Forest",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for cinccino, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        508,
+        505,
+        573
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-34",
+      "name": "Plasma Frigate",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Plasma Frigate",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for cinccino, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        508,
+        505,
+        573
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-33",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for watchog, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        508,
+        573,
+        505
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-36",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for watchog, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        508,
+        335,
+        573,
+        505,
+        573,
+        505
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-37",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for bouffalant, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        508,
+        335,
+        573,
+        428,
+        351,
+        626
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-38",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for bouffalant, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        508,
+        474,
+        573,
+        463,
+        351,
+        626
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-41",
+      "name": "Route 5 | Oshawott",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Oshawott",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for serperior, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        516,
+        521,
+        526,
+        612,
+        497
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-39",
+      "name": "Route 5 | Snivy",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Snivy",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for emboar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        512,
+        521,
+        526,
+        612,
+        500
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cheren-black-2-white-2-40",
+      "name": "Route 5 | Tepig",
+      "trainer": "Cheren",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Route 5 | Tepig",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for samurott, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        514,
+        521,
+        526,
+        612,
+        503
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cheren",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

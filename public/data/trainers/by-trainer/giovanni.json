@@ -1,0 +1,659 @@
+{
+  "trainerSlug": "giovanni",
+  "presets": [
+    {
+      "id": "bulba-giovanni-ultra-sun-ultra-moon-14",
+      "name": "Team Rocket's Castle",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mewtwo, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        51,
+        34,
+        31,
+        464,
+        150
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-heartgold-soulsilver-10",
+      "name": "Tohjo Falls",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Johto",
+      "battleLabel": "Tohjo Falls",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kangaskhan, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        34,
+        430,
+        31,
+        115
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-firered-leafgreen-7",
+      "name": "Rocket Hideout",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Rocket Hideout",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kangaskhan, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "kanto",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        95,
+        111,
+        115
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-firered-leafgreen-8",
+      "name": "Silph Co.",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nidoqueen, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "kanto",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        33,
+        111,
+        115,
+        31
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-firered-leafgreen-9",
+      "name": "Viridian Gym",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhyhorn, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "kanto",
+        "villains"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        111,
+        51,
+        31,
+        34,
+        111
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-lets-go-pikachu-lets-go-eevee-17",
+      "name": "Silph Co.",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nidoqueen, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        53,
+        111,
+        31
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-lets-go-pikachu-lets-go-eevee-16",
+      "name": "Team Rocket Hideout",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Team Rocket Hideout",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhyhorn, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        53,
+        111
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-lets-go-pikachu-lets-go-eevee-18",
+      "name": "Viridian Gym",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhydon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        51,
+        31,
+        34,
+        112
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-red-blue-1",
+      "name": "Rocket Hideout",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Rocket Hideout",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kangaskhan, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "red-blue",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        95,
+        111,
+        115
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-red-blue-2",
+      "name": "Silph Co.",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nidoqueen, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "red-blue",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        33,
+        115,
+        111,
+        31
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-red-blue-3",
+      "name": "Viridian Gym",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhydon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "red-blue",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        111,
+        51,
+        31,
+        34,
+        112
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-stadium-19",
+      "name": "Gym Leader Castle",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tauros, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "stadium",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        53,
+        51,
+        31,
+        34,
+        112,
+        128
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-stadium-20",
+      "name": "Gym Leader Castle",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for moltres, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "stadium",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        53,
+        128,
+        31,
+        34,
+        94,
+        146
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-yellow-4",
+      "name": "Rocket Hideout",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Rocket Hideout",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for persian, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "villains",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        95,
+        111,
+        53
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-yellow-5",
+      "name": "Silph Co.",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nidoqueen, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "villains",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        33,
+        111,
+        53,
+        31
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-yellow-6",
+      "name": "Viridian Gym",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Kanto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhydon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "villains",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        51,
+        53,
+        31,
+        34,
+        112
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-black-2-white-2-11",
+      "name": "Pokemon World Tournament",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nidoqueen, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "unova",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        464,
+        76,
+        34,
+        105,
+        28,
+        31
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-giovanni-black-2-white-2-12",
+      "name": "Pokemon World Tournament",
+      "trainer": "Giovanni",
+      "category": "Villains",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hippowdon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "unova",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        464,
+        445,
+        34,
+        472,
+        553,
+        450
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Giovanni",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

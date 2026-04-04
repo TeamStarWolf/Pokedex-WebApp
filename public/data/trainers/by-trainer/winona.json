@@ -1,0 +1,376 @@
+{
+  "trainerSlug": "winona",
+  "presets": [
+    {
+      "id": "bulba-winona-emerald-2",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        333,
+        357,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-emerald-3",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        147,
+        357,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-emerald-4",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        163,
+        357,
+        148,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-emerald-5",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        164,
+        357,
+        148,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-emerald-6",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        164,
+        357,
+        279,
+        149,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-omega-ruby-alpha-sapphire-10",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-ruby-sapphire-1",
+      "name": "Fortree Gym",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Fortree Gym",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        279,
+        227,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for honchkrow, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        334,
+        279,
+        277,
+        227,
+        357,
+        430
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-black-2-white-2-8",
+      "name": "Pokemon World Tournament",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for honchkrow, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        334,
+        561,
+        130,
+        227,
+        357,
+        430
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-winona-black-2-white-2-9",
+      "name": "Pokemon World Tournament",
+      "trainer": "Winona",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tropius, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        384,
+        334,
+        357
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Winona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "trainerSlug": "bede",
+  "presets": [
+    {
+      "id": "bulba-bede-sword-shield-5",
+      "name": "Ballonlea Stadium",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Ballonlea Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatterene, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        303,
+        282,
+        78,
+        858
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-1",
+      "name": "Galar Mine",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Galar Mine",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatenna, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        577,
+        574,
+        856
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-2",
+      "name": "Galar Mine No. 2",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Galar Mine No. 2",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatenna, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        577,
+        574,
+        77,
+        856
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-3",
+      "name": "Stow-on-Side",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Stow-on-Side",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hattrem, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        578,
+        575,
+        77,
+        857
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-4",
+      "name": "Wyndon Stadium",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatterene, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        303,
+        282,
+        78,
+        858
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-6",
+      "name": "Wyndon Stadium",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatterene, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        303,
+        282,
+        78,
+        700,
+        858
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-bede-sword-shield-7",
+      "name": "Wyndon Stadium",
+      "trainer": "Bede",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hatterene, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        303,
+        78,
+        858
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Bede",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

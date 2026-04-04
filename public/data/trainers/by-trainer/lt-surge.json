@@ -1,0 +1,519 @@
+{
+  "trainerSlug": "lt-surge",
+  "presets": [
+    {
+      "id": "bulba-lt-surge-gold-silver-3",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electabuzz, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "gym-leaders-elite-four-champions",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        26,
+        101,
+        101,
+        82,
+        125
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-heartgold-soulsilver-6",
+      "name": "Fighting Dojo",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electivire, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        310,
+        462,
+        101,
+        417,
+        466
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-heartgold-soulsilver-5",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electabuzz, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        26,
+        101,
+        101,
+        82,
+        125
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-stadium-2-13",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magneton, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        171,
+        125,
+        101,
+        137,
+        82
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-stadium-2-14",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for jolteon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        71,
+        233,
+        195,
+        85,
+        135
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-firered-leafgreen-4",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "gym-leaders-elite-four-champions",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        100,
+        25,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-lets-go-pikachu-lets-go-eevee-9",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        100,
+        81,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-lets-go-pikachu-lets-go-eevee-10",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        101,
+        135,
+        125,
+        82,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-red-blue-1",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        100,
+        25,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-stadium-11",
+      "name": "Gym Leader Castle",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magneton, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        100,
+        101,
+        25,
+        81,
+        82
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-stadium-12",
+      "name": "Gym Leader Castle",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electrode, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        114,
+        62,
+        108,
+        125,
+        101
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-yellow-2",
+      "name": "Vermilion Gym",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion Gym",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ampharos, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        101,
+        462,
+        466,
+        135,
+        181
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lt-surge-black-2-white-2-8",
+      "name": "Pokemon World Tournament",
+      "trainer": "Lt. Surge",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lanturn, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        101,
+        462,
+        466,
+        135,
+        171
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lt._Surge",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

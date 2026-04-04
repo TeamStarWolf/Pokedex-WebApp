@@ -1,0 +1,77 @@
+{
+  "trainerSlug": "archie",
+  "presets": [
+    {
+      "id": "bulba-archie-ultra-sun-ultra-moon-7",
+      "name": "Team Rocket's Castle",
+      "trainer": "Archie",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kyogre, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and poison core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        169,
+        89,
+        319,
+        382
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Archie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-archie-emerald-3",
+      "name": "Seafloor Cavern",
+      "trainer": "Archie",
+      "category": "Villains",
+      "region": "Hoenn",
+      "battleLabel": "Seafloor Cavern",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sharpedo, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "hoenn",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        169,
+        319
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Archie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

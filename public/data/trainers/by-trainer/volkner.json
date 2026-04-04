@@ -1,0 +1,300 @@
+{
+  "trainerSlug": "volkner",
+  "presets": [
+    {
+      "id": "bulba-volkner-brilliant-diamond-and-shining-pearl-8",
+      "name": "Sunyshore Gym",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sunyshore Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for luxray, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        424,
+        224,
+        405
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-brilliant-diamond-and-shining-pearl-9",
+      "name": "Sunyshore Gym",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sunyshore Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electivire, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and water core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        279,
+        26,
+        405,
+        171,
+        135,
+        466
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-diamond-pearl-1",
+      "name": "Sunyshore Gym",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sunyshore Gym",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for luxray, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        424,
+        224,
+        405
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-platinum-4",
+      "name": "Battleground",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Battleground",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electivire, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        135,
+        26,
+        405,
+        171,
+        466
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-platinum-3",
+      "name": "Fight Area",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Fight Area",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electivire, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        229,
+        136,
+        467,
+        405,
+        135,
+        466
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-platinum-2",
+      "name": "Sunyshore Gym",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sunyshore Gym",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electivire, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        135,
+        26,
+        405,
+        466
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for electrode, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        466,
+        405,
+        26,
+        479,
+        135,
+        101
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volkner-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Volkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zebstrika, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        466,
+        604,
+        596,
+        523
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

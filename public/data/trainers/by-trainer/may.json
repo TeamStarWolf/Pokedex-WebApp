@@ -1,0 +1,1608 @@
+{
+  "trainerSlug": "may",
+  "presets": [
+    {
+      "id": "bulba-may-emerald-27",
+      "name": "Lilycove City | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Mudkip",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        357,
+        218,
+        279,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-26",
+      "name": "Lilycove City | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Torchic",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        357,
+        272,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-25",
+      "name": "Lilycove City | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Treecko",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        357,
+        279,
+        272,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-15",
+      "name": "Route 103 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Mudkip",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for treecko, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        252
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-14",
+      "name": "Route 103 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Torchic",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mudkip, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        258
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-13",
+      "name": "Route 103 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Treecko",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torchic, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        255
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-21",
+      "name": "Route 110 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Mudkip",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        278,
+        218,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-20",
+      "name": "Route 110 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Torchic",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        271,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-19",
+      "name": "Route 110 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Treecko",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        278,
+        271,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-24",
+      "name": "Route 119 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Mudkip",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        218,
+        271,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-23",
+      "name": "Route 119 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Torchic",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        271,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-22",
+      "name": "Route 119 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Treecko",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        279,
+        271,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-18",
+      "name": "Rustboro City | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Rustboro City | Mudkip",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for treecko, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        278,
+        252
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-17",
+      "name": "Rustboro City | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Rustboro City | Torchic",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mudkip, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        324,
+        258
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-emerald-16",
+      "name": "Rustboro City | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Rustboro City | Treecko",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torchic, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        270,
+        255
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-46",
+      "name": "Battle Maison",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Battle Maison",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for exploud, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        344,
+        295
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-42",
+      "name": "Lilycove City | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sceptile, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        219,
+        321,
+        254
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-41",
+      "name": "Lilycove City | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for swampert, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        286,
+        219,
+        260
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-40",
+      "name": "Lilycove City | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blaziken, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        321,
+        286,
+        257
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-36",
+      "name": "Meteor Falls | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Meteor Falls | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        218,
+        320,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-35",
+      "name": "Meteor Falls | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Meteor Falls | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        285,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-34",
+      "name": "Meteor Falls | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Meteor Falls | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-30",
+      "name": "Route 103 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for treecko, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        252
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-45",
+      "name": "Route 103 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sceptile, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        26,
+        219,
+        321,
+        254
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-29",
+      "name": "Route 103 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mudkip, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        258
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-44",
+      "name": "Route 103 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for swampert, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        26,
+        286,
+        219,
+        260
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-28",
+      "name": "Route 103 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torchic, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        255
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-43",
+      "name": "Route 103 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blaziken, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        26,
+        321,
+        286,
+        257
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-33",
+      "name": "Route 110 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        218,
+        320,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-32",
+      "name": "Route 110 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        285,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-31",
+      "name": "Route 110 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-39",
+      "name": "Route 119 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Mudkip",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        218,
+        320,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-38",
+      "name": "Route 119 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Torchic",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        285,
+        218,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-omega-ruby-alpha-sapphire-37",
+      "name": "Route 119 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Treecko",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-12",
+      "name": "Lilycove City | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Mudkip",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        322,
+        320,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-11",
+      "name": "Lilycove City | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Torchic",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        285,
+        322,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-10",
+      "name": "Lilycove City | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lilycove City | Treecko",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        277,
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-3",
+      "name": "Route 103 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Mudkip",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for treecko, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        252
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-2",
+      "name": "Route 103 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Torchic",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mudkip, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        258
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-1",
+      "name": "Route 103 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 103 | Treecko",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torchic, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        255
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-6",
+      "name": "Route 110 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Mudkip",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        322,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-5",
+      "name": "Route 110 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Torchic",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        285,
+        322,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-4",
+      "name": "Route 110 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 110 | Treecko",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-9",
+      "name": "Route 119 | Mudkip",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Mudkip",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grovyle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        322,
+        320,
+        253
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-8",
+      "name": "Route 119 | Torchic",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Torchic",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for marshtomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        285,
+        322,
+        259
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-may-ruby-sapphire-7",
+      "name": "Route 119 | Treecko",
+      "trainer": "May",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 119 | Treecko",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for combusken, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        320,
+        285,
+        256
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/May_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

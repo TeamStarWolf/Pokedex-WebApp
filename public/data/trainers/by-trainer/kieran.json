@@ -1,0 +1,477 @@
+{
+  "trainerSlug": "kieran",
+  "presets": [
+    {
+      "id": "bulba-kieran-scarlet-violet-12",
+      "name": "Area Zero Underdepths",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Area Zero Underdepths",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for terapagos, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        1024
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-13",
+      "name": "Area Zero Underdepths",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Area Zero Underdepths",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        1019,
+        149,
+        474,
+        861,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-11",
+      "name": "Blueberry Academy",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hydrapple, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149,
+        186,
+        474,
+        861,
+        727,
+        1019
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-15",
+      "name": "Blueberry Academy",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hydrapple, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        186,
+        149,
+        861,
+        474,
+        727,
+        1019
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-3",
+      "name": "Dreaded Den",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Dreaded Den",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for furret, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        60,
+        193,
+        162
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-4",
+      "name": "Dreaded Den",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Dreaded Den",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwhirl, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        162,
+        193,
+        61
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-10",
+      "name": "Dreaded Den",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Dreaded Den",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gliscor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        275,
+        469,
+        1011,
+        476,
+        62,
+        472
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-7",
+      "name": "Loyalty Plaza",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Loyalty Plaza",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwhirl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        193,
+        207,
+        845,
+        1011,
+        61
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-8",
+      "name": "Loyalty Plaza",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Loyalty Plaza",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for poliwrath, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        469,
+        207,
+        845,
+        1011,
+        62
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-2",
+      "name": "Mossui Town",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Mossui Town",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for yanma, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        161,
+        193
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-14",
+      "name": "Mossui Town",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Mossui Town",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hydrapple, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        62,
+        149,
+        474,
+        861,
+        727,
+        1019
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-5",
+      "name": "Paradise Barrens",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Paradise Barrens",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dipplin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        193,
+        61,
+        162,
+        1011
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kieran-scarlet-violet-6",
+      "name": "Paradise Barrens",
+      "trainer": "Kieran",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Paradise Barrens",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dipplin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        193,
+        162,
+        62,
+        1011
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kieran",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

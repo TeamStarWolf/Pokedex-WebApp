@@ -1,0 +1,2000 @@
+{
+  "trainerSlug": "hau",
+  "presets": [
+    {
+      "id": "bulba-hau-sun-moon-23",
+      "name": "Aether Paradise | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-24",
+      "name": "Aether Paradise | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-22",
+      "name": "Aether Paradise | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-14",
+      "name": "Battle Royal Dome | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-15",
+      "name": "Battle Royal Dome | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-13",
+      "name": "Battle Royal Dome | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-17",
+      "name": "Diglett's Tunnel | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        133,
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-18",
+      "name": "Diglett's Tunnel | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        133,
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-16",
+      "name": "Diglett's Tunnel | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        133,
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-2",
+      "name": "Iki Town | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rowlet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        722
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-5",
+      "name": "Iki Town | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rowlet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        722
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-3",
+      "name": "Iki Town | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for litten, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        725
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-6",
+      "name": "Iki Town | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for litten, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        725
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-1",
+      "name": "Iki Town | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for popplio, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        728
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-4",
+      "name": "Iki Town | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for popplio, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        728
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-20",
+      "name": "Malie City | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-21",
+      "name": "Malie City | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-19",
+      "name": "Malie City | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-26",
+      "name": "Mount Lanakila | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        775,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-27",
+      "name": "Mount Lanakila | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        775,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-25",
+      "name": "Mount Lanakila | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        775,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-11",
+      "name": "Paniola Town | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-12",
+      "name": "Paniola Town | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-10",
+      "name": "Paniola Town | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-29",
+      "name": "Pokemon League | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        775,
+        740,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-30",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        775,
+        740,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-28",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        775,
+        740,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-8",
+      "name": "Route 3 | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rowlet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        722
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-9",
+      "name": "Route 3 | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for litten, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        725
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-sun-moon-7",
+      "name": "Route 3 | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for popplio, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        728
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-53",
+      "name": "Aether Paradise | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        715,
+        128,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-54",
+      "name": "Aether Paradise | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        715,
+        128,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-52",
+      "name": "Aether Paradise | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        715,
+        128,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-44",
+      "name": "Battle Royal Dome | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-45",
+      "name": "Battle Royal Dome | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-43",
+      "name": "Battle Royal Dome | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-47",
+      "name": "Diglett's Tunnel | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dartrix, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        133,
+        25,
+        714,
+        723
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-48",
+      "name": "Diglett's Tunnel | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torracat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        133,
+        25,
+        714,
+        726
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-46",
+      "name": "Diglett's Tunnel | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Diglett's Tunnel | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for brionne, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        133,
+        25,
+        714,
+        729
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-35",
+      "name": "Iki Town | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rowlet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        722
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-36",
+      "name": "Iki Town | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for litten, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        725
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-34",
+      "name": "Iki Town | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Iki Town | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for popplio, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        172,
+        728
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-50",
+      "name": "Malie City | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        723,
+        134,
+        714,
+        128,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-51",
+      "name": "Malie City | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        726,
+        470,
+        714,
+        128,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-49",
+      "name": "Malie City | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Malie City | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        729,
+        136,
+        714,
+        128,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-41",
+      "name": "Paniola Town | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for eevee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        723,
+        25,
+        714,
+        133
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-42",
+      "name": "Paniola Town | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for eevee, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        726,
+        25,
+        714,
+        133
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-40",
+      "name": "Paniola Town | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Paniola Town | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for eevee, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        729,
+        25,
+        714,
+        133
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-59",
+      "name": "Pokemon League | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        134,
+        128,
+        715,
+        740,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-60",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        470,
+        128,
+        715,
+        740,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-58",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        136,
+        128,
+        715,
+        740,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-32",
+      "name": "Route 1 | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 1 | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rowlet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        722
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-33",
+      "name": "Route 1 | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 1 | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for litten, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        725
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-31",
+      "name": "Route 1 | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 1 | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for popplio, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        728
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-38",
+      "name": "Route 3 | Litten",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pikachu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        722,
+        714,
+        25
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-39",
+      "name": "Route 3 | Popplio",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pikachu, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        725,
+        714,
+        25
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-hau-ultra-sun-ultra-moon-37",
+      "name": "Route 3 | Rowlet",
+      "trainer": "Hau",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 3 | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pikachu, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        728,
+        714,
+        25
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Hau",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

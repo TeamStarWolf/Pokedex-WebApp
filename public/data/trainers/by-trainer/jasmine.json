@@ -1,0 +1,299 @@
+{
+  "trainerSlug": "jasmine",
+  "presets": [
+    {
+      "id": "bulba-jasmine-gold-silver-1",
+      "name": "Olivine Gym",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Olivine Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for steelix, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel and electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "gym-leaders-elite-four-champions",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        81,
+        81,
+        208
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-heartgold-soulsilver-3",
+      "name": "Fighting Dojo",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for steelix, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        462,
+        227,
+        437,
+        395,
+        208
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-heartgold-soulsilver-2",
+      "name": "Olivine Gym",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Olivine Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for steelix, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        81,
+        208
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-stadium-2-7",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for forretress, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        208,
+        222,
+        82,
+        226,
+        227,
+        205
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-stadium-2-8",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for scizor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        208,
+        234,
+        9,
+        80,
+        78,
+        212
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mawile, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        208,
+        462,
+        205,
+        227,
+        376,
+        303
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-black-2-white-2-5",
+      "name": "Pokemon World Tournament",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        208,
+        462,
+        205,
+        227,
+        376,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-jasmine-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Jasmine",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for excadrill, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel and ground core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        208,
+        601,
+        598,
+        530
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Jasmine",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "trainerSlug": "diantha",
+  "presets": [
+    {
+      "id": "bulba-diantha-x-y-6",
+      "name": "Battle Chateau",
+      "trainer": "Diantha",
+      "category": "Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gardevoir, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        701,
+        711,
+        706,
+        282
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Diantha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-diantha-x-y-1",
+      "name": "Pokemon League",
+      "trainer": "Diantha",
+      "category": "Champions",
+      "region": "Kalos",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gardevoir, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        701,
+        697,
+        699,
+        711,
+        706,
+        282
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Diantha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

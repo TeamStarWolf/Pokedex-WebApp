@@ -1,0 +1,1173 @@
+{
+  "trainerSlug": "silver",
+  "presets": [
+    {
+      "id": "bulba-silver-gold-silver-4",
+      "name": "Indigo Plateau | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Chikorita",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for typhlosion, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        169,
+        82,
+        94,
+        65,
+        157
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-gold-silver-5",
+      "name": "Indigo Plateau | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Cyndaquil",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        169,
+        82,
+        94,
+        65,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-gold-silver-6",
+      "name": "Indigo Plateau | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Totodile",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        169,
+        82,
+        94,
+        65,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-gold-silver-1",
+      "name": "Mt. Moon | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Chikorita",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for typhlosion, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        94,
+        65,
+        157
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-gold-silver-2",
+      "name": "Mt. Moon | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Cyndaquil",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        94,
+        65,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-gold-silver-3",
+      "name": "Mt. Moon | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Totodile",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        94,
+        65,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-10",
+      "name": "Azalea Town | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Azalea Town | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilava, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        156
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-11",
+      "name": "Azalea Town | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Azalea Town | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for croconaw, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        159
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-12",
+      "name": "Azalea Town | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Azalea Town | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for bayleef, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        153
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-13",
+      "name": "Burned Tower | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Burned Tower | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilava, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        81,
+        156
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-14",
+      "name": "Burned Tower | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Burned Tower | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for croconaw, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        81,
+        159
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-15",
+      "name": "Burned Tower | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Burned Tower | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for bayleef, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        92,
+        41,
+        81,
+        153
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-7",
+      "name": "Cherrygrove City | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Cherrygrove City | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for cyndaquil, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        155
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-8",
+      "name": "Cherrygrove City | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Cherrygrove City | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for totodile, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        158
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-9",
+      "name": "Cherrygrove City | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Cherrygrove City | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chikorita, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        152
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-25",
+      "name": "Dragon's Den | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Dragon's Den | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        157,
+        169,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-26",
+      "name": "Dragon's Den | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Dragon's Den | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        160,
+        169,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-27",
+      "name": "Dragon's Den | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Dragon's Den | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        154,
+        169,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-16",
+      "name": "Goldenrod Tunnel | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Goldenrod Tunnel | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilava, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        81,
+        93,
+        215,
+        156
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-17",
+      "name": "Goldenrod Tunnel | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Goldenrod Tunnel | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        81,
+        93,
+        215,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-18",
+      "name": "Goldenrod Tunnel | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Goldenrod Tunnel | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        81,
+        93,
+        215,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-28",
+      "name": "Indigo Plateau | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for typhlosion, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        82,
+        94,
+        169,
+        65,
+        157
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-29",
+      "name": "Indigo Plateau | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        82,
+        94,
+        169,
+        65,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-30",
+      "name": "Indigo Plateau | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        82,
+        94,
+        169,
+        65,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-22",
+      "name": "Mt. Moon | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for typhlosion, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        65,
+        94,
+        157
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-23",
+      "name": "Mt. Moon | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        65,
+        94,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-24",
+      "name": "Mt. Moon | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Mt. Moon | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        65,
+        94,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-19",
+      "name": "Victory Road | Chikorita",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Victory Road | Chikorita",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for typhlosion, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        64,
+        93,
+        157
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-20",
+      "name": "Victory Road | Cyndaquil",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Victory Road | Cyndaquil",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for feraligatr, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        64,
+        93,
+        160
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-heartgold-soulsilver-21",
+      "name": "Victory Road | Totodile",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "Victory Road | Totodile",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meganium, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        82,
+        64,
+        93,
+        154
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-stadium-2-31",
+      "name": "White City",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "White City",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lugia, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "johto",
+        "rivals",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        150,
+        250,
+        249
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-silver-stadium-2-32",
+      "name": "White City",
+      "trainer": "Silver",
+      "category": "Rivals",
+      "region": "Johto",
+      "battleLabel": "White City",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mewtwo, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "johto",
+        "rivals",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        249,
+        250,
+        150
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Silver_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

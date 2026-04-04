@@ -1,0 +1,335 @@
+{
+  "trainerSlug": "wattson",
+  "presets": [
+    {
+      "id": "bulba-wattson-emerald-2",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for manectric, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        100,
+        309,
+        82,
+        310
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-emerald-3",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for manectric, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        179,
+        101,
+        82,
+        310
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-emerald-4",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for manectric, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        180,
+        101,
+        82,
+        310
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-emerald-5",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for manectric, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        26,
+        181,
+        101,
+        82,
+        310
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-emerald-6",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for manectric, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        125,
+        26,
+        181,
+        101,
+        82,
+        310
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-omega-ruby-alpha-sapphire-9",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magneton, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        81,
+        100,
+        82
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-ruby-sapphire-1",
+      "name": "Mauville Gym",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Mauville Gym",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magneton, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        81,
+        100,
+        82
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        310,
+        462,
+        101,
+        311,
+        312,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wattson-black-2-white-2-8",
+      "name": "Pokemon World Tournament",
+      "trainer": "Wattson",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for raichu, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        310,
+        462,
+        101,
+        479,
+        181,
+        26
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wattson",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

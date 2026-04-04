@@ -1,0 +1,144 @@
+{
+  "trainerSlug": "adaman",
+  "presets": [
+    {
+      "id": "bulba-adaman-legends-arceus-3",
+      "name": "Ginkgo Landing",
+      "trainer": "Adaman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Ginkgo Landing",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vaporeon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        470,
+        197,
+        134
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Adaman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-adaman-legends-arceus-1",
+      "name": "Jubilife Village",
+      "trainer": "Adaman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Jubilife Village",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for eevee, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        470,
+        133
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Adaman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-adaman-legends-arceus-2",
+      "name": "Lake Valor",
+      "trainer": "Adaman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Lake Valor",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vaporeon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        470,
+        197,
+        134
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Adaman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-adaman-legends-arceus-8",
+      "name": "Training grounds",
+      "trainer": "Adaman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Training grounds",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vaporeon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        470,
+        197,
+        134
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Adaman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

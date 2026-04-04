@@ -1,0 +1,114 @@
+{
+  "trainerSlug": "sophocles",
+  "presets": [
+    {
+      "id": "bulba-sophocles-sun-moon-1",
+      "name": "Pokemon League",
+      "trainer": "Sophocles",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for golem, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        777,
+        462,
+        466,
+        738,
+        76
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sophocles",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-sophocles-ultra-sun-ultra-moon-2",
+      "name": "Hokulani Observatory",
+      "trainer": "Sophocles",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hokulani Observatory",
+      "sourceGame": "Pokemon Ultra Sun",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for golem, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        777,
+        462,
+        76
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sophocles",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-sophocles-ultra-sun-ultra-moon-3",
+      "name": "Pokemon League",
+      "trainer": "Sophocles",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for golem, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric and steel core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        777,
+        462,
+        466,
+        738,
+        76
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sophocles",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

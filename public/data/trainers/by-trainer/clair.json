@@ -1,0 +1,265 @@
+{
+  "trainerSlug": "clair",
+  "presets": [
+    {
+      "id": "bulba-clair-gold-silver-1",
+      "name": "Blackthorn Gym",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Blackthorn Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "gym-leaders-elite-four-champions",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        148,
+        148,
+        148,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-heartgold-soulsilver-2",
+      "name": "Blackthorn Gym",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Blackthorn Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        148,
+        148,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-heartgold-soulsilver-4",
+      "name": "Dragon's Den",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Dragon's Den",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        148,
+        230,
+        149,
+        130,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-heartgold-soulsilver-3",
+      "name": "Fighting Dojo",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        148,
+        142,
+        230,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-stadium-2-7",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lapras, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        230,
+        181,
+        148,
+        112,
+        59,
+        131
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-stadium-2-8",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        230,
+        181,
+        34,
+        112,
+        6,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clair-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Clair",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        230,
+        149,
+        334,
+        373,
+        621,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clair",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

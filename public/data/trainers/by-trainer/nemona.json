@@ -1,0 +1,983 @@
+{
+  "trainerSlug": "nemona",
+  "presets": [
+    {
+      "id": "bulba-nemona-scarlet-violet-20",
+      "name": "Area Zero | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Area Zero | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-21",
+      "name": "Area Zero | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Area Zero | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-19",
+      "name": "Area Zero | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Area Zero | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-29",
+      "name": "Blueberry Academy | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        392,
+        350,
+        923,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-30",
+      "name": "Blueberry Academy | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        658,
+        477,
+        923,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-28",
+      "name": "Blueberry Academy | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        724,
+        743,
+        923,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-2",
+      "name": "Cabo Poco | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Cabo Poco | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sprigatito, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        906
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-3",
+      "name": "Cabo Poco | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Cabo Poco | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for fuecoco, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        909
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-1",
+      "name": "Cabo Poco | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Cabo Poco | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaxly, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        912
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-11",
+      "name": "Fifth Gym | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Fifth Gym | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        704,
+        922,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-12",
+      "name": "Fifth Gym | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Fifth Gym | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        704,
+        922,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-10",
+      "name": "Fifth Gym | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Fifth Gym | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        704,
+        922,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-26",
+      "name": "Loyalty Plaza | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Loyalty Plaza | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        706,
+        350,
+        923,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-27",
+      "name": "Loyalty Plaza | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Loyalty Plaza | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        706,
+        477,
+        923,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-25",
+      "name": "Loyalty Plaza | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Loyalty Plaza | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        784,
+        706,
+        743,
+        923,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-23",
+      "name": "Mesagoza | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Mesagoza | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-24",
+      "name": "Mesagoza | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Mesagoza | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-22",
+      "name": "Mesagoza | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Mesagoza | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        706,
+        982,
+        968,
+        923,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-14",
+      "name": "Seventh Gym | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Seventh Gym | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for meowscarada, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        705,
+        923,
+        908
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-15",
+      "name": "Seventh Gym | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Seventh Gym | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skeledirge, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        705,
+        923,
+        911
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-13",
+      "name": "Seventh Gym | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Seventh Gym | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaquaval, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        705,
+        923,
+        914
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-5",
+      "name": "South Province (Area One) | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "South Province (Area One) | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pawmi, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        906,
+        921
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-6",
+      "name": "South Province (Area One) | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "South Province (Area One) | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pawmi, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        909,
+        921
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-4",
+      "name": "South Province (Area One) | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "South Province (Area One) | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pawmi, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        912,
+        921
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-8",
+      "name": "Third Gym | Fuecoco",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Third Gym | Fuecoco",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for floragato, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744,
+        921,
+        907
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-9",
+      "name": "Third Gym | Quaxly",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Third Gym | Quaxly",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for crocalor, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744,
+        921,
+        910
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-nemona-scarlet-violet-7",
+      "name": "Third Gym | Sprigatito",
+      "trainer": "Nemona",
+      "category": "Rivals",
+      "region": "Paldea",
+      "battleLabel": "Third Gym | Sprigatito",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quaxwell, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "paldea",
+        "rivals",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744,
+        921,
+        913
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Nemona",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

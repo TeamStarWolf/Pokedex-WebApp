@@ -1,0 +1,116 @@
+{
+  "trainerSlug": "tulip",
+  "presets": [
+    {
+      "id": "bulba-tulip-scarlet-violet-1",
+      "name": "Alfornada Gym",
+      "trainer": "Tulip",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Alfornada Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for florges, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic and fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        981,
+        282,
+        956,
+        671
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Tulip",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-tulip-scarlet-violet-2",
+      "name": "Alfornada Gym",
+      "trainer": "Tulip",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Alfornada Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for florges, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic and fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        981,
+        282,
+        956,
+        475,
+        671
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Tulip",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-tulip-scarlet-violet-3",
+      "name": "Blueberry Academy",
+      "trainer": "Tulip",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for florges, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic and fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        981,
+        282,
+        956,
+        475,
+        655,
+        671
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Tulip",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

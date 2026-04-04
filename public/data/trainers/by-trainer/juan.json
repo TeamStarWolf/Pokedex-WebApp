@@ -1,0 +1,268 @@
+{
+  "trainerSlug": "juan",
+  "presets": [
+    {
+      "id": "bulba-juan-emerald-1",
+      "name": "Sootopolis Gym",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        370,
+        340,
+        364,
+        342,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-emerald-2",
+      "name": "Sootopolis Gym",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        60,
+        340,
+        365,
+        342,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-emerald-3",
+      "name": "Sootopolis Gym",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        61,
+        340,
+        365,
+        342,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-emerald-4",
+      "name": "Sootopolis Gym",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water and ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        131,
+        340,
+        61,
+        365,
+        342,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-emerald-5",
+      "name": "Sootopolis Gym",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water and ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        131,
+        340,
+        186,
+        365,
+        342,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gorebyss, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        230,
+        365,
+        342,
+        340,
+        367,
+        368
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-juan-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Juan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for politoed, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        230,
+        365,
+        342,
+        340,
+        369,
+        186
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Juan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

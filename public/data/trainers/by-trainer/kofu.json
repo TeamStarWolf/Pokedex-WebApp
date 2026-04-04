@@ -1,0 +1,115 @@
+{
+  "trainerSlug": "kofu",
+  "presets": [
+    {
+      "id": "bulba-kofu-scarlet-violet-3",
+      "name": "Blueberry Academy",
+      "trainer": "Kofu",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for crabominable, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        279,
+        976,
+        160,
+        961,
+        693,
+        740
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kofu",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kofu-scarlet-violet-1",
+      "name": "Cascarrafa Gym",
+      "trainer": "Kofu",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Cascarrafa Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for crabominable, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        976,
+        961,
+        740
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kofu",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-kofu-scarlet-violet-2",
+      "name": "Cascarrafa Gym",
+      "trainer": "Kofu",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Cascarrafa Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for crabominable, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        976,
+        279,
+        961,
+        693,
+        740
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Kofu",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

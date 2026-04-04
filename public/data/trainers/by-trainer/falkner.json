@@ -1,0 +1,298 @@
+{
+  "trainerSlug": "falkner",
+  "presets": [
+    {
+      "id": "bulba-falkner-gold-silver-1",
+      "name": "Violet Gym",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Violet Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pidgeotto, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "gym-leaders-elite-four-champions",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        16,
+        17
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-heartgold-soulsilver-3",
+      "name": "Fighting Dojo",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pidgeot, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        398,
+        164,
+        277,
+        430,
+        279,
+        18
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-heartgold-soulsilver-2",
+      "name": "Violet Gym",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Violet Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pidgeotto, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        16,
+        17
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-stadium-2-7",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for togetic, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        83,
+        164,
+        225,
+        22,
+        176
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-stadium-2-8",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zapdos, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        85,
+        207,
+        6,
+        227,
+        145
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for noctowl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        22,
+        85,
+        430,
+        178,
+        164
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-black-2-white-2-5",
+      "name": "Pokemon World Tournament",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for swellow, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        169,
+        142,
+        430,
+        178,
+        277
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-falkner-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Falkner",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for noctowl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        249,
+        18,
+        164
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Falkner",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "trainerSlug": "glacia",
+  "presets": [
+    {
+      "id": "bulba-glacia-emerald-2",
+      "name": "Ever Grande City",
+      "trainer": "Glacia",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for walrein, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        364,
+        362,
+        364,
+        362,
+        365
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Glacia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-glacia-omega-ruby-alpha-sapphire-3",
+      "name": "Pokemon League",
+      "trainer": "Glacia",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for walrein, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        362,
+        478,
+        362,
+        478,
+        365
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Glacia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-glacia-omega-ruby-alpha-sapphire-4",
+      "name": "Pokemon League",
+      "trainer": "Glacia",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for glalie, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        460,
+        614,
+        478,
+        584,
+        365,
+        362
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Glacia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-glacia-ruby-sapphire-1",
+      "name": "Ever Grande City",
+      "trainer": "Glacia",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for walrein, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        362,
+        364,
+        364,
+        362,
+        365
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Glacia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

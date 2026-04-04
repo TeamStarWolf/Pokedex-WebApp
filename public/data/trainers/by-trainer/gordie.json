@@ -1,0 +1,113 @@
+{
+  "trainerSlug": "gordie",
+  "presets": [
+    {
+      "id": "bulba-gordie-sword-shield-1",
+      "name": "Circhester Stadium",
+      "trainer": "Gordie",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Circhester Stadium",
+      "sourceGame": "Pokemon Sword",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for coalossal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        689,
+        213,
+        874,
+        839
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gordie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gordie-sword-shield-2",
+      "name": "Wyndon Stadium",
+      "trainer": "Gordie",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for coalossal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        689,
+        213,
+        874,
+        248,
+        839
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gordie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gordie-sword-shield-3",
+      "name": "Wyndon Stadium",
+      "trainer": "Gordie",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for coalossal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        213,
+        248,
+        839
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gordie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

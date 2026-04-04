@@ -1,0 +1,720 @@
+{
+  "trainerSlug": "gladion",
+  "presets": [
+    {
+      "id": "bulba-gladion-sun-moon-3",
+      "name": "Aether House",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether House",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        215,
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-4",
+      "name": "Aether Paradise",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-2",
+      "name": "Battle Royal Dome",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-6",
+      "name": "Mount Lanakila | Litten",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-7",
+      "name": "Mount Lanakila | Popplio",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-5",
+      "name": "Mount Lanakila | Rowlet",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-9",
+      "name": "Pokemon League | Litten",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        474,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-10",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        474,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-8",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        461,
+        474,
+        448,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-sun-moon-1",
+      "name": "Route 5",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 5",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        41,
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-13",
+      "name": "Aether House",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether House",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        42,
+        571,
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-14",
+      "name": "Aether Paradise",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zoroark, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        772,
+        42,
+        571
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-12",
+      "name": "Battle Royal Dome",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for type-null, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        772
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-16",
+      "name": "Mount Lanakila | Litten",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        773,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-17",
+      "name": "Mount Lanakila | Popplio",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        773,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-15",
+      "name": "Mount Lanakila | Rowlet",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Mount Lanakila | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        773,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-19",
+      "name": "Pokemon League | Litten",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        474,
+        448,
+        6,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-20",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        474,
+        448,
+        9,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-18",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for silvally, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal and poison core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        571,
+        474,
+        448,
+        3,
+        773
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gladion-ultra-sun-ultra-moon-11",
+      "name": "Route 5",
+      "trainer": "Gladion",
+      "category": "Rivals",
+      "region": "Alola",
+      "battleLabel": "Route 5",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zubat, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "rivals",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        570,
+        772,
+        41
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gladion",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

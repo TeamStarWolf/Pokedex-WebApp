@@ -1,0 +1,251 @@
+{
+  "trainerSlug": "avery",
+  "presets": [
+    {
+      "id": "bulba-avery-sword-shield-3",
+      "name": "Battle Court",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Battle Court",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowbro, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        77,
+        528,
+        64,
+        80
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-4",
+      "name": "Battle Court",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Battle Court",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowbro, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        78,
+        528,
+        65,
+        80
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-5",
+      "name": "Battle Court",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Battle Court",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        80,
+        78,
+        528,
+        65,
+        199
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-1",
+      "name": "Fields of Honor",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Fields of Honor",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowpoke, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        63,
+        79
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-7",
+      "name": "Isle of Armor",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Isle of Armor",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowbro, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        80
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-2",
+      "name": "Warm-Up Tunnel",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Warm-Up Tunnel",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kadabra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        79,
+        527,
+        64
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-avery-sword-shield-6",
+      "name": "Wyndon Stadium",
+      "trainer": "Avery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slowking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        80,
+        65,
+        199
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Avery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

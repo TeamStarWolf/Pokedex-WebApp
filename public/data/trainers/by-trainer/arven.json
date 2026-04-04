@@ -1,0 +1,355 @@
+{
+  "trainerSlug": "arven",
+  "presets": [
+    {
+      "id": "bulba-arven-scarlet-violet-8",
+      "name": "Area Zero",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Area Zero",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greedent, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        943,
+        91,
+        952,
+        949,
+        934,
+        820
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-5",
+      "name": "Asado Desert",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Asado Desert",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for scovillain, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        952
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-6",
+      "name": "Casseroya Lake",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Casseroya Lake",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greedent, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        820
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-4",
+      "name": "East Province (Area Three)",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "East Province (Area Three)",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for toedscool, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        948
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-11",
+      "name": "Mesagoza",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Mesagoza",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mabosstiff, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        820,
+        91,
+        952,
+        949,
+        934,
+        943
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-10",
+      "name": "Mossui Town",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Mossui Town",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sylveon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        820,
+        91,
+        943,
+        197,
+        470,
+        700
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-1",
+      "name": "Poco Path",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Poco Path",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for skwovet, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        819
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-7",
+      "name": "Poco Path",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "Poco Path",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mabosstiff, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        820,
+        91,
+        952,
+        949,
+        934,
+        943
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-2",
+      "name": "South Province (Area Three)",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "South Province (Area Three)",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for shellder, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        90
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-arven-scarlet-violet-3",
+      "name": "West Province (Area One)",
+      "trainer": "Arven",
+      "category": "Main Characters",
+      "region": "Paldea",
+      "battleLabel": "West Province (Area One)",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for nacli, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "main-characters",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        932
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Arven",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

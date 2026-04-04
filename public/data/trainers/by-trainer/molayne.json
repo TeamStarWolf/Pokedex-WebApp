@@ -1,0 +1,114 @@
+{
+  "trainerSlug": "molayne",
+  "presets": [
+    {
+      "id": "bulba-molayne-sun-moon-1",
+      "name": "Mount Hokulani",
+      "trainer": "Molayne",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Mount Hokulani",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dugtrio, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        227,
+        375,
+        51
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Molayne",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-molayne-sun-moon-2",
+      "name": "Pokemon League",
+      "trainer": "Molayne",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dugtrio, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel and ground core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        227,
+        28,
+        462,
+        376,
+        51
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Molayne",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-molayne-ultra-sun-ultra-moon-4",
+      "name": "Pokemon League",
+      "trainer": "Molayne",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dugtrio, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        707,
+        625,
+        462,
+        376,
+        51
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Molayne",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "trainerSlug": "leon",
+  "presets": [
+    {
+      "id": "bulba-leon-sword-shield-1",
+      "name": "Route 2",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Route 2",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rookidee, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        821
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-13",
+      "name": "Wyndon Stadium",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-2",
+      "name": "Wyndon Stadium | Grookey",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Grookey",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        612,
+        537,
+        815,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-10",
+      "name": "Wyndon Stadium | Grookey",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Grookey",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        537,
+        815,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-3",
+      "name": "Wyndon Stadium | Scorbunny",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Scorbunny",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        612,
+        866,
+        818,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-11",
+      "name": "Wyndon Stadium | Scorbunny",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Scorbunny",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        866,
+        818,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-4",
+      "name": "Wyndon Stadium | Sobble",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Sobble",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        612,
+        464,
+        812,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-leon-sword-shield-12",
+      "name": "Wyndon Stadium | Sobble",
+      "trainer": "Leon",
+      "category": "Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium | Sobble",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "galar",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        681,
+        887,
+        464,
+        812,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Leon",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

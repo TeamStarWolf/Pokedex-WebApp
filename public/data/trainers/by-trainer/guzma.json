@@ -1,0 +1,325 @@
+{
+  "trainerSlug": "guzma",
+  "presets": [
+    {
+      "id": "bulba-guzma-sun-moon-3",
+      "name": "Aether Paradise",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pinsir, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "sun-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        168,
+        284,
+        127
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-sun-moon-4",
+      "name": "Hau'oli City",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for scizor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "sun-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        168,
+        284,
+        127,
+        212
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-sun-moon-1",
+      "name": "Malie Garden",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Malie Garden",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ariados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "sun-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        168
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-sun-moon-2",
+      "name": "Shady House",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Shady House",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ariados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "sun-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        168
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-ultra-sun-ultra-moon-7",
+      "name": "Aether Paradise",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Aether Paradise",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vikavolt, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        284,
+        127,
+        738
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-ultra-sun-ultra-moon-5",
+      "name": "Malie Garden",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Malie Garden",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for masquerain, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        284
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-ultra-sun-ultra-moon-9",
+      "name": "Pokemon League",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for scizor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        738,
+        127,
+        284,
+        212
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-ultra-sun-ultra-moon-6",
+      "name": "Shady House",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Shady House",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pinsir, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        284,
+        127
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-guzma-ultra-sun-ultra-moon-8",
+      "name": "Team Rocket's Castle",
+      "trainer": "Guzma",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for scizor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        768,
+        738,
+        127,
+        284,
+        212
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Guzma",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

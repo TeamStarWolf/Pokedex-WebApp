@@ -1,0 +1,309 @@
+{
+  "trainerSlug": "red",
+  "presets": [
+    {
+      "id": "bulba-red-sun-moon-4",
+      "name": "Battle Tree",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Battle Tree",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for snorlax, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        3,
+        6,
+        9,
+        131,
+        143
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-ultra-sun-ultra-moon-5",
+      "name": "Battle Tree",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Battle Tree",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for snorlax, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        3,
+        6,
+        9,
+        131,
+        143
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-gold-silver-1",
+      "name": "Silver Cave",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Johto",
+      "battleLabel": "Silver Cave",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blastoise, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gold-silver",
+        "johto",
+        "main-characters"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        196,
+        143,
+        3,
+        6,
+        9
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-heartgold-soulsilver-2",
+      "name": "Mt. Silver Cave",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Johto",
+      "battleLabel": "Mt. Silver Cave",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blastoise, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "heartgold-soulsilver",
+        "johto",
+        "main-characters"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        131,
+        143,
+        3,
+        6,
+        9
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-stadium-2-9",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tauros, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "johto",
+        "main-characters",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        154,
+        160,
+        157,
+        135,
+        212,
+        128
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-stadium-2-10",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for espeon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "johto",
+        "main-characters",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        243,
+        244,
+        245,
+        149,
+        143,
+        196
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-lets-go-pikachu-lets-go-eevee-8",
+      "name": "Indigo Plateau",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for venusaur, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee",
+        "main-characters"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        68,
+        59,
+        131,
+        143,
+        3
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-red-black-2-white-2-3",
+      "name": "Pokemon World Tournament",
+      "trainer": "Red",
+      "category": "Main Characters",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lapras, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "main-characters",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        25,
+        3,
+        6,
+        9,
+        143,
+        131
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Red_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

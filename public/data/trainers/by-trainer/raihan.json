@@ -1,0 +1,113 @@
+{
+  "trainerSlug": "raihan",
+  "presets": [
+    {
+      "id": "bulba-raihan-sword-shield-1",
+      "name": "Hammerlocke Stadium",
+      "trainer": "Raihan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Hammerlocke Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for duraludon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        526,
+        330,
+        844,
+        884
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Raihan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-raihan-sword-shield-3",
+      "name": "Wyndon Stadium",
+      "trainer": "Raihan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for duraludon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        324,
+        706,
+        776,
+        330,
+        884
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Raihan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-raihan-sword-shield-4",
+      "name": "Wyndon Stadium",
+      "trainer": "Raihan",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for duraludon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "gym-leaders-elite-four-champions",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        330,
+        706,
+        884
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Raihan",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

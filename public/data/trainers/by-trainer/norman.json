@@ -1,0 +1,371 @@
+{
+  "trainerSlug": "norman",
+  "presets": [
+    {
+      "id": "bulba-norman-emerald-2",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        327,
+        288,
+        264,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-emerald-3",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        113,
+        289,
+        327,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-emerald-4",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        289,
+        113,
+        115,
+        327,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-emerald-5",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        289,
+        242,
+        115,
+        327,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-emerald-6",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        289,
+        242,
+        115,
+        128,
+        327,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-omega-ruby-alpha-sapphire-10",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        289,
+        288,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-ruby-sapphire-1",
+      "name": "Petalburg Gym",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Petalburg Gym",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for slaking, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        289,
+        288,
+        289
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zangoose, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        289,
+        327,
+        352,
+        351,
+        295,
+        335
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-black-2-white-2-8",
+      "name": "Pokemon World Tournament",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sawsbuck, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        289,
+        424,
+        626,
+        398,
+        295,
+        586
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-norman-black-2-white-2-9",
+      "name": "Pokemon World Tournament",
+      "trainer": "Norman",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for stoutland, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        289,
+        626,
+        586,
+        508
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Norman",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

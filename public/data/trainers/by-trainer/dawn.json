@@ -1,0 +1,1142 @@
+{
+  "trainerSlug": "dawn",
+  "presets": [
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-23",
+      "name": "Jubilife City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Chimchar| background =",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-24",
+      "name": "Jubilife City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-22",
+      "name": "Jubilife City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-20",
+      "name": "Route 202 | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Chimchar| background =",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-21",
+      "name": "Route 202 | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-19",
+      "name": "Route 202 | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-32",
+      "name": "Sandgem Town | Chimchar",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Chimchar",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        169,
+        59,
+        122,
+        9,
+        463,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-29",
+      "name": "Sandgem Town | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Chimchar| background =",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        413,
+        467,
+        478,
+        350,
+        36,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-30",
+      "name": "Sandgem Town | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        413,
+        350,
+        478,
+        465,
+        36,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-33",
+      "name": "Sandgem Town | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for infernape, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        430,
+        368,
+        478,
+        254,
+        424,
+        392
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-28",
+      "name": "Sandgem Town | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        413,
+        465,
+        478,
+        467,
+        36,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-31",
+      "name": "Sandgem Town | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Sandgem Town | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for empoleon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        468,
+        182,
+        473,
+        157,
+        428,
+        395
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-26",
+      "name": "Veilstone City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Chimchar| background =",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-27",
+      "name": "Veilstone City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Piplup",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-brilliant-diamond-and-shining-pearl-25",
+      "name": "Veilstone City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Turtwig",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-5",
+      "name": "Jubilife City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Chimchar| background =",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-6",
+      "name": "Jubilife City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Piplup",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-4",
+      "name": "Jubilife City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Turtwig",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-2",
+      "name": "Route 202 | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Chimchar| background =",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-3",
+      "name": "Route 202 | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Piplup",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-1",
+      "name": "Route 202 | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Turtwig",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-8",
+      "name": "Veilstone City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Chimchar| background =",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-9",
+      "name": "Veilstone City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Piplup",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-diamond-pearl-7",
+      "name": "Veilstone City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Turtwig",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-14",
+      "name": "Jubilife City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Chimchar| background =",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-15",
+      "name": "Jubilife City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-13",
+      "name": "Jubilife City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Jubilife City | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-11",
+      "name": "Route 202 | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Chimchar| background =",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for turtwig, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        387
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-12",
+      "name": "Route 202 | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chimchar, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        390
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-10",
+      "name": "Route 202 | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Route 202 | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for piplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        393
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-17",
+      "name": "Veilstone City | Chimchar| background =",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Chimchar| background =",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grotle, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        388
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-18",
+      "name": "Veilstone City | Piplup",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Piplup",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for monferno, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        391
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-dawn-platinum-16",
+      "name": "Veilstone City | Turtwig",
+      "trainer": "Dawn",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Veilstone City | Turtwig",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for prinplup, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        35,
+        64,
+        394
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Dawn_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

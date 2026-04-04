@@ -1,0 +1,43 @@
+{
+  "trainerSlug": "drayton",
+  "presets": [
+    {
+      "id": "bulba-drayton-scarlet-violet-1",
+      "name": "Blueberry Academy",
+      "trainer": "Drayton",
+      "category": "Champions",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for archaludon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149,
+        330,
+        612,
+        254,
+        230,
+        1018
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Drayton",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

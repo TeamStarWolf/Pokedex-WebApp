@@ -1,0 +1,189 @@
+{
+  "trainerSlug": "lysandre",
+  "presets": [
+    {
+      "id": "bulba-lysandre-ultra-sun-ultra-moon-5",
+      "name": "Team Rocket's Castle",
+      "trainer": "Lysandre",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for yveltal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dark core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        620,
+        430,
+        668,
+        130,
+        717
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lysandre-ultra-sun-ultra-moon-4",
+      "name": "Team Rocket's Castle",
+      "trainer": "Lysandre",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for xerneas, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        620,
+        430,
+        668,
+        130,
+        716
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lysandre-legends-z-a-6",
+      "name": "Hotel Z",
+      "trainer": "Lysandre",
+      "category": "Villains",
+      "region": "Kalos",
+      "battleLabel": "Hotel Z",
+      "sourceGame": "Pokemon Legends: Z-A",
+      "sourceGroup": "legends-z-a",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "legends-z-a",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        668,
+        671,
+        302,
+        715,
+        569,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lysandre-x-y-1",
+      "name": "Lysandre Labs",
+      "trainer": "Lysandre",
+      "category": "Villains",
+      "region": "Kalos",
+      "battleLabel": "Lysandre Labs",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "villains",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        619,
+        198,
+        668,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lysandre-x-y-3",
+      "name": "Team Flare Secret HQ",
+      "trainer": "Lysandre",
+      "category": "Villains",
+      "region": "Kalos",
+      "battleLabel": "Team Flare Secret HQ",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "villains",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        620,
+        430,
+        668,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lysandre",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

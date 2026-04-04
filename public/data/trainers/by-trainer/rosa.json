@@ -1,0 +1,107 @@
+{
+  "trainerSlug": "rosa",
+  "presets": [
+    {
+      "id": "bulba-rosa-black-2-white-2-3",
+      "name": "Nimbasa City | Oshawott",
+      "trainer": "Rosa",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Nimbasa City | Oshawott",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pansage, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        499,
+        511
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Rosa_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-rosa-black-2-white-2-1",
+      "name": "Nimbasa City | Snivy",
+      "trainer": "Rosa",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Nimbasa City | Snivy",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pansear, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        502,
+        513
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Rosa_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-rosa-black-2-white-2-2",
+      "name": "Nimbasa City | Tepig",
+      "trainer": "Rosa",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Nimbasa City | Tepig",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for panpour, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        496,
+        515
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Rosa_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

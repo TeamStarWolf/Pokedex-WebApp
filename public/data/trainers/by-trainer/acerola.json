@@ -1,0 +1,79 @@
+{
+  "trainerSlug": "acerola",
+  "presets": [
+    {
+      "id": "bulba-acerola-sun-moon-2",
+      "name": "Pokemon League",
+      "trainer": "Acerola",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for palossand, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        302,
+        426,
+        781,
+        478,
+        770
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Acerola",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-acerola-ultra-sun-ultra-moon-4",
+      "name": "Pokemon League",
+      "trainer": "Acerola",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for palossand, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ghost core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        354,
+        426,
+        781,
+        478,
+        770
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Acerola",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

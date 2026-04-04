@@ -1,0 +1,110 @@
+{
+  "trainerSlug": "volo",
+  "presets": [
+    {
+      "id": "bulba-volo-legends-arceus-1",
+      "name": "Jubilife Village",
+      "trainer": "Volo",
+      "category": "Villains",
+      "region": "Hisui",
+      "battleLabel": "Jubilife Village",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for togepi, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hisui",
+        "legends-arceus",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        175
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volo",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volo-legends-arceus-2",
+      "name": "Solaceon Ruins",
+      "trainer": "Volo",
+      "category": "Villains",
+      "region": "Hisui",
+      "battleLabel": "Solaceon Ruins",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gible, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hisui",
+        "legends-arceus",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        175,
+        443
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volo",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-volo-legends-arceus-3",
+      "name": "Temple of Sinnoh",
+      "trainer": "Volo",
+      "category": "Villains",
+      "region": "Hisui",
+      "battleLabel": "Temple of Sinnoh",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hisui",
+        "legends-arceus",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        407,
+        468,
+        59,
+        448,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Volo",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

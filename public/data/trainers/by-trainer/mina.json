@@ -1,0 +1,183 @@
+{
+  "trainerSlug": "mina",
+  "presets": [
+    {
+      "id": "bulba-mina-sun-moon-2",
+      "name": "Poni Gauntlet",
+      "trainer": "Mina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Poni Gauntlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ribombee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        707,
+        210,
+        756,
+        40,
+        743
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-mina-sun-moon-1",
+      "name": "Route 8",
+      "trainer": "Mina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Route 8",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ribombee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        707,
+        210,
+        756,
+        40,
+        743
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-mina-ultra-sun-ultra-moon-3",
+      "name": "Seafolk Village",
+      "trainer": "Mina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Seafolk Village",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ribombee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        303,
+        210,
+        743
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-mina-lets-go-pikachu-lets-go-eevee-4",
+      "name": "Vermilion City",
+      "trainer": "Mina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion City",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for mr-mime, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        39,
+        122
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-mina-lets-go-pikachu-lets-go-eevee-5",
+      "name": "Vermilion City",
+      "trainer": "Mina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Vermilion City",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ninetales, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fairy core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        122,
+        40,
+        38
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

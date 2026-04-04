@@ -1,0 +1,193 @@
+{
+  "trainerSlug": "wallace",
+  "presets": [
+    {
+      "id": "bulba-wallace-emerald-2",
+      "name": "Ever Grande City",
+      "trainer": "Wallace",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for milotic, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        321,
+        73,
+        272,
+        340,
+        130,
+        350
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wallace",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wallace-omega-ruby-alpha-sapphire-5",
+      "name": "Route 131",
+      "trainer": "Wallace",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Route 131",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for milotic, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        321,
+        73,
+        272,
+        340,
+        130,
+        350
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wallace",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wallace-omega-ruby-alpha-sapphire-4",
+      "name": "Sootopolis Gym",
+      "trainer": "Wallace",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for milotic, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        370,
+        340,
+        364,
+        119,
+        350
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wallace",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wallace-ruby-sapphire-1",
+      "name": "Sootopolis Gym",
+      "trainer": "Wallace",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Sootopolis Gym",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for milotic, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        370,
+        364,
+        119,
+        340,
+        350
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wallace",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wallace-black-2-white-2-3",
+      "name": "Pokemon World Tournament",
+      "trainer": "Wallace",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for starmie, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        350,
+        319,
+        365,
+        272,
+        260,
+        121
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wallace",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

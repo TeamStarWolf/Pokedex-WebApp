@@ -1,0 +1,313 @@
+{
+  "trainerSlug": "ilima",
+  "presets": [
+    {
+      "id": "bulba-ilima-sun-moon-2",
+      "name": "Hau'oli City | Litten",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-sun-moon-3",
+      "name": "Hau'oli City | Popplio",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-sun-moon-1",
+      "name": "Hau'oli City | Rowlet",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-sun-moon-4",
+      "name": "Trainers' School",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Trainers' School",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        735,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-ultra-sun-ultra-moon-8",
+      "name": "Hau'oli Cemetery",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli Cemetery",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for komala, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        735,
+        235,
+        775
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-ultra-sun-ultra-moon-6",
+      "name": "Hau'oli City | Litten",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-ultra-sun-ultra-moon-7",
+      "name": "Hau'oli City | Popplio",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-ultra-sun-ultra-moon-5",
+      "name": "Hau'oli City | Rowlet",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Hau'oli City | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for smeargle, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        734,
+        235
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ilima-ultra-sun-ultra-moon-9",
+      "name": "Trainers' School",
+      "trainer": "Ilima",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Trainers' School",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for komala, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        735,
+        235,
+        775
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ilima",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

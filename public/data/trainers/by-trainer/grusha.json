@@ -1,0 +1,116 @@
+{
+  "trainerSlug": "grusha",
+  "presets": [
+    {
+      "id": "bulba-grusha-scarlet-violet-3",
+      "name": "Blueberry Academy",
+      "trainer": "Grusha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        38,
+        614,
+        873,
+        975,
+        461,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Grusha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-grusha-scarlet-violet-1",
+      "name": "Glaseado Gym",
+      "trainer": "Grusha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Glaseado Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        873,
+        614,
+        975,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Grusha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-grusha-scarlet-violet-2",
+      "name": "Glaseado Gym",
+      "trainer": "Grusha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Glaseado Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for altaria, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        873,
+        614,
+        975,
+        461,
+        334
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Grusha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

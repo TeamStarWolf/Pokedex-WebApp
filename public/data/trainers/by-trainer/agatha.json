@@ -1,0 +1,304 @@
+{
+  "trainerSlug": "agatha",
+  "presets": [
+    {
+      "id": "bulba-agatha-firered-leafgreen-3",
+      "name": "Indigo Plateau",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "gym-leaders-elite-four-champions",
+        "kanto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        94,
+        42,
+        93,
+        24,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-firered-leafgreen-4",
+      "name": "Indigo Plateau",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "firered-leafgreen",
+        "gym-leaders-elite-four-champions",
+        "kanto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        94,
+        169,
+        200,
+        24,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-lets-go-pikachu-lets-go-eevee-5",
+      "name": "Pokemon League",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        24,
+        94,
+        42,
+        110,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-lets-go-pikachu-lets-go-eevee-6",
+      "name": "Pokemon League",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        24,
+        105,
+        42,
+        94,
+        110,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-red-blue-1",
+      "name": "Indigo Plateau",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        94,
+        42,
+        93,
+        24,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-stadium-7",
+      "name": "Gym Leader Castle",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        93,
+        42,
+        24,
+        89,
+        3,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-stadium-8",
+      "name": "Gym Leader Castle",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        124,
+        65,
+        24,
+        130,
+        3,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-agatha-yellow-2",
+      "name": "Indigo Plateau",
+      "trainer": "Agatha",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gengar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's poison and ghost core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        94,
+        42,
+        93,
+        24,
+        94
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Agatha",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

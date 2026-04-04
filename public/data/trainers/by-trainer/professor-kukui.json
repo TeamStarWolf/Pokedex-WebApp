@@ -1,0 +1,431 @@
+{
+  "trainerSlug": "professor-kukui",
+  "presets": [
+    {
+      "id": "bulba-professor-kukui-sun-moon-3",
+      "name": "Battle Royal Dome",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-sun-moon-8",
+      "name": "Pokemon League | Litten",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-sun-moon-9",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-sun-moon-7",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-sun-moon-1",
+      "name": "Route 1",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Route 1",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-sun-moon-2",
+      "name": "Route 2",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Route 2",
+      "sourceGame": "Pokemon Sun / Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-12",
+      "name": "Battle Royal Dome",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Battle Royal Dome",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-14",
+      "name": "Pokemon League | Litten",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Litten",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for primarina, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        730
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-15",
+      "name": "Pokemon League | Popplio",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Popplio",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for decidueye, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        724
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-13",
+      "name": "Pokemon League | Rowlet",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Pokemon League | Rowlet",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for incineroar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and normal core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        745,
+        38,
+        628,
+        462,
+        143,
+        727
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-10",
+      "name": "Route 1",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Route 1",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-professor-kukui-ultra-sun-ultra-moon-11",
+      "name": "Route 2",
+      "trainer": "Professor Kukui",
+      "category": "Main Characters",
+      "region": "Alola",
+      "battleLabel": "Route 2",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rockruff, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "main-characters",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        744
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Professor_Kukui",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

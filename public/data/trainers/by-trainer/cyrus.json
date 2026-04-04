@@ -1,0 +1,328 @@
+{
+  "trainerSlug": "cyrus",
+  "presets": [
+    {
+      "id": "bulba-cyrus-ultra-sun-ultra-moon-7",
+      "name": "Team Rocket's Castle",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for palkia, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        229,
+        430,
+        169,
+        461,
+        484
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-ultra-sun-ultra-moon-6",
+      "name": "Team Rocket's Castle",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dialga, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        229,
+        430,
+        169,
+        461,
+        483
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-brilliant-diamond-and-shining-pearl-9",
+      "name": "Spear Pillar",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Spear Pillar",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weavile, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dark core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        430,
+        169,
+        130,
+        461
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-brilliant-diamond-and-shining-pearl-8",
+      "name": "Team Galactic HQ",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Team Galactic HQ",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sneasel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        198,
+        42,
+        215
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-diamond-pearl-2",
+      "name": "Spear Pillar",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Spear Pillar",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weavile, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        430,
+        130,
+        169,
+        461
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-diamond-pearl-1",
+      "name": "Team Galactic HQ",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Team Galactic HQ",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sneasel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        198,
+        42,
+        215
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-platinum-3",
+      "name": "Celestic Ruins",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Celestic Ruins",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for murkrow, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        42,
+        198
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-platinum-5",
+      "name": "Distortion World",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Distortion World",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for weavile, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        229,
+        430,
+        169,
+        130,
+        461
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cyrus-platinum-4",
+      "name": "Team Galactic HQ",
+      "trainer": "Cyrus",
+      "category": "Villains",
+      "region": "Sinnoh",
+      "battleLabel": "Team Galactic HQ",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for honchkrow, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "platinum",
+        "sinnoh",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        215,
+        169,
+        430
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cyrus",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

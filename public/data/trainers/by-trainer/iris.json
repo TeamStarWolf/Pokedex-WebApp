@@ -1,0 +1,116 @@
+{
+  "trainerSlug": "iris",
+  "presets": [
+    {
+      "id": "bulba-iris-black-2-white-2-4",
+      "name": "Pokemon League",
+      "trainer": "Iris",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for haxorus, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and rock core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        635,
+        621,
+        567,
+        306,
+        131,
+        612
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Iris",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-iris-black-2-white-2-5",
+      "name": "Pokemon League",
+      "trainer": "Iris",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for haxorus, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        635,
+        373,
+        567,
+        306,
+        131,
+        612
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Iris",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-iris-black-white-1",
+      "name": "Opelucid Gym",
+      "trainer": "Iris",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Opelucid Gym",
+      "sourceGame": "Pokemon White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for haxorus, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        611,
+        621,
+        612
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Iris",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

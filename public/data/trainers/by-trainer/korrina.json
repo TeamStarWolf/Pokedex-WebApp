@@ -1,0 +1,242 @@
+{
+  "trainerSlug": "korrina",
+  "presets": [
+    {
+      "id": "bulba-korrina-legends-z-a-15",
+      "name": "Hotel Z",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Hotel Z",
+      "sourceGame": "Pokemon Legends: Z-A",
+      "sourceGroup": "legends-z-a",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "legends-z-a"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-legends-z-a-14",
+      "name": "Rust Syndicate Office",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Rust Syndicate Office",
+      "sourceGame": "Pokemon Legends: Z-A",
+      "sourceGroup": "legends-z-a",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "legends-z-a"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        865,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-x-y-8",
+      "name": "Battle Chateau",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for machamp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        701,
+        68
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-x-y-13",
+      "name": "Battle Chateau",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        701,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-x-y-1",
+      "name": "Geosenge Town",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Geosenge Town",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting and steel core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        448,
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-x-y-2",
+      "name": "Shalour Gym",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Shalour Gym",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hawlucha, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        619,
+        67,
+        701
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-korrina-x-y-3",
+      "name": "Tower of Mastery",
+      "trainer": "Korrina",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Tower of Mastery",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for lucario, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        448
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Korrina",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

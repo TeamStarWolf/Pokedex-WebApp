@@ -1,0 +1,75 @@
+{
+  "trainerSlug": "mallow",
+  "presets": [
+    {
+      "id": "bulba-mallow-sun-moon-1",
+      "name": "Lush Jungle",
+      "trainer": "Mallow",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Lush Jungle",
+      "sourceGame": "Pokemon Moon",
+      "sourceGroup": "sun-moon",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for steenee, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sun-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        708,
+        756,
+        762
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mallow",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-mallow-ultra-sun-ultra-moon-3",
+      "name": "Lush Jungle",
+      "trainer": "Mallow",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Alola",
+      "battleLabel": "Lush Jungle",
+      "sourceGame": "Pokemon Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tsareena, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        709,
+        756,
+        763
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Mallow",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

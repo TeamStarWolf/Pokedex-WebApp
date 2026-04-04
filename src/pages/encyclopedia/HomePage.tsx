@@ -1,0 +1,239 @@
+import { Link } from "react-router-dom";
+import { listGames, listPokemon, listRegions, listTypes } from "../../lib/encyclopedia";
+import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+
+export function HomePage() {
+  const { schema } = useEncyclopediaData();
+  const featuredGames = listGames(schema).slice(0, 4);
+  const featuredPokemon = listPokemon(schema).slice(0, 6);
+  const featuredRegions = listRegions(schema).slice(0, 4);
+  const featuredTypes = listTypes(schema).slice(0, 6);
+  const featuredMoves = Object.values(schema.moves).slice(0, 5);
+  const primaryPaths = [
+    {
+      label: "Browse by Game",
+      body: "Start from a game and move through Pokemon, trainer battles, and locations without losing context.",
+      href: "/games",
+    },
+    {
+      label: "Browse Pokemon",
+      body: "Use the National Dex when you already know the species you want to research.",
+      href: encyclopediaRoutes.nationalDex(),
+    },
+    {
+      label: "Browse Trainer Battles",
+      body: "Filter appearances by game, role, region, and team member in one dense battle archive.",
+      href: "/trainers/appearances",
+    },
+  ];
+  const summary = {
+    pokemonCount: Object.keys(schema.pokemon).length,
+    formCount: Object.keys(schema.forms).length,
+    moveCount: Object.keys(schema.moves).length,
+    regionCount: Object.keys(schema.regions).length,
+  };
+
+  return (
+    <main className="encyclopedia-page">
+      <section className="hero-panel">
+        <div>
+          <p className="eyebrow">Public release direction</p>
+          <h1>Dexcore Encyclopedia</h1>
+          <p className="lead">
+            A game-first Pokemon reference built for browsing, cross-linking, and comparing the world of Pokemon
+            without getting lost in disconnected pages.
+          </p>
+          <div className="hero-actions">
+            <Link to="/games" className="primary-link">Browse by Game</Link>
+            <Link to="/trainers/appearances" className="secondary-link">Browse Trainer Battles</Link>
+          </div>
+        </div>
+        <div className="stats-cluster">
+          <div><strong>{summary.pokemonCount}</strong><span>Pokemon</span></div>
+          <div><strong>{summary.formCount}</strong><span>Forms</span></div>
+          <div><strong>{summary.moveCount}</strong><span>Moves</span></div>
+          <div><strong>{summary.regionCount}</strong><span>Regions</span></div>
+        </div>
+      </section>
+
+      <section className="content-card">
+        <div className="section-topline">
+          <div>
+            <p className="eyebrow">Start here</p>
+            <h2>Three main ways to use the encyclopedia</h2>
+          </div>
+        </div>
+        <div className="reference-grid homepage-primary-grid">
+          {primaryPaths.map((path) => (
+            <Link key={path.label} to={path.href} className="feature-panel feature-panel-primary">
+              <span className="eyebrow">Primary path</span>
+              <strong>{path.label}</strong>
+              <span>{path.body}</span>
+              <span className="feature-panel-cta">Open</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="content-grid two-up">
+        <article className="content-card">
+          <h2>Featured game hubs</h2>
+          <div className="chip-grid">
+            {featuredGames.map((game) => (
+              <Link key={game.id} to={encyclopediaRoutes.game(game.slug)} className="entity-chip">
+                <strong>{game.name}</strong>
+                <span>{game.shortName}</span>
+              </Link>
+            ))}
+          </div>
+        </article>
+
+        <article className="content-card">
+          <h2>Recommended jump-ins</h2>
+          <div className="chip-grid">
+            <Link to="/games/heartgold-soulsilver" className="entity-chip">
+              <strong>HeartGold / SoulSilver</strong>
+              <span>Game hub</span>
+            </Link>
+            <Link to="/trainers/appearances?game=heartgold-soulsilver" className="entity-chip">
+              <strong>HGSS Trainer Battles</strong>
+              <span>Game-scoped archive</span>
+            </Link>
+            <Link to="/dex/national?game=heartgold-soulsilver" className="entity-chip">
+              <strong>HGSS Pokemon</strong>
+              <span>Game-scoped dex</span>
+            </Link>
+            <Link to="/search?q=houndoom&game=heartgold-soulsilver" className="entity-chip">
+              <strong>Search in HGSS</strong>
+              <span>Focused discovery</span>
+            </Link>
+          </div>
+        </article>
+      </section>
+
+      <section className="content-grid two-up">
+        <article className="content-card">
+          <h2>Popular Pokemon</h2>
+          <div className="chip-grid">
+            {featuredPokemon.map((species) => (
+              <Link key={species.id} to={encyclopediaRoutes.pokemon(species.slug)} className="entity-chip">
+                <span>#{species.nationalDexNumber.toString().padStart(4, "0")}</span>
+                <strong>{species.name}</strong>
+              </Link>
+            ))}
+          </div>
+        </article>
+
+        <article className="content-card">
+          <h2>Trainer archive</h2>
+          <div className="chip-grid">
+            <Link to={encyclopediaRoutes.trainers()} className="entity-chip">
+              <strong>Trainer Index</strong>
+              <span>People and overview pages</span>
+            </Link>
+            <Link to="/trainers/appearances" className="entity-chip">
+              <strong>Trainer Battles</strong>
+              <span>Best browse view for serious research</span>
+            </Link>
+            <Link to={encyclopediaRoutes.trainer("red")} className="entity-chip">
+              <strong>Red</strong>
+              <span>Overview page</span>
+            </Link>
+            <Link to={encyclopediaRoutes.trainer("cynthia")} className="entity-chip">
+              <strong>Cynthia</strong>
+              <span>Champion archive</span>
+            </Link>
+          </div>
+        </article>
+      </section>
+
+      <section className="content-card">
+        <div className="section-topline">
+          <div>
+            <p className="eyebrow">Secondary browse</p>
+            <h2>Explore the rest of the reference</h2>
+          </div>
+        </div>
+        <div className="reference-grid">
+          {[
+            { label: "Regions", body: "Jump by world area and regional context.", href: encyclopediaRoutes.region(featuredRegions[0]?.slug ?? "kanto") },
+            { label: "Types", body: "Follow matchup and category links from type pages.", href: encyclopediaRoutes.type(featuredTypes[0]?.slug ?? "fire") },
+            { label: "Moves", body: "Open move entries and learner pages.", href: encyclopediaRoutes.move(featuredMoves[0]?.slug ?? "thunderbolt") },
+            { label: "Abilities", body: "Trace ability holders across species and forms.", href: encyclopediaRoutes.ability("static") },
+          ].map((lane) => (
+            <Link key={lane.label} to={lane.href} className="feature-panel">
+              <strong>{lane.label}</strong>
+              <span>{lane.body}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="content-grid two-up">
+        <article className="content-card">
+          <h2>Browse by region</h2>
+          <div className="chip-grid">
+            {featuredRegions.map((region) => (
+              <Link key={region.id} to={encyclopediaRoutes.region(region.slug)} className="entity-chip">
+                <strong>{region.name}</strong>
+                <span>{region.generationLabel}</span>
+              </Link>
+            ))}
+          </div>
+        </article>
+        <article className="content-card">
+          <h2>Quick browse types</h2>
+          <div className="type-chip-row">
+            {featuredTypes.map((type) => (
+              <Link key={type.id} to={encyclopediaRoutes.type(type.slug)} className="type-chip" style={{ ["--type-color" as string]: type.colorToken }}>
+                {type.name}
+              </Link>
+            ))}
+          </div>
+        </article>
+      </section>
+
+      <section className="content-grid two-up">
+        <article className="content-card">
+          <h2>Reference entry samples</h2>
+          <div className="chip-grid">
+            {featuredMoves.map((move) => (
+              <Link key={move.id} to={encyclopediaRoutes.move(move.slug)} className="entity-chip">
+                <strong>{move.name}</strong>
+                <span>{schema.types[move.typeId]?.name ?? move.typeId.replace("type:", "")} move</span>
+              </Link>
+            ))}
+          </div>
+          <div className="chip-grid">
+            {Object.values(schema.abilities).slice(0, 4).map((ability) => (
+              <Link key={ability.id} to={encyclopediaRoutes.ability(ability.slug)} className="entity-chip">
+                <strong>{ability.name}</strong>
+                <span>Ability page</span>
+              </Link>
+            ))}
+          </div>
+        </article>
+        <article className="content-card">
+          <h2>What this encyclopedia is built to hold</h2>
+          <div className="reference-grid">
+            <div>
+              <ul className="text-list">
+                <li>Version-specific flavor text, locations, and learnsets.</li>
+                <li>Cross-linked pages for Pokemon, moves, abilities, items, regions, games, and locations.</li>
+                <li>Normalized data designed for a database-backed app later.</li>
+              </ul>
+            </div>
+            <div>
+              <ul className="text-list">
+                <li>Missing-data placeholders instead of fake completeness.</li>
+                <li>Entity routes that can scale into deeper world and lore browsing.</li>
+                <li>Offline-first dataset generation with shardable detail files.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+  );
+}

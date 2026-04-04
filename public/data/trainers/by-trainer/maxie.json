@@ -1,0 +1,150 @@
+{
+  "trainerSlug": "maxie",
+  "presets": [
+    {
+      "id": "bulba-maxie-ultra-sun-ultra-moon-9",
+      "name": "Team Rocket's Castle",
+      "trainer": "Maxie",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for groudon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and poison core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        169,
+        110,
+        323,
+        383
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Maxie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-maxie-emerald-4",
+      "name": "Magma Hideout",
+      "trainer": "Maxie",
+      "category": "Villains",
+      "region": "Hoenn",
+      "battleLabel": "Magma Hideout",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for camerupt, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "hoenn",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        169,
+        323
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Maxie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-maxie-emerald-5",
+      "name": "Mossdeep Space Center",
+      "trainer": "Maxie",
+      "category": "Villains",
+      "region": "Hoenn",
+      "battleLabel": "Mossdeep Space Center",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for golbat, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "hoenn",
+        "villains"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        262,
+        169,
+        323,
+        323,
+        262,
+        42
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Maxie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-maxie-emerald-3",
+      "name": "Mt. Chimney",
+      "trainer": "Maxie",
+      "category": "Villains",
+      "region": "Hoenn",
+      "battleLabel": "Mt. Chimney",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for camerupt, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "hoenn",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        41,
+        323
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Maxie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

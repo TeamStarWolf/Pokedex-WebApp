@@ -1,0 +1,638 @@
+{
+  "trainerSlug": "lance",
+  "presets": [
+    {
+      "id": "bulba-lance-gold-silver-3",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "gold-silver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        149,
+        6,
+        142,
+        149,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-heartgold-soulsilver-9",
+      "name": "Dragon's Den",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Dragon's Den",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        148,
+        230,
+        149,
+        130,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-heartgold-soulsilver-7",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        149,
+        149,
+        142,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-heartgold-soulsilver-8",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        373,
+        130,
+        445,
+        334,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-heartgold-soulsilver-6",
+      "name": "Team Rocket HQ",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Team Rocket HQ",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-stadium-2-16",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149,
+        248,
+        6,
+        142,
+        208,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-stadium-2-17",
+      "name": "Johto Gym Leader Castle",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Johto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tyranitar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149,
+        142,
+        160,
+        115,
+        59,
+        248
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-firered-leafgreen-4",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        148,
+        148,
+        142,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-firered-leafgreen-5",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and dragon core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        149,
+        230,
+        142,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-lets-go-pikachu-lets-go-eevee-12",
+      "name": "Pokemon League",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        117,
+        142,
+        130,
+        6,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-lets-go-pikachu-lets-go-eevee-13",
+      "name": "Pokemon League",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        117,
+        142,
+        130,
+        6,
+        103,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-red-blue-1",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        148,
+        148,
+        142,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-stadium-14",
+      "name": "Gym Leader Castle",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kangaskhan, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        130,
+        148,
+        142,
+        131,
+        6,
+        115
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-stadium-15",
+      "name": "Gym Leader Castle",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kangaskhan, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and normal core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        59,
+        143,
+        131,
+        125,
+        6,
+        115
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-yellow-2",
+      "name": "Indigo Plateau",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        130,
+        148,
+        148,
+        142,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-black-2-white-2-10",
+      "name": "Pokemon World Tournament",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for flygon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        149,
+        373,
+        230,
+        635,
+        612,
+        330
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-lance-black-2-white-2-11",
+      "name": "Pokemon World Tournament",
+      "trainer": "Lance",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for dragonite, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        612,
+        635,
+        149
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Lance",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

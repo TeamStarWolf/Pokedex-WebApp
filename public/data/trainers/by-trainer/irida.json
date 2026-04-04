@@ -1,0 +1,177 @@
+{
+  "trainerSlug": "irida",
+  "presets": [
+    {
+      "id": "bulba-irida-legends-arceus-2",
+      "name": "Beachside Camp",
+      "trainer": "Irida",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Beachside Camp",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for eevee, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        471,
+        133
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Irida",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-irida-legends-arceus-4",
+      "name": "Diamond Settlement",
+      "trainer": "Irida",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Diamond Settlement",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for flareon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        471,
+        196,
+        136
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Irida",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-irida-legends-arceus-1",
+      "name": "Grandtree Arena",
+      "trainer": "Irida",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Grandtree Arena",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for glaceon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        471
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Irida",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-irida-legends-arceus-3",
+      "name": "Pearl Settlement",
+      "trainer": "Irida",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Pearl Settlement",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for flareon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        471,
+        196,
+        136
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Irida",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-irida-legends-arceus-9",
+      "name": "Training grounds",
+      "trainer": "Irida",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hisui",
+      "battleLabel": "Training grounds",
+      "sourceGame": "Pokemon Legends: Arceus",
+      "sourceGroup": "legends-arceus",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for flareon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hisui",
+        "legends-arceus"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        471,
+        196,
+        136
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Irida",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

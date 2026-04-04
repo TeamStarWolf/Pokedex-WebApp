@@ -1,0 +1,260 @@
+{
+  "trainerSlug": "gardenia",
+  "presets": [
+    {
+      "id": "bulba-gardenia-brilliant-diamond-and-shining-pearl-6",
+      "name": "Eterna Gym",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Eterna Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for roserade, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        420,
+        387,
+        407
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-brilliant-diamond-and-shining-pearl-7",
+      "name": "Eterna Gym",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Eterna Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for roserade, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        189,
+        192,
+        421,
+        286,
+        389,
+        407
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-diamond-pearl-1",
+      "name": "Eterna Gym",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Eterna Gym",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for roserade, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        420,
+        387,
+        407
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-platinum-3",
+      "name": "Battleground",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Battleground",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for roserade, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        189,
+        421,
+        182,
+        389,
+        407
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-platinum-2",
+      "name": "Eterna Gym",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Eterna Gym",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for roserade, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        421,
+        407
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        407,
+        455,
+        421,
+        465,
+        470,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-gardenia-black-2-white-2-5",
+      "name": "Pokemon World Tournament",
+      "trainer": "Gardenia",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torterra, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's grass core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        407,
+        357,
+        286,
+        465,
+        470,
+        389
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Gardenia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

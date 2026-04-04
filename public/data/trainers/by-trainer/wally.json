@@ -1,0 +1,217 @@
+{
+  "trainerSlug": "wally",
+  "presets": [
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-7",
+      "name": "Battle Maison",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Battle Maison",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gallade, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        334,
+        301,
+        407,
+        462,
+        475
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-8",
+      "name": "Battle Maison",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Battle Maison",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gallade, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        407,
+        663,
+        184,
+        462,
+        445,
+        475
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-9",
+      "name": "Battle Maison",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Battle Maison",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magnezone, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        475,
+        462
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-5",
+      "name": "Mauville City",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Mauville City",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ralts, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        280
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-4",
+      "name": "Route 102",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Route 102",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zigzagoon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        263
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wally-omega-ruby-alpha-sapphire-6",
+      "name": "Victory Road",
+      "trainer": "Wally",
+      "category": "Rivals",
+      "region": "Hoenn",
+      "battleLabel": "Victory Road",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gallade, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "hoenn",
+        "omega-ruby-alpha-sapphire",
+        "rivals"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        334,
+        301,
+        315,
+        82,
+        475
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wally",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

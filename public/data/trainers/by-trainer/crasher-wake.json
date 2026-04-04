@@ -1,0 +1,261 @@
+{
+  "trainerSlug": "crasher-wake",
+  "presets": [
+    {
+      "id": "bulba-crasher-wake-brilliant-diamond-and-shining-pearl-6",
+      "name": "Pastoria Gym",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for floatzel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        130,
+        195,
+        419
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-brilliant-diamond-and-shining-pearl-7",
+      "name": "Pastoria Gym",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria Gym",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for floatzel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        186,
+        230,
+        272,
+        367,
+        130,
+        419
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-diamond-pearl-1",
+      "name": "Pastoria Gym",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria Gym",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for floatzel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "diamond-pearl",
+        "gym-leaders-elite-four-champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        130,
+        195,
+        419
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-platinum-3",
+      "name": "Battleground",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Battleground",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ludicolo, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        319,
+        195,
+        419,
+        130,
+        272
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-platinum-2",
+      "name": "Pastoria Gym",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pastoria Gym",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for floatzel, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        130,
+        195,
+        419
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-black-2-white-2-4",
+      "name": "Pokemon World Tournament",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water and ground core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        419,
+        395,
+        457,
+        423,
+        195,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-crasher-wake-black-2-white-2-5",
+      "name": "Pokemon World Tournament",
+      "trainer": "Crasher Wake",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for gyarados, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        419,
+        395,
+        272,
+        423,
+        62,
+        130
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Crasher_Wake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

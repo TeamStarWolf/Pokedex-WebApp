@@ -1,0 +1,38 @@
+{
+  "name": "pokedex-web-app-v2",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:local": "vite --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "preview:local": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate:data": "python scripts/export_pokedex_json.py --db ../pokedex.sqlite --assets ./assets --out ./public/data",
+    "generate:trainers": "python scripts/export_trainer_reference_json.py",
+    "generate:encyclopedia": "python scripts/generate_encyclopedia_json.py --db ..\\pokedex.sqlite --out-dir .\\public\\data\\encyclopedia"
+  },
+  "dependencies": {
+    "framer-motion": "^12.6.2",
+    "lucide-react": "^0.511.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^5.0.0",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.8.2",
+    "vite": "^8.0.0",
+    "vitest": "^3.0.8"
+  }
+}

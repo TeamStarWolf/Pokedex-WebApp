@@ -1,0 +1,6 @@
+[31merror when starting preview server:
+Error: Port 4173 is already in use
+    at httpServerStart (file:///C:/Users/ccwil/Documents/Projects/Pokedex%20WebApp/node_modules/vite/dist/node/chunks/node.js:10614:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async preview (file:///C:/Users/ccwil/Documents/Projects/Pokedex%20WebApp/node_modules/vite/dist/node/chunks/node.js:33475:2)
+    at async CAC.<anonymous> (file:///C:/Users/ccwil/Documents/Projects/Pokedex%20WebApp/node_modules/vite/dist/node/cli.js:809:18)[39m

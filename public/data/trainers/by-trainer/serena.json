@@ -1,0 +1,1106 @@
+{
+  "trainerSlug": "serena",
+  "presets": [
+    {
+      "id": "bulba-serena-x-y-20",
+      "name": "Anistar City | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Anistar City | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for delphox, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        135,
+        655
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-21",
+      "name": "Anistar City | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Anistar City | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greninja, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        136,
+        658
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-22",
+      "name": "Anistar City | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Anistar City | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chesnaught, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        134,
+        652
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-11",
+      "name": "Coumarine City | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Coumarine City | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for braixen, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        654
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-12",
+      "name": "Coumarine City | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Coumarine City | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for frogadier, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        657
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-13",
+      "name": "Coumarine City | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Coumarine City | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilladin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        651
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-5",
+      "name": "Glittering Cave | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Glittering Cave | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for braixen, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        677,
+        359,
+        654
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-6",
+      "name": "Glittering Cave | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Glittering Cave | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for frogadier, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        677,
+        359,
+        657
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-7",
+      "name": "Glittering Cave | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Glittering Cave | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilladin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        677,
+        359,
+        651
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-29",
+      "name": "Kiloude City | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Kiloude City | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for delphox, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        36,
+        135,
+        359,
+        334,
+        655
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-30",
+      "name": "Kiloude City | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Kiloude City | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greninja, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        36,
+        136,
+        359,
+        334,
+        658
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-31",
+      "name": "Kiloude City | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Kiloude City | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chesnaught, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        36,
+        134,
+        359,
+        334,
+        652
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-17",
+      "name": "Pok\u00e9 Ball Factory | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Pok\u00e9 Ball Factory | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for delphox, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        655
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-18",
+      "name": "Pok\u00e9 Ball Factory | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Pok\u00e9 Ball Factory | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greninja, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        658
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-19",
+      "name": "Pok\u00e9 Ball Factory | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Pok\u00e9 Ball Factory | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chesnaught, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        652
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-14",
+      "name": "Route 14 | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 14 | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for delphox, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        655
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-15",
+      "name": "Route 14 | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 14 | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greninja, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        658
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-16",
+      "name": "Route 14 | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 14 | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chesnaught, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        652
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-1",
+      "name": "Route 2",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 2",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for fletchling, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        661
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-2",
+      "name": "Route 7 | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 7 | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for braixen, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        661,
+        654
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-3",
+      "name": "Route 7 | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 7 | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for frogadier, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        661,
+        657
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-4",
+      "name": "Route 7 | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Route 7 | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilladin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        661,
+        651
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-23",
+      "name": "Team Flare Secret HQ | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Team Flare Secret HQ | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        655,
+        135,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-24",
+      "name": "Team Flare Secret HQ | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Team Flare Secret HQ | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        658,
+        136,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-25",
+      "name": "Team Flare Secret HQ | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Team Flare Secret HQ | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        652,
+        134,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-8",
+      "name": "Tower of Mastery | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Tower of Mastery | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for braixen, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        654
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-9",
+      "name": "Tower of Mastery | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Tower of Mastery | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for frogadier, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        657
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-10",
+      "name": "Tower of Mastery | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Tower of Mastery | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for quilladin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        359,
+        651
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-26",
+      "name": "Victory Road | Chespin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Victory Road | Chespin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for delphox, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        135,
+        334,
+        359,
+        655
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-27",
+      "name": "Victory Road | Fennekin",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Victory Road | Fennekin",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for greninja, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        136,
+        334,
+        359,
+        658
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-serena-x-y-28",
+      "name": "Victory Road | Froakie",
+      "trainer": "Serena",
+      "category": "Rivals",
+      "region": "Kalos",
+      "battleLabel": "Victory Road | Froakie",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for chesnaught, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "kalos",
+        "rivals",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        678,
+        134,
+        334,
+        359,
+        652
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Serena_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

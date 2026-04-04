@@ -1,0 +1,115 @@
+{
+  "trainerSlug": "katy",
+  "presets": [
+    {
+      "id": "bulba-katy-scarlet-violet-3",
+      "name": "Blueberry Academy",
+      "trainer": "Katy",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Blueberry Academy",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ursaring, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        918,
+        214,
+        205,
+        920,
+        752,
+        217
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Katy",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-katy-scarlet-violet-1",
+      "name": "Cortondo Gym",
+      "trainer": "Katy",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Cortondo Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for teddiursa, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        919,
+        917,
+        216
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Katy",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-katy-scarlet-violet-2",
+      "name": "Cortondo Gym",
+      "trainer": "Katy",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Paldea",
+      "battleLabel": "Cortondo Gym",
+      "sourceGame": "Pokemon Scarlet / Violet",
+      "sourceGroup": "scarlet-violet",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for ursaring, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "paldea",
+        "scarlet-violet"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        920,
+        205,
+        918,
+        214,
+        217
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Katy",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "trainerSlug": "ghetsis",
+  "presets": [
+    {
+      "id": "bulba-ghetsis-ultra-sun-ultra-moon-4",
+      "name": "Team Rocket's Castle",
+      "trainer": "Ghetsis",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for reshiram, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        563,
+        626,
+        625,
+        635,
+        643
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ghetsis-ultra-sun-ultra-moon-3",
+      "name": "Team Rocket's Castle",
+      "trainer": "Ghetsis",
+      "category": "Villains",
+      "region": "Alola",
+      "battleLabel": "Team Rocket's Castle",
+      "sourceGame": "Pokemon Ultra Sun",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for zekrom, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and dragon core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "ultra-sun-ultra-moon",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        563,
+        626,
+        625,
+        635,
+        644
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ghetsis-black-white-1",
+      "name": "N's Castle",
+      "trainer": "Ghetsis",
+      "category": "Villains",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hydreigon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "unova",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        563,
+        626,
+        537,
+        625,
+        604,
+        635
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-ghetsis-black-2-white-2-2",
+      "name": "Giant Chasm",
+      "trainer": "Ghetsis",
+      "category": "Villains",
+      "region": "Unova",
+      "battleLabel": "Giant Chasm",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for hydreigon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and poison core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "unova",
+        "villains"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        563,
+        537,
+        604,
+        452,
+        454,
+        635
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Ghetsis",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

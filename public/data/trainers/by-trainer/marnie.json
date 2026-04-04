@@ -1,0 +1,185 @@
+{
+  "trainerSlug": "marnie",
+  "presets": [
+    {
+      "id": "bulba-marnie-sword-shield-1",
+      "name": "Budew Drop Inn",
+      "trainer": "Marnie",
+      "category": "Rivals",
+      "region": "Galar",
+      "battleLabel": "Budew Drop Inn",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for morpeko, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "rivals",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        453,
+        559,
+        877
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Marnie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-marnie-sword-shield-2",
+      "name": "Route 9",
+      "trainer": "Marnie",
+      "category": "Rivals",
+      "region": "Galar",
+      "battleLabel": "Route 9",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for morpeko, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "rivals",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        454,
+        560,
+        877
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Marnie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-marnie-sword-shield-4",
+      "name": "Spikemuth",
+      "trainer": "Marnie",
+      "category": "Rivals",
+      "region": "Galar",
+      "battleLabel": "Spikemuth",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grimmsnarl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "rivals",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        454,
+        560,
+        877,
+        861
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Marnie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-marnie-sword-shield-5",
+      "name": "Wyndon Stadium",
+      "trainer": "Marnie",
+      "category": "Rivals",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grimmsnarl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and fighting core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "rivals",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        510,
+        454,
+        560,
+        877,
+        861
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Marnie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-marnie-sword-shield-6",
+      "name": "Wyndon Stadium",
+      "trainer": "Marnie",
+      "category": "Rivals",
+      "region": "Galar",
+      "battleLabel": "Wyndon Stadium",
+      "sourceGame": "Pokemon Sword / Shield",
+      "sourceGroup": "sword-shield",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for grimmsnarl, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "galar",
+        "rivals",
+        "sword-shield"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        877,
+        560,
+        861
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Marnie",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

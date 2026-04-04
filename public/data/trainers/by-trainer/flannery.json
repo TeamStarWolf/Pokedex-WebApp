@@ -1,0 +1,336 @@
+{
+  "trainerSlug": "flannery",
+  "presets": [
+    {
+      "id": "bulba-flannery-emerald-2",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and ground core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        322,
+        218,
+        323,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-emerald-3",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        219,
+        77,
+        323,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-emerald-4",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        58,
+        219,
+        77,
+        323,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-emerald-5",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        228,
+        58,
+        219,
+        78,
+        323,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-emerald-6",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "emerald",
+        "gym-leaders-elite-four-champions",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        59,
+        219,
+        229,
+        78,
+        323,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-omega-ruby-alpha-sapphire-9",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        218,
+        322,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-ruby-sapphire-1",
+      "name": "Lavaridge Gym",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Hoenn",
+      "battleLabel": "Lavaridge Gym",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for torkoal, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        218,
+        218,
+        324
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-black-2-white-2-7",
+      "name": "Pokemon World Tournament",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magmortar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        324,
+        323,
+        219,
+        257,
+        229,
+        467
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-flannery-black-2-white-2-8",
+      "name": "Pokemon World Tournament",
+      "trainer": "Flannery",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for magmortar, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        324,
+        323,
+        609,
+        257,
+        229,
+        467
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Flannery",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

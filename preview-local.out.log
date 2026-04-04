@@ -1,0 +1,4 @@
+
+> pokedex-web-app-v2@0.1.0 preview:local
+> vite preview --host 127.0.0.1 --port 4173 --strictPort
+

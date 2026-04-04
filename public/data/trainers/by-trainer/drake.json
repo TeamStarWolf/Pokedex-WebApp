@@ -1,0 +1,154 @@
+{
+  "trainerSlug": "drake",
+  "presets": [
+    {
+      "id": "bulba-drake-emerald-2",
+      "name": "Ever Grande City",
+      "trainer": "Drake",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for salamence, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        372,
+        334,
+        230,
+        330,
+        373
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Drake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-drake-omega-ruby-alpha-sapphire-3",
+      "name": "Pokemon League",
+      "trainer": "Drake",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for salamence, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        334,
+        330,
+        230,
+        330,
+        373
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Drake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-drake-omega-ruby-alpha-sapphire-4",
+      "name": "Pokemon League",
+      "trainer": "Drake",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for salamence, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        334,
+        691,
+        230,
+        330,
+        612,
+        373
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Drake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-drake-ruby-sapphire-1",
+      "name": "Ever Grande City",
+      "trainer": "Drake",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for salamence, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dragon and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": true,
+      "members": [
+        372,
+        334,
+        330,
+        330,
+        373
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Drake",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

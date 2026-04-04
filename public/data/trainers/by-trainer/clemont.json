@@ -1,0 +1,108 @@
+{
+  "trainerSlug": "clemont",
+  "presets": [
+    {
+      "id": "bulba-clemont-x-y-6",
+      "name": "Battle Chateau",
+      "trainer": "Clemont",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for heliolisk, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        82,
+        695
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clemont",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clemont-x-y-11",
+      "name": "Battle Chateau",
+      "trainer": "Clemont",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for heliolisk, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        462,
+        695
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clemont",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-clemont-x-y-1",
+      "name": "Lumiose Gym",
+      "trainer": "Clemont",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Lumiose Gym",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for heliolisk, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's electric core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        587,
+        82,
+        695
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Clemont",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

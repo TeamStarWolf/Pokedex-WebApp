@@ -1,0 +1,73 @@
+{
+  "trainerSlug": "viola",
+  "presets": [
+    {
+      "id": "bulba-viola-x-y-11",
+      "name": "Battle Chateau",
+      "trainer": "Viola",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vivillon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug and flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        284,
+        666
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Viola",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-viola-x-y-1",
+      "name": "Santalune Gym",
+      "trainer": "Viola",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Santalune Gym",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vivillon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's bug core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        283,
+        666
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Viola",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

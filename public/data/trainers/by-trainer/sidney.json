@@ -1,0 +1,154 @@
+{
+  "trainerSlug": "sidney",
+  "presets": [
+    {
+      "id": "bulba-sidney-emerald-2",
+      "name": "Ever Grande City",
+      "trainer": "Sidney",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Emerald",
+      "sourceGroup": "emerald",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "emerald",
+        "hoenn"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        275,
+        332,
+        342,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sidney",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-sidney-omega-ruby-alpha-sapphire-3",
+      "name": "Pokemon League",
+      "trainer": "Sidney",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        275,
+        332,
+        319,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sidney",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-sidney-omega-ruby-alpha-sapphire-4",
+      "name": "Pokemon League",
+      "trainer": "Sidney",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Omega Ruby / Alpha Sapphire",
+      "sourceGroup": "omega-ruby-alpha-sapphire",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "omega-ruby-alpha-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        560,
+        275,
+        571,
+        319,
+        630,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sidney",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-sidney-ruby-sapphire-1",
+      "name": "Ever Grande City",
+      "trainer": "Sidney",
+      "category": "Champions",
+      "region": "Hoenn",
+      "battleLabel": "Ever Grande City",
+      "sourceGame": "Pokemon Ruby / Sapphire",
+      "sourceGroup": "ruby-sapphire",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for absol, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark and grass core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "hoenn",
+        "ruby-sapphire"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        262,
+        275,
+        332,
+        319,
+        359
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Sidney",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "trainerSlug": "cynthia",
+  "presets": [
+    {
+      "id": "bulba-cynthia-brilliant-diamond-and-shining-pearl-8",
+      "name": "Pokemon League",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and water core."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        407,
+        423,
+        448,
+        350,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-brilliant-diamond-and-shining-pearl-9",
+      "name": "Pokemon League",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        407,
+        468,
+        448,
+        350,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-brilliant-diamond-and-shining-pearl-10",
+      "name": "Pokemon League",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Brilliant Diamond / Shining Pearl",
+      "sourceGroup": "brilliant-diamond-and-shining-pearl",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "brilliant-diamond-and-shining-pearl",
+        "bulbapedia-imported",
+        "champions",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        474,
+        468,
+        448,
+        350,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-diamond-pearl-1",
+      "name": "Pokemon League",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Diamond / Pearl",
+      "sourceGroup": "diamond-pearl",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and water core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "diamond-pearl",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        407,
+        423,
+        448,
+        350,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-platinum-3",
+      "name": "Pokemon League",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Sinnoh",
+      "battleLabel": "Pokemon League",
+      "sourceGame": "Pokemon Platinum",
+      "sourceGroup": "platinum",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "platinum",
+        "sinnoh"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        407,
+        468,
+        448,
+        350,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-black-white-4",
+      "name": "Undella Town",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Undella Town",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        604,
+        350,
+        628,
+        448,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-black-2-white-2-6",
+      "name": "Pokemon World Tournament",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for glaceon, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        445,
+        442,
+        407,
+        468,
+        448,
+        471
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-cynthia-black-2-white-2-5",
+      "name": "Undella Town",
+      "trainer": "Cynthia",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Undella Town",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for garchomp, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        442,
+        350,
+        468,
+        448,
+        471,
+        445
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Cynthia",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

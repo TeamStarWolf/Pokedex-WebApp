@@ -1,0 +1,108 @@
+{
+  "trainerSlug": "wulfric",
+  "presets": [
+    {
+      "id": "bulba-wulfric-x-y-6",
+      "name": "Battle Chateau",
+      "trainer": "Wulfric",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for avalugg, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        615,
+        713
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wulfric",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wulfric-x-y-11",
+      "name": "Battle Chateau",
+      "trainer": "Wulfric",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Battle Chateau",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for avalugg, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        460,
+        713
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wulfric",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-wulfric-x-y-1",
+      "name": "Snowbelle Gym",
+      "trainer": "Wulfric",
+      "category": "Gym Leaders / Elite Four / Champions",
+      "region": "Kalos",
+      "battleLabel": "Snowbelle Gym",
+      "sourceGame": "Pokemon X / Y",
+      "sourceGroup": "x-y",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for avalugg, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "gym-leaders-elite-four-champions",
+        "kalos",
+        "x-y"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        460,
+        615,
+        713
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Wulfric",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

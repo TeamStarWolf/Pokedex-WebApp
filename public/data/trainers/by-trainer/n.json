@@ -1,0 +1,373 @@
+{
+  "trainerSlug": "n",
+  "presets": [
+    {
+      "id": "bulba-n-black-white-5",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for klinklang, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        644,
+        565,
+        584,
+        567,
+        571,
+        601
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-white-1",
+      "name": "Accumula Town",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "Accumula Town",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for purrloin, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        509
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-white-4",
+      "name": "Chargestone Cave",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "Chargestone Cave",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for klink, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's steel core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        525,
+        597,
+        595,
+        599
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-white-2",
+      "name": "Nacrene City",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "Nacrene City",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for tympole, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        519,
+        532,
+        535
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-white-3",
+      "name": "Nimbasa City",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "Nimbasa City",
+      "sourceGame": "Pokemon Black / White",
+      "sourceGroup": "black-white",
+      "difficulty": "low",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for sigilyph, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's dark core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        551,
+        559,
+        554,
+        561
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-2-white-2-9",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for starmie, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's water and rock core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        186,
+        171,
+        73,
+        139,
+        141,
+        121
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-2-white-2-10",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for leafeon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's fire and grass core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        38,
+        59,
+        78,
+        275,
+        291,
+        470
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-2-white-2-11",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for rhyperior, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ground and rock core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        450,
+        423,
+        346,
+        348,
+        212,
+        464
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-2-white-2-12",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for glaceon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's ice core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        460,
+        584,
+        91,
+        473,
+        478,
+        471
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-n-black-white-6",
+      "name": "N's Castle",
+      "trainer": "N",
+      "category": "Rivals",
+      "region": "Unova",
+      "battleLabel": "N's Castle",
+      "sourceGame": "Pokemon White",
+      "sourceGroup": "black-white",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for klinklang, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "black-white",
+        "bulbapedia-imported",
+        "rivals",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        643,
+        565,
+        584,
+        567,
+        571,
+        601
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/N",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "trainerSlug": "blue",
+  "presets": [
+    {
+      "id": "bulba-blue-ultra-sun-ultra-moon-17",
+      "name": "Battle Tree",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Alola",
+      "battleLabel": "Battle Tree",
+      "sourceGame": "Pokemon Sun / Moon / Ultra Sun / Ultra Moon",
+      "sourceGroup": "ultra-sun-ultra-moon",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for exeggutor, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "alola",
+        "bulbapedia-imported",
+        "champions",
+        "ultra-sun-ultra-moon"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        65,
+        142,
+        59,
+        130,
+        68,
+        103
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-gold-silver-7",
+      "name": "Viridian Gym",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon Gold / Silver / Crystal",
+      "sourceGroup": "gold-silver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for arcanine, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "gold-silver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        130,
+        103,
+        59
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-heartgold-soulsilver-15",
+      "name": "Fighting Dojo",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Fighting Dojo",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pidgeot, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's rock core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        68,
+        464,
+        59,
+        248,
+        18
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-heartgold-soulsilver-14",
+      "name": "Viridian Gym",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon HeartGold / SoulSilver",
+      "sourceGroup": "heartgold-soulsilver",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pidgeot, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "heartgold-soulsilver",
+        "johto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        59,
+        112,
+        130,
+        68,
+        18
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-stadium-2-24",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for arcanine, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        130,
+        103,
+        59
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-stadium-2-25",
+      "name": "Kanto Gym Leader Castle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Johto",
+      "battleLabel": "Kanto Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium 2",
+      "sourceGroup": "stadium-2",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for kingdra, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "johto",
+        "stadium-2"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        123,
+        241,
+        94,
+        229,
+        221,
+        230
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-8",
+      "name": "Indigo Plateau | Bulbasaur",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Bulbasaur",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        103,
+        130,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-11",
+      "name": "Indigo Plateau | Bulbasaur",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Bulbasaur",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        214,
+        65,
+        248,
+        103,
+        130,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-9",
+      "name": "Indigo Plateau | Charmander",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Charmander",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blastoise, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        59,
+        103,
+        9
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-12",
+      "name": "Indigo Plateau | Charmander",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Charmander",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blastoise, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        214,
+        65,
+        248,
+        59,
+        103,
+        9
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-10",
+      "name": "Indigo Plateau | Squirtle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Squirtle",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for venusaur, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        130,
+        59,
+        3
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-firered-leafgreen-13",
+      "name": "Indigo Plateau | Squirtle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Squirtle",
+      "sourceGame": "Pokemon FireRed / LeafGreen",
+      "sourceGroup": "firered-leafgreen",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for venusaur, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "firered-leafgreen",
+        "kanto"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        214,
+        65,
+        248,
+        130,
+        59,
+        3
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-lets-go-pikachu-lets-go-eevee-20",
+      "name": "Silph Co.",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Silph Co.",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "medium",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "This roster spreads its coverage broadly, so avoid over-specializing into one matchup."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        103,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-lets-go-pikachu-lets-go-eevee-21",
+      "name": "Viridian Gym",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Viridian Gym",
+      "sourceGame": "Pokemon Let's Go Pikachu / Eevee",
+      "sourceGroup": "lets-go-pikachu-lets-go-eevee",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "lets-go-pikachu-lets-go-eevee"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        128,
+        65,
+        130,
+        103,
+        142,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-red-blue-1",
+      "name": "Indigo Plateau | Bulbasaur",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Bulbasaur",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for charizard, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        103,
+        130,
+        6
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-red-blue-2",
+      "name": "Indigo Plateau | Charmander",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Charmander",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for blastoise, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        59,
+        103,
+        9
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-red-blue-3",
+      "name": "Indigo Plateau | Squirtle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Squirtle",
+      "sourceGame": "Pokemon Red / Green / Blue",
+      "sourceGroup": "red-blue",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for venusaur, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "red-blue"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        18,
+        65,
+        112,
+        130,
+        59,
+        3
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-stadium-23",
+      "name": "Gym Leader Castle",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Gym Leader Castle",
+      "sourceGame": "Pokemon Stadium",
+      "sourceGroup": "stadium",
+      "difficulty": "elite",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for pinsir, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "stadium"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        103,
+        80,
+        38,
+        36,
+        125,
+        127
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-yellow-6",
+      "name": "Indigo Plateau | Flareon",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Flareon",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for flareon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        28,
+        65,
+        103,
+        82,
+        91,
+        136
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-yellow-5",
+      "name": "Indigo Plateau | Jolteon",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Jolteon",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for jolteon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        28,
+        65,
+        103,
+        91,
+        38,
+        135
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-yellow-4",
+      "name": "Indigo Plateau | Vaporeon",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Kanto",
+      "battleLabel": "Indigo Plateau | Vaporeon",
+      "sourceGame": "Pokemon Yellow",
+      "sourceGroup": "yellow",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for vaporeon, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's psychic core."
+      ],
+      "tags": [
+        "bulbapedia-imported",
+        "champions",
+        "kanto",
+        "yellow"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        28,
+        65,
+        103,
+        38,
+        82,
+        134
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    },
+    {
+      "id": "bulba-blue-black-2-white-2-16",
+      "name": "Pokemon World Tournament",
+      "trainer": "Blue",
+      "category": "Champions",
+      "region": "Unova",
+      "battleLabel": "Pokemon World Tournament",
+      "sourceGame": "Pokemon Black 2 / White 2",
+      "sourceGroup": "black-2-white-2",
+      "difficulty": "high",
+      "canonical": true,
+      "description": "Bulbapedia-imported trainer roster for this battle in offline archive form.",
+      "howToBeat": [
+        "Keep a stable answer for machamp, which functions as the likely closer in this roster.",
+        "Bring pressure that does not fold to the team's flying and psychic core."
+      ],
+      "tags": [
+        "black-2-white-2",
+        "bulbapedia-imported",
+        "champions",
+        "unova"
+      ],
+      "allowDuplicates": false,
+      "members": [
+        142,
+        103,
+        130,
+        65,
+        59,
+        68
+      ],
+      "source": {
+        "kind": "bulbapedia",
+        "label": "Bulbapedia trainer page",
+        "url": "https://bulbapedia.bulbagarden.net/wiki/Blue_(game)",
+        "note": "Imported from Bulbapedia party templates for offline local archive use."
+      }
+    }
+  ]
+}
