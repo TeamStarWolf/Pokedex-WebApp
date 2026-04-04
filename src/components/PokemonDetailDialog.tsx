@@ -1,5 +1,5 @@
 import { X } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { capitalize, formatFormLabel, formatVersionGroupLabel, formatVersionLabel, padDex, statLabels, typeColors } from "../lib/format";
 import type { PokemonDetail } from "../lib/types";
 import { StatsChart } from "./StatsChart";
@@ -24,22 +24,42 @@ export function PokemonDetailDialog({ detail, loading, error, open, onClose }: P
     setSelectedMoveGroup(detail.moveGameGroups[0] ?? "all");
   }, [detail]);
 
+  const dialogRef = useRef<HTMLDivElement>(null);
+
+  const trapFocus = useCallback((event: KeyboardEvent) => {
+    if (event.key === "Escape") { onClose(); return; }
+    if (event.key !== "Tab") return;
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+    const focusable = dialog.querySelectorAll<HTMLElement>(
+      'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])',
+    );
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }, [onClose]);
+
   useEffect(() => {
     if (!open) return;
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") onClose();
-    };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  }, [open, onClose]);
+    dialogRef.current?.focus();
+    window.addEventListener("keydown", trapFocus);
+    return () => window.removeEventListener("keydown", trapFocus);
+  }, [open, trapFocus]);
 
   const activeForm = useMemo(() => detail?.forms.find((form) => form.id === selectedFormId) ?? detail?.forms[0] ?? null, [detail, selectedFormId]);
 
   if (!open) return null;
 
   return (
-    <div className="dialog-backdrop" role="presentation" onClick={onClose}>
-      <div className="dialog-shell detail-dialog-shell" role="dialog" aria-modal="true" aria-labelledby="pokemon-dialog-title" onClick={(event) => event.stopPropagation()}>
+    <div className="dialog-backdrop" role="none" onClick={onClose}>
+      <div ref={dialogRef} className="dialog-shell detail-dialog-shell" role="dialog" aria-modal="true" aria-labelledby="pokemon-dialog-title" tabIndex={-1} onClick={(event) => event.stopPropagation()}>
         <button type="button" className="dialog-close" onClick={onClose} aria-label="Close details"><X size={18} /></button>
         {loading ? <div className="dialog-state">Loading Pokemon details...</div> : null}
         {!loading && error ? <div className="dialog-state error-copy">{error}</div> : null}

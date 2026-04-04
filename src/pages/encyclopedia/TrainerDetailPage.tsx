@@ -8,6 +8,7 @@ import { TrainerSprite } from "../../components/TrainerSprite";
 import { useTrainerArticleData } from "../../hooks/useTrainerReferenceData";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { slugify } from "../../lib/encyclopedia";
 
 function summarizeList(values: string[], max = 6) {
   if (values.length <= max) return values.join(", ");
@@ -65,9 +66,12 @@ export function TrainerDetailPage() {
             { label: "Source games", value: entry.sourceGames.join(", ") },
             {
               label: "Ace Pokemon",
-              value: entry.acePokemonId && pokemonById.get(entry.acePokemonId)
-                ? <Link to={encyclopediaRoutes.pokemon(pokemonById.get(entry.acePokemonId)!.name)}>{capitalize(entry.acePokemonName)}</Link>
-                : capitalize(entry.acePokemonName),
+              value: (() => {
+                const acePokemon = entry.acePokemonId ? pokemonById.get(entry.acePokemonId) : undefined;
+                return acePokemon
+                  ? <Link to={encyclopediaRoutes.pokemon(slugify(acePokemon.name))}>{capitalize(entry.acePokemonName)}</Link>
+                  : capitalize(entry.acePokemonName);
+              })(),
             },
             { label: "Battle count", value: entry.presetCount },
             { label: "Tags", value: entry.tags.join(", ") || "None" },
@@ -123,12 +127,15 @@ export function TrainerDetailPage() {
               </article>
             </div>
             <div className="chip-grid">
-              {entry.acePokemonId && pokemonById.get(entry.acePokemonId) ? (
-                <Link to={encyclopediaRoutes.pokemon(pokemonById.get(entry.acePokemonId)!.name)} className="entity-chip">
-                  <strong>{capitalize(entry.acePokemonName)}</strong>
-                  <span>Ace Pokemon page</span>
-                </Link>
-              ) : null}
+              {(() => {
+                const acePokemon = entry.acePokemonId ? pokemonById.get(entry.acePokemonId) : undefined;
+                return acePokemon ? (
+                  <Link to={encyclopediaRoutes.pokemon(slugify(acePokemon.name))} className="entity-chip">
+                    <strong>{capitalize(entry.acePokemonName)}</strong>
+                    <span>Ace Pokemon page</span>
+                  </Link>
+                ) : null;
+              })()}
               {entry.source?.url ? (
                 <a href={entry.source.url} target="_blank" rel="noreferrer" className="entity-chip">
                   <strong>{entry.source.label}</strong>
@@ -174,7 +181,7 @@ export function TrainerDetailPage() {
                       const pokemon = pokemonById.get(memberId);
                       if (!pokemon) return null;
                       return (
-                        <Link key={`${appearance.slug}-${memberId}`} to={encyclopediaRoutes.pokemon(pokemon.name)} className="entity-chip">
+                        <Link key={`${appearance.slug}-${memberId}`} to={encyclopediaRoutes.pokemon(slugify(pokemon.name))} className="entity-chip">
                           <strong>{capitalize(pokemon.name)}</strong>
                           <span>{pokemon.types.join(" / ")}</span>
                         </Link>

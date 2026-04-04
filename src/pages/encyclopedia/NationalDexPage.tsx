@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { getDefaultForm, listGames, listPokemon, listTypes, paginate } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -11,17 +11,17 @@ const PAGE_SIZE = 6;
 
 export function NationalDexPage() {
   const { schema } = useEncyclopediaData();
-  const pokemon = listPokemon(schema);
   const [searchParams, setSearchParams] = useSearchParams();
-  const [pageState, setPageState] = useState(Number(searchParams.get("page") ?? 1));
+  const page = Number(searchParams.get("page") ?? 1);
   const typeFilter = searchParams.get("type") ?? "all";
   const generationFilter = searchParams.get("generation") ?? "all";
   const gameFilter = searchParams.get("game") ?? "all";
   const nameQuery = searchParams.get("q") ?? "";
   const sortKey = searchParams.get("sort") ?? "dex";
-  const availableGenerations = Array.from(new Set(pokemon.map((species) => species.generation).filter(Boolean))).sort((a, b) => a - b);
-  const availableTypes = listTypes(schema);
-  const availableGames = listGames(schema);
+  const pokemon = useMemo(() => listPokemon(schema), [schema]);
+  const availableGenerations = useMemo(() => Array.from(new Set(pokemon.map((species) => species.generation).filter(Boolean))).sort((a, b) => a - b), [pokemon]);
+  const availableTypes = useMemo(() => listTypes(schema), [schema]);
+  const availableGames = useMemo(() => listGames(schema), [schema]);
 
   const filtered = useMemo(() => {
     const base = pokemon.filter((species) => {
@@ -51,12 +51,11 @@ export function NationalDexPage() {
     return sorted;
   }, [gameFilter, generationFilter, nameQuery, pokemon, schema, sortKey, typeFilter]);
 
-  const pagination = paginate(filtered, pageState, PAGE_SIZE);
+  const pagination = paginate(filtered, page, PAGE_SIZE);
 
-  function setPage(page: number) {
-    setPageState(page);
+  function setPage(newPage: number) {
     const next = new URLSearchParams(searchParams);
-    next.set("page", String(page));
+    next.set("page", String(newPage));
     setSearchParams(next);
   }
 

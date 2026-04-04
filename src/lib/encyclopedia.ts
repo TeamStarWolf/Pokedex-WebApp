@@ -16,6 +16,37 @@ import {
 
 type EntityWithName = { name: string; slug: string };
 
+// Slug-index cache: avoids O(n) linear scans on every getXBySlug call.
+// Keyed by the collection reference so the cache invalidates when the schema changes.
+const slugIndexCache = new WeakMap<object, Map<string, unknown>>();
+
+function getOrBuildSlugIndex<T extends { slug: string }>(collection: Record<string, T>): Map<string, T> {
+  let index = slugIndexCache.get(collection) as Map<string, T> | undefined;
+  if (!index) {
+    index = new Map(Object.values(collection).map((entity) => [entity.slug, entity]));
+    slugIndexCache.set(collection, index as Map<string, unknown>);
+  }
+  return index;
+}
+
+// Evolution adjacency cache: avoids O(k*n) loop in getEvolutionFamily.
+const evolutionAdjacencyCache = new WeakMap<object, Map<PokemonId, Set<PokemonId>>>();
+
+function getEvolutionAdjacency(evolutions: Record<string, { fromSpeciesId: PokemonId; toSpeciesId: PokemonId }>) {
+  let adjacency = evolutionAdjacencyCache.get(evolutions);
+  if (!adjacency) {
+    adjacency = new Map();
+    for (const evolution of Object.values(evolutions)) {
+      if (!adjacency.has(evolution.fromSpeciesId)) adjacency.set(evolution.fromSpeciesId, new Set());
+      if (!adjacency.has(evolution.toSpeciesId)) adjacency.set(evolution.toSpeciesId, new Set());
+      adjacency.get(evolution.fromSpeciesId)!.add(evolution.toSpeciesId);
+      adjacency.get(evolution.toSpeciesId)!.add(evolution.fromSpeciesId);
+    }
+    evolutionAdjacencyCache.set(evolutions, adjacency);
+  }
+  return adjacency;
+}
+
 export type SearchResult = {
   kind: "pokemon" | "move" | "ability" | "item" | "region" | "type" | "game" | "location";
   slug: string;
@@ -98,35 +129,35 @@ export function listLocations(schema: EncyclopediaSchema) {
 }
 
 export function getSpeciesBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.pokemon).find((species) => species.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.pokemon).get(slug) ?? null;
 }
 
 export function getMoveBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.moves).find((move) => move.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.moves).get(slug) ?? null;
 }
 
 export function getAbilityBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.abilities).find((ability) => ability.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.abilities).get(slug) ?? null;
 }
 
 export function getItemBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.items).find((item) => item.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.items).get(slug) ?? null;
 }
 
 export function getRegionBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.regions).find((region) => region.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.regions).get(slug) ?? null;
 }
 
 export function getTypeBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.types).find((type) => type.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.types).get(slug) ?? null;
 }
 
 export function getGameBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.gameVersions).find((game) => game.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.gameVersions).get(slug) ?? null;
 }
 
 export function getLocationBySlug(schema: EncyclopediaSchema, slug: string) {
-  return Object.values(schema.locations).find((location) => location.slug === slug) ?? null;
+  return getOrBuildSlugIndex(schema.locations).get(slug) ?? null;
 }
 
 export function getDefaultForm(schema: EncyclopediaSchema, species: PokemonSpeciesEntity) {
@@ -161,22 +192,21 @@ export function getLocationsForSpecies(schema: EncyclopediaSchema, species: Poke
 }
 
 export function getEvolutionFamily(schema: EncyclopediaSchema, species: PokemonSpeciesEntity) {
-  const connectedIds = new Set<PokemonId>([species.id]);
-  let changed = true;
+  const adjacency = getEvolutionAdjacency(schema.evolutions);
+  const visited = new Set<PokemonId>([species.id]);
+  const queue: PokemonId[] = [species.id];
 
-  while (changed) {
-    changed = false;
-    for (const evolution of Object.values(schema.evolutions)) {
-      if (connectedIds.has(evolution.fromSpeciesId) || connectedIds.has(evolution.toSpeciesId)) {
-        const sizeBefore = connectedIds.size;
-        connectedIds.add(evolution.fromSpeciesId);
-        connectedIds.add(evolution.toSpeciesId);
-        if (connectedIds.size !== sizeBefore) changed = true;
+  while (queue.length) {
+    const current = queue.pop()!;
+    for (const neighbor of adjacency.get(current) ?? []) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push(neighbor);
       }
     }
   }
 
-  return listPokemon(schema).filter((entry) => connectedIds.has(entry.id));
+  return listPokemon(schema).filter((entry) => visited.has(entry.id));
 }
 
 export function getPokemonByType(schema: EncyclopediaSchema, typeId: TypeEntity["id"]) {

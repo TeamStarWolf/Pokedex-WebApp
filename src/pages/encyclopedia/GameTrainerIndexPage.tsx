@@ -13,13 +13,13 @@ export function GameTrainerIndexPage() {
   const { schema } = useEncyclopediaData();
   const { appearances, pokemonList, loading, error } = useTrainerReferenceData();
   const game = getGameBySlug(schema, gameSlug);
+  const pokemonById = useMemo(() => new Map(pokemonList.map((pokemon) => [pokemon.id, pokemon] as const)), [pokemonList]);
 
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
   if (loading) return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer battles</h1></section></main>;
   if (error) return <main className="encyclopedia-page"><section className="content-card"><h1>Trainer data unavailable</h1><p className="muted">{error}</p></section></main>;
 
   const filtered = appearances.filter((appearance) => appearance.sourceGroup === game.slug);
-  const pokemonById = useMemo(() => new Map(pokemonList.map((pokemon) => [pokemon.id, pokemon] as const)), [pokemonList]);
 
   return (
     <main className="encyclopedia-page">

@@ -43,7 +43,7 @@ export function TeamBuilder({ team, profile, pokemonList, onToggleTeam, onUpdate
         {Array.from({ length: 6 }).map((_, index) => {
           const member = members[index];
           return (
-            <div key={index} className="team-slot">
+            <div key={member ? `pokemon-${member.member.pokemonId}` : `empty-${index}`} className="team-slot">
               {member ? (
                 <>
                   <div className="team-slot-header">

@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
-import { listGames, searchEntities } from "../../lib/encyclopedia";
+import { buildSearchIndex, fuzzyScore, listGames } from "../../lib/encyclopedia";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 export function SearchPage() {
@@ -11,7 +11,14 @@ export function SearchPage() {
   const { schema } = useEncyclopediaData();
   const kindFilter = searchParams.get("kind") ?? "all";
   const gameFilter = searchParams.get("game") ?? "all";
-  const allResults = useMemo(() => searchEntities(schema, query), [query, schema]);
+  const searchIndex = useMemo(() => buildSearchIndex(schema), [schema]);
+  const allResults = useMemo(() => {
+    if (!query.trim()) return [];
+    return searchIndex
+      .map((entry) => ({ ...entry, score: fuzzyScore(query, `${entry.title} ${entry.subtitle}`) }))
+      .filter((entry) => entry.score >= 0)
+      .sort((left, right) => right.score - left.score || left.title.localeCompare(right.title));
+  }, [searchIndex, query]);
   const games = useMemo(() => listGames(schema), [schema]);
   const results = useMemo(
     () =>

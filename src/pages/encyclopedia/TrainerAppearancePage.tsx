@@ -7,6 +7,7 @@ import { TrainerSprite } from "../../components/TrainerSprite";
 import { useTrainerAppearanceData } from "../../hooks/useTrainerReferenceData";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { slugify } from "../../lib/encyclopedia";
 
 export function TrainerAppearancePage() {
   const { trainerSlug = "", appearanceSlug = "" } = useParams();
@@ -92,7 +93,7 @@ export function TrainerAppearancePage() {
                   const pokemon = pokemonById.get(memberId);
                   if (!pokemon) return null;
                   return (
-                    <Link key={`${appearance.slug}-${memberId}`} to={encyclopediaRoutes.pokemon(pokemon.name)} className="entity-chip">
+                    <Link key={`${appearance.slug}-${memberId}`} to={encyclopediaRoutes.pokemon(slugify(pokemon.name))} className="entity-chip">
                       <strong>{capitalize(pokemon.name)}</strong>
                       <span>{pokemon.types.join(" / ")}</span>
                     </Link>

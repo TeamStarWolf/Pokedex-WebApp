@@ -98,12 +98,16 @@ export function readAppStorage(storage: Storage = window.localStorage): AppStora
     .map((key) => storage.getItem(key))
     .find(Boolean);
 
-  return {
-    favorites: favorites ? JSON.parse(favorites) : [],
-    currentTeam: team ? JSON.parse(team).map((pokemonId: number) => ({ pokemonId, nickname: "", role: "", notes: "" })) : [],
-    currentTeamProfile: { name: "Current Team", notes: "" },
-    customTeamSets: [],
-  };
+  try {
+    return {
+      favorites: favorites ? JSON.parse(favorites) : [],
+      currentTeam: team ? JSON.parse(team).map((pokemonId: number) => ({ pokemonId, nickname: "", role: "", notes: "" })) : [],
+      currentTeamProfile: { name: "Current Team", notes: "" },
+      customTeamSets: [],
+    };
+  } catch {
+    return emptyStorage();
+  }
 }
 
 export function writeAppStorage(value: AppStorage, storage: Storage = window.localStorage) {
@@ -128,7 +132,11 @@ export function exportTeamSets(teamSets: CustomTeamSet[], presets: PresetTeam[])
 }
 
 export function importTeamSets(payload: string): CustomTeamSet[] {
-  const parsed = JSON.parse(payload) as Record<string, unknown>;
-  const source = Array.isArray(parsed.customTeamSets) ? parsed.customTeamSets : [];
-  return source.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set));
+  try {
+    const parsed = JSON.parse(payload) as Record<string, unknown>;
+    const source = Array.isArray(parsed.customTeamSets) ? parsed.customTeamSets : [];
+    return source.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set));
+  } catch {
+    return [];
+  }
 }

@@ -15,9 +15,9 @@ export function GameContextBar() {
   const { schema } = useEncyclopediaData();
   const [searchParams] = useSearchParams();
   const location = useLocation();
-  if (location.pathname === "/") return null;
   const games = useMemo(() => listGames(schema).slice(0, 10), [schema]);
   const activeGame = searchParams.get("game") ?? "all";
+  if (location.pathname === "/") return null;
 
   return (
     <section className="game-context-bar">

@@ -80,10 +80,15 @@ export function TrainerTeamsPage(props: Props) {
     onExportTeamSets,
   } = props;
 
-  const canonicalCount = allFilteredPresets.filter((preset) => preset.canonical).length;
-  const inspiredCount = allFilteredPresets.length - canonicalCount;
-  const uniqueTrainerCount = new Set(allFilteredPresets.map((preset) => preset.trainer)).size;
-  const eliteCount = allFilteredPresets.filter((preset) => preset.difficulty === "elite").length;
+  const { canonicalCount, inspiredCount, uniqueTrainerCount, eliteCount } = useMemo(() => {
+    const canonical = allFilteredPresets.filter((preset) => preset.canonical).length;
+    return {
+      canonicalCount: canonical,
+      inspiredCount: allFilteredPresets.length - canonical,
+      uniqueTrainerCount: new Set(allFilteredPresets.map((preset) => preset.trainer)).size,
+      eliteCount: allFilteredPresets.filter((preset) => preset.difficulty === "elite").length,
+    };
+  }, [allFilteredPresets]);
   const trainerDossiers = useMemo(() => buildTrainerDossiers(buildTrainerAppearanceSummaries(allFilteredPresets), pokemonList), [allFilteredPresets, pokemonList]);
 
   return (
