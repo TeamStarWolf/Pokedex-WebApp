@@ -6,6 +6,7 @@ import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
 import { getGameBySlug } from "../../lib/encyclopedia";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 export function GameTrainerIndexPage() {
@@ -14,6 +15,7 @@ export function GameTrainerIndexPage() {
   const { appearances, pokemonList, loading, error } = useTrainerReferenceData();
   const game = getGameBySlug(schema, gameSlug);
   const pokemonById = useMemo(() => new Map(pokemonList.map((pokemon) => [pokemon.id, pokemon] as const)), [pokemonList]);
+  useDocumentTitle(game ? `${game.name} Trainers` : "Trainers");
 
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
   if (loading) return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer battles</h1></section></main>;

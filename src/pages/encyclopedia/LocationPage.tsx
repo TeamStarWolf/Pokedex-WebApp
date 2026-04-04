@@ -6,6 +6,7 @@ import { PlaceholderBlock } from "../../components/encyclopedia/PlaceholderBlock
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getLocationBySlug } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -18,6 +19,7 @@ export function LocationPage() {
   const { locationSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const location = getLocationBySlug(schema, locationSlug);
+  useDocumentTitle(location?.name ?? "Location");
   if (!location) return <main className="encyclopedia-page"><section className="content-card"><h1>Location not found</h1></section></main>;
 
   return (

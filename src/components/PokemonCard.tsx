@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Heart, Sparkles } from "lucide-react";
 import { capitalize, padDex, typeColors } from "../lib/format";
 import type { PokemonSummary } from "../lib/types";
+import { PokemonImage } from "./encyclopedia/PokemonImage";
 
 type Props = {
   pokemon: PokemonSummary;
@@ -28,7 +29,7 @@ export function PokemonCard({ pokemon, isFavorite, inTeam, onToggleFavorite, onT
       </div>
       <button type="button" className="card-main-button" onClick={() => onOpen(pokemon.id)}>
         <div className="card-art-shell">
-          <img src={pokemon.image} alt={pokemon.name} className="pokemon-art" loading="lazy" />
+          <PokemonImage src={pokemon.image} alt={pokemon.name} className="pokemon-art" loading="lazy" />
         </div>
         <div className="card-title-row">
           <div>

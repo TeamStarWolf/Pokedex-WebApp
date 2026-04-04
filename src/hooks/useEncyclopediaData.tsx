@@ -94,6 +94,7 @@ export function usePokemonDetailData(speciesSlug: string) {
   const [detailSchema, setDetailSchema] = useState<EncyclopediaSchema | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [retryKey, setRetryKey] = useState(0);
 
   useEffect(() => {
     if (!speciesSlug || source !== "generated") {
@@ -127,9 +128,11 @@ export function usePokemonDetailData(speciesSlug: string) {
     return () => {
       cancelled = true;
     };
-  }, [source, speciesSlug]);
+  }, [source, speciesSlug, retryKey]);
 
-  return useMemo<EncyclopediaDetailState>(() => {
+  const retry = () => setRetryKey((k) => k + 1);
+
+  return { retry, ...useMemo<EncyclopediaDetailState>(() => {
     if (!detailSchema) {
       return {
         schema: mergeSchema(EMPTY_ENCYCLOPEDIA_SCHEMA, indexSchema),
@@ -145,5 +148,5 @@ export function usePokemonDetailData(speciesSlug: string) {
       error,
       source: "generated",
     };
-  }, [detailSchema, error, indexSchema, loading]);
+  }, [detailSchema, error, indexSchema, loading]) };
 }

@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { TrainerSprite } from "../../components/TrainerSprite";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { capitalize } from "../../lib/format";
 
 export function TrainerIndexPage() {
+  useDocumentTitle("Trainers");
   const { entries, loading, error } = useTrainerReferenceData();
 
   if (loading) {

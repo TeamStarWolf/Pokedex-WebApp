@@ -3,6 +3,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { capitalize, formatFormLabel, formatVersionGroupLabel, formatVersionLabel, padDex, statLabels, typeColors } from "../lib/format";
 import type { PokemonDetail } from "../lib/types";
 import { StatsChart } from "./StatsChart";
+import { PokemonImage } from "./encyclopedia/PokemonImage";
 
 type Props = {
   detail: PokemonDetail | null;
@@ -79,7 +80,7 @@ export function PokemonDetailDialog({ detail, loading, error, open, onClose }: P
                 </div>
               </div>
               <div className="detail-art-shell">
-                <img src={activeForm.image} alt={activeForm.name} className="detail-art" />
+                <PokemonImage src={activeForm.image} alt={activeForm.name} className="detail-art" />
               </div>
               <div className="type-row">
                 {activeForm.types.map((type) => <span key={type} className={`type-pill ${typeColors[type] ?? ""}`}>{capitalize(type)}</span>)}

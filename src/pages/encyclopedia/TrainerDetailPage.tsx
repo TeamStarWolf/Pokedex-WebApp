@@ -5,6 +5,7 @@ import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { SectionStatusNote } from "../../components/encyclopedia/SectionStatusNote";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { TrainerSprite } from "../../components/TrainerSprite";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerArticleData } from "../../hooks/useTrainerReferenceData";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -18,6 +19,7 @@ function summarizeList(values: string[], max = 6) {
 export function TrainerDetailPage() {
   const { trainerSlug = "" } = useParams();
   const { entry, appearances, pokemonList, loading, error } = useTrainerArticleData(trainerSlug);
+  useDocumentTitle(entry?.trainer ?? "Trainer");
 
   if (loading) {
     return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer</h1><p className="muted">Preparing trainer article.</p></section></main>;

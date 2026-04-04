@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
-import { listGames, listPokemon, listRegions, listTypes } from "../../lib/encyclopedia";
+import { getDefaultForm, listGames, listPokemon, listRegions, listTypes } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 
 export function HomePage() {
+  useDocumentTitle("Home");
   const { schema } = useEncyclopediaData();
   const featuredGames = listGames(schema).slice(0, 4);
   const featuredPokemon = listPokemon(schema).slice(0, 6);
@@ -49,11 +52,16 @@ export function HomePage() {
             <Link to="/trainers/appearances" className="secondary-link">Browse Trainer Battles</Link>
           </div>
         </div>
-        <div className="stats-cluster">
-          <div><strong>{summary.pokemonCount}</strong><span>Pokemon</span></div>
-          <div><strong>{summary.formCount}</strong><span>Forms</span></div>
-          <div><strong>{summary.moveCount}</strong><span>Moves</span></div>
-          <div><strong>{summary.regionCount}</strong><span>Regions</span></div>
+        <div>
+          <div className="hero-showcase">
+            <PokemonImage src={getDefaultForm(schema, featuredPokemon[0])?.artworkUrl} alt={featuredPokemon[0]?.name ?? "Pokemon"} className="hero-showcase-art" />
+          </div>
+          <div className="stats-cluster">
+            <div><strong>{summary.pokemonCount}</strong><span>Pokemon</span></div>
+            <div><strong>{summary.formCount}</strong><span>Forms</span></div>
+            <div><strong>{summary.moveCount}</strong><span>Moves</span></div>
+            <div><strong>{summary.regionCount}</strong><span>Regions</span></div>
+          </div>
         </div>
       </section>
 

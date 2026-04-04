@@ -1,4 +1,6 @@
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
+import { LoadingSpinner } from "./components/encyclopedia/LoadingSpinner";
+import { useDocumentTitle } from "./hooks/useDocumentTitle";
 import { AppShell } from "./components/encyclopedia/AppShell";
 import { EncyclopediaDataProvider, useEncyclopediaData } from "./hooks/useEncyclopediaData";
 import { AbilityDetailPage } from "./pages/encyclopedia/AbilityDetailPage";
@@ -31,11 +33,16 @@ import { TypeIndexPage } from "./pages/encyclopedia/TypeIndexPage";
 import { TypeDetailPage } from "./pages/encyclopedia/TypeDetailPage";
 
 function NotFoundPage() {
+  useDocumentTitle("Page Not Found");
   return (
     <main className="encyclopedia-page">
-      <section className="content-card">
+      <section className="content-card not-found-card">
         <h1>Page not found</h1>
-        <p className="muted">The route exists in the encyclopedia shell, but this entity is not seeded yet.</p>
+        <p className="muted">This page doesn't exist or hasn't been seeded yet.</p>
+        <div className="not-found-links">
+          <Link to="/" className="primary-link">Return home</Link>
+          <Link to="/search" className="secondary-link">Search the encyclopedia</Link>
+        </div>
       </section>
     </main>
   );
@@ -45,14 +52,7 @@ function AppRoutes() {
   const { loading, error, source } = useEncyclopediaData();
 
   if (loading) {
-    return (
-      <main className="encyclopedia-page">
-        <section className="content-card">
-          <h1>Loading encyclopedia data</h1>
-          <p className="muted">Preparing the local dataset and route index.</p>
-        </section>
-      </main>
-    );
+    return <LoadingSpinner title="Loading encyclopedia data" body="Preparing the local dataset and route index." />;
   }
 
   return (
@@ -62,7 +62,8 @@ function AppRoutes() {
           <section className="content-card">
             <h1>Generated dataset unavailable</h1>
             <p className="muted">{error}</p>
-            <p className="muted">The app is using the built-in seed fallback until `public/data/encyclopedia/index.json` is generated.</p>
+            <p className="muted">The app is using the built-in seed fallback until the full dataset is generated.</p>
+            <button type="button" className="primary-link" onClick={() => window.location.reload()}>Retry</button>
           </section>
         </main>
       ) : null}

@@ -1,9 +1,11 @@
 import { EntityIndexPage } from "../../components/encyclopedia/EntityIndexPage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { listLocations } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 export function LocationIndexPage() {
+  useDocumentTitle("Locations");
   const { schema } = useEncyclopediaData();
   const locations = listLocations(schema);
 

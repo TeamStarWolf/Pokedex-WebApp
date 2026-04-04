@@ -1,9 +1,11 @@
 import { EntityIndexPage } from "../../components/encyclopedia/EntityIndexPage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { listGames } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 export function GameIndexPage() {
+  useDocumentTitle("Games");
   const { schema } = useEncyclopediaData();
   const games = listGames(schema);
 

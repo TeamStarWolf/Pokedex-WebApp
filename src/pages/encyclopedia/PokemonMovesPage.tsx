@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
@@ -21,6 +22,7 @@ export function PokemonMovesPage() {
   const { schema: indexSchema } = useEncyclopediaData();
   const { schema, loading, error } = usePokemonDetailData(speciesSlug);
   const species = getSpeciesBySlug(schema, speciesSlug) ?? getSpeciesBySlug(indexSchema, speciesSlug);
+  useDocumentTitle(species?.name ? `${species.name} Moves` : "Pokemon Moves");
 
   if (!species) {
     return <main className="encyclopedia-page"><section className="content-card"><h1>Pokemon not found</h1></section></main>;

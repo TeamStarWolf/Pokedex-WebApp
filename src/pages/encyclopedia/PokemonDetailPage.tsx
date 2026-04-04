@@ -7,6 +7,8 @@ import { PlaceholderBlock } from "../../components/encyclopedia/PlaceholderBlock
 import { SectionStatusNote } from "../../components/encyclopedia/SectionStatusNote";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { useEncyclopediaData, usePokemonDetailData } from "../../hooks/useEncyclopediaData";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import {
   formatEggGroup,
   formatGenderRatio,
@@ -28,8 +30,9 @@ import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 export function PokemonDetailPage() {
   const { speciesSlug = "" } = useParams();
   const { schema: indexSchema } = useEncyclopediaData();
-  const { schema, loading, error, source } = usePokemonDetailData(speciesSlug);
+  const { schema, loading, error, source, retry } = usePokemonDetailData(speciesSlug);
   const species = getSpeciesBySlug(schema, speciesSlug) ?? getSpeciesBySlug(indexSchema, speciesSlug);
+  useDocumentTitle(species?.name ?? "Pokemon");
   if (!species) return <main className="encyclopedia-page"><section className="content-card"><h1>Pokemon not found</h1></section></main>;
 
   const form = getDefaultForm(schema, species);
@@ -106,7 +109,7 @@ export function PokemonDetailPage() {
         <EntityInfobox
           title={species.name}
           subtitle={`${species.categoryLabel} | National Dex #${species.nationalDexNumber.toString().padStart(4, "0")}`}
-          media={<img src={form.artworkUrl} alt={species.name} className="hero-art" />}
+          media={<PokemonImage src={form.artworkUrl} alt={species.name} className="hero-art" />}
           badges={form.typeIds.map((typeId) => (
             <Link key={typeId} to={encyclopediaRoutes.type(typeId.replace("type:", ""))} className="type-chip muted-chip">
               {typeId.replace("type:", "")}

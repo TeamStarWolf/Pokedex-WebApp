@@ -5,6 +5,7 @@ import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getPokemonByRegion, getRegionBySlug } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -18,6 +19,7 @@ export function RegionPage() {
   const { regionSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const region = getRegionBySlug(schema, regionSlug);
+  useDocumentTitle(region?.name ?? "Region");
   if (!region) return <main className="encyclopedia-page"><section className="content-card"><h1>Region not found</h1></section></main>;
 
   const residents = getPokemonByRegion(schema, region.id);

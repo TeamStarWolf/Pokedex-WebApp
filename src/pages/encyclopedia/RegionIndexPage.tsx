@@ -1,9 +1,11 @@
 import { EntityIndexPage } from "../../components/encyclopedia/EntityIndexPage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { listRegions } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 export function RegionIndexPage() {
+  useDocumentTitle("Regions");
   const { schema } = useEncyclopediaData();
   const regions = listRegions(schema);
 

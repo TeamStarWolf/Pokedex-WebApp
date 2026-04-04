@@ -6,6 +6,7 @@ import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getGameBySlug, getPokemonByGame } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -18,6 +19,7 @@ export function GameVersionPage() {
   const { gameSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const game = getGameBySlug(schema, gameSlug);
+  useDocumentTitle(game?.name ?? "Game");
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
   const pokemon = getPokemonByGame(schema, game.id);
   const pairedGames = game.pairedGameIds.map((gameId) => schema.gameVersions[gameId]).filter(Boolean);

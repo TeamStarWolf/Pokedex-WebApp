@@ -1,13 +1,16 @@
 import { useMemo } from "react";
-import { useSearchParams } from "react-router-dom";
+import { Link, useSearchParams } from "react-router-dom";
+import { Search } from "lucide-react";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
 import { buildSearchIndex, fuzzyScore, listGames } from "../../lib/encyclopedia";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 
 export function SearchPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("q") ?? "";
+  useDocumentTitle(query ? `Search: ${query}` : "Search");
   const { schema } = useEncyclopediaData();
   const kindFilter = searchParams.get("kind") ?? "all";
   const gameFilter = searchParams.get("game") ?? "all";
@@ -120,15 +123,33 @@ export function SearchPage() {
             </span>
           ))}
         </div>
-        <div className="search-results-grid">
-          {results.map((result) => (
-            <GameScopedLink key={`${result.kind}-${result.slug}`} to={result.href} className="search-result-card">
-              <span className="eyebrow">{result.kind}</span>
-              <strong>{result.title}</strong>
-              <span>{result.subtitle}</span>
-            </GameScopedLink>
-          ))}
-        </div>
+        {!query.trim() ? (
+          <div className="search-empty-state">
+            <Search size={32} />
+            <h3>Search the encyclopedia</h3>
+            <p className="muted">Type a name to search across Pokemon, moves, abilities, items, regions, types, games, and locations.</p>
+            <div className="search-suggestion-chips">
+              <Link to="/search?q=charizard" className="entity-chip"><strong>Charizard</strong></Link>
+              <Link to="/search?q=thunderbolt" className="entity-chip"><strong>Thunderbolt</strong></Link>
+              <Link to="/search?q=kanto" className="entity-chip"><strong>Kanto</strong></Link>
+            </div>
+          </div>
+        ) : results.length === 0 ? (
+          <div className="search-empty-state">
+            <h3>No results for "{query}"</h3>
+            <p className="muted">{allResults.length > 0 ? `Found ${allResults.length} results before filtering. Try widening your kind or game filter.` : "Try a different spelling or a shorter query."}</p>
+          </div>
+        ) : (
+          <div className="search-results-grid">
+            {results.map((result) => (
+              <GameScopedLink key={`${result.kind}-${result.slug}`} to={result.href} className="search-result-card">
+                <span className="eyebrow">{result.kind}</span>
+                <strong>{result.title}</strong>
+                <span>{result.subtitle}</span>
+              </GameScopedLink>
+            ))}
+          </div>
+        )}
       </section>
     </main>
   );

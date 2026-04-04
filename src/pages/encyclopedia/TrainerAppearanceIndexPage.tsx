@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -11,6 +12,7 @@ function uniqueSorted(values: string[]) {
 }
 
 export function TrainerAppearanceIndexPage() {
+  useDocumentTitle("Trainer Appearances");
   const [searchParams, setSearchParams] = useSearchParams();
   const { appearances, pokemonList, loading, error } = useTrainerReferenceData();
 

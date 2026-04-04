@@ -1,9 +1,11 @@
 import { EntityIndexPage } from "../../components/encyclopedia/EntityIndexPage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { listTypes } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 export function TypeIndexPage() {
+  useDocumentTitle("Types");
   const { schema } = useEncyclopediaData();
   const types = listTypes(schema);
 

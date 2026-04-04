@@ -5,6 +5,7 @@ import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getPokemonByType, getTypeBySlug } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -16,6 +17,7 @@ export function TypeDetailPage() {
   const { typeSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const type = getTypeBySlug(schema, typeSlug);
+  useDocumentTitle(type?.name ? `${type.name} Type` : "Type");
   if (!type) return <main className="encyclopedia-page"><section className="content-card"><h1>Type not found</h1></section></main>;
   const species = getPokemonByType(schema, type.id);
   // offensiveMatchups: types THIS type deals super-effective damage to.

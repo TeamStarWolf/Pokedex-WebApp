@@ -5,6 +5,7 @@ import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getAbilityBySlug, getPokemonByAbility } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -17,6 +18,7 @@ export function AbilityDetailPage() {
   const { abilitySlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const ability = getAbilityBySlug(schema, abilitySlug);
+  useDocumentTitle(ability?.name ?? "Ability");
   if (!ability) return <main className="encyclopedia-page"><section className="content-card"><h1>Ability not found</h1></section></main>;
 
   const pokemon = getPokemonByAbility(schema, ability.id);

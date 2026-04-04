@@ -1,7 +1,8 @@
-import type { ReactNode } from "react";
-import { Search } from "lucide-react";
+import { useState, type ReactNode } from "react";
+import { Menu, Search } from "lucide-react";
 import { Link, NavLink } from "react-router-dom";
 import { GameContextBar } from "./GameContextBar";
+import { MobileDrawer } from "./MobileDrawer";
 
 type AppShellProps = {
   children: ReactNode;
@@ -26,8 +27,11 @@ const utilityItems = [
 ];
 
 export function AppShell({ children }: AppShellProps) {
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
   return (
     <div className="encyclopedia-shell">
+      <a href="#main-content" className="skip-link">Skip to content</a>
       <header className="site-header">
         <Link to="/" className="brand-lockup">
           <span className="brand-mark">Dx</span>
@@ -43,10 +47,19 @@ export function AppShell({ children }: AppShellProps) {
             </NavLink>
           ))}
         </nav>
-        <Link to="/search" className="quick-search-link">
+        <Link to="/search" className="quick-search-link" aria-label="Search the encyclopedia">
           <Search size={16} />
           Search
         </Link>
+        <button
+          type="button"
+          className="mobile-menu-trigger"
+          onClick={() => setDrawerOpen(true)}
+          aria-label="Open navigation menu"
+          aria-expanded={drawerOpen}
+        >
+          <Menu size={20} />
+        </button>
       </header>
       <section className="shell-utility-nav" aria-label="Explore">
         {utilityItems.map((item) => (
@@ -56,6 +69,8 @@ export function AppShell({ children }: AppShellProps) {
         ))}
       </section>
       <GameContextBar />
+      <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} navItems={navItems} utilityItems={utilityItems} />
+      <div id="main-content" />
       {children}
     </div>
   );

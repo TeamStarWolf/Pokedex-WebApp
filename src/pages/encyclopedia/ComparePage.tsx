@@ -3,6 +3,7 @@ import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getComparableStats, getDefaultForm, getSpeciesBySlug, getStatTotal, listPokemon } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -11,6 +12,7 @@ const tabs = [
 ];
 
 export function ComparePage() {
+  useDocumentTitle("Compare");
   const [searchParams, setSearchParams] = useSearchParams();
   const { schema } = useEncyclopediaData();
   const leftSlug = searchParams.get("left") ?? "charizard";

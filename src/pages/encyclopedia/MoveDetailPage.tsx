@@ -6,6 +6,7 @@ import { PlaceholderBlock } from "../../components/encyclopedia/PlaceholderBlock
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { getMoveBySlug, getPokemonByMove } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const tabs = [
@@ -18,6 +19,7 @@ export function MoveDetailPage() {
   const { moveSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const move = getMoveBySlug(schema, moveSlug);
+  useDocumentTitle(move?.name ?? "Move");
   if (!move) return <main className="encyclopedia-page"><section className="content-card"><h1>Move not found</h1></section></main>;
 
   const learners = getPokemonByMove(schema, move.id);

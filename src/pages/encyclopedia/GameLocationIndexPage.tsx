@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { useParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { getGameBySlug, listLocations } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -10,6 +11,7 @@ export function GameLocationIndexPage() {
   const { gameSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const game = getGameBySlug(schema, gameSlug);
+  useDocumentTitle(game ? `${game.name} Locations` : "Locations");
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
 
   const locations = useMemo(

@@ -6,10 +6,13 @@ import { Pagination } from "../../components/encyclopedia/Pagination";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 
 const PAGE_SIZE = 6;
 
 export function NationalDexPage() {
+  useDocumentTitle("National Dex");
   const { schema } = useEncyclopediaData();
   const [searchParams, setSearchParams] = useSearchParams();
   const page = Number(searchParams.get("page") ?? 1);
@@ -131,7 +134,7 @@ export function NationalDexPage() {
             const statTotal = Object.values(form?.stats ?? {}).reduce((sum, value) => sum + value, 0);
             return (
               <GameScopedLink key={species.id} to={encyclopediaRoutes.pokemon(species.slug)} className="dex-card">
-                <img src={form?.artworkUrl} alt={species.name} />
+                <PokemonImage src={form?.artworkUrl} alt={species.name} />
                 <span className="eyebrow">#{species.nationalDexNumber.toString().padStart(4, "0")}</span>
                 <h2>{species.name}</h2>
                 <p>{species.categoryLabel}</p>

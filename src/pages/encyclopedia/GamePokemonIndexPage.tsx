@@ -2,6 +2,8 @@ import { useMemo } from "react";
 import { useParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { getDefaultForm, getGameBySlug, getPokemonByGame } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -10,6 +12,7 @@ export function GamePokemonIndexPage() {
   const { gameSlug = "" } = useParams();
   const { schema } = useEncyclopediaData();
   const game = getGameBySlug(schema, gameSlug);
+  useDocumentTitle(game ? `${game.name} Pokemon` : "Pokemon");
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
 
   const pokemon = useMemo(() => getPokemonByGame(schema, game.id), [game.id, schema]);
@@ -33,7 +36,7 @@ export function GamePokemonIndexPage() {
             const form = getDefaultForm(schema, species);
             return (
               <GameScopedLink key={species.id} to={encyclopediaRoutes.pokemon(species.slug)} preserveGame={false} className="dex-card">
-                <img src={form?.artworkUrl} alt={species.name} />
+                <PokemonImage src={form?.artworkUrl} alt={species.name} />
                 <span className="eyebrow">#{species.nationalDexNumber.toString().padStart(4, "0")}</span>
                 <h2>{species.name}</h2>
                 <p>{species.categoryLabel}</p>

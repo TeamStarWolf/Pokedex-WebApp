@@ -2,8 +2,10 @@ import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { useEncyclopediaData, usePokemonDetailData } from "../../hooks/useEncyclopediaData";
+import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, groupLearnsetByMethod } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
@@ -19,6 +21,7 @@ export function PokemonFormPage() {
   const { schema } = usePokemonDetailData(speciesSlug);
   const species = getSpeciesBySlug(schema, speciesSlug) ?? getSpeciesBySlug(indexSchema, speciesSlug);
   const form = getFormBySlug(schema, speciesSlug, formSlug);
+  useDocumentTitle(form?.name ?? "Pokemon Form");
 
   if (!species || !form) {
     return <main className="encyclopedia-page"><section className="content-card"><h1>Form not found</h1></section></main>;
@@ -46,7 +49,7 @@ export function PokemonFormPage() {
         <EntityInfobox
           title={`${species.name} ${form.formName === "Standard" ? "" : form.formName}`.trim()}
           subtitle={`${form.formKind} form`}
-          media={<img src={form.artworkUrl} alt={form.name} className="hero-art" />}
+          media={<PokemonImage src={form.artworkUrl} alt={form.name} className="hero-art" />}
           badges={form.typeIds.map((typeId) => <Link key={typeId} to={encyclopediaRoutes.type(typeId.replace("type:", ""))} className="type-chip muted-chip">{schema.types[typeId]?.name ?? typeId.replace("type:", "")}</Link>)}
           rows={[
             { label: "Species", value: <Link to={encyclopediaRoutes.pokemon(species.slug)}>{species.name}</Link> },
