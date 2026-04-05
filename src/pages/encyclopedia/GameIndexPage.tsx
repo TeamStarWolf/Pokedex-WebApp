@@ -18,7 +18,7 @@ export function GameIndexPage() {
       entities={games}
       searchPlaceholder="Search games"
       hrefFor={(game) => encyclopediaRoutes.game(game.slug)}
-      metaFor={(game) => `${game.shortName} | Gen ${game.generation || "?"}`}
+      metaFor={(game) => `${game.shortName} · Gen ${game.generation || "?"}`}
     />
   );
 }

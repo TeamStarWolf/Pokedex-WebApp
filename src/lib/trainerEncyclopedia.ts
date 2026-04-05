@@ -127,3 +127,21 @@ export function getTrainerAppearanceBySlug(entries: TrainerReferenceEntry[], tra
   if (!trainer) return null;
   return trainer.appearances.find((appearance) => appearance.slug === appearanceSlug) ?? null;
 }
+
+export function getTrainerAppearancesForPokemon(
+  appearances: TrainerAppearanceSummary[],
+  pokemonId: number,
+  sourceGroup?: string | null,
+) {
+  return appearances
+    .filter((appearance) =>
+      appearance.members.includes(pokemonId) && (!sourceGroup || appearance.sourceGroup === sourceGroup),
+    )
+    .sort(
+      (left, right) =>
+        Number(right.canonical) - Number(left.canonical)
+        || left.sourceGame.localeCompare(right.sourceGame)
+        || left.trainer.localeCompare(right.trainer)
+        || left.name.localeCompare(right.name),
+    );
+}

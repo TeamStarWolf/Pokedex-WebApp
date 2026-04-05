@@ -1,6 +1,7 @@
 import { Link, useSearchParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
+import { StatBarChart } from "../../components/encyclopedia/StatBarChart";
 import { getComparableStats, getDefaultForm, getSpeciesBySlug, getStatTotal, listPokemon } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
@@ -73,9 +74,7 @@ export function ComparePage() {
                 <span className="entity-chip"><strong>Category</strong><span>{species.categoryLabel}</span></span>
                 <span className="entity-chip"><strong>Types</strong><span>{getDefaultForm(schema, species)?.typeIds.map((typeId) => schema.types[typeId]?.name ?? typeId.replace("type:", "")).join(" / ") ?? "Unknown"}</span></span>
               </div>
-              <dl className="stat-grid">
-                {Object.entries(getComparableStats(schema, species) ?? {}).map(([key, value]) => <div key={key}><dt>{key}</dt><dd>{value}</dd></div>)}
-              </dl>
+              <StatBarChart stats={getComparableStats(schema, species) ?? {}} />
             </div>
           ) : null)}
         </div>

@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
+import { LoadingSpinner } from "../../components/encyclopedia/LoadingSpinner";
 import { SectionStatusNote } from "../../components/encyclopedia/SectionStatusNote";
 import { TrainerSprite } from "../../components/TrainerSprite";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
@@ -16,7 +17,7 @@ export function TrainerAppearancePage() {
   useDocumentTitle(appearance ? `${appearance.trainer}: ${appearance.name}` : "Trainer Appearance");
 
   if (loading) {
-    return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer appearance</h1><p className="muted">Preparing battle article.</p></section></main>;
+    return <LoadingSpinner title="Loading trainer appearance" body="Preparing battle article." />;
   }
 
   if (error) {

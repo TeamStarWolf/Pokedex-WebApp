@@ -1,5 +1,5 @@
 import { ChevronRight } from "lucide-react";
-import { Link } from "react-router-dom";
+import { GameScopedLink } from "./GameScopedLink";
 
 type BreadcrumbEntry = {
   label: string;
@@ -15,7 +15,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
     <nav className="breadcrumbs" aria-label="Breadcrumb">
       {items.map((item, index) => (
         <span key={`${item.label}-${index}`} className="breadcrumb-item">
-          {item.href ? <Link to={item.href}>{item.label}</Link> : <span>{item.label}</span>}
+          {item.href ? <GameScopedLink to={item.href}>{item.label}</GameScopedLink> : <span>{item.label}</span>}
           {index < items.length - 1 ? <ChevronRight size={14} /> : null}
         </span>
       ))}

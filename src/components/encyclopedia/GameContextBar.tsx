@@ -11,12 +11,32 @@ function withGameQuery(pathname: string, searchParams: URLSearchParams, gameSlug
   return `${pathname}${query ? `?${query}` : ""}`;
 }
 
+type GameGroup = {
+  generation: number;
+  games: { id: string; slug: string; shortName: string }[];
+};
+
 export function GameContextBar() {
   const { schema } = useEncyclopediaData();
   const [searchParams] = useSearchParams();
   const location = useLocation();
-  const games = useMemo(() => listGames(schema).slice(0, 10), [schema]);
+  const games = useMemo(() => listGames(schema), [schema]);
   const activeGame = searchParams.get("game") ?? "all";
+
+  const gameGroups = useMemo(() => {
+    const groups = new Map<number, GameGroup>();
+    for (const game of games) {
+      const gen = (schema.gameVersions[game.id] as { generation?: number } | undefined)?.generation ?? 0;
+      let group = groups.get(gen);
+      if (!group) {
+        group = { generation: gen, games: [] };
+        groups.set(gen, group);
+      }
+      group.games.push(game);
+    }
+    return Array.from(groups.values()).sort((a, b) => a.generation - b.generation);
+  }, [games, schema]);
+
   if (location.pathname === "/") return null;
 
   return (
@@ -27,16 +47,21 @@ export function GameContextBar() {
       </div>
       <div className="game-context-links">
         <Link to={withGameQuery(location.pathname, searchParams, "all")} className={`subnav-link ${activeGame === "all" ? "active-context" : ""}`}>All</Link>
-        {games.map((game) => (
-          <Link
-            key={game.id}
-            to={withGameQuery(location.pathname, searchParams, game.slug)}
-            className={`subnav-link ${activeGame === game.slug ? "active-context" : ""}`}
-          >
-            {game.shortName}
-          </Link>
+        {gameGroups.map((group) => (
+          <div key={group.generation} className="game-gen-group">
+            <span className="game-gen-label">Gen {group.generation || "?"}</span>
+            {group.games.map((game) => (
+              <Link
+                key={game.id}
+                to={withGameQuery(location.pathname, searchParams, game.slug)}
+                className={`subnav-link ${activeGame === game.slug ? "active-context" : ""}`}
+              >
+                {game.shortName}
+              </Link>
+            ))}
+          </div>
         ))}
-        <Link to="/games" className="subnav-link">Browse games</Link>
+        <Link to="/games" className="subnav-link">All games</Link>
       </div>
     </section>
   );

@@ -23,10 +23,10 @@ export function MoveDetailPage() {
   if (!move) return <main className="encyclopedia-page"><section className="content-card"><h1>Move not found</h1></section></main>;
 
   const learners = getPokemonByMove(schema, move.id);
-  const learnerForms = move.pokemonFormIds
+  const allLearnerForms = move.pokemonFormIds
     .map((formId) => schema.forms[formId])
-    .filter(Boolean)
-    .slice(0, 8);
+    .filter(Boolean);
+  const learnerForms = allLearnerForms.slice(0, 20);
   return (
     <main className="encyclopedia-page">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Moves", href: "/moves" }, { label: move.name }]} />
@@ -92,6 +92,9 @@ export function MoveDetailPage() {
           </section>
           <section id="learners" className="content-card">
             <h2>Known learners</h2>
+            {allLearnerForms.length > learnerForms.length ? (
+              <p className="muted">Showing {learnerForms.length} of {allLearnerForms.length} forms that learn this move.</p>
+            ) : null}
             <div className="location-table" role="table" aria-label="Known learners">
               <div className="location-table-head" role="row">
                 <span>Pokemon</span>

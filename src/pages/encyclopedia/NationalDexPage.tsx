@@ -10,7 +10,7 @@ import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { capitalize, padDex } from "../../lib/format";
 
-const PAGE_SIZE = 18;
+const PAGE_SIZE = 36;
 
 export function NationalDexPage() {
   useDocumentTitle("National Dex");
@@ -29,7 +29,6 @@ export function NationalDexPage() {
 
   const contextFiltered = useMemo(() => {
     return pokemon.filter((species) => {
-      const form = getDefaultForm(schema, species);
       const generationPass = generationFilter === "all" || species.generation === Number(generationFilter);
       const gamePass = gameFilter === "all"
         || species.pokedexGameIds.includes(`game:${gameFilter}`)
@@ -37,7 +36,7 @@ export function NationalDexPage() {
       const namePass = !nameQuery.trim() || species.name.toLowerCase().includes(nameQuery.trim().toLowerCase());
       return generationPass && gamePass && namePass;
     });
-  }, [gameFilter, generationFilter, nameQuery, pokemon, schema]);
+  }, [gameFilter, generationFilter, nameQuery, pokemon]);
 
   const quickTypeCounts = useMemo(() => {
     return contextFiltered.reduce<Record<string, number>>((accumulator, species) => {
@@ -84,10 +83,9 @@ export function NationalDexPage() {
   function updateParams(changes: Record<string, string>) {
     const next = new URLSearchParams(searchParams);
     Object.entries(changes).forEach(([key, value]) => {
-      if (!value || value === "all" || (key === "sort" && value === "dex")) next.delete(key);
+      if (!value || value === "all" || (key === "sort" && value === "dex") || (key === "page" && value === "1")) next.delete(key);
       else next.set(key, value);
     });
-    if (!next.has("page")) next.set("page", "1");
     setSearchParams(next);
   }
 
@@ -106,53 +104,46 @@ export function NationalDexPage() {
         <div>
           <p className="eyebrow">Master index</p>
           <h1>National Dex</h1>
-          <p className="lead">Browse the encyclopedia by species with query-linked filters, sorting, and direct links into full dossiers.</p>
+          <p className="lead">Browse every species with filters, sorting, and direct links to full dossiers.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{filtered.length}</strong><span>Matched species</span></div>
-          <div><strong>{availableTypes.length}</strong><span>Known types</span></div>
+          <div><strong>{availableTypes.length}</strong><span>Types</span></div>
           <div><strong>{availableGenerations.length}</strong><span>Generations</span></div>
           <div><strong>{Object.keys(schema.forms).length}</strong><span>Forms</span></div>
         </div>
       </section>
       <section className="content-card">
-        <div className="section-topline">
-          <div>
-            <p className="eyebrow">Browse</p>
-            <h2>Filter the index</h2>
-            <p className="muted">Stable query params, quick type narrowing, and a table-first layout designed for larger offline datasets.</p>
-          </div>
-        </div>
         <div className="browse-toolbar">
           <div className="inline-filter-row trainer-filter-grid">
             <label>
               Name
-              <input value={nameQuery} onChange={(event) => updateParams({ page: "1", q: event.target.value, type: typeFilter, generation: generationFilter, game: gameFilter, sort: sortKey })} placeholder="Search species name" />
+              <input value={nameQuery} onChange={(event) => updateParams({ page: "1", q: event.target.value })} placeholder="Search by name" />
             </label>
             <label>
               Type
-              <select value={typeFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: event.target.value, generation: generationFilter, game: gameFilter, sort: sortKey })}>
-                <option value="all">All</option>
+              <select value={typeFilter} onChange={(event) => updateParams({ page: "1", type: event.target.value })}>
+                <option value="all">All types</option>
                 {availableTypes.map((type) => <option key={type.id} value={type.slug}>{type.name}</option>)}
               </select>
             </label>
             <label>
               Generation
-              <select value={generationFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: event.target.value, game: gameFilter, sort: sortKey })}>
-                <option value="all">All</option>
+              <select value={generationFilter} onChange={(event) => updateParams({ page: "1", generation: event.target.value })}>
+                <option value="all">All gens</option>
                 {availableGenerations.map((generation) => <option key={generation} value={generation}>Gen {generation}</option>)}
               </select>
             </label>
             <label>
               Game
-              <select value={gameFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: event.target.value, sort: sortKey })}>
-                <option value="all">All</option>
+              <select value={gameFilter} onChange={(event) => updateParams({ page: "1", game: event.target.value })}>
+                <option value="all">All games</option>
                 {availableGames.map((game) => <option key={game.id} value={game.slug}>{game.shortName}</option>)}
               </select>
             </label>
             <label>
               Sort
-              <select value={sortKey} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: gameFilter, sort: event.target.value })}>
+              <select value={sortKey} onChange={(event) => updateParams({ page: "1", sort: event.target.value })}>
                 <option value="dex">Dex number</option>
                 <option value="name">Name</option>
                 <option value="bst">Base stat total</option>
@@ -162,7 +153,7 @@ export function NationalDexPage() {
           </div>
 
           <div className="quick-filter-strip">
-            <span className="quick-filter-label">Quick types</span>
+            <span className="quick-filter-label">Types</span>
             <button type="button" className={`quick-filter-chip ${typeFilter === "all" ? "active" : ""}`} onClick={() => updateParams({ page: "1", type: "all" })}>
               All
               <span>{contextFiltered.length}</span>
@@ -175,13 +166,6 @@ export function NationalDexPage() {
             ))}
             <button type="button" className="filter-reset-button" onClick={resetFilters}>Clear filters</button>
           </div>
-        </div>
-        <div className="chip-grid">
-          <span className="entity-chip"><strong>Query</strong><span>{nameQuery || "None"}</span></span>
-          <span className="entity-chip"><strong>Type</strong><span>{typeFilter === "all" ? "All" : capitalize(typeFilter)}</span></span>
-          <span className="entity-chip"><strong>Generation</strong><span>{generationFilter === "all" ? "All" : `Gen ${generationFilter}`}</span></span>
-          <span className="entity-chip"><strong>Game</strong><span>{gameFilter === "all" ? "All" : availableGames.find((game) => game.slug === gameFilter)?.shortName ?? gameFilter}</span></span>
-          <span className="entity-chip"><strong>Sort</strong><span>{sortKey}</span></span>
         </div>
         {!pagination.items.length ? (
           <div className="empty-results-panel">
@@ -207,7 +191,7 @@ export function NationalDexPage() {
                   <PokemonImage src={form?.artworkUrl} alt={species.name} />
                   <span>
                     <strong>{species.name}</strong>
-                    <span className="browse-table-row-subtle">Gen {species.generation || "?"} - {species.summary}</span>
+                    <span className="browse-table-row-subtle">Gen {species.generation || "?"} · {species.summary}</span>
                   </span>
                 </span>
                 <span className="browse-table-row-types">
@@ -222,7 +206,13 @@ export function NationalDexPage() {
           })}
         </div>
         )}
-        <Pagination page={pagination.page} totalPages={pagination.totalPages} onChange={setPage} />
+        <Pagination
+          page={pagination.page}
+          totalPages={pagination.totalPages}
+          onChange={setPage}
+          totalItems={filtered.length}
+          pageSize={PAGE_SIZE}
+        />
       </section>
     </main>
   );

@@ -2,12 +2,14 @@ import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
+import { LoadingSpinner } from "../../components/encyclopedia/LoadingSpinner";
 import { SectionStatusNote } from "../../components/encyclopedia/SectionStatusNote";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { TrainerSprite } from "../../components/TrainerSprite";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerArticleData } from "../../hooks/useTrainerReferenceData";
 import { capitalize } from "../../lib/format";
+import { sanitizeExternalUrl } from "../../lib/security";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { slugify } from "../../lib/encyclopedia";
 
@@ -22,7 +24,7 @@ export function TrainerDetailPage() {
   useDocumentTitle(entry?.trainer ?? "Trainer");
 
   if (loading) {
-    return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer</h1><p className="muted">Preparing trainer article.</p></section></main>;
+    return <LoadingSpinner title="Loading trainer" body="Preparing trainer article." />;
   }
 
   if (error) {
@@ -34,6 +36,7 @@ export function TrainerDetailPage() {
   }
 
   const pokemonById = new Map(pokemonList.map((pokemon) => [pokemon.id, pokemon] as const));
+  const safeSourceUrl = entry.source ? sanitizeExternalUrl(entry.source.url) : null;
   const tabs = [
     { id: "overview", label: "Overview", status: "partial" as const },
     { id: "teams", label: "Teams", status: appearances.length ? "partial" as const : "missing" as const },
@@ -138,9 +141,9 @@ export function TrainerDetailPage() {
                   </Link>
                 ) : null;
               })()}
-              {entry.source?.url ? (
-                <a href={entry.source.url} target="_blank" rel="noreferrer" className="entity-chip">
-                  <strong>{entry.source.label}</strong>
+              {safeSourceUrl ? (
+                <a href={safeSourceUrl} target="_blank" rel="noopener noreferrer nofollow" referrerPolicy="no-referrer" className="entity-chip">
+                  <strong>{entry.source?.label}</strong>
                   <span>External reference</span>
                 </a>
               ) : null}
@@ -205,7 +208,7 @@ export function TrainerDetailPage() {
               {appearances.map((appearance) => (
                 <article key={`${appearance.slug}-strategy`} className="trainer-team-card">
                   <strong>{appearance.name}</strong>
-                  <p className="muted">{appearance.sourceGame} | {appearance.battleLabel}</p>
+                  <p className="muted">{appearance.sourceGame} · {appearance.battleLabel}</p>
                   <ul className="text-list">
                     {appearance.howToBeat.map((tip) => <li key={`${appearance.slug}-${tip}`}>{tip}</li>)}
                   </ul>

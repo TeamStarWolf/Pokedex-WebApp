@@ -1,21 +1,25 @@
+import { useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { Pagination } from "../../components/encyclopedia/Pagination";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
-import { getGameBySlug, getPokemonByGame } from "../../lib/encyclopedia";
+import { getGameBySlug, getPokemonByGame, paginate } from "../../lib/encyclopedia";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
+const POKEMON_PAGE_SIZE = 36;
+
 const tabs = [
   { id: "overview", label: "Overview" },
   { id: "trainer-groups", label: "Trainer roles" },
   { id: "region", label: "Region" },
-  { id: "entries", label: "Entries" },
+  { id: "entries", label: "Pokemon" },
 ];
 
 export function GameVersionPage() {
@@ -24,8 +28,14 @@ export function GameVersionPage() {
   const { appearances, loading: trainerLoading } = useTrainerReferenceData();
   const game = getGameBySlug(schema, gameSlug);
   useDocumentTitle(game?.name ?? "Game");
+
+  const [pokemonSearch, setPokemonSearch] = useState("");
+  const [pokemonPage, setPokemonPage] = useState(1);
+  const [pokemonSort, setPokemonSort] = useState<"name" | "dex">("dex");
+
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
-  const pokemon = getPokemonByGame(schema, game.id);
+
+  const allPokemon = getPokemonByGame(schema, game.id);
   const pairedGames = game.pairedGameIds.map((gameId) => schema.gameVersions[gameId]).filter(Boolean);
   const gameAppearances = appearances.filter((appearance) => appearance.sourceGroup === game.slug);
   const trainerRoleCounts = gameAppearances.reduce<Record<string, number>>((accumulator, appearance) => {
@@ -36,25 +46,40 @@ export function GameVersionPage() {
     .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]));
   const trainerCount = new Set(gameAppearances.map((appearance) => appearance.trainerSlug)).size;
 
+  const filteredPokemon = useMemo(() => {
+    const query = pokemonSearch.trim().toLowerCase();
+    const filtered = query
+      ? allPokemon.filter((entry) => entry.name.toLowerCase().includes(query))
+      : allPokemon;
+    const sorted = [...filtered];
+    if (pokemonSort === "name") {
+      sorted.sort((a, b) => a.name.localeCompare(b.name));
+    } else {
+      sorted.sort((a, b) => a.nationalDexNumber - b.nationalDexNumber);
+    }
+    return sorted;
+  }, [allPokemon, pokemonSearch, pokemonSort]);
+
+  const pokemonPagination = paginate(filteredPokemon, pokemonPage, POKEMON_PAGE_SIZE);
+
   return (
     <main className="encyclopedia-page">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Games", href: "/games" }, { label: game.name }]} />
       <section className="topic-title-deck content-card">
         <div>
-          <p className="eyebrow">Game article</p>
+          <p className="eyebrow">Game hub</p>
           <h1>{game.name}</h1>
-          <p className="lead">Game-version entry linking regional context, paired releases, and the current indexed species slice.</p>
+          <p className="lead">Game version entry with regional context, paired releases, and indexed species.</p>
         </div>
         <div className="title-deck-metrics">
-          <div><strong>{pokemon.length}</strong><span>Species entries</span></div>
+          <div><strong>{allPokemon.length}</strong><span>Species</span></div>
           <div><strong>{trainerCount}</strong><span>Trainers</span></div>
           <div><strong>{pairedGames.length}</strong><span>Paired games</span></div>
-          <div><strong>{game.platform ?? "?"}</strong><span>Platform</span></div>
           <div><strong>Gen {game.generation || "?"}</strong><span>Generation</span></div>
         </div>
       </section>
       <section className="content-layout">
-        <EntityInfobox title={game.name} subtitle="Game version page" rows={[
+        <EntityInfobox title={game.name} subtitle="Game version" rows={[
           { label: "Generation", value: `Gen ${game.generation}` },
           { label: "Platform", value: game.platform ?? "Unknown" },
           { label: "Region", value: game.regionId ? <Link to={encyclopediaRoutes.region(game.regionId.replace("region:", ""))}>{schema.regions[game.regionId]?.name}</Link> : "Unknown" },
@@ -78,7 +103,7 @@ export function GameVersionPage() {
                     <span>Filtered to {game.shortName}</span>
                   </GameScopedLink>
                   <GameScopedLink to={encyclopediaRoutes.gameTrainers(game.slug)} preserveGame={false} className="entity-chip">
-                    <strong>Browse trainer battles</strong>
+                    <strong>Browse trainers</strong>
                     <span>Filtered to {game.shortName}</span>
                   </GameScopedLink>
                   <GameScopedLink to={encyclopediaRoutes.gameLocations(game.slug)} preserveGame={false} className="entity-chip">
@@ -95,19 +120,19 @@ export function GameVersionPage() {
                       <strong>{entry.name}</strong>
                       <span>{entry.shortName}</span>
                     </Link>
-                  )) : <span className="muted">No paired game linked in the current dataset.</span>}
+                  )) : <span className="muted">No paired game linked.</span>}
                 </div>
               </div>
             </div>
           </section>
           <section id="trainer-groups" className="content-card">
-            <h2>Trainer roles in this game</h2>
+            <h2>Trainer roles</h2>
             {trainerLoading ? (
-              <p className="muted">Loading trainer role breakdown.</p>
+              <p className="muted">Loading trainer role breakdown...</p>
             ) : trainerRoleEntries.length ? (
               <div className="reference-grid">
                 <div>
-                  <p className="muted">Jump directly into role-specific trainer battle views for this game.</p>
+                  <p className="muted">Jump into role-specific trainer battle views for this game.</p>
                   <div className="chip-grid">
                     {trainerRoleEntries.map(([category, count]) => (
                       <GameScopedLink
@@ -117,31 +142,31 @@ export function GameVersionPage() {
                         className="entity-chip"
                       >
                         <strong>{capitalize(category)}</strong>
-                        <span>{count} battle records</span>
+                        <span>{count} battles</span>
                       </GameScopedLink>
                     ))}
                   </div>
                 </div>
                 <div>
-                  <h3>Browse trainer archive</h3>
+                  <h3>Full archive</h3>
                   <div className="chip-grid">
                     <GameScopedLink to={encyclopediaRoutes.gameTrainers(game.slug)} preserveGame={false} className="entity-chip">
                       <strong>All trainer battles</strong>
-                      <span>{gameAppearances.length} entries in {game.shortName}</span>
+                      <span>{gameAppearances.length} in {game.shortName}</span>
                     </GameScopedLink>
                     <GameScopedLink to={`${encyclopediaRoutes.trainerAppearances()}?game=${encodeURIComponent(game.slug)}`} preserveGame={false} className="entity-chip">
-                      <strong>Open global trainer browser</strong>
-                      <span>Keep the {game.shortName} filter active</span>
+                      <strong>Global trainer browser</strong>
+                      <span>{game.shortName} filter active</span>
                     </GameScopedLink>
                   </div>
                 </div>
               </div>
             ) : (
-              <p className="muted">Trainer roles have not been linked for this game yet in the current archive.</p>
+              <p className="muted">Trainer roles have not been linked for this game yet.</p>
             )}
           </section>
           <section id="region" className="content-card">
-            <h2>Regional context</h2>
+            <h2>Region</h2>
             {game.regionId ? (
               <div className="chip-grid">
                 <Link to={encyclopediaRoutes.region(game.regionId.replace("region:", ""))} className="entity-chip">
@@ -152,10 +177,60 @@ export function GameVersionPage() {
             ) : <p className="muted">No region has been linked for this game entry yet.</p>}
           </section>
           <section id="entries" className="content-card">
-            <h2>Indexed Pokemon with entries in this version</h2>
-            <div className="search-results-grid">
-              {pokemon.map((entry) => <GameScopedLink key={entry.id} to={encyclopediaRoutes.pokemon(entry.slug)} className="search-result-card"><span className="eyebrow">Pokemon</span><strong>{entry.name}</strong><span>{entry.categoryLabel}</span></GameScopedLink>)}
+            <h2>Pokemon in {game.shortName}</h2>
+            <div className="browse-toolbar">
+              <div className="inline-filter-row trainer-filter-grid">
+                <label>
+                  Search
+                  <input
+                    value={pokemonSearch}
+                    onChange={(event) => { setPokemonSearch(event.target.value); setPokemonPage(1); }}
+                    placeholder="Filter by name"
+                  />
+                </label>
+                <label>
+                  Sort
+                  <select value={pokemonSort} onChange={(event) => { setPokemonSort(event.target.value as "name" | "dex"); setPokemonPage(1); }}>
+                    <option value="dex">Dex number</option>
+                    <option value="name">Name</option>
+                  </select>
+                </label>
+              </div>
             </div>
+            {pokemonPagination.items.length ? (
+              <>
+                <div className="browse-table">
+                  <div className="browse-table-head browse-table-head-search">
+                    <span>Dex</span>
+                    <span>Pokemon</span>
+                    <span>Category</span>
+                    <span>Generation</span>
+                  </div>
+                  {pokemonPagination.items.map((entry) => (
+                    <GameScopedLink key={entry.id} to={encyclopediaRoutes.pokemon(entry.slug)} className="browse-table-row browse-table-row-search">
+                      <span className="browse-table-metric">#{entry.nationalDexNumber.toString().padStart(4, "0")}</span>
+                      <span className="browse-table-row-title browse-table-row-title-plain">
+                        <span><strong>{entry.name}</strong></span>
+                      </span>
+                      <span>{entry.categoryLabel}</span>
+                      <span>Gen {entry.generation || "?"}</span>
+                    </GameScopedLink>
+                  ))}
+                </div>
+                <Pagination
+                  page={pokemonPagination.page}
+                  totalPages={pokemonPagination.totalPages}
+                  onChange={setPokemonPage}
+                  totalItems={filteredPokemon.length}
+                  pageSize={POKEMON_PAGE_SIZE}
+                />
+              </>
+            ) : (
+              <div className="empty-results-panel">
+                <strong>No Pokemon matched &ldquo;{pokemonSearch}&rdquo;</strong>
+                <p className="muted">Try a different search term.</p>
+              </div>
+            )}
           </section>
         </div>
       </section>

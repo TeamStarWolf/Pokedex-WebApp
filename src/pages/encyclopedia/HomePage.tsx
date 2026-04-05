@@ -8,25 +8,25 @@ import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 export function HomePage() {
   useDocumentTitle("Home");
   const { schema } = useEncyclopediaData();
-  const featuredGames = listGames(schema).slice(0, 4);
+  const featuredGames = listGames(schema).slice(0, 6);
   const featuredPokemon = listPokemon(schema).slice(0, 6);
   const featuredRegions = listRegions(schema).slice(0, 4);
-  const featuredTypes = listTypes(schema).slice(0, 6);
+  const featuredTypes = listTypes(schema).slice(0, 8);
   const featuredMoves = Object.values(schema.moves).slice(0, 5);
   const primaryPaths = [
     {
       label: "Browse by Game",
-      body: "Start from a game and move through Pokemon, trainer battles, and locations without losing context.",
+      body: "Start from a game and move through Pokemon, trainers, and locations without losing context.",
       href: "/games",
     },
     {
-      label: "Browse Pokemon",
-      body: "Use the National Dex when you already know the species you want to research.",
+      label: "National Dex",
+      body: "Use the full species index when you already know what you are looking for.",
       href: encyclopediaRoutes.nationalDex(),
     },
     {
-      label: "Browse Trainer Battles",
-      body: "Filter appearances by game, role, region, and team member in one dense battle archive.",
+      label: "Trainer Battles",
+      body: "Filter battle appearances by game, role, region, and team member.",
       href: "/trainers/appearances",
     },
   ];
@@ -42,14 +42,14 @@ export function HomePage() {
       <section className="hero-panel">
         <div>
           <p className="eyebrow">Pokemon Encyclopedia</p>
-          <h1>PokeNav Encyclopedia</h1>
+          <h1>PokeNav</h1>
           <p className="lead">
-            A game-first Pokemon reference built for browsing, cross-linking, and comparing the world of Pokemon
-            without getting lost in disconnected pages.
+            A game-first Pokemon reference for browsing, cross-linking, and comparing everything across every generation.
           </p>
           <div className="hero-actions">
             <Link to="/games" className="primary-link">Browse by Game</Link>
-            <Link to="/trainers/appearances" className="secondary-link">Browse Trainer Battles</Link>
+            <Link to="/dex/national" className="secondary-link">National Dex</Link>
+            <Link to="/search" className="secondary-link">Search</Link>
           </div>
         </div>
         <div>
@@ -69,7 +69,7 @@ export function HomePage() {
         <div className="section-topline">
           <div>
             <p className="eyebrow">Start here</p>
-            <h2>Three main ways to use the encyclopedia</h2>
+            <h2>Three ways to explore</h2>
           </div>
         </div>
         <div className="reference-grid homepage-primary-grid">
@@ -78,7 +78,7 @@ export function HomePage() {
               <span className="eyebrow">Primary path</span>
               <strong>{path.label}</strong>
               <span>{path.body}</span>
-              <span className="feature-panel-cta">Open</span>
+              <span className="feature-panel-cta">Open &rarr;</span>
             </Link>
           ))}
         </div>
@@ -86,7 +86,7 @@ export function HomePage() {
 
       <section className="content-grid two-up">
         <article className="content-card">
-          <h2>Featured game hubs</h2>
+          <h2>Game hubs</h2>
           <div className="chip-grid">
             {featuredGames.map((game) => (
               <Link key={game.id} to={encyclopediaRoutes.game(game.slug)} className="entity-chip">
@@ -98,15 +98,15 @@ export function HomePage() {
         </article>
 
         <article className="content-card">
-          <h2>Recommended jump-ins</h2>
+          <h2>Quick jumps</h2>
           <div className="chip-grid">
             <Link to="/games/heartgold-soulsilver" className="entity-chip">
               <strong>HeartGold / SoulSilver</strong>
               <span>Game hub</span>
             </Link>
             <Link to="/trainers/appearances?game=heartgold-soulsilver" className="entity-chip">
-              <strong>HGSS Trainer Battles</strong>
-              <span>Game-scoped archive</span>
+              <strong>HGSS Trainers</strong>
+              <span>Battle archive</span>
             </Link>
             <Link to="/dex/national?game=heartgold-soulsilver" className="entity-chip">
               <strong>HGSS Pokemon</strong>
@@ -114,7 +114,7 @@ export function HomePage() {
             </Link>
             <Link to="/search?q=houndoom&game=heartgold-soulsilver" className="entity-chip">
               <strong>Search in HGSS</strong>
-              <span>Focused discovery</span>
+              <span>Focused search</span>
             </Link>
           </div>
         </article>
@@ -138,19 +138,19 @@ export function HomePage() {
           <div className="chip-grid">
             <Link to={encyclopediaRoutes.trainers()} className="entity-chip">
               <strong>Trainer Index</strong>
-              <span>People and overview pages</span>
+              <span>Overview pages</span>
             </Link>
             <Link to="/trainers/appearances" className="entity-chip">
-              <strong>Trainer Battles</strong>
-              <span>Best browse view for serious research</span>
+              <strong>Battle Browser</strong>
+              <span>Best for research</span>
             </Link>
             <Link to={encyclopediaRoutes.trainer("red")} className="entity-chip">
               <strong>Red</strong>
-              <span>Overview page</span>
+              <span>Trainer page</span>
             </Link>
             <Link to={encyclopediaRoutes.trainer("cynthia")} className="entity-chip">
               <strong>Cynthia</strong>
-              <span>Champion archive</span>
+              <span>Champion</span>
             </Link>
           </div>
         </article>
@@ -159,16 +159,16 @@ export function HomePage() {
       <section className="content-card">
         <div className="section-topline">
           <div>
-            <p className="eyebrow">Secondary browse</p>
-            <h2>Explore the rest of the reference</h2>
+            <p className="eyebrow">Explore more</p>
+            <h2>Browse by category</h2>
           </div>
         </div>
         <div className="reference-grid">
           {[
-            { label: "Regions", body: "Jump by world area and regional context.", href: encyclopediaRoutes.region(featuredRegions[0]?.slug ?? "kanto") },
-            { label: "Types", body: "Follow matchup and category links from type pages.", href: encyclopediaRoutes.type(featuredTypes[0]?.slug ?? "fire") },
+            { label: "Regions", body: "Browse by world area and regional context.", href: encyclopediaRoutes.region(featuredRegions[0]?.slug ?? "kanto") },
+            { label: "Types", body: "Follow matchup and category links.", href: encyclopediaRoutes.type(featuredTypes[0]?.slug ?? "fire") },
             { label: "Moves", body: "Open move entries and learner pages.", href: encyclopediaRoutes.move(featuredMoves[0]?.slug ?? "thunderbolt") },
-            { label: "Abilities", body: "Trace ability holders across species and forms.", href: encyclopediaRoutes.ability("static") },
+            { label: "Abilities", body: "Trace ability holders across species.", href: encyclopediaRoutes.ability("static") },
           ].map((lane) => (
             <Link key={lane.label} to={lane.href} className="feature-panel">
               <strong>{lane.label}</strong>
@@ -180,7 +180,7 @@ export function HomePage() {
 
       <section className="content-grid two-up">
         <article className="content-card">
-          <h2>Browse by region</h2>
+          <h2>Regions</h2>
           <div className="chip-grid">
             {featuredRegions.map((region) => (
               <Link key={region.id} to={encyclopediaRoutes.region(region.slug)} className="entity-chip">
@@ -191,7 +191,7 @@ export function HomePage() {
           </div>
         </article>
         <article className="content-card">
-          <h2>Quick browse types</h2>
+          <h2>Types</h2>
           <div className="type-chip-row">
             {featuredTypes.map((type) => (
               <Link key={type.id} to={encyclopediaRoutes.type(type.slug)} className="type-chip" style={{ ["--type-color" as string]: type.colorToken }}>
@@ -204,7 +204,7 @@ export function HomePage() {
 
       <section className="content-grid two-up">
         <article className="content-card">
-          <h2>Reference entry samples</h2>
+          <h2>Sample entries</h2>
           <div className="chip-grid">
             {featuredMoves.map((move) => (
               <Link key={move.id} to={encyclopediaRoutes.move(move.slug)} className="entity-chip">
@@ -217,29 +217,19 @@ export function HomePage() {
             {Object.values(schema.abilities).slice(0, 4).map((ability) => (
               <Link key={ability.id} to={encyclopediaRoutes.ability(ability.slug)} className="entity-chip">
                 <strong>{ability.name}</strong>
-                <span>Ability page</span>
+                <span>Ability</span>
               </Link>
             ))}
           </div>
         </article>
         <article className="content-card">
-          <h2>What this encyclopedia is built to hold</h2>
-          <div className="reference-grid">
-            <div>
-              <ul className="text-list">
-                <li>Version-specific flavor text, locations, and learnsets.</li>
-                <li>Cross-linked pages for Pokemon, moves, abilities, items, regions, games, and locations.</li>
-                <li>Normalized data designed for a database-backed app later.</li>
-              </ul>
-            </div>
-            <div>
-              <ul className="text-list">
-                <li>Missing-data placeholders instead of fake completeness.</li>
-                <li>Entity routes that can scale into deeper world and lore browsing.</li>
-                <li>Offline-first dataset generation with shardable detail files.</li>
-              </ul>
-            </div>
-          </div>
+          <h2>What PokeNav covers</h2>
+          <ul className="text-list">
+            <li>Version-specific flavor text, locations, and learnsets</li>
+            <li>Cross-linked pages for Pokemon, moves, abilities, items, regions, games, and locations</li>
+            <li>Missing-data placeholders instead of fake completeness</li>
+            <li>Offline-first dataset generation with shardable detail files</li>
+          </ul>
         </article>
       </section>
     </main>

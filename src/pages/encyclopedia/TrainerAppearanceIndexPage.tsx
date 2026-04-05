@@ -2,11 +2,16 @@ import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { LoadingSpinner } from "../../components/encyclopedia/LoadingSpinner";
+import { Pagination } from "../../components/encyclopedia/Pagination";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
+import { paginate } from "../../lib/encyclopedia";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import type { PokemonSummary } from "../../lib/types";
+
+const PAGE_SIZE = 40;
 
 function uniqueSorted(values: string[]) {
   return Array.from(new Set(values)).sort((left, right) => left.localeCompare(right));
@@ -36,6 +41,7 @@ export function TrainerAppearanceIndexPage() {
   const pokemonFilter = searchParams.get("pokemon") ?? "all";
   const view = searchParams.get("view") ?? "table";
   const sort = searchParams.get("sort") ?? "game";
+  const page = Number(searchParams.get("page") ?? "1") || 1;
 
   const pokemonById = useMemo(() => new Map(pokemonList.map((pokemon) => [pokemon.id, pokemon] as const)), [pokemonList]);
 
@@ -91,8 +97,7 @@ export function TrainerAppearanceIndexPage() {
     });
   }, [category, roleScoped, sort]);
 
-  const visible = filtered.slice(0, 250);
-  const truncatedCount = Math.max(filtered.length - visible.length, 0);
+  const paginationResult = paginate(filtered, page, PAGE_SIZE);
   const gameOptions = uniqueSorted(appearances.map((appearance) => appearance.sourceGroup));
   const categoryOptions = uniqueSorted(appearances.map((appearance) => appearance.category));
   const regionOptions = uniqueSorted(appearances.map((appearance) => appearance.region));
@@ -112,8 +117,9 @@ export function TrainerAppearanceIndexPage() {
 
   function updateParam(next: Record<string, string>) {
     const merged = new URLSearchParams(searchParams);
+    if (!("page" in next)) merged.delete("page");
     Object.entries(next).forEach(([key, value]) => {
-      if (!value || value === "all" || (key === "sort" && value === "game") || (key === "view" && value === "table")) merged.delete(key);
+      if (!value || value === "all" || (key === "sort" && value === "game") || (key === "view" && value === "table") || (key === "page" && value === "1")) merged.delete(key);
       else merged.set(key, value);
     });
     setSearchParams(merged);
@@ -126,7 +132,7 @@ export function TrainerAppearanceIndexPage() {
   }
 
   if (loading) {
-    return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer appearances</h1><p className="muted">Preparing browse data.</p></section></main>;
+    return <LoadingSpinner title="Loading trainer appearances" body="Preparing browse data." />;
   }
 
   if (error) {
@@ -244,61 +250,75 @@ export function TrainerAppearanceIndexPage() {
           <span className="entity-chip"><strong>Pokemon</strong><span>{pokemonFilter === "all" ? "Any" : capitalize(pokemonById.get(Number(pokemonFilter))?.name ?? "Any")}</span></span>
         </div>
 
-        {truncatedCount > 0 ? (
-          <p className="results-note">Showing the first {visible.length} results. Narrow the filters to inspect the remaining {truncatedCount} battle records.</p>
-        ) : null}
-
-        {!visible.length ? (
+        {!paginationResult.items.length ? (
           <div className="empty-results-panel">
             <strong>No trainer battles match these filters.</strong>
             <p className="muted">Try clearing one or two filters, or search by trainer name instead of a specific team member.</p>
           </div>
         ) : view === "cards" ? (
-          <div className="search-results-grid">
-            {visible.map((appearance) => (
-              <GameScopedLink
-                key={appearance.slug}
-                to={encyclopediaRoutes.trainerAppearance(appearance.trainerSlug, appearance.slug)}
-                className="search-result-card trainer-result-card"
-              >
-                <span className="eyebrow">{appearance.region}</span>
-                <strong>{appearance.trainer}: {appearance.name}</strong>
-                <span>{appearance.sourceGame} | {appearance.battleLabel}</span>
-                <span>{appearance.canonical ? "Canonical" : "Inspired"} | {appearance.category}</span>
-                <span>Team: {summarizeTeam(appearance.members, pokemonById)}</span>
-              </GameScopedLink>
-            ))}
-          </div>
-        ) : (
-          <div className="trainer-table">
-            <div className="trainer-table-head trainer-table-head-expanded">
-              <span>Trainer</span>
-              <span>Appearance</span>
-              <span>Game</span>
-              <span>Role</span>
-              <span>Battle</span>
-              <span>Team</span>
-              <span>Ace</span>
-            </div>
-            {visible.map((appearance) => {
-              const ace = appearance.acePokemonId ? pokemonById.get(appearance.acePokemonId) : null;
-              return (
+          <>
+            <div className="search-results-grid">
+              {paginationResult.items.map((appearance) => (
                 <GameScopedLink
                   key={appearance.slug}
                   to={encyclopediaRoutes.trainerAppearance(appearance.trainerSlug, appearance.slug)}
-                  className="trainer-table-row trainer-table-row-expanded"
+                  className="search-result-card trainer-result-card"
                 >
-                  <strong>{appearance.trainer}</strong>
-                  <span>{appearance.name}</span>
-                  <span>{appearance.sourceGame}</span>
-                  <span>{appearance.category}</span>
-                  <span>{appearance.battleLabel}</span>
-                  <span>{summarizeTeam(appearance.members, pokemonById)}</span>
-                  <span>{capitalize(ace?.name ?? "Unknown")}</span>
+                  <span className="eyebrow">{appearance.region}</span>
+                  <strong>{appearance.trainer}: {appearance.name}</strong>
+                  <span>{appearance.sourceGame} · {appearance.battleLabel}</span>
+                  <span>{appearance.canonical ? "Canonical" : "Inspired"} · {appearance.category}</span>
+                  <span>Team: {summarizeTeam(appearance.members, pokemonById)}</span>
                 </GameScopedLink>
-              );
-            })}
-          </div>
+              ))}
+            </div>
+            <Pagination
+              page={paginationResult.page}
+              totalPages={paginationResult.totalPages}
+              onChange={(p) => updateParam({ page: String(p) })}
+              totalItems={filtered.length}
+              pageSize={PAGE_SIZE}
+            />
+          </>
+        ) : (
+          <>
+            <div className="trainer-table">
+              <div className="trainer-table-head trainer-table-head-expanded">
+                <span>Trainer</span>
+                <span>Appearance</span>
+                <span>Game</span>
+                <span>Role</span>
+                <span>Battle</span>
+                <span>Team</span>
+                <span>Ace</span>
+              </div>
+              {paginationResult.items.map((appearance) => {
+                const ace = appearance.acePokemonId ? pokemonById.get(appearance.acePokemonId) : null;
+                return (
+                  <GameScopedLink
+                    key={appearance.slug}
+                    to={encyclopediaRoutes.trainerAppearance(appearance.trainerSlug, appearance.slug)}
+                    className="trainer-table-row trainer-table-row-expanded"
+                  >
+                    <strong>{appearance.trainer}</strong>
+                    <span>{appearance.name}</span>
+                    <span>{appearance.sourceGame}</span>
+                    <span>{appearance.category}</span>
+                    <span>{appearance.battleLabel}</span>
+                    <span>{summarizeTeam(appearance.members, pokemonById)}</span>
+                    <span>{capitalize(ace?.name ?? "Unknown")}</span>
+                  </GameScopedLink>
+                );
+              })}
+            </div>
+            <Pagination
+              page={paginationResult.page}
+              totalPages={paginationResult.totalPages}
+              onChange={(p) => updateParam({ page: String(p) })}
+              totalItems={filtered.length}
+              pageSize={PAGE_SIZE}
+            />
+          </>
         )}
       </section>
     </main>

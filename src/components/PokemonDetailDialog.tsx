@@ -109,7 +109,7 @@ export function PokemonDetailDialog({ detail, loading, error, open, onClose }: P
                 <div className="form-grid">
                   {detail.forms.map((form) => (
                     <button key={form.id} type="button" className={`form-card ${form.id === activeForm.id ? "selected" : ""}`} onClick={() => setSelectedFormId(form.id)}>
-                      <img src={form.image} alt={form.name} className="form-art" />
+                      <PokemonImage src={form.image} alt={form.name} className="form-art" />
                       <strong>{formatFormLabel(form.name, detail.speciesName)}</strong>
                       {form.tag || form.formFamily !== "Standard" ? (
                         <span className="small-copy form-meta">{form.tag ?? form.formFamily}</span>
@@ -194,7 +194,7 @@ export function PokemonDetailDialog({ detail, loading, error, open, onClose }: P
                     {(activeForm.versionGroupMoves[selectedMoveGroup] ?? []).slice(0, 80).map((move) => (
                       <div key={`${selectedMoveGroup}-${move.move}-${move.method}-${move.level}`} className="move-card">
                         <strong>{capitalize(move.move)}</strong>
-                        <span className="small-copy">{capitalize(move.method)} | Lv {move.level}</span>
+                        <span className="small-copy">{capitalize(move.method)} · Lv {move.level}</span>
                       </div>
                     ))}
                     {(activeForm.versionGroupMoves[selectedMoveGroup] ?? []).length === 0 ? <p className="small-copy">No move data for this game group.</p> : null}

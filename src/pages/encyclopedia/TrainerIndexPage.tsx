@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
+import { LoadingSpinner } from "../../components/encyclopedia/LoadingSpinner";
 import { TrainerSprite } from "../../components/TrainerSprite";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
@@ -11,7 +12,7 @@ export function TrainerIndexPage() {
   const { entries, loading, error } = useTrainerReferenceData();
 
   if (loading) {
-    return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainers</h1><p className="muted">Preparing trainer reference data.</p></section></main>;
+    return <LoadingSpinner title="Loading trainers" body="Preparing trainer reference data." />;
   }
 
   if (error) {

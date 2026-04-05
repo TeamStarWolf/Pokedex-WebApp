@@ -2,12 +2,16 @@ import { useMemo } from "react";
 import { useParams, useSearchParams } from "react-router-dom";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
+import { LoadingSpinner } from "../../components/encyclopedia/LoadingSpinner";
+import { Pagination } from "../../components/encyclopedia/Pagination";
 import { useTrainerReferenceData } from "../../hooks/useTrainerReferenceData";
-import { getGameBySlug } from "../../lib/encyclopedia";
+import { getGameBySlug, paginate } from "../../lib/encyclopedia";
 import { capitalize } from "../../lib/format";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+
+const PAGE_SIZE = 40;
 
 function summarizeTeam(memberIds: number[], pokemonById: Map<number, { name: string }>) {
   const names = memberIds
@@ -31,10 +35,11 @@ export function GameTrainerIndexPage() {
   const category = searchParams.get("category") ?? "all";
   const canonical = searchParams.get("canonical") ?? "all";
   const sort = searchParams.get("sort") ?? "trainer";
+  const page = Number(searchParams.get("page") ?? "1") || 1;
   useDocumentTitle(game ? `${game.name} Trainers` : "Trainers");
 
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
-  if (loading) return <main className="encyclopedia-page"><section className="content-card"><h1>Loading trainer battles</h1></section></main>;
+  if (loading) return <LoadingSpinner title="Loading trainer battles" body="Preparing battle data." />;
   if (error) return <main className="encyclopedia-page"><section className="content-card"><h1>Trainer data unavailable</h1><p className="muted">{error}</p></section></main>;
 
   const base = appearances.filter((appearance) => appearance.sourceGroup === game.slug);
@@ -78,14 +83,14 @@ export function GameTrainerIndexPage() {
       || left.name.localeCompare(right.name);
   });
 
-  const visible = filtered.slice(0, 200);
-  const truncatedCount = Math.max(filtered.length - visible.length, 0);
+  const paginationResult = paginate(filtered, page, PAGE_SIZE);
   const uniqueTrainers = new Set(filtered.map((appearance) => appearance.trainerSlug)).size;
 
   function updateParam(next: Record<string, string>) {
     const merged = new URLSearchParams(searchParams);
+    if (!("page" in next)) merged.delete("page");
     Object.entries(next).forEach(([key, value]) => {
-      if (!value || value === "all" || (key === "sort" && value === "trainer")) merged.delete(key);
+      if (!value || value === "all" || (key === "sort" && value === "trainer") || (key === "page" && value === "1")) merged.delete(key);
       else merged.set(key, value);
     });
     setSearchParams(merged);
@@ -169,41 +174,46 @@ export function GameTrainerIndexPage() {
           </div>
         </div>
 
-        {truncatedCount > 0 ? (
-          <p className="results-note">Showing the first {visible.length} battle records for {game.shortName}. Refine the filters to inspect the remaining {truncatedCount}.</p>
-        ) : null}
-
-        {!visible.length ? (
+        {!paginationResult.items.length ? (
           <div className="empty-results-panel">
             <strong>No trainer battles matched this game filter set.</strong>
             <p className="muted">Try clearing the role or record type filter, or search with a trainer name instead of a team member.</p>
           </div>
         ) : (
-          <div className="trainer-table">
-            <div className="trainer-table-head trainer-table-head-expanded">
-              <span>Trainer</span>
-              <span>Appearance</span>
-              <span>Role</span>
-              <span>Battle</span>
-              <span>Type</span>
-              <span>Team</span>
-              <span>Ace</span>
+          <>
+            <div className="trainer-table">
+              <div className="trainer-table-head trainer-table-head-expanded">
+                <span>Trainer</span>
+                <span>Appearance</span>
+                <span>Role</span>
+                <span>Battle</span>
+                <span>Type</span>
+                <span>Team</span>
+                <span>Ace</span>
+              </div>
+              {paginationResult.items.map((appearance) => {
+                const ace = appearance.acePokemonId ? pokemonById.get(appearance.acePokemonId) : null;
+                return (
+                  <GameScopedLink key={appearance.slug} to={encyclopediaRoutes.trainerAppearance(appearance.trainerSlug, appearance.slug)} preserveGame={false} className="trainer-table-row trainer-table-row-expanded">
+                    <strong>{appearance.trainer}</strong>
+                    <span>{appearance.name}</span>
+                    <span>{appearance.category}</span>
+                    <span>{appearance.battleLabel}</span>
+                    <span>{appearance.canonical ? "Canonical" : "Inspired"}</span>
+                    <span>{summarizeTeam(appearance.members, pokemonById)}</span>
+                    <span>{capitalize(ace?.name ?? "Unknown")}</span>
+                  </GameScopedLink>
+                );
+              })}
             </div>
-            {visible.map((appearance) => {
-              const ace = appearance.acePokemonId ? pokemonById.get(appearance.acePokemonId) : null;
-              return (
-                <GameScopedLink key={appearance.slug} to={encyclopediaRoutes.trainerAppearance(appearance.trainerSlug, appearance.slug)} preserveGame={false} className="trainer-table-row trainer-table-row-expanded">
-                  <strong>{appearance.trainer}</strong>
-                  <span>{appearance.name}</span>
-                  <span>{appearance.category}</span>
-                  <span>{appearance.battleLabel}</span>
-                  <span>{appearance.canonical ? "Canonical" : "Inspired"}</span>
-                  <span>{summarizeTeam(appearance.members, pokemonById)}</span>
-                  <span>{capitalize(ace?.name ?? "Unknown")}</span>
-                </GameScopedLink>
-              );
-            })}
-          </div>
+            <Pagination
+              page={paginationResult.page}
+              totalPages={paginationResult.totalPages}
+              onChange={(p) => updateParam({ page: String(p) })}
+              totalItems={filtered.length}
+              pageSize={PAGE_SIZE}
+            />
+          </>
         )}
       </section>
     </main>

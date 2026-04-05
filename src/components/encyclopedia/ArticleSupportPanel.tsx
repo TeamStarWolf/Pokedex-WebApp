@@ -1,4 +1,5 @@
 import type { SourceReference, DataStatus } from "../../lib/encyclopedia-schema";
+import { sanitizeExternalUrl } from "../../lib/security";
 
 type ArticleSupportPanelProps = {
   tabs: Array<{ id: string; label: string; status?: DataStatus }>;
@@ -34,9 +35,10 @@ export function ArticleSupportPanel({ tabs, status, sourceRefs, expansionNotes }
           </span>
         </div>
         <div className="support-source-list">
-          {sourceRefs.map((source, index) => (
-            source.url ? (
-              <a key={`${source.label}-${index}`} className="support-source support-source-link" href={source.url} target="_blank" rel="noreferrer">
+          {sourceRefs.map((source, index) => {
+            const safeUrl = sanitizeExternalUrl(source.url);
+            return safeUrl ? (
+              <a key={`${source.label}-${index}`} className="support-source support-source-link" href={safeUrl} target="_blank" rel="noopener noreferrer nofollow" referrerPolicy="no-referrer">
                 <strong>{source.label}</strong>
                 <span>{source.sourceType}</span>
               </a>
@@ -45,8 +47,8 @@ export function ArticleSupportPanel({ tabs, status, sourceRefs, expansionNotes }
                 <strong>{source.label}</strong>
                 <span>{source.sourceType}</span>
               </div>
-            )
-          ))}
+            );
+          })}
         </div>
         {expansionNotes?.length ? (
           <ul className="text-list">

@@ -1,6 +1,7 @@
 import { Download, ExternalLink, Shield, Swords, Upload } from "lucide-react";
 import { useMemo, useState } from "react";
 import { capitalize } from "../lib/format";
+import { sanitizeExternalUrl } from "../lib/security";
 import type { CustomTeamSet, PokemonSummary, PresetTeam, TeamMemberConfig } from "../lib/types";
 import { TrainerSprite } from "./TrainerSprite";
 
@@ -114,7 +115,7 @@ export function TeamSetsPanel({
             <div>
               <strong>{teamSet.name}</strong>
               <p className="muted">{teamSet.description || "Custom team set"}</p>
-              {teamSet.tags.length > 0 ? <p className="small-copy">{teamSet.tags.join(" | ")}</p> : null}
+              {teamSet.tags.length > 0 ? <p className="small-copy">{teamSet.tags.join(" · ")}</p> : null}
               {teamSet.notes ? <p className="small-copy">{teamSet.notes}</p> : null}
               <p className="small-copy">{renderMembers(teamSet.members)}</p>
             </div>
@@ -139,52 +140,52 @@ export function TeamSetsPanel({
             <h3>{category}</h3>
             <div className="team-list">
               {items.map((preset) => (
-                <article key={preset.id} className="team-set-card preset-card">
-                  <TrainerSprite trainer={preset.trainer} region={preset.region} />
-                  <div className="preset-card-content">
-                    <div className="preset-stat-grid">
-                      {(() => {
-                        const summary = summarizePreset(preset.members);
-                        return (
-                          <>
-                            <div><strong>{summary.memberCount}</strong><span>Members</span></div>
-                            <div><strong>{summary.uniqueTypes}</strong><span>Types</span></div>
-                            <div><strong>{summary.totalMoveGroups}</strong><span>Move groups</span></div>
-                            <div><strong>{summary.specialCount}</strong><span>Legend/Mythic</span></div>
-                          </>
-                        );
-                      })()}
-                    </div>
-                    <div className="preset-card-header">
-                      <div>
-                        <strong>{preset.trainer}: {preset.name}</strong>
-                        <p className="muted">{preset.sourceGame}</p>
+                (() => {
+                  const summary = summarizePreset(preset.members);
+                  const safeSourceUrl = preset.source ? sanitizeExternalUrl(preset.source.url) : null;
+
+                  return (
+                    <article key={preset.id} className="team-set-card preset-card">
+                      <TrainerSprite trainer={preset.trainer} region={preset.region} />
+                      <div className="preset-card-content">
+                        <div className="preset-stat-grid">
+                          <div><strong>{summary.memberCount}</strong><span>Members</span></div>
+                          <div><strong>{summary.uniqueTypes}</strong><span>Types</span></div>
+                          <div><strong>{summary.totalMoveGroups}</strong><span>Move groups</span></div>
+                          <div><strong>{summary.specialCount}</strong><span>Legend/Mythic</span></div>
+                        </div>
+                        <div className="preset-card-header">
+                          <div>
+                            <strong>{preset.trainer}: {preset.name}</strong>
+                            <p className="muted">{preset.sourceGame}</p>
+                          </div>
+                          {safeSourceUrl ? (
+                            <a className="source-link" href={safeSourceUrl} target="_blank" rel="noopener noreferrer nofollow" referrerPolicy="no-referrer">
+                              <ExternalLink size={14} />
+                              Reference
+                            </a>
+                          ) : null}
+                        </div>
+                        <div className="preset-meta-row">
+                          <span className="mini-badge">{preset.battleLabel}</span>
+                          <span className="mini-badge">{preset.region}</span>
+                          <span className="mini-badge">Difficulty: {preset.difficulty}</span>
+                          <span className="mini-badge">{preset.canonical ? "Canonical" : "Inspired"}</span>
+                        </div>
+                        <p className="small-copy">{preset.description}</p>
+                        <p className="small-copy"><strong>Tags:</strong> {preset.tags.join(", ")}</p>
+                        <p className="small-copy"><strong>Team:</strong> {renderMembers(preset.members)}</p>
+                        <div className="strategy-box">
+                          <div className="strategy-title"><Shield size={14} /> How to beat</div>
+                          {preset.howToBeat.map((tip) => <p key={tip} className="small-copy">{tip}</p>)}
+                        </div>
                       </div>
-                      {preset.source ? (
-                        <a className="source-link" href={preset.source.url} target="_blank" rel="noreferrer">
-                          <ExternalLink size={14} />
-                          Reference
-                        </a>
-                      ) : null}
-                    </div>
-                    <div className="preset-meta-row">
-                      <span className="mini-badge">{preset.battleLabel}</span>
-                      <span className="mini-badge">{preset.region}</span>
-                      <span className="mini-badge">Difficulty: {preset.difficulty}</span>
-                      <span className="mini-badge">{preset.canonical ? "Canonical" : "Inspired"}</span>
-                    </div>
-                    <p className="small-copy">{preset.description}</p>
-                    <p className="small-copy"><strong>Tags:</strong> {preset.tags.join(", ")}</p>
-                    <p className="small-copy"><strong>Team:</strong> {renderMembers(preset.members)}</p>
-                    <div className="strategy-box">
-                      <div className="strategy-title"><Shield size={14} /> How to beat</div>
-                      {preset.howToBeat.map((tip) => <p key={tip} className="small-copy">{tip}</p>)}
-                    </div>
-                  </div>
-                  <div className="preset-card-actions">
-                    <button type="button" className="ghost-button" onClick={() => onLoadTeam(preset.members)}><Swords size={14} /> Load</button>
-                  </div>
-                </article>
+                      <div className="preset-card-actions">
+                        <button type="button" className="ghost-button" onClick={() => onLoadTeam(preset.members)}><Swords size={14} /> Load</button>
+                      </div>
+                    </article>
+                  );
+                })()
               ))}
             </div>
           </div>

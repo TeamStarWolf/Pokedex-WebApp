@@ -165,6 +165,11 @@ export function getDefaultForm(schema: EncyclopediaSchema, species: PokemonSpeci
   return forms.find((form) => form.isDefault) ?? forms[0] ?? null;
 }
 
+export function getPokedexEntriesForSpecies(species: PokemonSpeciesEntity, gameVersionId?: GameVersionEntity["id"]) {
+  if (!gameVersionId) return species.pokedexEntries;
+  return species.pokedexEntries.filter((entry) => entry.gameVersionId === gameVersionId);
+}
+
 export function getFormBySlug(schema: EncyclopediaSchema, speciesSlug: string, formSlug: string) {
   const species = getSpeciesBySlug(schema, speciesSlug);
   if (!species) return null;
@@ -179,16 +184,25 @@ export function getAbilitiesForForm(schema: EncyclopediaSchema, form: PokemonFor
   return form.abilitySlots.map((slot) => schema.abilities[slot.abilityId]).filter(Boolean);
 }
 
-export function getMovesForForm(schema: EncyclopediaSchema, form: PokemonFormEntity) {
-  return form.learnset.map((entry) => ({
-    ...entry,
-    move: schema.moves[entry.moveId],
-    game: schema.gameVersions[entry.gameVersionId],
-  })).filter((entry) => entry.move && entry.game);
+export function getMovesForForm(schema: EncyclopediaSchema, form: PokemonFormEntity, gameVersionId?: GameVersionEntity["id"]) {
+  return form.learnset
+    .filter((entry) => !gameVersionId || entry.gameVersionId === gameVersionId)
+    .map((entry) => ({
+      ...entry,
+      move: schema.moves[entry.moveId],
+      game: schema.gameVersions[entry.gameVersionId],
+    }))
+    .filter((entry) => entry.move && entry.game);
 }
 
-export function getLocationsForSpecies(schema: EncyclopediaSchema, species: PokemonSpeciesEntity) {
-  return species.locationIds.map((id) => schema.locations[id]).filter(Boolean);
+export function getLocationsForSpecies(schema: EncyclopediaSchema, species: PokemonSpeciesEntity, gameVersionId?: GameVersionEntity["id"]) {
+  const locations = species.locationIds.map((id) => schema.locations[id]).filter(Boolean);
+  if (!gameVersionId) return locations;
+
+  return locations.filter((location) =>
+    location.gameVersionIds.includes(gameVersionId)
+    || location.encounterTable.some((encounter) => encounter.gameVersionId === gameVersionId),
+  );
 }
 
 export function getEvolutionFamily(schema: EncyclopediaSchema, species: PokemonSpeciesEntity) {
@@ -287,9 +301,9 @@ export function getTypeEffectivenessSummary(schema: EncyclopediaSchema, form: Po
     .sort((left, right) => right.multiplier - left.multiplier);
 }
 
-export function groupLearnsetByMethod(schema: EncyclopediaSchema, form: PokemonFormEntity) {
+export function groupLearnsetByMethod(schema: EncyclopediaSchema, form: PokemonFormEntity, gameVersionId?: GameVersionEntity["id"]) {
   const grouped = new Map<string, ReturnType<typeof getMovesForForm>>();
-  for (const entry of getMovesForForm(schema, form)) {
+  for (const entry of getMovesForForm(schema, form, gameVersionId)) {
     const current = grouped.get(entry.method) ?? [];
     current.push(entry);
     grouped.set(entry.method, current);

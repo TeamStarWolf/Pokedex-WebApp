@@ -1,5 +1,6 @@
 import { capitalize } from "../lib/format";
 import type { PokemonSummary, TeamMemberConfig, TeamProfile } from "../lib/types";
+import { PokemonImage } from "./encyclopedia/PokemonImage";
 
 type Props = {
   team: TeamMemberConfig[];
@@ -47,7 +48,7 @@ export function TeamBuilder({ team, profile, pokemonList, onToggleTeam, onUpdate
               {member ? (
                 <>
                   <div className="team-slot-header">
-                    <img src={member.pokemon.image} alt={member.pokemon.name} className="team-art" />
+                    <PokemonImage src={member.pokemon.image} alt={member.pokemon.name} className="team-art" />
                     <div>
                       <strong>{member.member.nickname || capitalize(member.pokemon.name)}</strong>
                       <p className="small-copy">{capitalize(member.pokemon.name)}</p>

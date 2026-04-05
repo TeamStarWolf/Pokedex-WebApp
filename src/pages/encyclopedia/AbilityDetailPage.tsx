@@ -22,7 +22,8 @@ export function AbilityDetailPage() {
   if (!ability) return <main className="encyclopedia-page"><section className="content-card"><h1>Ability not found</h1></section></main>;
 
   const pokemon = getPokemonByAbility(schema, ability.id);
-  const forms = ability.pokemonFormIds.map((formId) => schema.forms[formId]).filter(Boolean).slice(0, 10);
+  const allForms = ability.pokemonFormIds.map((formId) => schema.forms[formId]).filter(Boolean);
+  const forms = allForms.slice(0, 20);
   return (
     <main className="encyclopedia-page">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Abilities", href: "/abilities" }, { label: ability.name }]} />
@@ -58,6 +59,9 @@ export function AbilityDetailPage() {
           </section>
           <section id="holders" className="content-card">
             <h2>Pokemon with this ability</h2>
+            {allForms.length > forms.length ? (
+              <p className="muted">Showing {forms.length} of {allForms.length} forms with this ability.</p>
+            ) : null}
             <div className="location-table" role="table" aria-label="Pokemon with this ability">
               <div className="location-table-head" role="row">
                 <span>Pokemon</span>

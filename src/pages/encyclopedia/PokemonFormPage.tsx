@@ -4,6 +4,7 @@ import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
 import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
+import { StatBarChart } from "../../components/encyclopedia/StatBarChart";
 import { useEncyclopediaData, usePokemonDetailData } from "../../hooks/useEncyclopediaData";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, getUniqueMoveCount, groupLearnsetByMethod } from "../../lib/encyclopedia";
@@ -80,9 +81,7 @@ export function PokemonFormPage() {
           </section>
           <section id="stats" className="content-card">
             <h2>Stats</h2>
-            <dl className="stat-grid">
-              {Object.entries(form.stats).map(([key, value]) => <div key={key}><dt>{key}</dt><dd>{value}</dd></div>)}
-            </dl>
+            <StatBarChart stats={form.stats} />
           </section>
           <section id="learnset" className="content-card">
             <h2>Learnset</h2>

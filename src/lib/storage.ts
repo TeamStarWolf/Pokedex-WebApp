@@ -1,4 +1,15 @@
 import type { AppStorage, CustomTeamSet, PresetTeam, StorageEnvelope, TeamMemberConfig } from "./types";
+import {
+  clampDescription,
+  clampName,
+  clampNickname,
+  clampNotes,
+  clampRole,
+  clampTeamMembers,
+  isImportPayloadWithinLimit,
+  limitCustomTeamSets,
+  sanitizeTagList,
+} from "./security";
 
 export const STORAGE_VERSION = 3;
 const STORAGE_KEY = "pokenav-storage";
@@ -29,30 +40,34 @@ function normalizeTeamMember(value: unknown): TeamMemberConfig | null {
     : typeof candidate.id === "number"
       ? candidate.id
       : null;
-  if (pokemonId === null) return null;
+  if (pokemonId === null || !Number.isFinite(pokemonId) || pokemonId <= 0) return null;
   return {
     pokemonId,
-    nickname: typeof candidate.nickname === "string" ? candidate.nickname : "",
-    role: typeof candidate.role === "string" ? candidate.role : "",
-    notes: typeof candidate.notes === "string" ? candidate.notes : "",
+    nickname: clampNickname(candidate.nickname),
+    role: clampRole(candidate.role),
+    notes: clampNotes(candidate.notes),
   };
 }
 
 function normalizeTeamSet(value: unknown): CustomTeamSet | null {
   if (!value || typeof value !== "object") return null;
   const candidate = value as Record<string, unknown>;
-  if (typeof candidate.id !== "string" || typeof candidate.name !== "string") return null;
+  const id = clampName(candidate.id);
+  const name = clampName(candidate.name);
+  if (!id || !name) return null;
   const members = Array.isArray(candidate.members)
-    ? candidate.members.map(normalizeTeamMember).filter((member): member is TeamMemberConfig => Boolean(member))
+    ? clampTeamMembers(candidate.members.map(normalizeTeamMember).filter((member): member is TeamMemberConfig => Boolean(member)))
     : [];
   return {
-    id: candidate.id,
-    name: candidate.name,
-    description: typeof candidate.description === "string" ? candidate.description : "",
-    tags: Array.isArray(candidate.tags) ? candidate.tags.filter((tag): tag is string => typeof tag === "string") : [],
-    notes: typeof candidate.notes === "string" ? candidate.notes : "",
+    id,
+    name,
+    description: clampDescription(candidate.description),
+    tags: sanitizeTagList(candidate.tags),
+    notes: clampNotes(candidate.notes),
     members,
-    updatedAt: typeof candidate.updatedAt === "string" ? candidate.updatedAt : new Date(0).toISOString(),
+    updatedAt: typeof candidate.updatedAt === "string" && !Number.isNaN(Date.parse(candidate.updatedAt))
+      ? candidate.updatedAt
+      : new Date(0).toISOString(),
   };
 }
 
@@ -65,18 +80,18 @@ export function migrateStorage(raw: unknown): AppStorage {
   return {
     favorites: isNumberArray(candidate.favorites) ? candidate.favorites : [],
     currentTeam: Array.isArray(candidate.currentTeam)
-      ? candidate.currentTeam.map(normalizeTeamMember).filter((member): member is TeamMemberConfig => Boolean(member))
+      ? clampTeamMembers(candidate.currentTeam.map(normalizeTeamMember).filter((member): member is TeamMemberConfig => Boolean(member)))
       : isNumberArray(candidate.team)
-        ? candidate.team.map((pokemonId) => ({ pokemonId, nickname: "", role: "", notes: "" }))
+        ? clampTeamMembers(candidate.team.map((pokemonId) => ({ pokemonId, nickname: "", role: "", notes: "" })))
         : [],
     currentTeamProfile: candidate.currentTeamProfile && typeof candidate.currentTeamProfile === "object"
       ? {
-          name: typeof (candidate.currentTeamProfile as Record<string, unknown>).name === "string" ? (candidate.currentTeamProfile as Record<string, unknown>).name as string : "Current Team",
-          notes: typeof (candidate.currentTeamProfile as Record<string, unknown>).notes === "string" ? (candidate.currentTeamProfile as Record<string, unknown>).notes as string : "",
+          name: clampName((candidate.currentTeamProfile as Record<string, unknown>).name) || "Current Team",
+          notes: clampNotes((candidate.currentTeamProfile as Record<string, unknown>).notes),
         }
       : { name: "Current Team", notes: "" },
     customTeamSets: Array.isArray(candidate.customTeamSets)
-      ? candidate.customTeamSets.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set))
+      ? limitCustomTeamSets(candidate.customTeamSets.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set)))
       : [],
   };
 }
@@ -115,16 +130,22 @@ export function writeAppStorage(value: AppStorage, storage: Storage = window.loc
     version: STORAGE_VERSION,
     value,
   };
-  storage.setItem(STORAGE_KEY, JSON.stringify(envelope));
+  try {
+    storage.setItem(STORAGE_KEY, JSON.stringify(envelope));
+  } catch {
+    // Ignore storage quota and privacy-mode failures so the app remains usable.
+  }
 }
 
 export function exportTeamSets(teamSets: CustomTeamSet[], presets: PresetTeam[]) {
   return JSON.stringify(
     {
+      app: "PokeNav",
+      exportType: "custom-team-sets",
       exportedAt: new Date().toISOString(),
       version: STORAGE_VERSION,
-      customTeamSets: teamSets,
-      presets,
+      customTeamSets: limitCustomTeamSets(teamSets.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set))),
+      presetCount: presets.length,
     },
     null,
     2,
@@ -132,10 +153,27 @@ export function exportTeamSets(teamSets: CustomTeamSet[], presets: PresetTeam[])
 }
 
 export function importTeamSets(payload: string): CustomTeamSet[] {
+  if (!isImportPayloadWithinLimit(payload)) return [];
+
   try {
     const parsed = JSON.parse(payload) as Record<string, unknown>;
-    const source = Array.isArray(parsed.customTeamSets) ? parsed.customTeamSets : [];
-    return source.map(normalizeTeamSet).filter((set): set is CustomTeamSet => Boolean(set));
+    const source = Array.isArray(parsed.customTeamSets)
+      ? parsed.customTeamSets
+      : Array.isArray(parsed)
+        ? parsed
+        : [];
+
+    const seen = new Set<string>();
+    return limitCustomTeamSets(
+      source
+        .map(normalizeTeamSet)
+        .filter((set): set is CustomTeamSet => Boolean(set))
+        .filter((set) => {
+          if (seen.has(set.id)) return false;
+          seen.add(set.id);
+          return true;
+        }),
+    );
   } catch {
     return [];
   }
