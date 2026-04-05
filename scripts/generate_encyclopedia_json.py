@@ -94,8 +94,59 @@ def build_type_map() -> dict[str, dict]:
     }
 
 
+GAME_GENERATION_MAP: dict[str, int] = {
+    # Version groups
+    "red-blue": 1, "red-green-japan": 1, "blue-japan": 1, "yellow": 1,
+    "gold-silver": 2, "crystal": 2,
+    "ruby-sapphire": 3, "emerald": 3, "firered-leafgreen": 3, "colosseum": 3, "xd": 3,
+    "diamond-pearl": 4, "platinum": 4, "heartgold-soulsilver": 4,
+    "black-white": 5, "black-2-white-2": 5,
+    "x-y": 6, "omega-ruby-alpha-sapphire": 6,
+    "sun-moon": 7, "ultra-sun-ultra-moon": 7, "lets-go-pikachu-lets-go-eevee": 7,
+    "sword-shield": 8, "brilliant-diamond-shining-pearl": 8, "legends-arceus": 8,
+    "scarlet-violet": 9, "the-teal-mask": 9, "the-indigo-disk": 9,
+    # Individual game versions
+    "red": 1, "blue": 1, "green": 1, "yellow-version": 1,
+    "gold": 1, "silver": 2, "crystal-version": 2,
+    "ruby": 3, "sapphire": 3, "emerald-version": 3, "firered": 3, "leafgreen": 3,
+    "diamond": 4, "pearl": 4, "platinum-version": 4, "heartgold": 4, "soulsilver": 4,
+    "black": 5, "white": 5, "black-2": 5, "white-2": 5,
+    "x": 6, "y": 6, "omega-ruby": 6, "alpha-sapphire": 6,
+    "sun": 7, "moon": 7, "ultra-sun": 7, "ultra-moon": 7,
+    "lets-go-pikachu": 7, "lets-go-eevee": 7,
+    "sword": 8, "shield": 8,
+    "brilliant-diamond": 8, "shining-pearl": 8,
+    "scarlet": 9, "violet": 9,
+}
+
+GAME_SHORT_NAMES: dict[str, str] = {
+    "red-blue": "RB", "yellow": "Y", "gold-silver": "GS", "crystal": "C",
+    "ruby-sapphire": "RS", "emerald": "E", "firered-leafgreen": "FRLG",
+    "diamond-pearl": "DP", "platinum": "Pt", "heartgold-soulsilver": "HGSS",
+    "black-white": "BW", "black-2-white-2": "B2W2",
+    "x-y": "XY", "omega-ruby-alpha-sapphire": "ORAS",
+    "sun-moon": "SM", "ultra-sun-ultra-moon": "USUM",
+    "lets-go-pikachu-lets-go-eevee": "LGPE",
+    "sword-shield": "SwSh", "brilliant-diamond-shining-pearl": "BDSP",
+    "legends-arceus": "PLA", "scarlet-violet": "SV",
+    "colosseum": "Colo", "xd": "XD",
+    "red": "Red", "blue": "Blue", "gold": "Gold", "silver": "Silver",
+    "ruby": "Ruby", "sapphire": "Sapphire", "firered": "FR", "leafgreen": "LG",
+    "diamond": "Diamond", "pearl": "Pearl", "heartgold": "HG", "soulsilver": "SS",
+    "black": "Black", "white": "White", "black-2": "B2", "white-2": "W2",
+    "x": "X", "y": "Y", "omega-ruby": "OR", "alpha-sapphire": "AS",
+    "sun": "Sun", "moon": "Moon", "ultra-sun": "US", "ultra-moon": "UM",
+    "lets-go-pikachu": "LGP", "lets-go-eevee": "LGE",
+    "sword": "Sword", "shield": "Shield",
+    "brilliant-diamond": "BD", "shining-pearl": "SP",
+    "scarlet": "Scarlet", "violet": "Violet",
+}
+
+
 def build_game_entity(version_group: str) -> dict:
     label = version_group.replace("-", " ").title()
+    short_name = GAME_SHORT_NAMES.get(version_group, label)
+    generation = GAME_GENERATION_MAP.get(version_group, 0)
     return {
         "id": f"game:{version_group}",
         "kind": "game-version",
@@ -105,9 +156,9 @@ def build_game_entity(version_group: str) -> dict:
         "status": "partial",
         "sourceRefs": [{"label": "Local SQLite export", "sourceType": "internal"}],
         "relatedLinks": [],
-        "shortName": label,
+        "shortName": short_name,
         "regionId": None,
-        "generation": 0,
+        "generation": generation,
         "versionGroup": version_group,
         "releaseDate": None,
         "platform": None,
@@ -464,6 +515,17 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
         if region_hints:
             browse_tags.append("regional-form")
 
+        # Determine the correct default form ID by finding the form flagged is_default,
+        # since some species have default forms with suffixed names (e.g., deoxys-normal)
+        default_form_id = f"form:{slugify(species['name'])}"
+        species_forms = forms_by_species.get(species["species_id"], [])
+        for form in species_forms:
+            if form["is_default"]:
+                candidate = f"form:{slugify(form['name'])}"
+                if candidate in form_entities:
+                    default_form_id = candidate
+                break
+
         species_id = f"pokemon:{species['name']}"
         species_entities[species_id] = {
             "id": species_id,
@@ -477,7 +539,7 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
             "expansionNotes": ["Competitive, encounter, and media coverage can be expanded later without changing the page contract."],
             "nationalDexNumber": species["species_id"],
             "categoryLabel": genus,
-            "defaultFormId": f"form:{slugify(species['name'])}",
+            "defaultFormId": default_form_id,
             "formIds": form_ids,
             "generation": parse_generation(species["generation"]),
             "introducedInGameId": None,
