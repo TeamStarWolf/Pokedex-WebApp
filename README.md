@@ -9,7 +9,7 @@
   [![GitHub Pages](https://img.shields.io/badge/live-github%20pages-0A66C2?style=for-the-badge&logo=github)](https://teamstarwolf.github.io/PokeNav/)
   [![Security](https://img.shields.io/badge/security-codeql%20%2B%20osv%20%2B%20dependency%20review-2ECC71?style=for-the-badge)](.github/workflows)
 
-  **[Live Site](https://teamstarwolf.github.io/PokeNav/)** | **[Docs](docs/README.md)** | **[Roadmap](ROADMAP.md)** | **[Contributing](CONTRIBUTING.md)** | **[Security](SECURITY.md)**
+  **[Live Site](https://teamstarwolf.github.io/PokeNav/)** | **[Docs](docs/README.md)** | **[Application Overview](docs/application-overview.md)** | **[Roadmap](ROADMAP.md)** | **[Security](SECURITY.md)** | **[Contributing](CONTRIBUTING.md)**
 </div>
 
 ---
@@ -25,6 +25,16 @@ PokeNav currently has three strongest browse paths:
 3. browse trainer battles and appearances
 
 Everything else in the app is meant to support those flows with linked pages for moves, abilities, items, types, regions, and locations.
+
+## Core Workflows
+
+| Workflow | What it supports |
+| --- | --- |
+| Game-first browsing | Start with a specific title and move through Pokemon, trainers, locations, and related records in game context |
+| Pokemon reference | Read species pages, forms, moves, abilities, and comparison views without losing navigation context |
+| Trainer research | Inspect trainer identities, battle appearances, and game-specific encounter history across titles |
+| Linked encyclopedia pivots | Move laterally between entities instead of bouncing back to a flat search-first model |
+| Local-first reference use | Run against generated local datasets so the app stays fast and usable without depending on live API hydration |
 
 ## Feature Highlights
 
@@ -111,6 +121,7 @@ docs/                        Product, architecture, and maintenance handbook
 | Document | Purpose |
 | --- | --- |
 | [docs/README.md](docs/README.md) | documentation index and onboarding path |
+| [docs/application-overview.md](docs/application-overview.md) | product-level overview of browse flows, data model priorities, strengths, and current limits |
 | [ROADMAP.md](ROADMAP.md) | current direction, gaps, and release priorities |
 | [docs/encyclopedia-architecture.md](docs/encyclopedia-architecture.md) | schema and route architecture |
 | [docs/pokemon-system.md](docs/pokemon-system.md) | Pokemon species pages, forms, learnsets, game context, and data flow |

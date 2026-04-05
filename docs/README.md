@@ -5,20 +5,23 @@ This folder is the project handbook for PokeNav.
 If you are new to the repo, start in this order:
 
 1. [README](../README.md)
-2. [Roadmap](../ROADMAP.md)
-3. [Encyclopedia Architecture](encyclopedia-architecture.md)
-4. [Data Pipeline](data-pipeline.md)
-5. [Routes And Pages](routes-and-pages.md)
-6. [Pokemon System](pokemon-system.md)
-7. [Trainer System](trainer-system.md)
-8. [Public Release Plan](public-release-plan.md)
-9. [UI And UX Audit](ui-ux-audit.md)
-10. [Security Hardening](security-hardening.md)
+2. [Application Overview](application-overview.md)
+3. [Roadmap](../ROADMAP.md)
+4. [Encyclopedia Architecture](encyclopedia-architecture.md)
+5. [Data Pipeline](data-pipeline.md)
+6. [Routes And Pages](routes-and-pages.md)
+7. [Pokemon System](pokemon-system.md)
+8. [Trainer System](trainer-system.md)
+9. [Public Release Plan](public-release-plan.md)
+10. [UI And UX Audit](ui-ux-audit.md)
+11. [Security Hardening](security-hardening.md)
 
 ## Documentation Map
 
 ### Product and planning
 
+- [Application Overview](application-overview.md)
+  Product-level summary of the app, its strongest browse paths, and its current boundaries.
 - [Roadmap](../ROADMAP.md)
   What the project is aiming for, what is in progress, and what comes next.
 - [Public Release Plan](public-release-plan.md)
