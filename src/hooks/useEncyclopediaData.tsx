@@ -63,7 +63,7 @@ export function EncyclopediaDataProvider({ children }: { children: ReactNode }) 
 
   useEffect(() => {
     let cancelled = false;
-    fetch("/data/encyclopedia/index.json")
+    fetch(`${import.meta.env.BASE_URL}data/encyclopedia/index.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`Failed to load encyclopedia index: ${response.status}`);
         return response.json() as Promise<EncyclopediaSchema>;
@@ -108,7 +108,7 @@ export function usePokemonDetailData(speciesSlug: string) {
     setLoading(true);
     setError(null);
 
-    fetch(`/data/encyclopedia/pokemon/${speciesSlug}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/encyclopedia/pokemon/${speciesSlug}.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`Failed to load Pokemon detail: ${response.status}`);
         return response.json() as Promise<EncyclopediaSchema>;

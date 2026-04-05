@@ -7,6 +7,16 @@ type Props = {
   loading?: "lazy" | "eager";
 };
 
+const BASE = import.meta.env.BASE_URL;
+
+/** Prefix absolute paths with the deploy base so images resolve on GitHub Pages. */
+function resolveAssetUrl(url: string): string {
+  if (url.startsWith("/") && !url.startsWith(BASE)) {
+    return `${BASE}${url.slice(1)}`;
+  }
+  return url;
+}
+
 export function PokemonImage({ src, alt, className, loading }: Props) {
   const [broken, setBroken] = useState(false);
 
@@ -22,5 +32,5 @@ export function PokemonImage({ src, alt, className, loading }: Props) {
     );
   }
 
-  return <img src={src} alt={alt} className={className} loading={loading} onError={() => setBroken(true)} />;
+  return <img src={resolveAssetUrl(src)} alt={alt} className={className} loading={loading} onError={() => setBroken(true)} />;
 }

@@ -12,7 +12,7 @@ export function useTrainerPresets() {
 
   useEffect(() => {
     let active = true;
-    fetch("/data/trainers/manifest.json")
+    fetch(`${import.meta.env.BASE_URL}data/trainers/manifest.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`Failed to load trainer manifest: ${response.status}`);
         return response.json() as Promise<TrainerReferenceManifest>;
@@ -57,7 +57,7 @@ export function useTrainerDetailPresets(trainerSlug: string) {
 
     let active = true;
     setLoading(true);
-    fetch(`/data/trainers/by-trainer/${trainerSlug}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/trainers/by-trainer/${trainerSlug}.json`)
       .then((response) => {
         if (!response.ok) throw new Error(`Failed to load trainer detail: ${response.status}`);
         return response.json() as Promise<TrainerDetailPayload>;

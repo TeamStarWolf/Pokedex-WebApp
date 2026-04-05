@@ -25,7 +25,7 @@ export function TrainerSprite({ trainer, region }: Props) {
     .join("");
 
   const spriteFilename = trainerSpriteManifest[trainer] ?? `${slugifyTrainer(trainer)}.svg`;
-  const spritePath = `/trainer-sprites/${spriteFilename}?v=${TRAINER_SPRITE_VERSION}`;
+  const spritePath = `${import.meta.env.BASE_URL}trainer-sprites/${spriteFilename}?v=${TRAINER_SPRITE_VERSION}`;
 
   if (!broken) {
     return (

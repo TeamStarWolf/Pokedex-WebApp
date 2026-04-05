@@ -8,7 +8,7 @@ export function usePokedexIndex() {
 
   useEffect(() => {
     let active = true;
-    fetch("/data/index.json")
+    fetch(`${import.meta.env.BASE_URL}data/index.json`)
       .then((response) => {
         if (!response.ok) throw new Error("Failed to load local dataset.");
         return response.json() as Promise<PokemonSummary[]>;
@@ -47,7 +47,7 @@ export function usePokemonDetail(pokemonId: number | null) {
     setLoading(true);
     setError("");
 
-    fetch(`/data/pokemon/${pokemonId}.json`)
+    fetch(`${import.meta.env.BASE_URL}data/pokemon/${pokemonId}.json`)
       .then((response) => {
         if (!response.ok) throw new Error("Failed to load Pokemon detail.");
         return response.json() as Promise<PokemonDetail>;
