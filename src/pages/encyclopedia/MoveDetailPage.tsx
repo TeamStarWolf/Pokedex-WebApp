@@ -1,13 +1,17 @@
+import { useState, useMemo } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
 import { EntityInfobox } from "../../components/encyclopedia/EntityInfobox";
+import { Pagination } from "../../components/encyclopedia/Pagination";
 import { PlaceholderBlock } from "../../components/encyclopedia/PlaceholderBlock";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
-import { getMoveBySlug, getPokemonByMove } from "../../lib/encyclopedia";
+import { getMoveBySlug, getPokemonByMove, paginate } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
+
+const LEARNER_PAGE_SIZE = 30;
 
 const tabs = [
   { id: "effect", label: "Effect" },
@@ -20,13 +24,45 @@ export function MoveDetailPage() {
   const { schema } = useEncyclopediaData();
   const move = getMoveBySlug(schema, moveSlug);
   useDocumentTitle(move?.name ?? "Move");
+
+  const [learnerPage, setLearnerPage] = useState(1);
+  const [learnerQuery, setLearnerQuery] = useState("");
+  const [learnerSort, setLearnerSort] = useState<"name" | "type">("name");
+
   if (!move) return <main className="encyclopedia-page"><section className="content-card"><h1>Move not found</h1></section></main>;
 
   const learners = getPokemonByMove(schema, move.id);
   const allLearnerForms = move.pokemonFormIds
     .map((formId) => schema.forms[formId])
     .filter(Boolean);
-  const learnerForms = allLearnerForms.slice(0, 20);
+
+  const filteredLearners = useMemo(() => {
+    let list = allLearnerForms;
+    if (learnerQuery.trim()) {
+      const q = learnerQuery.toLowerCase();
+      list = list.filter((form) => {
+        const species = schema.pokemon[form.speciesId];
+        return species?.name.toLowerCase().includes(q) || form.formName.toLowerCase().includes(q);
+      });
+    }
+    if (learnerSort === "type") {
+      list = [...list].sort((a, b) => {
+        const typeA = a.typeIds[0] ?? "";
+        const typeB = b.typeIds[0] ?? "";
+        return typeA.localeCompare(typeB);
+      });
+    } else {
+      list = [...list].sort((a, b) => {
+        const nameA = schema.pokemon[a.speciesId]?.name ?? "";
+        const nameB = schema.pokemon[b.speciesId]?.name ?? "";
+        return nameA.localeCompare(nameB);
+      });
+    }
+    return list;
+  }, [allLearnerForms, learnerQuery, learnerSort, schema]);
+
+  const learnerPagination = paginate(filteredLearners, learnerPage, LEARNER_PAGE_SIZE);
+
   return (
     <main className="encyclopedia-page">
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Moves", href: "/moves" }, { label: move.name }]} />
@@ -92,9 +128,26 @@ export function MoveDetailPage() {
           </section>
           <section id="learners" className="content-card">
             <h2>Known learners</h2>
-            {allLearnerForms.length > learnerForms.length ? (
-              <p className="muted">Showing {learnerForms.length} of {allLearnerForms.length} forms that learn this move.</p>
-            ) : null}
+            <p className="muted">{allLearnerForms.length} forms learn this move.</p>
+            <div className="browse-toolbar">
+              <div className="inline-filter-row">
+                <label>
+                  Search
+                  <input
+                    value={learnerQuery}
+                    onChange={(event) => { setLearnerQuery(event.target.value); setLearnerPage(1); }}
+                    placeholder="Filter by Pokemon name"
+                  />
+                </label>
+                <label>
+                  Sort
+                  <select value={learnerSort} onChange={(event) => { setLearnerSort(event.target.value as "name" | "type"); setLearnerPage(1); }}>
+                    <option value="name">Name (A-Z)</option>
+                    <option value="type">Primary type</option>
+                  </select>
+                </label>
+              </div>
+            </div>
             <div className="location-table" role="table" aria-label="Known learners">
               <div className="location-table-head" role="row">
                 <span>Pokemon</span>
@@ -102,7 +155,7 @@ export function MoveDetailPage() {
                 <span>Primary type</span>
                 <span>Entry</span>
               </div>
-              {learnerForms.map((form) => {
+              {learnerPagination.items.map((form) => {
                 const species = schema.pokemon[form.speciesId];
                 const primaryTypeId = form.typeIds[0];
                 return (
@@ -121,6 +174,15 @@ export function MoveDetailPage() {
                 );
               })}
             </div>
+            {learnerPagination.totalPages > 1 && (
+              <Pagination
+                page={learnerPagination.page}
+                totalPages={learnerPagination.totalPages}
+                onChange={setLearnerPage}
+                totalItems={filteredLearners.length}
+                pageSize={LEARNER_PAGE_SIZE}
+              />
+            )}
           </section>
           <PlaceholderBlock title="Version text" body="Version-specific move text is modeled in the schema and can be expanded per game later." />
         </div>

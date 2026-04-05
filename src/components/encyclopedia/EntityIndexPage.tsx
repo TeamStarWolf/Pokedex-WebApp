@@ -20,6 +20,12 @@ type FilterDefinition = {
   defaultValue?: string;
 };
 
+type SortDefinition<T> = {
+  key: string;
+  label: string;
+  compareFn: (a: T, b: T) => number;
+};
+
 type EntityIndexPageProps<T extends IndexEntity> = {
   title: string;
   eyebrow: string;
@@ -29,8 +35,12 @@ type EntityIndexPageProps<T extends IndexEntity> = {
   searchPlaceholder: string;
   hrefFor: (entity: T) => string;
   metaFor: (entity: T) => string;
+  /** Optional secondary line of detail shown below the meta. */
+  detailFor?: (entity: T) => string | null;
   filters?: FilterDefinition[];
   filterFn?: (entity: T, activeFilters: Record<string, string>) => boolean;
+  sortOptions?: SortDefinition<T>[];
+  defaultSort?: string;
 };
 
 export function EntityIndexPage<T extends IndexEntity>({
@@ -42,12 +52,16 @@ export function EntityIndexPage<T extends IndexEntity>({
   searchPlaceholder,
   hrefFor,
   metaFor,
+  detailFor,
   filters = [],
   filterFn,
+  sortOptions = [],
+  defaultSort,
 }: EntityIndexPageProps<T>) {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get("q") ?? "";
   const page = Number(searchParams.get("page") ?? "1") || 1;
+  const activeSort = searchParams.get("sort") ?? defaultSort ?? sortOptions[0]?.key ?? "";
 
   const activeFilters = useMemo(() => {
     const result: Record<string, string> = {};
@@ -58,7 +72,7 @@ export function EntityIndexPage<T extends IndexEntity>({
   }, [filters, searchParams]);
 
   const filtered = useMemo(() => {
-    return entities.filter((entity) => {
+    let list = entities.filter((entity) => {
       if (query.trim() && !`${entity.name} ${entity.summary}`.toLowerCase().includes(query.trim().toLowerCase())) {
         return false;
       }
@@ -67,7 +81,14 @@ export function EntityIndexPage<T extends IndexEntity>({
       }
       return true;
     });
-  }, [entities, query, activeFilters, filterFn]);
+
+    const sortDef = sortOptions.find((s) => s.key === activeSort);
+    if (sortDef) {
+      list = [...list].sort(sortDef.compareFn);
+    }
+
+    return list;
+  }, [entities, query, activeFilters, filterFn, sortOptions, activeSort]);
 
   const paginationResult = paginate(filtered, page, PAGE_SIZE);
 
@@ -75,7 +96,7 @@ export function EntityIndexPage<T extends IndexEntity>({
     const merged = new URLSearchParams(searchParams);
     if (!("page" in next)) merged.delete("page");
     Object.entries(next).forEach(([key, value]) => {
-      if (!value || value === "all" || (key === "page" && value === "1")) merged.delete(key);
+      if (!value || value === "all" || (key === "page" && value === "1") || (key === "sort" && value === defaultSort)) merged.delete(key);
       else merged.set(key, value);
     });
     setSearchParams(merged);
@@ -113,6 +134,16 @@ export function EntityIndexPage<T extends IndexEntity>({
                 </select>
               </label>
             ))}
+            {sortOptions.length > 0 && (
+              <label>
+                Sort
+                <select value={activeSort} onChange={(event) => updateParam({ sort: event.target.value })}>
+                  {sortOptions.map((option) => (
+                    <option key={option.key} value={option.key}>{option.label}</option>
+                  ))}
+                </select>
+              </label>
+            )}
           </div>
         </div>
         {paginationResult.items.length ? (
@@ -123,6 +154,7 @@ export function EntityIndexPage<T extends IndexEntity>({
                   <span className="eyebrow">Entry</span>
                   <strong>{entity.name}</strong>
                   <span>{metaFor(entity)}</span>
+                  {detailFor ? <span className="result-detail">{detailFor(entity)}</span> : null}
                 </Link>
               ))}
             </div>

@@ -106,6 +106,7 @@ class DownloaderConfig:
     sleep_seconds: float = DEFAULT_SLEEP
     resume: bool = False
     limit: int | None = None
+    moves_only: bool = False
 
 
 class PokeApiClient:
@@ -267,6 +268,21 @@ class LocalPokedexDb:
                 PRIMARY KEY (species_id, evolution_chain_id, stage, species_name),
                 FOREIGN KEY (species_id) REFERENCES species(species_id) ON DELETE CASCADE,
                 FOREIGN KEY (evolution_chain_id) REFERENCES evolution_chains(evolution_chain_id) ON DELETE CASCADE
+            );
+
+            CREATE TABLE IF NOT EXISTS moves (
+                move_name TEXT PRIMARY KEY,
+                type_name TEXT,
+                damage_class TEXT,
+                power INTEGER,
+                accuracy INTEGER,
+                pp INTEGER,
+                priority INTEGER NOT NULL DEFAULT 0,
+                target TEXT,
+                effect_chance INTEGER,
+                effect_text TEXT,
+                created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP
             );
 
             CREATE TABLE IF NOT EXISTS metadata (
@@ -494,6 +510,83 @@ def download_artwork(client: PokeApiClient, assets_dir: Path, pokemon_id: int) -
     return str(dest.as_posix())
 
 
+def download_moves(config: DownloaderConfig) -> None:
+    """Fetch metadata for all moves from PokeAPI."""
+    client = PokeApiClient(timeout=config.timeout)
+    db = LocalPokedexDb(config.db_path)
+    db.init_schema()
+
+    # Try pokemon_moves first; if empty, fetch the full move index from PokeAPI
+    rows = db.conn.execute("SELECT DISTINCT move_name FROM pokemon_moves ORDER BY move_name").fetchall()
+    all_move_names = [r["move_name"] for r in rows]
+
+    if not all_move_names:
+        print("  No pokemon_moves data found. Fetching move list from PokeAPI...")
+        move_index = client.get_json(f"{BASE_URL}/move?limit=2000")
+        all_move_names = [item["name"] for item in move_index.get("results", [])]
+        print(f"  Found {len(all_move_names)} moves in PokeAPI index.")
+
+    existing = {
+        r["move_name"]
+        for r in db.conn.execute("SELECT move_name FROM moves").fetchall()
+    }
+
+    to_fetch = [n for n in all_move_names if n not in existing] if config.resume else all_move_names
+    total = len(to_fetch)
+    print(f"Fetching metadata for {total} moves ({len(existing)} already cached).")
+
+    for idx, move_name in enumerate(to_fetch, start=1):
+        try:
+            data = client.get_json(f"{BASE_URL}/move/{move_name}")
+        except requests.HTTPError as exc:
+            print(f"  [{idx}/{total}] SKIP {move_name}: {exc}")
+            continue
+
+        type_name = (data.get("type") or {}).get("name")
+        damage_class = (data.get("damage_class") or {}).get("name")
+        target = (data.get("target") or {}).get("name")
+        effect_entries = data.get("effect_entries", [])
+        effect_text = next(
+            (e.get("short_effect", "") for e in effect_entries if e.get("language", {}).get("name") == "en"),
+            "",
+        )
+
+        db.conn.execute(
+            """
+            INSERT INTO moves (move_name, type_name, damage_class, power, accuracy, pp,
+                               priority, target, effect_chance, effect_text, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+            ON CONFLICT(move_name) DO UPDATE SET
+                type_name=excluded.type_name, damage_class=excluded.damage_class,
+                power=excluded.power, accuracy=excluded.accuracy, pp=excluded.pp,
+                priority=excluded.priority, target=excluded.target,
+                effect_chance=excluded.effect_chance, effect_text=excluded.effect_text,
+                updated_at=CURRENT_TIMESTAMP
+            """,
+            (
+                move_name,
+                type_name,
+                damage_class,
+                data.get("power"),
+                data.get("accuracy"),
+                data.get("pp"),
+                data.get("priority", 0),
+                target,
+                data.get("effect_chance"),
+                normalize_text(effect_text),
+            ),
+        )
+
+        if idx % 50 == 0:
+            db.conn.commit()
+        print(f"  [{idx}/{total}] {move_name} — {type_name} {damage_class} pwr={data.get('power')}")
+        time.sleep(config.sleep_seconds)
+
+    db.conn.commit()
+    db.close()
+    print(f"Done. Move metadata saved for {total} moves.")
+
+
 def download_database(config: DownloaderConfig) -> None:
     client = PokeApiClient(timeout=config.timeout)
     db = LocalPokedexDb(config.db_path)
@@ -571,6 +664,7 @@ def parse_args(argv: list[str]) -> DownloaderConfig:
     parser.add_argument("--sleep", type=float, default=DEFAULT_SLEEP, help="Delay between requests in seconds.")
     parser.add_argument("--resume", action="store_true", help="Skip species already stored in the database.")
     parser.add_argument("--limit", type=int, default=None, help="Only download the first N species.")
+    parser.add_argument("--moves-only", action="store_true", help="Only fetch move metadata (skips species download).")
     args = parser.parse_args(argv)
     return DownloaderConfig(
         db_path=Path(args.db),
@@ -580,6 +674,7 @@ def parse_args(argv: list[str]) -> DownloaderConfig:
         sleep_seconds=args.sleep,
         resume=args.resume,
         limit=args.limit,
+        moves_only=getattr(args, "moves_only", False),
     )
 
 
@@ -587,7 +682,11 @@ if __name__ == "__main__":
     run_self_checks()
     try:
         config = parse_args(sys.argv[1:])
-        download_database(config)
+        if config.moves_only:
+            download_moves(config)
+        else:
+            download_database(config)
+            download_moves(config)
     except KeyboardInterrupt:
         print("Interrupted.", file=sys.stderr)
         raise SystemExit(130)

@@ -244,6 +244,15 @@ select {
   color: var(--color-text-muted);
 }
 
+.search-result-card .result-detail {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-2);
+  margin-top: var(--space-1);
+}
+
 .subnav-link {
   color: var(--color-text-secondary);
   transition: all var(--transition-fast);

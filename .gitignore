@@ -4,3 +4,5 @@ dist/
 .env
 .env.*
 ui-smoke/
+*.sqlite
+*.json.bak

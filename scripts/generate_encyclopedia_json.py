@@ -302,6 +302,15 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
         "mud-shot": "type:ground",
         "surf": "type:water",
     }
+    # Load move metadata if available (populated by pokedex_local_db_builder.py --moves-only)
+    move_meta_map: dict[str, sqlite3.Row] = {}
+    try:
+        move_meta_rows = load_rows(conn, "SELECT * FROM moves")
+        move_meta_map = {row["move_name"]: row for row in move_meta_rows}
+        print(f"  Loaded metadata for {len(move_meta_map)} moves from the moves table.")
+    except Exception:
+        print("  Warning: No moves table found. Move power/accuracy/PP will be null.")
+
     species_rows = load_rows(conn, "SELECT * FROM species ORDER BY species_id")
     form_rows = load_rows(conn, "SELECT * FROM pokemon_forms ORDER BY species_id, is_default DESC, pokemon_id")
     ability_rows = load_rows(conn, "SELECT * FROM pokemon_abilities ORDER BY pokemon_id, slot")
@@ -419,6 +428,32 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
                         "order": index,
                     }
                 )
+                meta = move_meta_map.get(move["move_name"])
+                if meta:
+                    m_type = f"type:{meta['type_name']}" if meta["type_name"] else seeded_move_type_overrides.get(move["move_name"], "type:normal")
+                    m_class = meta["damage_class"] or "status"
+                    m_power = meta["power"]
+                    m_accuracy = meta["accuracy"]
+                    m_pp = meta["pp"]
+                    m_priority = meta["priority"] or 0
+                    m_target = meta["target"] or "selected-pokemon"
+                    m_effect_chance = meta["effect_chance"]
+                    m_effect_text = meta["effect_text"] or ""
+                    m_status = "growing"
+                    m_notes = []
+                else:
+                    m_type = seeded_move_type_overrides.get(move["move_name"], "type:normal")
+                    m_class = "status"
+                    m_power = None
+                    m_accuracy = None
+                    m_pp = None
+                    m_priority = 0
+                    m_target = "selected-pokemon"
+                    m_effect_chance = None
+                    m_effect_text = "Detailed move metadata is pending a richer source import."
+                    m_status = "partial"
+                    m_notes = ["Power, accuracy, and machine metadata still need a fuller move import."]
+
                 move_entity = move_entities.setdefault(
                     move_id,
                     {
@@ -427,19 +462,19 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
                         "slug": move["move_name"],
                         "name": move["move_name"].replace("-", " ").title(),
                         "summary": f"{move['move_name'].replace('-', ' ').title()} move.",
-                        "status": "partial",
+                        "status": m_status,
                         "sourceRefs": with_internal_source("PokeAPI move", move_url_map.get(move["move_name"])),
                         "relatedLinks": [],
-                        "expansionNotes": ["Power, accuracy, and machine metadata still need a fuller move import."],
-                        "typeId": seeded_move_type_overrides.get(move["move_name"], "type:normal"),
-                        "damageClass": "status",
-                        "power": None,
-                        "accuracy": None,
-                        "pp": None,
-                        "priority": 0,
-                        "target": "selected-pokemon",
-                        "effectChance": None,
-                        "effectText": "Detailed move metadata is pending a richer source import.",
+                        "expansionNotes": m_notes,
+                        "typeId": m_type,
+                        "damageClass": m_class,
+                        "power": m_power,
+                        "accuracy": m_accuracy,
+                        "pp": m_pp,
+                        "priority": m_priority,
+                        "target": m_target,
+                        "effectChance": m_effect_chance,
+                        "effectText": m_effect_text,
                         "flavorTextByVersion": [],
                         "machineItemIds": [],
                         "pokemonFormIds": [],
