@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="screenshots/home.png" width="100%" alt="PokeNav home page and browse entry points">
+  <img src="docs/screenshots/home.png" width="100%" alt="PokeNav home page and browse entry points">
 
   # PokeNav
 
@@ -14,7 +14,7 @@
 
 ---
 
-PokeNav is an offline-first Pokemon encyclopedia built with React, Vite, and TypeScript. It is designed around game-aware browsing, linked entity pages, local generated datasets, and honest completeness signaling instead of a flat one-screen Pokedex grid.
+PokeNav is a game-first Pokemon encyclopedia built as a local-first React app. It is designed to feel closer to a research tool than a simple Pokedex list: browse by game, inspect Pokemon articles, compare species, study trainer battles, and move laterally through related entities without depending on heavy live client-side API hydration.
 
 ## What PokeNav Focuses On
 
@@ -41,12 +41,12 @@ Everything else in the app is meant to support those flows with linked pages for
 
 <table>
 <tr>
-<td width="50%"><strong>Home + Browse Entry Points</strong><br><img src="screenshots/home.png" width="100%" alt="PokeNav home page"></td>
-<td width="50%"><strong>Pokemon Article Page</strong><br><img src="screenshots/pokemon-houndoom.png" width="100%" alt="Pokemon article page for Houndoom"></td>
+<td width="50%"><strong>Home + Browse Entry Points</strong><br><img src="docs/screenshots/home.png" width="100%" alt="PokeNav home page"></td>
+<td width="50%"><strong>Pokemon Article Page</strong><br><img src="docs/screenshots/pokemon-article.png" width="100%" alt="Pokemon article page for Houndoom"></td>
 </tr>
 <tr>
-<td><strong>Trainer Detail Surface</strong><br><img src="screenshots/trainer-red.png" width="100%" alt="Trainer detail page for Red"></td>
-<td><strong>Trainer Appearance Browser</strong><br><img src="screenshots/trainer-appearances-hgss.png" width="100%" alt="Trainer appearance browser filtered to HeartGold and SoulSilver"></td>
+<td><strong>Trainer Detail Surface</strong><br><img src="docs/screenshots/trainer-article.png" width="100%" alt="Trainer detail page for Red"></td>
+<td><strong>Trainer Appearance Browser</strong><br><img src="docs/screenshots/trainer-battles.png" width="100%" alt="Trainer appearance browser filtered to HeartGold and SoulSilver"></td>
 </tr>
 </table>
 
@@ -65,7 +65,6 @@ If a page claims certainty, the backing data should either come from a strong so
 
 ```bash
 npm install
-npm run dev
 ```
 
 For a stable local bind:
@@ -114,6 +113,7 @@ docs/                        Product, architecture, and maintenance handbook
 | [docs/README.md](docs/README.md) | documentation index and onboarding path |
 | [ROADMAP.md](ROADMAP.md) | current direction, gaps, and release priorities |
 | [docs/encyclopedia-architecture.md](docs/encyclopedia-architecture.md) | schema and route architecture |
+| [docs/pokemon-system.md](docs/pokemon-system.md) | Pokemon species pages, forms, learnsets, game context, and data flow |
 | [docs/routes-and-pages.md](docs/routes-and-pages.md) | route map and browse purpose for each page family |
 | [docs/data-pipeline.md](docs/data-pipeline.md) | how local JSON data is generated and loaded |
 | [docs/source-policy.md](docs/source-policy.md) | source hierarchy and data trust rules |

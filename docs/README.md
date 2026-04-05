@@ -9,10 +9,11 @@ If you are new to the repo, start in this order:
 3. [Encyclopedia Architecture](encyclopedia-architecture.md)
 4. [Data Pipeline](data-pipeline.md)
 5. [Routes And Pages](routes-and-pages.md)
-6. [Trainer System](trainer-system.md)
-7. [Public Release Plan](public-release-plan.md)
-8. [UI And UX Audit](ui-ux-audit.md)
-9. [Security Hardening](security-hardening.md)
+6. [Pokemon System](pokemon-system.md)
+7. [Trainer System](trainer-system.md)
+8. [Public Release Plan](public-release-plan.md)
+9. [UI And UX Audit](ui-ux-audit.md)
+10. [Security Hardening](security-hardening.md)
 
 ## Documentation Map
 
@@ -31,6 +32,8 @@ If you are new to the repo, start in this order:
   The normalized data and route architecture.
 - [Encyclopedia Scaffold](encyclopedia-scaffold.md)
   Summary of the route scaffold and sample content shape.
+- [Pokemon System](pokemon-system.md)
+  How Pokemon species pages, forms, learnsets, game context, and runtime data fit together.
 - [Routes And Pages](routes-and-pages.md)
   Human-readable map of route families and what each page is for.
 - [Trainer System](trainer-system.md)
@@ -54,6 +57,15 @@ PokeNav is built around three main public-facing browse paths:
 - Browse Trainer Battles
 
 Everything else in the encyclopedia should support or deepen those flows.
+
+## Visual References
+
+Repo screenshots used by the main GitHub landing page live in `docs/screenshots/`.
+
+- `docs/screenshots/home.png`
+- `docs/screenshots/pokemon-article.png`
+- `docs/screenshots/trainer-battles.png`
+- `docs/screenshots/trainer-article.png`
 
 ## Documentation Standards
 
