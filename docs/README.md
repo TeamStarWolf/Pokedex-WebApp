@@ -4,42 +4,45 @@ This folder is the project handbook for PokeNav.
 
 If you are new to the repo, start in this order:
 
-1. [README](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\README.md)
-2. [Roadmap](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\ROADMAP.md)
-3. [Encyclopedia Architecture](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\encyclopedia-architecture.md)
-4. [Data Pipeline](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\data-pipeline.md)
-5. [Routes And Pages](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\routes-and-pages.md)
-6. [Trainer System](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\trainer-system.md)
-7. [Public Release Plan](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\public-release-plan.md)
-8. [UI And UX Audit](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\ui-ux-audit.md)
+1. [README](../README.md)
+2. [Roadmap](../ROADMAP.md)
+3. [Encyclopedia Architecture](encyclopedia-architecture.md)
+4. [Data Pipeline](data-pipeline.md)
+5. [Routes And Pages](routes-and-pages.md)
+6. [Trainer System](trainer-system.md)
+7. [Public Release Plan](public-release-plan.md)
+8. [UI And UX Audit](ui-ux-audit.md)
+9. [Security Hardening](security-hardening.md)
 
 ## Documentation Map
 
 ### Product and planning
 
-- [Roadmap](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\ROADMAP.md)
+- [Roadmap](../ROADMAP.md)
   What the project is aiming for, what is in progress, and what comes next.
-- [Public Release Plan](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\public-release-plan.md)
+- [Public Release Plan](public-release-plan.md)
   What needs to change before the app is ready to be shown publicly.
-- [UI And UX Audit](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\ui-ux-audit.md)
+- [UI And UX Audit](ui-ux-audit.md)
   Current navigation, layout, and usability findings.
 
 ### Architecture and implementation
 
-- [Encyclopedia Architecture](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\encyclopedia-architecture.md)
+- [Encyclopedia Architecture](encyclopedia-architecture.md)
   The normalized data and route architecture.
-- [Encyclopedia Scaffold](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\encyclopedia-scaffold.md)
+- [Encyclopedia Scaffold](encyclopedia-scaffold.md)
   Summary of the route scaffold and sample content shape.
-- [Routes And Pages](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\routes-and-pages.md)
+- [Routes And Pages](routes-and-pages.md)
   Human-readable map of route families and what each page is for.
-- [Trainer System](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\trainer-system.md)
+- [Trainer System](trainer-system.md)
   How trainer identity, trainer appearances, presets, and generated archive data fit together.
 
 ### Data and maintenance
 
-- [Data Pipeline](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\data-pipeline.md)
+- [Data Pipeline](data-pipeline.md)
   How runtime JSON is generated and loaded.
-- [Contributing](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\CONTRIBUTING.md)
+- [Security Hardening](security-hardening.md)
+  Current browser policy, external link rules, and import safety limits.
+- [Contributing](../CONTRIBUTING.md)
   Expectations for contributors and maintainers.
 
 ## Quick Orientation
