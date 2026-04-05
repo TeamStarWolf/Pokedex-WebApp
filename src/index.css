@@ -14,12 +14,15 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
   min-width: 320px;
   background: transparent;
+  -webkit-tap-highlight-color: rgba(125, 211, 252, 0.15);
+  overflow-x: hidden;
 }
 
 a {
@@ -1046,21 +1049,36 @@ select {
   height: 260px;
 }
 
-.nav-pill:hover,
-.quick-search-link:hover,
-.subnav-link:hover,
-.utility-link:hover,
-.primary-link:hover,
-.secondary-link:hover,
-.tab-pill:hover,
-.entity-chip:hover,
-.type-chip:hover,
-.feature-panel:hover,
-.search-result-card:hover,
-.move-row:hover,
-.dex-card:hover {
-  transform: translateY(-1px);
-  border-color: rgba(125, 211, 252, 0.35);
+@media (hover: hover) {
+  .nav-pill:hover,
+  .quick-search-link:hover,
+  .subnav-link:hover,
+  .utility-link:hover,
+  .primary-link:hover,
+  .secondary-link:hover,
+  .tab-pill:hover,
+  .entity-chip:hover,
+  .type-chip:hover,
+  .feature-panel:hover,
+  .search-result-card:hover,
+  .move-row:hover,
+  .dex-card:hover {
+    transform: translateY(-1px);
+    border-color: rgba(125, 211, 252, 0.35);
+  }
+}
+
+/* Active state for touch devices */
+@media (hover: none) {
+  .nav-pill:active,
+  .quick-search-link:active,
+  .primary-link:active,
+  .secondary-link:active,
+  .entity-chip:active,
+  .dex-card:active {
+    transform: scale(0.97);
+    border-color: rgba(125, 211, 252, 0.35);
+  }
 }
 
 @media (max-width: 1000px) {
@@ -1109,25 +1127,73 @@ select {
 
 @media (max-width: 640px) {
   .encyclopedia-shell {
-    padding: 14px;
+    padding: 10px;
   }
 
   .site-header,
   .hero-panel,
   .content-card,
   .entity-infobox {
-    padding: 18px;
-    border-radius: 22px;
+    padding: 16px;
+    border-radius: 18px;
   }
 
+  /* ---- Grid stacking ---- */
   .infobox-grid,
   .stat-grid,
-  .stats-cluster,
   .title-deck-metrics,
   .overview-metric-grid {
     grid-template-columns: 1fr;
   }
 
+  .stats-cluster {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Grids that overflow at small widths */
+  .search-results-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  }
+
+  .dex-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 8px;
+  }
+
+  .trainer-filter-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .reference-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .homepage-primary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ---- Filter/form stacking ---- */
+  .inline-filter-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .inline-filter-row label {
+    width: 100%;
+  }
+
+  .search-panel input,
+  .inline-filter-row select {
+    padding: 14px;
+    font-size: 16px; /* prevents iOS zoom on focus */
+  }
+
+  .section-topline {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* ---- Tables ---- */
   .learnset-group-header {
     display: grid;
   }
@@ -1156,9 +1222,13 @@ select {
     flex-direction: column;
   }
 
-  .trainer-table-head,
+  .trainer-table-head {
+    display: none;
+  }
+
   .trainer-table-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 
   .trainer-meta-list div {
@@ -1178,6 +1248,7 @@ select {
     transform: scale(1.25) translateY(14px);
   }
 
+  /* ---- Navigation ---- */
   .primary-nav,
   .shell-utility-nav {
     display: none;
@@ -1185,10 +1256,16 @@ select {
 
   .mobile-menu-trigger {
     display: flex;
+    padding: 12px;
+    min-width: 44px;
+    min-height: 44px;
+    align-items: center;
+    justify-content: center;
   }
 
   .site-header {
     grid-template-columns: 1fr auto auto;
+    gap: 8px;
   }
 
   .site-header-sticky {
@@ -1196,28 +1273,148 @@ select {
   }
 
   .site-header-scrolled {
+    padding: 10px 12px;
+    border-radius: 14px;
+  }
+
+  /* ---- Touch target sizing ---- */
+  .nav-pill,
+  .quick-search-link,
+  .tab-pill,
+  .entity-chip,
+  .type-chip {
+    padding: 12px 14px;
+    min-height: 44px;
+  }
+
+  .utility-link {
     padding: 10px 14px;
+    min-height: 44px;
+  }
+
+  .primary-link,
+  .secondary-link {
+    padding: 14px 18px;
+    min-height: 44px;
+    font-size: 0.95rem;
+  }
+
+  .dex-card {
+    padding: 10px;
+    gap: 4px;
+  }
+
+  /* ---- Font sizes ---- */
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.15rem;
+  }
+
+  .stats-cluster strong {
+    font-size: 1.3rem;
+  }
+
+  .title-deck-metrics strong {
+    font-size: 1.2rem;
+  }
+
+  .eyebrow {
+    font-size: 0.72rem;
+  }
+
+  .dex-card h2 {
+    font-size: 0.9rem;
+  }
+
+  .dex-card p {
+    font-size: 0.78rem;
+  }
+
+  .dex-card-meta {
+    font-size: 0.75rem;
+  }
+
+  /* ---- Breadcrumbs ---- */
+  .breadcrumbs {
+    font-size: 0.82rem;
+    gap: 4px;
+  }
+
+  /* ---- Hero panel ---- */
+  .hero-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-showcase-art {
+    max-width: 120px;
+    max-height: 120px;
+  }
+
+  /* ---- Game context bar ---- */
+  .game-context-bar {
+    padding: 10px 12px;
     border-radius: 16px;
   }
 
+  .game-context-links {
+    gap: 6px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .game-context-links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .subnav-link {
+    padding: 10px 12px;
+    font-size: 0.82rem;
+    white-space: nowrap;
+    min-height: 44px;
+  }
+
+  /* ---- Footer ---- */
   .site-footer {
     margin-top: 32px;
-    padding: 24px 14px 20px;
+    padding: 24px 10px 20px;
   }
 
   .footer-links {
-    gap: 4px 12px;
+    gap: 8px 16px;
   }
 
+  .footer-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* ---- Scroll to top ---- */
   .scroll-to-top {
     bottom: 16px;
     right: 16px;
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
   }
 
-  .stats-cluster {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  /* ---- Chip grid wrapping ---- */
+  .chip-grid {
+    gap: 6px;
+  }
+
+  .type-chip-row {
+    gap: 6px;
+  }
+
+  /* ---- Compare grid ---- */
+  .compare-grid {
+    grid-template-columns: 1fr;
   }
 }
 
