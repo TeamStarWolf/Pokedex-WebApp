@@ -15,6 +15,7 @@ const navItems = [
   { to: "/games", label: "Games" },
   { to: "/dex/national", label: "Pokemon" },
   { to: "/trainers/appearances", label: "Trainer Battles" },
+  { to: "/battle", label: "Battle Sim" },
   { to: "/search", label: "Search" },
 ];
 

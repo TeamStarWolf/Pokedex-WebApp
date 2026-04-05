@@ -41,6 +41,7 @@ const GameTrainerIndexPage = lazyPage(() => import("./pages/encyclopedia/GameTra
 const GameLocationIndexPage = lazyPage(() => import("./pages/encyclopedia/GameLocationIndexPage"), "GameLocationIndexPage");
 const LocationIndexPage = lazyPage(() => import("./pages/encyclopedia/LocationIndexPage"), "LocationIndexPage");
 const LocationPage = lazyPage(() => import("./pages/encyclopedia/LocationPage"), "LocationPage");
+const BattlePage = lazyPage(() => import("./pages/encyclopedia/BattlePage"), "BattlePage");
 
 function NotFoundPage() {
   useDocumentTitle("Page Not Found");
@@ -107,6 +108,7 @@ function AppRoutes() {
           <Route path="/games/:gameSlug/locations" element={<GameLocationIndexPage />} />
           <Route path="/locations" element={<LocationIndexPage />} />
           <Route path="/locations/:locationSlug" element={<LocationPage />} />
+          <Route path="/battle" element={<BattlePage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </Suspense>

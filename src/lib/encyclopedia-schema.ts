@@ -374,4 +374,5 @@ export const encyclopediaRoutes = {
   gameTrainers: (gameSlug: string) => `/games/${gameSlug}/trainers`,
   gameLocations: (gameSlug: string) => `/games/${gameSlug}/locations`,
   location: (locationSlug: string) => `/locations/${locationSlug}`,
+  battle: () => "/battle",
 };

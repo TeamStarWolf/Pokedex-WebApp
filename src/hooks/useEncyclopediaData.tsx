@@ -39,17 +39,19 @@ function mergeSchema(base: EncyclopediaSchema, overlay: Partial<EncyclopediaSche
 }
 
 function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema {
+  // Seed fills gaps for entities missing from the generated dataset,
+  // but generated data takes precedence when both exist (richer game associations, etc.).
   return {
-    pokemon: { ...schema.pokemon, ...encyclopediaSeed.pokemon },
-    forms: { ...schema.forms, ...encyclopediaSeed.forms },
-    evolutions: { ...schema.evolutions, ...encyclopediaSeed.evolutions },
-    moves: { ...schema.moves, ...encyclopediaSeed.moves },
-    abilities: { ...schema.abilities, ...encyclopediaSeed.abilities },
-    items: { ...schema.items, ...encyclopediaSeed.items },
-    regions: { ...schema.regions, ...encyclopediaSeed.regions },
-    gameVersions: { ...schema.gameVersions, ...encyclopediaSeed.gameVersions },
-    types: { ...schema.types, ...encyclopediaSeed.types },
-    locations: { ...schema.locations, ...encyclopediaSeed.locations },
+    pokemon: { ...encyclopediaSeed.pokemon, ...schema.pokemon },
+    forms: { ...encyclopediaSeed.forms, ...schema.forms },
+    evolutions: { ...encyclopediaSeed.evolutions, ...schema.evolutions },
+    moves: { ...encyclopediaSeed.moves, ...schema.moves },
+    abilities: { ...encyclopediaSeed.abilities, ...schema.abilities },
+    items: { ...encyclopediaSeed.items, ...schema.items },
+    regions: { ...encyclopediaSeed.regions, ...schema.regions },
+    gameVersions: { ...encyclopediaSeed.gameVersions, ...schema.gameVersions },
+    types: { ...encyclopediaSeed.types, ...schema.types },
+    locations: { ...encyclopediaSeed.locations, ...schema.locations },
   };
 }
 
