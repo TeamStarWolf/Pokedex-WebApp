@@ -144,3 +144,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development expectations.
 ## Project Status
 
 PokeNav is already usable as a local reference app, but it is still in active refinement before a fuller public-ready release. The strongest current surfaces are the game hubs, Pokemon encyclopedia pages, and trainer appearance browser.
+
+## License
+
+[MIT License](LICENSE) for the code in this repository.
+
+Pokemon names, characters, artwork, and franchise materials remain property of their respective rights holders. PokeNav is an unofficial fan/reference project.
