@@ -8,6 +8,7 @@ import {
   formatMethodLabel,
   getDefaultForm,
   getSpeciesBySlug,
+  getUniqueMoveCount,
   groupLearnsetByMethod,
 } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -34,6 +35,7 @@ export function PokemonMovesPage() {
   }
 
   const groups = groupLearnsetByMethod(schema, form);
+  const uniqueMoveCount = getUniqueMoveCount(form);
 
   return (
     <main className="encyclopedia-page">
@@ -52,7 +54,8 @@ export function PokemonMovesPage() {
           <p className="lead">Full move list for the currently loaded default form, organized by acquisition method.</p>
         </div>
         <div className="title-deck-metrics">
-          <div><strong>{form.learnset.length}</strong><span>Total entries</span></div>
+          <div><strong>{uniqueMoveCount}</strong><span>Unique moves</span></div>
+          <div><strong>{form.learnset.length}</strong><span>Learnset records</span></div>
           <div><strong>{groups.length}</strong><span>Move groups</span></div>
         </div>
       </section>

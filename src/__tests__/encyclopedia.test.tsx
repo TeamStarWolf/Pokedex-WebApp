@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import { MemoryRouter, Route, Routes } from "react-router-dom";
 import { describe, expect, it } from "vitest";
 import { encyclopediaSeed } from "../data/encyclopediaSeed";
-import { searchEntities, slugify } from "../lib/encyclopedia";
+import { getUniqueMoveCount, searchEntities, slugify } from "../lib/encyclopedia";
 import { PokemonDetailPage } from "../pages/encyclopedia/PokemonDetailPage";
 
 describe("encyclopedia helpers", () => {
@@ -13,6 +13,17 @@ describe("encyclopedia helpers", () => {
   it("returns fuzzy search results across entities", () => {
     const results = searchEntities(encyclopediaSeed, "thunder");
     expect(results[0]?.title).toBe("Thunderbolt");
+  });
+
+  it("counts unique moves instead of raw learnset records", () => {
+    const pikachu = encyclopediaSeed.pokemon["pokemon:pikachu"];
+    if (!pikachu.defaultFormId) {
+      throw new Error("Expected seeded Pikachu to have a default form");
+    }
+    const pikachuForm = encyclopediaSeed.forms[pikachu.defaultFormId];
+
+    expect(getUniqueMoveCount(pikachuForm)).toBeGreaterThan(0);
+    expect(getUniqueMoveCount(pikachuForm)).toBeLessThanOrEqual(pikachuForm.learnset.length);
   });
 });
 

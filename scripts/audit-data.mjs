@@ -67,6 +67,7 @@ const VALID_GAME_VERSIONS = new Set([
 // All valid version group slugs
 const VALID_VERSION_GROUPS = new Set([
   "red-blue","yellow","gold-silver","crystal",
+  "red-green-japan","blue-japan",
   "ruby-sapphire","emerald","firered-leafgreen",
   "diamond-pearl","platinum","heartgold-soulsilver",
   "black-white","black-2-white-2",
@@ -74,7 +75,7 @@ const VALID_VERSION_GROUPS = new Set([
   "sun-moon","ultra-sun-ultra-moon",
   "lets-go-pikachu-lets-go-eevee",
   "sword-shield",
-  "brilliant-diamond-and-shining-pearl",
+  "brilliant-diamond-shining-pearl",
   "legends-arceus",
   "scarlet-violet",
   "colosseum","xd",

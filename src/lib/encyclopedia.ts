@@ -301,6 +301,10 @@ export function groupLearnsetByMethod(schema: EncyclopediaSchema, form: PokemonF
   }));
 }
 
+export function getUniqueMoveCount(form: Pick<PokemonFormEntity, "learnset">) {
+  return new Set(form.learnset.map((entry) => entry.moveId)).size;
+}
+
 export function buildSearchIndex(schema: EncyclopediaSchema): SearchResult[] {
   const records: SearchResult[] = [];
 

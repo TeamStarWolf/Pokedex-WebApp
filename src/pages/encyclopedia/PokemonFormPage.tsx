@@ -6,7 +6,7 @@ import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { useEncyclopediaData, usePokemonDetailData } from "../../hooks/useEncyclopediaData";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
-import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, groupLearnsetByMethod } from "../../lib/encyclopedia";
+import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, getUniqueMoveCount, groupLearnsetByMethod } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 const tabs = [
@@ -28,6 +28,7 @@ export function PokemonFormPage() {
   }
 
   const learnsetGroups = groupLearnsetByMethod(schema, form);
+  const uniqueMoveCount = getUniqueMoveCount(form);
 
   return (
     <main className="encyclopedia-page">
@@ -41,7 +42,7 @@ export function PokemonFormPage() {
         <div className="title-deck-metrics">
           <div><strong>{form.formKind}</strong><span>Form kind</span></div>
           <div><strong>{form.typeIds.length}</strong><span>Types</span></div>
-          <div><strong>{form.learnset.length}</strong><span>Moves</span></div>
+          <div><strong>{uniqueMoveCount}</strong><span>Unique moves</span></div>
           <div><strong>{form.availableInGameIds.length}</strong><span>Games</span></div>
         </div>
       </section>

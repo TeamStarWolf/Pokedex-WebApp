@@ -8,8 +8,9 @@ import { GameScopedLink } from "../../components/encyclopedia/GameScopedLink";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
+import { capitalize, padDex } from "../../lib/format";
 
-const PAGE_SIZE = 6;
+const PAGE_SIZE = 18;
 
 export function NationalDexPage() {
   useDocumentTitle("National Dex");
@@ -26,16 +27,33 @@ export function NationalDexPage() {
   const availableTypes = useMemo(() => listTypes(schema), [schema]);
   const availableGames = useMemo(() => listGames(schema), [schema]);
 
-  const filtered = useMemo(() => {
-    const base = pokemon.filter((species) => {
+  const contextFiltered = useMemo(() => {
+    return pokemon.filter((species) => {
       const form = getDefaultForm(schema, species);
-      const typePass = typeFilter === "all" || form?.typeIds.includes(`type:${typeFilter}`);
       const generationPass = generationFilter === "all" || species.generation === Number(generationFilter);
       const gamePass = gameFilter === "all"
         || species.pokedexGameIds.includes(`game:${gameFilter}`)
         || species.pokedexEntries.some((entry) => entry.gameVersionId === `game:${gameFilter}`);
       const namePass = !nameQuery.trim() || species.name.toLowerCase().includes(nameQuery.trim().toLowerCase());
-      return typePass && generationPass && gamePass && namePass;
+      return generationPass && gamePass && namePass;
+    });
+  }, [gameFilter, generationFilter, nameQuery, pokemon, schema]);
+
+  const quickTypeCounts = useMemo(() => {
+    return contextFiltered.reduce<Record<string, number>>((accumulator, species) => {
+      const form = getDefaultForm(schema, species);
+      form?.typeIds.forEach((typeId) => {
+        const slug = typeId.replace("type:", "");
+        accumulator[slug] = (accumulator[slug] ?? 0) + 1;
+      });
+      return accumulator;
+    }, {});
+  }, [contextFiltered, schema]);
+
+  const filtered = useMemo(() => {
+    const base = contextFiltered.filter((species) => {
+      const form = getDefaultForm(schema, species);
+      return typeFilter === "all" || form?.typeIds.includes(`type:${typeFilter}`);
     });
 
     const sorted = [...base];
@@ -43,6 +61,7 @@ export function NationalDexPage() {
       const leftForm = getDefaultForm(schema, left);
       const rightForm = getDefaultForm(schema, right);
       if (sortKey === "name") return left.name.localeCompare(right.name);
+      if (sortKey === "forms") return right.formIds.length - left.formIds.length || left.nationalDexNumber - right.nationalDexNumber;
       if (sortKey === "bst") {
         const leftTotal = Object.values(leftForm?.stats ?? {}).reduce((sum, value) => sum + value, 0);
         const rightTotal = Object.values(rightForm?.stats ?? {}).reduce((sum, value) => sum + value, 0);
@@ -52,14 +71,32 @@ export function NationalDexPage() {
     });
 
     return sorted;
-  }, [gameFilter, generationFilter, nameQuery, pokemon, schema, sortKey, typeFilter]);
+  }, [contextFiltered, schema, sortKey, typeFilter]);
+
+  const quickTypes = useMemo(() => (
+    Object.entries(quickTypeCounts)
+      .sort((left, right) => right[1] - left[1] || left[0].localeCompare(right[0]))
+      .slice(0, 8)
+  ), [quickTypeCounts]);
 
   const pagination = paginate(filtered, page, PAGE_SIZE);
 
-  function setPage(newPage: number) {
+  function updateParams(changes: Record<string, string>) {
     const next = new URLSearchParams(searchParams);
-    next.set("page", String(newPage));
+    Object.entries(changes).forEach(([key, value]) => {
+      if (!value || value === "all" || (key === "sort" && value === "dex")) next.delete(key);
+      else next.set(key, value);
+    });
+    if (!next.has("page")) next.set("page", "1");
     setSearchParams(next);
+  }
+
+  function setPage(newPage: number) {
+    updateParams({ page: String(newPage) });
+  }
+
+  function resetFilters() {
+    setSearchParams(new URLSearchParams());
   }
 
   return (
@@ -83,72 +120,108 @@ export function NationalDexPage() {
           <div>
             <p className="eyebrow">Browse</p>
             <h2>Filter the index</h2>
-            <p className="muted">Stable query params, expandable browse controls, and sorting designed for larger offline datasets.</p>
+            <p className="muted">Stable query params, quick type narrowing, and a table-first layout designed for larger offline datasets.</p>
           </div>
-          <div className="inline-filter-row">
+        </div>
+        <div className="browse-toolbar">
+          <div className="inline-filter-row trainer-filter-grid">
             <label>
               Name
-              <input value={nameQuery} onChange={(event) => setSearchParams({ page: "1", q: event.target.value, type: typeFilter, generation: generationFilter, game: gameFilter, sort: sortKey })} placeholder="Search species name" />
+              <input value={nameQuery} onChange={(event) => updateParams({ page: "1", q: event.target.value, type: typeFilter, generation: generationFilter, game: gameFilter, sort: sortKey })} placeholder="Search species name" />
             </label>
             <label>
               Type
-              <select value={typeFilter} onChange={(event) => setSearchParams({ page: "1", q: nameQuery, type: event.target.value, generation: generationFilter, game: gameFilter, sort: sortKey })}>
+              <select value={typeFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: event.target.value, generation: generationFilter, game: gameFilter, sort: sortKey })}>
                 <option value="all">All</option>
                 {availableTypes.map((type) => <option key={type.id} value={type.slug}>{type.name}</option>)}
               </select>
             </label>
             <label>
               Generation
-              <select value={generationFilter} onChange={(event) => setSearchParams({ page: "1", q: nameQuery, type: typeFilter, generation: event.target.value, game: gameFilter, sort: sortKey })}>
+              <select value={generationFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: event.target.value, game: gameFilter, sort: sortKey })}>
                 <option value="all">All</option>
                 {availableGenerations.map((generation) => <option key={generation} value={generation}>Gen {generation}</option>)}
               </select>
             </label>
             <label>
               Game
-              <select value={gameFilter} onChange={(event) => setSearchParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: event.target.value, sort: sortKey })}>
+              <select value={gameFilter} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: event.target.value, sort: sortKey })}>
                 <option value="all">All</option>
                 {availableGames.map((game) => <option key={game.id} value={game.slug}>{game.shortName}</option>)}
               </select>
             </label>
             <label>
               Sort
-              <select value={sortKey} onChange={(event) => setSearchParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: gameFilter, sort: event.target.value })}>
+              <select value={sortKey} onChange={(event) => updateParams({ page: "1", q: nameQuery, type: typeFilter, generation: generationFilter, game: gameFilter, sort: event.target.value })}>
                 <option value="dex">Dex number</option>
                 <option value="name">Name</option>
                 <option value="bst">Base stat total</option>
+                <option value="forms">Form count</option>
               </select>
             </label>
+          </div>
+
+          <div className="quick-filter-strip">
+            <span className="quick-filter-label">Quick types</span>
+            <button type="button" className={`quick-filter-chip ${typeFilter === "all" ? "active" : ""}`} onClick={() => updateParams({ page: "1", type: "all" })}>
+              All
+              <span>{contextFiltered.length}</span>
+            </button>
+            {quickTypes.map(([type, count]) => (
+              <button key={type} type="button" className={`quick-filter-chip ${typeFilter === type ? "active" : ""}`} onClick={() => updateParams({ page: "1", type })}>
+                {capitalize(type)}
+                <span>{count}</span>
+              </button>
+            ))}
+            <button type="button" className="filter-reset-button" onClick={resetFilters}>Clear filters</button>
           </div>
         </div>
         <div className="chip-grid">
           <span className="entity-chip"><strong>Query</strong><span>{nameQuery || "None"}</span></span>
-          <span className="entity-chip"><strong>Type</strong><span>{typeFilter === "all" ? "All" : typeFilter}</span></span>
+          <span className="entity-chip"><strong>Type</strong><span>{typeFilter === "all" ? "All" : capitalize(typeFilter)}</span></span>
           <span className="entity-chip"><strong>Generation</strong><span>{generationFilter === "all" ? "All" : `Gen ${generationFilter}`}</span></span>
           <span className="entity-chip"><strong>Game</strong><span>{gameFilter === "all" ? "All" : availableGames.find((game) => game.slug === gameFilter)?.shortName ?? gameFilter}</span></span>
           <span className="entity-chip"><strong>Sort</strong><span>{sortKey}</span></span>
         </div>
-        <div className="dex-grid">
+        {!pagination.items.length ? (
+          <div className="empty-results-panel">
+            <strong>No species matched these filters.</strong>
+            <p className="muted">Try clearing the type or game filter, or search with a broader name query.</p>
+          </div>
+        ) : (
+        <div className="browse-table">
+          <div className="browse-table-head browse-table-head-pokemon">
+            <span>Dex</span>
+            <span>Pokemon</span>
+            <span>Types</span>
+            <span>Category</span>
+            <span>Forms</span>
+          </div>
           {pagination.items.map((species) => {
             const form = getDefaultForm(schema, species);
-            const statTotal = Object.values(form?.stats ?? {}).reduce((sum, value) => sum + value, 0);
+            const typeNames = form?.typeIds.map((typeId) => schema.types[typeId]?.name).filter(Boolean) ?? [];
             return (
-              <GameScopedLink key={species.id} to={encyclopediaRoutes.pokemon(species.slug)} className="dex-card">
-                <PokemonImage src={form?.artworkUrl} alt={species.name} />
-                <span className="eyebrow">#{species.nationalDexNumber.toString().padStart(4, "0")}</span>
-                <h2>{species.name}</h2>
-                <p>{species.categoryLabel}</p>
-                <div className="type-chip-row">
-                  {form?.typeIds.map((typeId) => <span key={typeId} className="type-chip muted-chip">{typeId.replace("type:", "")}</span>)}
-                </div>
-                <div className="dex-card-meta">
-                  <span>Gen {species.generation || "?"}</span>
-                  <span>{statTotal ? `BST ${statTotal}` : "BST unknown"}</span>
-                </div>
+              <GameScopedLink key={species.id} to={encyclopediaRoutes.pokemon(species.slug)} className="browse-table-row browse-table-row-pokemon">
+                <span className="browse-table-metric">#{padDex(species.nationalDexNumber)}</span>
+                <span className="browse-table-row-title">
+                  <PokemonImage src={form?.artworkUrl} alt={species.name} />
+                  <span>
+                    <strong>{species.name}</strong>
+                    <span className="browse-table-row-subtle">Gen {species.generation || "?"} - {species.summary}</span>
+                  </span>
+                </span>
+                <span className="browse-table-row-types">
+                  {typeNames.length ? typeNames.map((typeName) => (
+                    <span key={typeName} className="type-chip">{capitalize(typeName)}</span>
+                  )) : <span className="muted">Unknown</span>}
+                </span>
+                <span>{species.categoryLabel}</span>
+                <span>{species.formIds.length}</span>
               </GameScopedLink>
             );
           })}
         </div>
+        )}
         <Pagination page={pagination.page} totalPages={pagination.totalPages} onChange={setPage} />
       </section>
     </main>

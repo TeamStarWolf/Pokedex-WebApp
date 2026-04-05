@@ -1,4 +1,4 @@
-# Dexcore Scaffold Deliverables
+# PokeNav Scaffold Deliverables
 
 ## Route structure
 

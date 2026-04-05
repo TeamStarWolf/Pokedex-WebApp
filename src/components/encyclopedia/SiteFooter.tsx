@@ -18,9 +18,9 @@ export function SiteFooter() {
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <span className="brand-mark brand-mark-sm">Dx</span>
+          <span className="brand-mark brand-mark-sm">PN</span>
           <div>
-            <strong>Dexcore</strong>
+            <strong>PokeNav</strong>
             <span>Pokemon encyclopedia and game guide</span>
           </div>
         </div>

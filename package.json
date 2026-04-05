@@ -11,9 +11,9 @@
     "preview:local": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "test": "vitest run",
     "test:watch": "vitest",
-    "generate:data": "python scripts/export_pokedex_json.py --db ../pokedex.sqlite --assets ./assets --out ./public/data",
+    "generate:data": "python scripts/export_pokedex_json.py --db ..\\..\\pokedex.sqlite --assets ./assets --out ./public/data",
     "generate:trainers": "python scripts/export_trainer_reference_json.py",
-    "generate:encyclopedia": "python scripts/generate_encyclopedia_json.py --db ..\\pokedex.sqlite --out-dir .\\public\\data\\encyclopedia"
+    "generate:encyclopedia": "python scripts/generate_encyclopedia_json.py --db ..\\..\\pokedex.sqlite --out-dir .\\public\\data\\encyclopedia"
   },
   "dependencies": {
     "framer-motion": "^12.6.2",

@@ -1,4 +1,4 @@
-# Pokedex Web App V2
+# PokeNav
 
 Refactored from a single exported React file into a Vite + React + TypeScript project with a local static dataset flow.
 
@@ -44,3 +44,4 @@ npm run build
 - The initial list now loads from the local dataset instead of browser-side PokeAPI hydration.
 - Detail data is code-split and loaded on demand when the dialog opens.
 - The preset team list is intentionally curated metadata, not a canonical import from remaster files.
+- Validation and source hierarchy are documented in `docs/source-policy.md`.

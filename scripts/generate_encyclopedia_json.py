@@ -7,6 +7,7 @@ import shutil
 import sqlite3
 from collections import defaultdict
 from pathlib import Path
+from urllib.parse import quote
 
 
 def slugify(value: str) -> str:
@@ -53,6 +54,28 @@ def with_internal_source(label: str, url: str | None = None) -> list[dict]:
     if url:
         refs.append({"label": label, "sourceType": "pokeapi", "url": url})
     return refs
+
+
+def display_name_from_slug(value: str) -> str:
+    return value.replace("-", " ").title()
+
+
+def build_species_source_refs(species_name: str, species_id: int) -> list[dict]:
+    search_term = quote(display_name_from_slug(species_name))
+    return [
+        {"label": "Local SQLite export", "sourceType": "internal"},
+        {"label": "PokeAPI species", "sourceType": "pokeapi", "url": f"https://pokeapi.co/api/v2/pokemon-species/{species_id}/"},
+        {"label": "Pokemon Database species page", "sourceType": "pokemon-db", "url": f"https://pokemondb.net/pokedex/{species_name}"},
+        {"label": "Bulbapedia species search", "sourceType": "bulbapedia", "url": f"https://bulbapedia.bulbagarden.net/w/index.php?search={search_term}"},
+    ]
+
+
+def build_form_source_refs(species_name: str, pokemon_id: int) -> list[dict]:
+    return [
+        {"label": "Local SQLite export", "sourceType": "internal"},
+        {"label": "PokeAPI pokemon", "sourceType": "pokeapi", "url": f"https://pokeapi.co/api/v2/pokemon/{pokemon_id}/"},
+        {"label": "Pokemon Database species page", "sourceType": "pokemon-db", "url": f"https://pokemondb.net/pokedex/{species_name}"},
+    ]
 
 
 def build_type_map() -> dict[str, dict]:
@@ -432,7 +455,7 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
                 "name": form["name"].replace("-", " ").title(),
                 "summary": f"{titleize_slug(form['name'])} form with {' / '.join(titleize_slug(type_id.replace('type:', '')) for type_id in type_ids) or 'unknown'} typing.",
                 "status": "partial",
-                "sourceRefs": with_internal_source("PokeAPI pokemon", f"https://pokeapi.co/api/v2/pokemon/{form['pokemon_id']}/"),
+                "sourceRefs": build_form_source_refs(species["name"], form["pokemon_id"]),
                 "relatedLinks": [],
                 "expansionNotes": ["Location and breeding metadata can be expanded with a fuller encounter import."],
                 "speciesId": f"pokemon:{species['name']}",
@@ -534,7 +557,7 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
             "name": species["name"].replace("-", " ").title(),
             "summary": first_entry or f"{species['name'].replace('-', ' ').title()} encyclopedia entry.",
             "status": "partial",
-            "sourceRefs": with_internal_source("PokeAPI species", f"https://pokeapi.co/api/v2/pokemon-species/{species['species_id']}/"),
+            "sourceRefs": build_species_source_refs(species["name"], species["species_id"]),
             "relatedLinks": [],
             "expansionNotes": ["Competitive, encounter, and media coverage can be expanded later without changing the page contract."],
             "nationalDexNumber": species["species_id"],

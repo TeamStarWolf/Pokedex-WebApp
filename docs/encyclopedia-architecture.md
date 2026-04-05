@@ -1,8 +1,8 @@
-# Dexcore Encyclopedia Architecture
+# PokeNav Encyclopedia Architecture
 
 ## Product direction
 
-Dexcore should behave like an expandable Pokemon reference system rather than a card gallery. The information architecture should treat Pokemon, moves, abilities, items, regions, games, locations, trainers, and broader topics as first-class entities that can be browsed directly, linked together, and expanded without changing the overall app shape.
+PokeNav should behave like an expandable Pokemon reference system rather than a card gallery. The information architecture should treat Pokemon, moves, abilities, items, regions, games, locations, trainers, and broader topics as first-class entities that can be browsed directly, linked together, and expanded without changing the overall app shape.
 
 The app should be schema-first:
 

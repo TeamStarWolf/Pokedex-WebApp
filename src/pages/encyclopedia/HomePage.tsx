@@ -41,8 +41,8 @@ export function HomePage() {
     <main className="encyclopedia-page">
       <section className="hero-panel">
         <div>
-          <p className="eyebrow">Public release direction</p>
-          <h1>Dexcore Encyclopedia</h1>
+          <p className="eyebrow">Pokemon Encyclopedia</p>
+          <h1>PokeNav Encyclopedia</h1>
           <p className="lead">
             A game-first Pokemon reference built for browsing, cross-linking, and comparing the world of Pokemon
             without getting lost in disconnected pages.

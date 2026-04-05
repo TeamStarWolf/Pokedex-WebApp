@@ -92,7 +92,7 @@ export type NumericRange = {
 export type SourceReference = {
   label: string;
   url?: string;
-  sourceType: "bulbapedia" | "pokeapi" | "internal" | "manual" | "official";
+  sourceType: "bulbapedia" | "pokeapi" | "pokemon-db" | "pokebase" | "internal" | "manual" | "official";
   accessedAt?: string;
   notes?: string;
 };
@@ -358,6 +358,7 @@ export const encyclopediaRoutes = {
   nationalDex: () => "/dex/national",
   regionalDex: (regionSlug: string) => `/dex/region/${regionSlug}`,
   trainers: () => "/trainers",
+  trainerAppearances: () => "/trainers/appearances",
   trainer: (trainerSlug: string) => `/trainers/${trainerSlug}`,
   trainerAppearance: (trainerSlug: string, appearanceSlug: string) => `/trainers/${trainerSlug}/appearances/${appearanceSlug}`,
   pokemon: (speciesSlug: string) => `/pokemon/${speciesSlug}`,

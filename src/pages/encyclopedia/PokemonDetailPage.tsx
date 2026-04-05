@@ -23,6 +23,7 @@ import {
   getSpeciesBySlug,
   getStatTotal,
   getTypeEffectivenessSummary,
+  getUniqueMoveCount,
   groupLearnsetByMethod,
 } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
@@ -46,6 +47,7 @@ export function PokemonDetailPage() {
   const effectiveness = getTypeEffectivenessSummary(schema, form);
   const hiddenAbility = abilities.find((ability) => form.abilitySlots.find((slot) => slot.abilityId === ability.id && slot.isHidden));
   const statTotal = getStatTotal(form.stats);
+  const uniqueMoveCount = getUniqueMoveCount(form);
   const biologyStatus = species.loreSummary.length ? "partial" as const : "missing" as const;
   const gameDataStatus = source === "generated" ? "partial" as const : "planned" as const;
   const movesStatus = learnsetGroups.length ? "partial" as const : "missing" as const;
@@ -96,8 +98,8 @@ export function PokemonDetailPage() {
             <span>Dex versions</span>
           </div>
           <div>
-            <strong>{form.learnset.length}</strong>
-            <span>Known moves</span>
+            <strong>{uniqueMoveCount}</strong>
+            <span>Unique moves</span>
           </div>
           <div>
             <strong>{statTotal}</strong>
