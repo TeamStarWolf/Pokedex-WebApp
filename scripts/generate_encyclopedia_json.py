@@ -166,8 +166,57 @@ GAME_SHORT_NAMES: dict[str, str] = {
 }
 
 
+GAME_DISPLAY_NAMES: dict[str, str] = {
+    "red-blue": "Red & Blue", "red-green-japan": "Red & Green (JP)", "blue-japan": "Blue (JP)", "yellow": "Yellow",
+    "gold-silver": "Gold & Silver", "crystal": "Crystal",
+    "ruby-sapphire": "Ruby & Sapphire", "emerald": "Emerald", "firered-leafgreen": "FireRed & LeafGreen",
+    "colosseum": "Colosseum", "xd": "XD: Gale of Darkness",
+    "diamond-pearl": "Diamond & Pearl", "platinum": "Platinum", "heartgold-soulsilver": "HeartGold & SoulSilver",
+    "black-white": "Black & White", "black-2-white-2": "Black 2 & White 2",
+    "x-y": "X & Y", "omega-ruby-alpha-sapphire": "Omega Ruby & Alpha Sapphire",
+    "sun-moon": "Sun & Moon", "ultra-sun-ultra-moon": "Ultra Sun & Ultra Moon",
+    "lets-go-pikachu-lets-go-eevee": "Let's Go, Pikachu! & Let's Go, Eevee!",
+    "sword-shield": "Sword & Shield", "brilliant-diamond-shining-pearl": "Brilliant Diamond & Shining Pearl",
+    "legends-arceus": "Legends: Arceus", "scarlet-violet": "Scarlet & Violet",
+    "the-teal-mask": "The Teal Mask", "the-indigo-disk": "The Indigo Disk",
+    "red": "Red", "blue": "Blue", "green": "Green", "yellow-version": "Yellow",
+    "gold": "Gold", "silver": "Silver", "crystal-version": "Crystal",
+    "ruby": "Ruby", "sapphire": "Sapphire", "emerald-version": "Emerald",
+    "firered": "FireRed", "leafgreen": "LeafGreen",
+    "diamond": "Diamond", "pearl": "Pearl", "platinum-version": "Platinum",
+    "heartgold": "HeartGold", "soulsilver": "SoulSilver",
+    "black": "Black", "white": "White", "black-2": "Black 2", "white-2": "White 2",
+    "x": "X", "y": "Y", "omega-ruby": "Omega Ruby", "alpha-sapphire": "Alpha Sapphire",
+    "sun": "Sun", "moon": "Moon", "ultra-sun": "Ultra Sun", "ultra-moon": "Ultra Moon",
+    "lets-go-pikachu": "Let's Go, Pikachu!", "lets-go-eevee": "Let's Go, Eevee!",
+    "sword": "Sword", "shield": "Shield",
+    "brilliant-diamond": "Brilliant Diamond", "shining-pearl": "Shining Pearl",
+    "scarlet": "Scarlet", "violet": "Violet",
+}
+
+# Maps individual game version slugs to their version-group slug
+VERSION_TO_GROUP: dict[str, str] = {
+    "red": "red-blue", "blue": "red-blue",
+    "gold": "gold-silver", "silver": "gold-silver",
+    "ruby": "ruby-sapphire", "sapphire": "ruby-sapphire",
+    "firered": "firered-leafgreen", "leafgreen": "firered-leafgreen",
+    "diamond": "diamond-pearl", "pearl": "diamond-pearl",
+    "heartgold": "heartgold-soulsilver", "soulsilver": "heartgold-soulsilver",
+    "black": "black-white", "white": "black-white",
+    "black-2": "black-2-white-2", "white-2": "black-2-white-2",
+    "x": "x-y", "y": "x-y",
+    "omega-ruby": "omega-ruby-alpha-sapphire", "alpha-sapphire": "omega-ruby-alpha-sapphire",
+    "sun": "sun-moon", "moon": "sun-moon",
+    "ultra-sun": "ultra-sun-ultra-moon", "ultra-moon": "ultra-sun-ultra-moon",
+    "lets-go-pikachu": "lets-go-pikachu-lets-go-eevee", "lets-go-eevee": "lets-go-pikachu-lets-go-eevee",
+    "sword": "sword-shield", "shield": "sword-shield",
+    "brilliant-diamond": "brilliant-diamond-shining-pearl", "shining-pearl": "brilliant-diamond-shining-pearl",
+    "scarlet": "scarlet-violet", "violet": "scarlet-violet",
+}
+
+
 def build_game_entity(version_group: str) -> dict:
-    label = version_group.replace("-", " ").title()
+    label = GAME_DISPLAY_NAMES.get(version_group, version_group.replace("-", " ").title())
     short_name = GAME_SHORT_NAMES.get(version_group, label)
     generation = GAME_GENERATION_MAP.get(version_group, 0)
     return {
@@ -510,6 +559,17 @@ def build_dataset(conn: sqlite3.Connection) -> dict:
                 game_versions.setdefault(game_name, build_game_entity(game_name))
                 entry_games.append(game_id)
                 pokedex_entries.append({"gameVersionId": game_id, "text": entry["text"], "language": "en"})
+
+        # Also add version-group game IDs so paired versions are searchable
+        group_game_ids = set()
+        for gid in entry_games:
+            slug = gid.replace("game:", "")
+            group_slug = VERSION_TO_GROUP.get(slug)
+            if group_slug:
+                group_id = f"game:{group_slug}"
+                game_versions.setdefault(group_slug, build_game_entity(group_slug))
+                group_game_ids.add(group_id)
+        entry_games.extend(sorted(group_game_ids - set(entry_games)))
 
         for hint in region_hints:
             region_entities.setdefault(f"region:{hint}", derive_region_entity(hint))

@@ -1,7 +1,7 @@
 import type { AppStorage, CustomTeamSet, PresetTeam, StorageEnvelope, TeamMemberConfig } from "./types";
 
 export const STORAGE_VERSION = 3;
-const STORAGE_KEY = "pokedex-web-app-v2-storage";
+const STORAGE_KEY = "pokenav-storage";
 const LEGACY_FAVORITES = "pokedex-favorites-v2";
 const LEGACY_TEAM = "pokedex-team-v2";
 const LEGACY_FAVORITES_V1 = "pokedex-favorites";
