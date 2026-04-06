@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 const MAX_IMPORT_PAYLOAD_CHARS = 200_000;
 const MAX_CUSTOM_TEAM_SETS = 100;
 const MAX_TEAM_MEMBERS = 6;

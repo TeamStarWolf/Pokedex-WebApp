@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { Link } from "react-router-dom";
 
 const footerLinks = [

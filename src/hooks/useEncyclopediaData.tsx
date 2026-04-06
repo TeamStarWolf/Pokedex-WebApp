@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { encyclopediaSeed } from "../data/encyclopediaSeed";
 import { EMPTY_ENCYCLOPEDIA_SCHEMA, type EncyclopediaSchema } from "../lib/encyclopedia-schema";

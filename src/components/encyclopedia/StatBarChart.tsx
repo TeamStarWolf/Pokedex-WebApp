@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 const STAT_COLORS: Record<string, string> = {
   hp: "#ef4444",
   attack: "#f97316",

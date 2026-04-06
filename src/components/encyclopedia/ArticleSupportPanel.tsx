@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import type { SourceReference, DataStatus } from "../../lib/encyclopedia-schema";
 import { sanitizeExternalUrl } from "../../lib/security";
 

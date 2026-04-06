@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { describe, expect, it } from "vitest";
 import { importTeamSets, migrateStorage } from "../lib/storage";
 import { securityLimits } from "../lib/security";

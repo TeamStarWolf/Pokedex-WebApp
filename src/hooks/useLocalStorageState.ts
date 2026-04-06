@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useEffect, useRef, useState } from "react";
 
 export function useLocalStorageState<T>(readValue: () => T, writeValue: (value: T) => void) {

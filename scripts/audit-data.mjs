@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 /**
  * Comprehensive Pokedex Data Audit Script
  * Validates every Pokemon name, number, type, generation, and game association

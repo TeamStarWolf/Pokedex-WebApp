@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 const generationLabels: Record<string, string> = {
   "generation-i": "Gen I",
   "generation-ii": "Gen II",

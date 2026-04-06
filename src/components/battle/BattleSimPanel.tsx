@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { Swords, Shuffle, Trash2, Plus, Search, Users } from "lucide-react";
 import { useCallback, useMemo, useState } from "react";
 import type { EncyclopediaSchema } from "../../lib/encyclopedia-schema";

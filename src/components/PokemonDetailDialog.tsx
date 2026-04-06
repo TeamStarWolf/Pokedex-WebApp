@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { X } from "lucide-react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { capitalize, formatFormLabel, formatVersionGroupLabel, formatVersionLabel, padDex, statLabels, typeColors } from "../lib/format";

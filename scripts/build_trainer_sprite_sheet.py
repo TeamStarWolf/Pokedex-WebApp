@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# PokeNav - Copyright (c) 2026 TeamStarWolf
+# https://github.com/TeamStarWolf/PokeNav - MIT License
 from __future__ import annotations
 
 import math

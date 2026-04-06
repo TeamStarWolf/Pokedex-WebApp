@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useMemo } from "react";
 import { Trophy } from "lucide-react";
 import type { DuelResult, SimulationResult } from "../../lib/battleTypes";

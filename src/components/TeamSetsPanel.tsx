@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { Download, ExternalLink, Shield, Swords, Upload } from "lucide-react";
 import { useMemo, useState } from "react";
 import { capitalize } from "../lib/format";

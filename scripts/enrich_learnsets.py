@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# PokeNav - Copyright (c) 2026 TeamStarWolf
+# https://github.com/TeamStarWolf/PokeNav - MIT License
 """
 Enrich index.json forms with learnset data fetched from PokeAPI.
 

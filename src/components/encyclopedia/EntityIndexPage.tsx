@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useMemo } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { paginate } from "../../lib/encyclopedia";

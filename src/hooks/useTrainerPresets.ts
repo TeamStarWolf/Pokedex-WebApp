@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useEffect, useMemo, useState } from "react";
 import { curatedPresetTeams, mergePresetTeams } from "../data/presetTeams";
 import { buildTrainerAppearanceSummaries, mergeTrainerAppearanceSummaries, slugifyTrainerName } from "../lib/trainerEncyclopedia";

@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { capitalize } from "../lib/format";
 import type { PokemonSummary, TeamMemberConfig, TeamProfile } from "../lib/types";
 import { PokemonImage } from "./encyclopedia/PokemonImage";

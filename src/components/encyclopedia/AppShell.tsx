@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { ChevronDown, Menu, Search } from "lucide-react";
 import { Link, NavLink, useLocation } from "react-router-dom";

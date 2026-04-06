@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { buildTrainerDossiers, type TrainerPresetRecord } from "./trainers";
 import type { PokemonSummary, PresetTeam, TrainerAppearance, TrainerAppearanceSummary, TrainerDossier } from "./types";
 

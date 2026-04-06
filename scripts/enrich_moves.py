@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# PokeNav - Copyright (c) 2026 TeamStarWolf
+# https://github.com/TeamStarWolf/PokeNav - MIT License
 """
 Enrich the existing encyclopedia index.json with move metadata from the SQLite moves table.
 

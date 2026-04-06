@@ -1,3 +1,5 @@
+# PokeNav - Copyright (c) 2026 TeamStarWolf
+# https://github.com/TeamStarWolf/PokeNav - MIT License
 """
 Enrich type matchup data by fetching from PokeAPI.
 Populates both offensive and defensive matchups for all 18 types.

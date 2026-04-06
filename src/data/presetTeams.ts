@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import type { PresetTeam } from "../lib/types";
 import { alolaGalarPresets } from "./trainerPresets/alola-galar";
 import { hisuiPaldeaSpecialPresets } from "./trainerPresets/hisui-paldea-special";

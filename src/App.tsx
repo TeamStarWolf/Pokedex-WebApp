@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { Suspense, lazy } from "react";
 import type { ComponentType } from "react";
 import { Link, Route, Routes } from "react-router-dom";

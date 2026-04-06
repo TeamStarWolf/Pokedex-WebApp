@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { Search } from "lucide-react";
 import { useMemo } from "react";
 import { TeamBuilder } from "./TeamBuilder";

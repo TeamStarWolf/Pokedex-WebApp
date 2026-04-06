@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { ExternalLink } from "lucide-react";
 import { capitalize } from "../lib/format";
 import { sanitizeExternalUrl } from "../lib/security";

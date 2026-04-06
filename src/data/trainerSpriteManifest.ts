@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 export const trainerSpriteManifest: Record<string, string> = {
   "Aaron": "aaron.png",
   "Acerola": "acerola.png",
