@@ -1,13 +1,18 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import type { EncyclopediaSchema, PokemonStatKey, TypeId } from "./encyclopedia-schema";
 import type {
   BattleMove,
   BattlePokemon,
+  DefensiveGridCell,
   DuelResult,
   MatchupResult,
   MoveOption,
+  OffensiveGridCell,
   PokemonPerformance,
   SimulationResult,
   TeamAnalysis,
+  TeamSuggestion,
   TypeCoverageEntry,
   WeaknessEntry,
 } from "./battleTypes";
@@ -457,6 +462,47 @@ export function analyzeTeam(team: BattlePokemon[], schema: EncyclopediaSchema): 
     - uncoveredTypes.length * 2
   ));
 
+  // Build per-member × per-type offensive grid
+  const memberNames = team.map((m) => m.nickname);
+  const offensiveGrid: OffensiveGridCell[] = [];
+  for (const member of team) {
+    for (const targetType of allTypes) {
+      let bestMult = 0;
+      let bestMoveName: string | null = null;
+      for (const move of member.moves) {
+        const eff = computeTypeEffectiveness(schema, move.typeId, [targetType.id]);
+        if (eff > bestMult) {
+          bestMult = eff;
+          bestMoveName = move.name;
+        }
+      }
+      offensiveGrid.push({
+        memberName: member.nickname,
+        targetTypeId: targetType.id,
+        bestMultiplier: bestMult,
+        bestMoveName,
+      });
+    }
+  }
+
+  // Build per-member × per-type defensive grid
+  const defensiveGrid: DefensiveGridCell[] = [];
+  for (const member of team) {
+    for (const attackType of allTypes) {
+      const mult = computeTypeEffectiveness(schema, attackType.id, member.typeIds);
+      defensiveGrid.push({
+        memberName: member.nickname,
+        attackingTypeId: attackType.id,
+        multiplier: mult,
+      });
+    }
+  }
+
+  // Suggest Pokemon that patch weaknesses and coverage gaps
+  const suggestions = buildTeamSuggestions(
+    team, schema, defensiveWeaknesses, uncoveredTypes, doubleWeaknesses,
+  );
+
   return {
     offensiveCoverage,
     defensiveWeaknesses,
@@ -468,5 +514,102 @@ export function analyzeTeam(team: BattlePokemon[], schema: EncyclopediaSchema): 
     bstTotal,
     bstAverage,
     specialCount,
+    offensiveGrid,
+    defensiveGrid,
+    memberNames,
+    suggestions,
   };
+}
+
+function buildTeamSuggestions(
+  team: BattlePokemon[],
+  schema: EncyclopediaSchema,
+  weaknesses: WeaknessEntry[],
+  gaps: TypeCoverageEntry[],
+  doubleWeaknesses: WeaknessEntry[],
+): TeamSuggestion[] {
+  if (team.length >= 6) return [];
+
+  const weakTypeIds = new Set(weaknesses.map((w) => w.typeId));
+  const gapTypeIds = new Set(gaps.map((g) => g.typeId));
+  const doubleWeakTypeIds = new Set(doubleWeaknesses.map((w) => w.typeId));
+  const teamDexIds = new Set(team.map((m) => m.pokemonId));
+
+  type Candidate = {
+    pokemonId: number;
+    name: string;
+    typeIds: TypeId[];
+    artworkUrl?: string;
+    coversWeaknesses: TypeId[];
+    coversGaps: TypeId[];
+    score: number;
+  };
+
+  const candidates: Candidate[] = [];
+
+  for (const species of Object.values(schema.pokemon)) {
+    if (teamDexIds.has(species.nationalDexNumber)) continue;
+    const form = getDefaultForm(schema, species);
+    if (!form) continue;
+
+    // Check if this Pokemon's types resist our weaknesses
+    const coversWeaknesses: TypeId[] = [];
+    for (const weakTypeId of weakTypeIds) {
+      const eff = computeTypeEffectiveness(schema, weakTypeId, form.typeIds);
+      if (eff < 1) coversWeaknesses.push(weakTypeId);
+    }
+
+    // Check if this Pokemon's moves cover our offensive gaps
+    const coversGaps: TypeId[] = [];
+    for (const entry of form.learnset) {
+      const move = schema.moves[entry.moveId];
+      if (!move || move.damageClass === "status" || !move.power || move.power <= 0) continue;
+      for (const gapTypeId of gapTypeIds) {
+        const targetType = schema.types[gapTypeId];
+        if (!targetType) continue;
+        const eff = computeTypeEffectiveness(schema, move.typeId, [gapTypeId]);
+        if (eff >= 2 && !coversGaps.includes(gapTypeId)) {
+          coversGaps.push(gapTypeId);
+        }
+      }
+    }
+
+    if (coversWeaknesses.length === 0 && coversGaps.length === 0) continue;
+
+    // Score: double weak coverage is worth extra
+    let score = coversGaps.length * 2;
+    for (const wk of coversWeaknesses) {
+      score += doubleWeakTypeIds.has(wk) ? 4 : 2;
+    }
+    // BST bonus for stronger Pokemon
+    const bst = getStatTotal(form.stats);
+    score += bst > 500 ? 2 : bst > 400 ? 1 : 0;
+
+    candidates.push({
+      pokemonId: species.nationalDexNumber,
+      name: species.name,
+      typeIds: form.typeIds,
+      artworkUrl: form.artworkUrl,
+      coversWeaknesses,
+      coversGaps,
+      score,
+    });
+  }
+
+  // Sort by score descending, take top 6
+  candidates.sort((a, b) => b.score - a.score);
+  return candidates.slice(0, 6).map((c) => {
+    const parts: string[] = [];
+    if (c.coversWeaknesses.length > 0) parts.push(`resists ${c.coversWeaknesses.length} weakness${c.coversWeaknesses.length > 1 ? "es" : ""}`);
+    if (c.coversGaps.length > 0) parts.push(`covers ${c.coversGaps.length} gap${c.coversGaps.length > 1 ? "s" : ""}`);
+    return {
+      pokemonId: c.pokemonId,
+      name: c.name,
+      typeIds: c.typeIds,
+      reason: parts.join(", "),
+      coversWeaknesses: c.coversWeaknesses,
+      coversGaps: c.coversGaps,
+      artworkUrl: c.artworkUrl,
+    };
+  });
 }

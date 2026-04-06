@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import type { DamageClass, MoveId, PokemonStatKey, TypeId } from "./encyclopedia-schema";
 
 export type BattleMove = {
@@ -103,6 +105,29 @@ export type WeaknessEntry = {
   vulnerableMembers: string[];
 };
 
+export type OffensiveGridCell = {
+  memberName: string;
+  targetTypeId: TypeId;
+  bestMultiplier: number;
+  bestMoveName: string | null;
+};
+
+export type DefensiveGridCell = {
+  memberName: string;
+  attackingTypeId: TypeId;
+  multiplier: number;
+};
+
+export type TeamSuggestion = {
+  pokemonId: number;
+  name: string;
+  typeIds: TypeId[];
+  reason: string;
+  coversWeaknesses: TypeId[];
+  coversGaps: TypeId[];
+  artworkUrl?: string;
+};
+
 export type TeamAnalysis = {
   offensiveCoverage: TypeCoverageEntry[];
   defensiveWeaknesses: WeaknessEntry[];
@@ -114,4 +139,8 @@ export type TeamAnalysis = {
   bstTotal: number;
   bstAverage: number;
   specialCount: number;
+  offensiveGrid: OffensiveGridCell[];
+  defensiveGrid: DefensiveGridCell[];
+  memberNames: string[];
+  suggestions: TeamSuggestion[];
 };

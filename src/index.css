@@ -1,3 +1,5 @@
+/* PokeNav - Copyright (c) 2026 TeamStarWolf
+   https://github.com/TeamStarWolf/PokeNav - MIT License */
 /* ============ Design Tokens ============ */
 
 :root {
@@ -4128,6 +4130,229 @@ details:not([open]) > summary .learnset-count::after {
   gap: var(--space-2);
 }
 
+/* ============ Type Heatmap ============ */
+
+:root {
+  --heatmap-se4: color-mix(in srgb, #22c55e 45%, var(--color-surface));
+  --heatmap-se: color-mix(in srgb, #22c55e 22%, var(--color-surface));
+  --heatmap-neutral: var(--color-surface);
+  --heatmap-nve: color-mix(in srgb, #ef4444 12%, var(--color-surface));
+  --heatmap-immune: color-mix(in srgb, #64748b 20%, var(--color-surface));
+  --heatmap-def-4x: color-mix(in srgb, #ef4444 35%, var(--color-surface));
+  --heatmap-def-2x: color-mix(in srgb, #ef4444 18%, var(--color-surface));
+  --heatmap-def-resist: color-mix(in srgb, #22c55e 18%, var(--color-surface));
+  --heatmap-def-immune: color-mix(in srgb, #3b82f6 22%, var(--color-surface));
+}
+
+.heatmap-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.heatmap-toggle {
+  display: flex;
+  gap: var(--space-1);
+}
+
+.heatmap-toggle-btn {
+  font-size: 0.75rem !important;
+  padding: var(--space-1) var(--space-2) !important;
+  gap: var(--space-1) !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+.heatmap-toggle-btn.active {
+  background: var(--color-surface-sunken);
+  color: var(--color-text-primary);
+}
+
+.heatmap-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.heatmap-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 500px;
+  font-size: 0.72rem;
+}
+
+.heatmap-table th,
+.heatmap-table td {
+  padding: 4px 6px;
+  text-align: center;
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.heatmap-corner {
+  background: var(--color-surface-sunken);
+  text-align: left !important;
+  font-size: 0.65rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+  min-width: 80px;
+}
+
+.heatmap-col-header {
+  background: var(--color-surface-sunken);
+  padding: 4px 2px !important;
+}
+
+.heatmap-row-header {
+  background: var(--color-surface-sunken);
+  text-align: left !important;
+  font-weight: 600;
+  font-size: 0.72rem;
+  padding: 4px 6px !important;
+}
+
+.heatmap-member-label {
+  font-size: 0.65rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 60px;
+  display: inline-block;
+}
+
+.heatmap-cell {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: 0.68rem;
+  transition: background 0.15s ease;
+}
+
+.heatmap-legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-2);
+}
+
+.heatmap-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.heatmap-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  border: 1px solid var(--color-border);
+}
+
+/* ============ Suggestions Panel ============ */
+
+.suggestion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: var(--space-2);
+}
+
+.suggestion-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.suggestion-art,
+.suggestion-card .pokemon-image-fallback {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.suggestion-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.suggestion-info strong {
+  font-size: 0.85rem;
+}
+
+.suggestion-types {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.suggestion-reason {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+}
+
+.suggestion-add-btn {
+  width: 28px;
+  height: 28px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50% !important;
+}
+
+.suggestion-add-btn:hover {
+  background: color-mix(in srgb, #22c55e 15%, var(--color-surface)) !important;
+  color: #22c55e;
+}
+
+/* ============ Battle Narrative ============ */
+
+.battle-narrative {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-3);
+}
+
+.battle-narrative-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.battle-narrative-lines {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--color-text-body);
+  padding-left: var(--space-3);
+  border-left: 2px solid var(--color-border);
+}
+
+.battle-narrative-lines p {
+  margin: 0;
+}
+
 /* Matrix responsive */
 
 @media (max-width: 640px) {
@@ -4150,6 +4375,10 @@ details:not([open]) > summary .learnset-count::after {
   }
 
   .battle-perf-tables {
+    grid-template-columns: 1fr;
+  }
+
+  .suggestion-grid {
     grid-template-columns: 1fr;
   }
 }

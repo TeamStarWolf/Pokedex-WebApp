@@ -1,3 +1,5 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import { Shield, Swords, BarChart3, Plus, Search, X, Share2, Check } from "lucide-react";
@@ -246,7 +248,7 @@ export function BattlePage() {
             </div>
 
             {activeTab === "analysis" && analysis && (
-              <TeamAnalysisPanel analysis={analysis} schema={schema} />
+              <TeamAnalysisPanel analysis={analysis} schema={schema} onAddPokemon={addToTeam} />
             )}
           </>
         )}

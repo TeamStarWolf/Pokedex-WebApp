@@ -1,5 +1,7 @@
+// PokeNav - Copyright (c) 2026 TeamStarWolf
+// https://github.com/TeamStarWolf/PokeNav - MIT License
 import { useCallback, useMemo, useState } from "react";
-import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight, Filter, ArrowUpDown, ChevronsUpDown, Copy, Check, Gauge } from "lucide-react";
+import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight, Filter, ArrowUpDown, ChevronsUpDown, Copy, Check, Gauge, ScrollText } from "lucide-react";
 import type { BattlePokemon, DuelResult, PokemonPerformance, SimulationResult } from "../../lib/battleTypes";
 import type { EncyclopediaSchema, PokemonStatKey } from "../../lib/encyclopedia-schema";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
@@ -120,6 +122,64 @@ function findBestCounter(
   }
 
   return best;
+}
+
+function generateNarrative(duel: DuelResult): string[] {
+  const { memberA, memberB, aAttacks, bAttacks, turnsToKoA, turnsToKoB, aMovesFirst, duelWinner } = duel;
+  const a = capitalize(memberA.nickname);
+  const b = capitalize(memberB.nickname);
+  const lines: string[] = [];
+
+  // Opening
+  const first = aMovesFirst ? a : b;
+  const second = aMovesFirst ? b : a;
+  lines.push(`${first} outspeeds with ${aMovesFirst ? memberA.stats.speed : memberB.stats.speed} SPD and moves first.`);
+
+  // Turn-by-turn
+  const firstAtk = aMovesFirst ? aAttacks : bAttacks;
+  const secondAtk = aMovesFirst ? bAttacks : aAttacks;
+  const firstKo = aMovesFirst ? turnsToKoA : turnsToKoB;
+  const secondKo = aMovesFirst ? turnsToKoB : turnsToKoA;
+
+  if (firstAtk.bestMove) {
+    let line = `${first} uses ${firstAtk.bestMove.name}`;
+    if (firstAtk.stabApplied) line += " (STAB)";
+    line += ` for ${firstAtk.estimatedDamage}% damage`;
+    if (firstAtk.typeEffectiveness > 1) line += ` — super effective (${firstAtk.typeEffectiveness}x)!`;
+    else if (firstAtk.typeEffectiveness < 1 && firstAtk.typeEffectiveness > 0) line += ` — not very effective.`;
+    else if (firstAtk.typeEffectiveness === 0) line += ` — no effect!`;
+    else line += ".";
+    lines.push(line);
+  } else {
+    lines.push(`${first} has no damaging moves against ${second}.`);
+  }
+
+  if (secondAtk.bestMove) {
+    let line = `${second} retaliates with ${secondAtk.bestMove.name}`;
+    if (secondAtk.stabApplied) line += " (STAB)";
+    line += ` for ${secondAtk.estimatedDamage}% damage`;
+    if (secondAtk.typeEffectiveness > 1) line += ` — super effective (${secondAtk.typeEffectiveness}x)!`;
+    else if (secondAtk.typeEffectiveness < 1 && secondAtk.typeEffectiveness > 0) line += ` — not very effective.`;
+    else if (secondAtk.typeEffectiveness === 0) line += ` — no effect!`;
+    else line += ".";
+    lines.push(line);
+  } else {
+    lines.push(`${second} has no damaging moves against ${first}.`);
+  }
+
+  // KO analysis
+  if (firstKo === 1) lines.push(`${first} scores a one-hit KO!`);
+  else if (firstKo !== null) lines.push(`${first} would KO in ${firstKo} hits.`);
+
+  if (secondKo === 1) lines.push(`${second} scores a one-hit KO!`);
+  else if (secondKo !== null) lines.push(`${second} would KO in ${secondKo} hits.`);
+
+  // Verdict
+  if (duelWinner === "A") lines.push(`${a} wins this matchup.`);
+  else if (duelWinner === "B") lines.push(`${b} wins this matchup.`);
+  else lines.push(`It's a tie — neither side can KO the other.`);
+
+  return lines;
 }
 
 function DuelRow({ duel, schema, allDuels, forceExpanded }: { duel: DuelResult; schema: EncyclopediaSchema; allDuels: DuelResult[]; forceExpanded?: boolean }) {
@@ -256,6 +316,17 @@ function DuelRow({ duel, schema, allDuels, forceExpanded }: { duel: DuelResult; 
               {" — "}
               {aMovesFirst ? capitalize(memberA.nickname) : capitalize(memberB.nickname)} moves first
             </span>
+          </div>
+          <div className="battle-narrative">
+            <div className="battle-narrative-header">
+              <ScrollText size={12} />
+              <span>Battle log</span>
+            </div>
+            <div className="battle-narrative-lines">
+              {generateNarrative(duel).map((line, i) => (
+                <p key={i}>{line}</p>
+              ))}
+            </div>
           </div>
         </div>
       )}
