@@ -271,6 +271,20 @@ select {
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.25);
 }
 
+/* ============ Mobile Menu Trigger ============ */
+
+.mobile-menu-trigger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2);
+  cursor: pointer;
+}
+
 /* ============ Header Actions ============ */
 
 .header-actions {
@@ -2143,23 +2157,6 @@ select {
 }
 
 /* ============ Mobile Drawer ============ */
-
-.mobile-menu-trigger {
-  align-items: center;
-  justify-content: center;
-  background: none;
-  border: 1px solid var(--color-border);
-  color: var(--color-text-muted);
-  border-radius: var(--radius-sm);
-  padding: var(--space-2);
-  cursor: pointer;
-}
-
-@media (min-width: 641px) {
-  .mobile-menu-trigger {
-    display: none;
-  }
-}
 
 .mobile-menu-trigger:hover {
   color: var(--color-text-primary);
