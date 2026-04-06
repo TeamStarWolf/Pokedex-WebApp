@@ -35,6 +35,52 @@ function getDexLookup(schema: EncyclopediaSchema) {
   return cachedLookup!;
 }
 
+/**
+ * Select the best N moves maximizing type coverage.
+ *
+ * Strategy: For each type represented in the move pool, keep only the
+ * highest-power move. Then pick from the best moves across types, preferring
+ * STAB moves first, then the highest effective power. This ensures a Pokemon
+ * with Fire, Ground, Flying, and Dragon moves picks one of each rather than
+ * four Fire moves of decreasing power.
+ */
+function selectBestMoves(allMoves: BattleMove[], attackerTypeIds: TypeId[], limit: number): BattleMove[] {
+  if (allMoves.length <= limit) return allMoves;
+
+  // Group by type, keep only the strongest per type
+  const bestByType = new Map<TypeId, BattleMove>();
+  for (const move of allMoves) {
+    const existing = bestByType.get(move.typeId);
+    if (!existing || move.power > existing.power) {
+      bestByType.set(move.typeId, move);
+    }
+  }
+
+  // Sort type representatives: STAB types first, then by power descending
+  const candidates = [...bestByType.values()].sort((a, b) => {
+    const aStab = attackerTypeIds.includes(a.typeId) ? 1 : 0;
+    const bStab = attackerTypeIds.includes(b.typeId) ? 1 : 0;
+    if (bStab !== aStab) return bStab - aStab;
+    return b.power - a.power;
+  });
+
+  const selected = candidates.slice(0, limit);
+
+  // If we still have room, fill with remaining highest-power moves not yet picked
+  if (selected.length < limit) {
+    const pickedIds = new Set(selected.map((m) => m.moveId));
+    const remaining = allMoves
+      .filter((m) => !pickedIds.has(m.moveId))
+      .sort((a, b) => b.power - a.power);
+    for (const move of remaining) {
+      if (selected.length >= limit) break;
+      selected.push(move);
+    }
+  }
+
+  return selected;
+}
+
 export function resolveBattlePokemon(
   schema: EncyclopediaSchema,
   pokemonId: number,
@@ -67,8 +113,9 @@ export function resolveBattlePokemon(
     });
   }
 
-  moves.sort((a, b) => b.power - a.power);
-  const topMoves = moves.slice(0, MAX_MOVES);
+  // Select moves that maximize type coverage while preferring high power.
+  // Greedy: pick the best move of each unique type first, then fill with strongest remaining.
+  const topMoves = selectBestMoves(moves, form.typeIds, MAX_MOVES);
 
   return {
     pokemonId,

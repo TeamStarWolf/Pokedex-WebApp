@@ -9,6 +9,7 @@ import type { BattlePokemon } from "../../lib/battleTypes";
 import { TeamAnalysisPanel } from "../../components/battle/TeamAnalysisPanel";
 import { BattleSimPanel } from "../../components/battle/BattleSimPanel";
 import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
+import { TypeBadge } from "../../components/battle/TypeBadge";
 import { capitalize } from "../../lib/format";
 import { curatedPresetTeams } from "../../data/presetTeams";
 
@@ -79,7 +80,11 @@ export function BattlePage() {
                     <PokemonImage src={pokemon.artworkUrl} alt={pokemon.name} className="battle-roster-art" />
                     <div className="battle-roster-info">
                       <strong>{capitalize(pokemon.nickname)}</strong>
-                      <span className="muted">{pokemon.typeIds.map((id) => capitalize(schema.types[id]?.name ?? id)).join(" / ")}</span>
+                      <div className="battle-roster-types">
+                        {pokemon.typeIds.map((id) => (
+                          <TypeBadge key={id} typeId={id} schema={schema} />
+                        ))}
+                      </div>
                     </div>
                   </div>
                 ))}

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Trophy, ChevronDown, ChevronUp, Zap, Shield } from "lucide-react";
 import type { DuelResult, SimulationResult } from "../../lib/battleTypes";
 import type { EncyclopediaSchema } from "../../lib/encyclopedia-schema";
+import { TypeBadge } from "./TypeBadge";
 import { capitalize } from "../../lib/format";
 
 type Props = {
@@ -49,15 +50,15 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
         <div className="battle-duel-matchup">
           <span className="battle-duel-name">
             <strong>{capitalize(memberA.nickname)}</strong>
-            <span className="muted battle-duel-types">
-              {memberA.typeIds.map((id) => capitalize(schema.types[id]?.name ?? id.replace("type:", ""))).join("/")}
+            <span className="battle-duel-types">
+              {memberA.typeIds.map((id) => <TypeBadge key={id} typeId={id} schema={schema} />)}
             </span>
           </span>
           <span className="battle-duel-vs">vs</span>
           <span className="battle-duel-name">
             <strong>{capitalize(memberB.nickname)}</strong>
-            <span className="muted battle-duel-types">
-              {memberB.typeIds.map((id) => capitalize(schema.types[id]?.name ?? id.replace("type:", ""))).join("/")}
+            <span className="battle-duel-types">
+              {memberB.typeIds.map((id) => <TypeBadge key={id} typeId={id} schema={schema} />)}
             </span>
           </span>
         </div>
@@ -89,6 +90,7 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                 <div className="battle-move-options">
                   {aAttacks.allMoves.map((opt) => (
                     <div key={opt.move.moveId} className="battle-move-option">
+                      <TypeBadge typeId={opt.move.typeId} schema={schema} />
                       <span>{opt.move.name}</span>
                       <span className="mono">{opt.damagePercent}%</span>
                       {opt.stabApplied && <span className="mini-badge">STAB</span>}
@@ -118,6 +120,7 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                 <div className="battle-move-options">
                   {bAttacks.allMoves.map((opt) => (
                     <div key={opt.move.moveId} className="battle-move-option">
+                      <TypeBadge typeId={opt.move.typeId} schema={schema} />
                       <span>{opt.move.name}</span>
                       <span className="mono">{opt.damagePercent}%</span>
                       {opt.stabApplied && <span className="mini-badge">STAB</span>}

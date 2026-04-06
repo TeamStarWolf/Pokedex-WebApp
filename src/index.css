@@ -3082,6 +3082,33 @@ details:not([open]) > summary .learnset-count::after {
   }
 }
 
+/* ============ Battle Type Badges ============ */
+
+.battle-type-badge {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--type-color, #475569) 22%, var(--color-surface-sunken));
+  color: var(--type-color, #475569);
+  white-space: nowrap;
+}
+
+.battle-type-badge-md {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+}
+
+.battle-roster-types,
+.battle-duel-types {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
 /* ============ Battle Roster Artwork ============ */
 
 .battle-roster-member {
