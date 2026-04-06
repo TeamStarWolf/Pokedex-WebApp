@@ -123,7 +123,7 @@ export function listTypes(schema: EncyclopediaSchema) {
 }
 
 export function listGames(schema: EncyclopediaSchema) {
-  return Object.values(schema.gameVersions).sort((left, right) => left.name.localeCompare(right.name));
+  return Object.values(schema.gameVersions).sort((left, right) => (left.releaseDate ?? "").localeCompare(right.releaseDate ?? ""));
 }
 
 export function listLocations(schema: EncyclopediaSchema) {
