@@ -6,3 +6,26 @@ dist/
 ui-smoke/
 *.sqlite
 *.json.bak
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Python (build scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test / build artifacts
+coverage/
+*.log
+.vitest/

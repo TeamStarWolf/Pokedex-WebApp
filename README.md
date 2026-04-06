@@ -1,5 +1,11 @@
 # PokeNav
 
+[![React 19](https://img.shields.io/badge/react-19-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/typescript-5.8-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
+[![License: MIT](https://img.shields.io/github/license/TeamStarWolf/PokeNav?style=for-the-badge&color=2ECC71)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/TeamStarWolf/PokeNav?style=for-the-badge&color=FFD600&logo=github)](https://github.com/TeamStarWolf/PokeNav/stargazers)
+[![Live Site](https://img.shields.io/badge/live-GitHub%20Pages-00E5FF?style=for-the-badge&logo=github-pages&logoColor=white)](https://teamstarwolf.github.io/PokeNav/)
+
 PokeNav is a game-first Pokemon encyclopedia built as a local-first React app.
 
 It is meant to feel closer to a research tool than a simple Pokedex list: browse by game, inspect Pokemon articles, compare species, study trainer battles, and move laterally through related entities without depending on heavy live client-side API hydration.

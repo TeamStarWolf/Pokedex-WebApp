@@ -3,6 +3,24 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
+  "author": "TeamStarWolf",
+  "homepage": "https://teamstarwolf.github.io/PokeNav/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TeamStarWolf/PokeNav.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TeamStarWolf/PokeNav/issues"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "encyclopedia",
+    "react",
+    "typescript",
+    "trainer-battles",
+    "game-data"
+  ],
   "scripts": {
     "dev": "vite",
     "dev:local": "vite --host 127.0.0.1 --port 4173 --strictPort",
