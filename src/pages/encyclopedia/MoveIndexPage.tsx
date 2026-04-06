@@ -1,9 +1,6 @@
 // PokeNav - Copyright (c) 2026 TeamStarWolf
 // https://github.com/TeamStarWolf/PokeNav - MIT License
-<<<<<<< HEAD
 import { useMemo } from "react";
-=======
->>>>>>> 56d28b7 (Add TeamStarWolf copyright headers to all source files)
 import { EntityIndexPage } from "../../components/encyclopedia/EntityIndexPage";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
