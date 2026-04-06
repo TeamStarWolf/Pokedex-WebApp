@@ -6,6 +6,7 @@ import {
   computeSTAB,
   estimateDamage,
   pickBestMove,
+  getAllMoveOptions,
   simulateMatchup,
   analyzeTeam,
 } from "../lib/battleSim";
@@ -246,6 +247,7 @@ describe("simulateMatchup", () => {
     expect(result.teamALabel).toBe("Team A");
     expect(result.teamBLabel).toBe("Team B");
     expect(result.matchups).toHaveLength(1);
+    expect(result.duels).toHaveLength(1);
     expect(result.teamAWins + result.teamBWins + result.ties).toBe(1);
     expect(["A wins", "B wins", "Even"]).toContain(result.overallVerdict);
   });
@@ -270,7 +272,124 @@ describe("simulateMatchup", () => {
     const result = simulateMatchup(teamA, teamB, "Team A", "Team B", schema);
     // 2x2 = 4 matchups
     expect(result.matchups).toHaveLength(4);
+    expect(result.duels).toHaveLength(4);
     expect(result.teamAWins + result.teamBWins + result.ties).toBe(4);
+  });
+
+  it("populates duel results with speed and KO data", () => {
+    const fast: BattlePokemon = {
+      pokemonId: 10,
+      name: "fast",
+      nickname: "Fast",
+      typeIds: ["type:fire" as TypeId],
+      stats: { hp: 80, attack: 120, defense: 80, "special-attack": 80, "special-defense": 80, speed: 150 },
+      moves: [
+        { moveId: "move:fire-punch" as MoveId, name: "Fire Punch", typeId: "type:fire" as TypeId, power: 75, accuracy: 100, damageClass: "physical" },
+      ],
+      isLegendary: false,
+      isMythical: false,
+    };
+    const slow: BattlePokemon = {
+      pokemonId: 20,
+      name: "slow",
+      nickname: "Slow",
+      typeIds: ["type:grass" as TypeId],
+      stats: { hp: 80, attack: 80, defense: 80, "special-attack": 80, "special-defense": 80, speed: 30 },
+      moves: [
+        { moveId: "move:vine-whip" as MoveId, name: "Vine Whip", typeId: "type:grass" as TypeId, power: 45, accuracy: 100, damageClass: "physical" },
+      ],
+      isLegendary: false,
+      isMythical: false,
+    };
+
+    const result = simulateMatchup([fast], [slow], "Team Fast", "Team Slow", schema);
+    const duel = result.duels[0];
+    expect(duel.aMovesFirst).toBe(true);
+    expect(duel.turnsToKoA).not.toBeNull();
+    expect(duel.turnsToKoB).not.toBeNull();
+    // Fire vs Grass with STAB should do heavy damage, so fast should win
+    expect(duel.duelWinner).toBe("A");
+  });
+
+  it("includes allMoves in matchup results", () => {
+    const attacker: BattlePokemon = {
+      pokemonId: 30,
+      name: "multi",
+      nickname: "Multi",
+      typeIds: ["type:fire" as TypeId],
+      stats: { hp: 100, attack: 100, defense: 100, "special-attack": 100, "special-defense": 100, speed: 100 },
+      moves: [
+        { moveId: "move:scratch" as MoveId, name: "Scratch", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
+        { moveId: "move:ember" as MoveId, name: "Ember", typeId: "type:fire" as TypeId, power: 40, accuracy: 100, damageClass: "special" },
+      ],
+      isLegendary: false,
+      isMythical: false,
+    };
+    const defender: BattlePokemon = {
+      pokemonId: 40,
+      name: "target",
+      nickname: "Target",
+      typeIds: ["type:normal" as TypeId],
+      stats: { hp: 100, attack: 80, defense: 100, "special-attack": 80, "special-defense": 100, speed: 80 },
+      moves: [],
+      isLegendary: false,
+      isMythical: false,
+    };
+
+    const result = simulateMatchup([attacker], [defender], "A", "B", schema);
+    expect(result.matchups[0].allMoves).toHaveLength(2);
+    // allMoves should be sorted by damage descending
+    expect(result.matchups[0].allMoves[0].damagePercent).toBeGreaterThanOrEqual(
+      result.matchups[0].allMoves[1].damagePercent,
+    );
+  });
+});
+
+describe("getAllMoveOptions", () => {
+  it("returns all move options sorted by damage", () => {
+    const attacker: BattlePokemon = {
+      pokemonId: 1,
+      name: "attacker",
+      nickname: "attacker",
+      typeIds: ["type:fire" as TypeId],
+      stats: { hp: 100, attack: 120, defense: 80, "special-attack": 80, "special-defense": 80, speed: 80 },
+      moves: [
+        { moveId: "move:scratch" as MoveId, name: "Scratch", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
+        { moveId: "move:fire-punch" as MoveId, name: "Fire Punch", typeId: "type:fire" as TypeId, power: 75, accuracy: 100, damageClass: "physical" },
+      ],
+      isLegendary: false,
+      isMythical: false,
+    };
+    const defender: BattlePokemon = {
+      pokemonId: 2,
+      name: "defender",
+      nickname: "defender",
+      typeIds: ["type:grass" as TypeId],
+      stats: { hp: 100, attack: 80, defense: 80, "special-attack": 80, "special-defense": 80, speed: 80 },
+      moves: [],
+      isLegendary: false,
+      isMythical: false,
+    };
+
+    const options = getAllMoveOptions(attacker, defender, schema);
+    expect(options).toHaveLength(2);
+    // Fire Punch should be first (higher power + STAB + SE)
+    expect(options[0].move.moveId).toBe("move:fire-punch");
+    expect(options[0].damagePercent).toBeGreaterThan(options[1].damagePercent);
+  });
+
+  it("returns empty array for no moves", () => {
+    const pokemon: BattlePokemon = {
+      pokemonId: 1,
+      name: "test",
+      nickname: "test",
+      typeIds: ["type:normal" as TypeId],
+      stats: { hp: 100, attack: 100, defense: 100, "special-attack": 100, "special-defense": 100, speed: 100 },
+      moves: [],
+      isLegendary: false,
+      isMythical: false,
+    };
+    expect(getAllMoveOptions(pokemon, pokemon, schema)).toHaveLength(0);
   });
 });
 

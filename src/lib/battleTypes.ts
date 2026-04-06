@@ -18,6 +18,7 @@ export type BattlePokemon = {
   moves: BattleMove[];
   isLegendary: boolean;
   isMythical: boolean;
+  artworkUrl?: string;
 };
 
 export type MatchupResult = {
@@ -30,12 +31,33 @@ export type MatchupResult = {
   typeEffectiveness: number;
   stabApplied: boolean;
   favorability: "strong" | "neutral" | "weak" | "immune";
+  allMoves: MoveOption[];
+};
+
+export type MoveOption = {
+  move: BattleMove;
+  damage: number;
+  damagePercent: number;
+  typeEffectiveness: number;
+  stabApplied: boolean;
+};
+
+export type DuelResult = {
+  memberA: BattlePokemon;
+  memberB: BattlePokemon;
+  aAttacks: MatchupResult;
+  bAttacks: MatchupResult;
+  turnsToKoA: number | null;
+  turnsToKoB: number | null;
+  aMovesFirst: boolean;
+  duelWinner: "A" | "B" | "tie";
 };
 
 export type SimulationResult = {
   teamALabel: string;
   teamBLabel: string;
   matchups: MatchupResult[];
+  duels: DuelResult[];
   teamAWins: number;
   teamBWins: number;
   ties: number;

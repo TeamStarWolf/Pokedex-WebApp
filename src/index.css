@@ -3081,3 +3081,318 @@ details:not([open]) > summary .learnset-count::after {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ============ Battle Roster Artwork ============ */
+
+.battle-roster-member {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.battle-roster-art,
+.battle-roster-member .pokemon-image-fallback {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+  flex-shrink: 0;
+  background: var(--color-surface);
+}
+
+.battle-roster-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.battle-slot-art,
+.battle-slot .pokemon-image-fallback {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--radius-sm);
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+/* ============ Battle View Toggle ============ */
+
+.battle-view-toggle {
+  display: flex;
+  gap: var(--space-2);
+}
+
+/* ============ Battle Duel List ============ */
+
+.battle-duel-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.battle-duel {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.battle-duel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: none;
+  border: none;
+  color: var(--color-text-body);
+  cursor: pointer;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.battle-duel-header:hover {
+  background: var(--color-surface-sunken);
+}
+
+.battle-duel-matchup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1;
+  min-width: 0;
+}
+
+.battle-duel-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.battle-duel-name strong {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.battle-duel-types {
+  font-size: 0.75rem;
+}
+
+.battle-duel-vs {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.battle-duel-summary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+
+.battle-duel-result {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+
+.duel-win {
+  background: color-mix(in srgb, #22c55e 18%, var(--color-surface));
+  color: #22c55e;
+}
+
+.duel-lose {
+  background: color-mix(in srgb, #ef4444 18%, var(--color-surface));
+  color: #ef4444;
+}
+
+.duel-tie {
+  background: color-mix(in srgb, #eab308 15%, var(--color-surface));
+  color: #eab308;
+}
+
+/* Duel detail expand */
+
+.battle-duel-detail {
+  border-top: 1px solid var(--color-border);
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  background: var(--color-surface-sunken);
+}
+
+.battle-duel-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.battle-duel-side h4 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0 0 var(--space-2) 0;
+  font-size: 0.85rem;
+}
+
+.battle-duel-meta {
+  font-size: 0.8rem;
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Move options in duel detail */
+
+.battle-move-options {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: var(--space-2);
+}
+
+.battle-move-option {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.8rem;
+  padding: 4px var(--space-2);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+}
+
+.battle-move-option .mono {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+/* ============ Matchup Matrix ============ */
+
+.battle-matrix {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.battle-matrix-verdict {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.9rem;
+}
+
+.battle-matrix-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.battle-matrix-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px;
+  font-size: 0.8rem;
+}
+
+.battle-matrix-table th,
+.battle-matrix-table td {
+  padding: var(--space-2) var(--space-3);
+  text-align: center;
+  border: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.battle-matrix-corner {
+  background: var(--color-surface-sunken);
+  text-align: left !important;
+  vertical-align: bottom;
+  min-width: 100px;
+}
+
+.battle-matrix-axis-a,
+.battle-matrix-axis-b {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+}
+
+.battle-matrix-col-header {
+  background: var(--color-surface-sunken);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.battle-matrix-row-header {
+  background: var(--color-surface-sunken);
+  text-align: left !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.battle-matrix-cell {
+  position: relative;
+  vertical-align: middle;
+}
+
+.matrix-dmg {
+  display: block;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.matrix-ko {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.matrix-result-icon {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  padding: 1px 4px;
+  border-radius: 3px;
+  margin-top: 2px;
+  background: color-mix(in srgb, #22c55e 25%, transparent);
+  color: #22c55e;
+}
+
+.matrix-result-loss {
+  background: color-mix(in srgb, #ef4444 25%, transparent);
+  color: #ef4444;
+}
+
+.battle-matrix-legend {
+  font-size: 0.78rem;
+}
+
+/* Matrix responsive */
+
+@media (max-width: 640px) {
+  .battle-duel-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .battle-duel-matchup {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-1);
+  }
+
+  .battle-duel-vs {
+    display: none;
+  }
+}

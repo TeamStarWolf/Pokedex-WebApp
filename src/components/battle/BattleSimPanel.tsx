@@ -1,24 +1,31 @@
-import { Swords, Shuffle, Trash2, Plus, Search } from "lucide-react";
+import { Swords, Shuffle, Trash2, Plus, Search, Users } from "lucide-react";
 import { useMemo, useState } from "react";
 import type { EncyclopediaSchema } from "../../lib/encyclopedia-schema";
 import type { BattlePokemon, SimulationResult } from "../../lib/battleTypes";
+import type { PresetTeam } from "../../lib/types";
 import { resolveBattlePokemon, simulateMatchup } from "../../lib/battleSim";
 import { BattleResultCard } from "./BattleResultCard";
+import { MatchupMatrix } from "./MatchupMatrix";
+import { PokemonImage } from "../encyclopedia/PokemonImage";
 import { capitalize } from "../../lib/format";
 
 type Props = {
   yourTeam: BattlePokemon[];
   yourTeamLabel: string;
   schema: EncyclopediaSchema;
+  trainerPresets?: PresetTeam[];
 };
 
 const MAX_TEAM = 6;
 
-export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
+export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets }: Props) {
   const [opponentIds, setOpponentIds] = useState<number[]>([]);
   const [opponentLabel, setOpponentLabel] = useState("Opponent");
   const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
+  const [presetOpen, setPresetOpen] = useState(false);
+  const [presetQuery, setPresetQuery] = useState("");
+  const [resultView, setResultView] = useState<"breakdown" | "matrix">("breakdown");
   const [result, setResult] = useState<SimulationResult | null>(null);
 
   const pokemonList = useMemo(() => {
@@ -36,6 +43,16 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
       )
       .slice(0, 50);
   }, [pokemonList, searchQuery]);
+
+  const filteredPresets = useMemo(() => {
+    if (!trainerPresets) return [];
+    const q = presetQuery.toLowerCase();
+    return trainerPresets
+      .filter((preset) =>
+        !q || preset.trainer.toLowerCase().includes(q) || preset.battleLabel.toLowerCase().includes(q),
+      )
+      .slice(0, 30);
+  }, [trainerPresets, presetQuery]);
 
   const opponentTeam = useMemo(() => {
     return opponentIds
@@ -58,6 +75,14 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
 
   function clearOpponents() {
     setOpponentIds([]);
+    setResult(null);
+  }
+
+  function loadPreset(preset: PresetTeam) {
+    setOpponentIds(preset.members.slice(0, MAX_TEAM));
+    setOpponentLabel(preset.trainer + " – " + preset.battleLabel);
+    setPresetOpen(false);
+    setPresetQuery("");
     setResult(null);
   }
 
@@ -104,6 +129,12 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
           />
         </label>
         <div className="battle-opponent-actions">
+          {trainerPresets && trainerPresets.length > 0 && (
+            <button type="button" className="ghost-button" onClick={() => { setPresetOpen(!presetOpen); setSearchOpen(false); }}>
+              <Users size={14} />
+              Trainer team
+            </button>
+          )}
           <button type="button" className="ghost-button" onClick={addRandomTeam}>
             <Shuffle size={14} />
             Random team
@@ -120,6 +151,7 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
       <div className="battle-team-slots">
         {Array.from({ length: MAX_TEAM }).map((_, index) => {
           const pokemonId = opponentIds[index];
+          const resolved = opponentTeam.find((p) => p.pokemonId === pokemonId);
           const species = pokemonId
             ? Object.values(schema.pokemon).find((s) => s.nationalDexNumber === pokemonId) ?? null
             : null;
@@ -128,6 +160,7 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
             <div key={pokemonId ? `opp-${pokemonId}-${index}` : `empty-${index}`} className="battle-slot">
               {species ? (
                 <>
+                  <PokemonImage src={resolved?.artworkUrl} alt={species.name} className="battle-slot-art" />
                   <div className="battle-slot-info">
                     <strong>#{species.nationalDexNumber}</strong>
                     <span>{capitalize(species.name)}</span>
@@ -191,6 +224,35 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
         </div>
       )}
 
+      {presetOpen && (
+        <div className="battle-search-dropdown">
+          <input
+            className="battle-search-input"
+            value={presetQuery}
+            onChange={(event) => setPresetQuery(event.target.value)}
+            placeholder="Search trainers..."
+            autoFocus
+          />
+          <div className="battle-search-results" role="listbox">
+            {filteredPresets.map((preset, i) => (
+              <button
+                key={`${preset.trainer}-${preset.battleLabel}-${i}`}
+                type="button"
+                className="battle-search-option"
+                role="option"
+                onClick={() => loadPreset(preset)}
+              >
+                <strong>{preset.trainer}</strong>
+                <span className="muted">{preset.battleLabel} · {preset.members.length} Pokemon</span>
+              </button>
+            ))}
+            {filteredPresets.length === 0 && (
+              <p className="muted battle-search-empty">No trainer teams found</p>
+            )}
+          </div>
+        </div>
+      )}
+
       <button
         type="button"
         className={`primary-link battle-simulate-button ${canSimulate ? "" : "disabled"}`}
@@ -209,7 +271,31 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema }: Props) {
         </p>
       )}
 
-      {result && <BattleResultCard result={result} />}
+      {result && (
+        <>
+          <div className="battle-view-toggle">
+            <button
+              type="button"
+              className={`tab-pill ${resultView === "breakdown" ? "active" : ""}`}
+              onClick={() => setResultView("breakdown")}
+            >
+              Breakdown
+            </button>
+            <button
+              type="button"
+              className={`tab-pill ${resultView === "matrix" ? "active" : ""}`}
+              onClick={() => setResultView("matrix")}
+            >
+              Matrix
+            </button>
+          </div>
+          {resultView === "breakdown" ? (
+            <BattleResultCard result={result} schema={schema} />
+          ) : (
+            <MatchupMatrix result={result} />
+          )}
+        </>
+      )}
     </div>
   );
 }

@@ -8,7 +8,9 @@ import { resolveBattlePokemon, analyzeTeam } from "../../lib/battleSim";
 import type { BattlePokemon } from "../../lib/battleTypes";
 import { TeamAnalysisPanel } from "../../components/battle/TeamAnalysisPanel";
 import { BattleSimPanel } from "../../components/battle/BattleSimPanel";
+import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { capitalize } from "../../lib/format";
+import { curatedPresetTeams } from "../../data/presetTeams";
 
 type Tab = "analysis" | "battle";
 
@@ -74,8 +76,11 @@ export function BattlePage() {
               <div className="battle-team-roster">
                 {yourTeam.map((pokemon) => (
                   <div key={pokemon.pokemonId} className="battle-roster-member">
-                    <strong>{capitalize(pokemon.nickname)}</strong>
-                    <span className="muted">{pokemon.typeIds.map((id) => capitalize(schema.types[id]?.name ?? id)).join(" / ")}</span>
+                    <PokemonImage src={pokemon.artworkUrl} alt={pokemon.name} className="battle-roster-art" />
+                    <div className="battle-roster-info">
+                      <strong>{capitalize(pokemon.nickname)}</strong>
+                      <span className="muted">{pokemon.typeIds.map((id) => capitalize(schema.types[id]?.name ?? id)).join(" / ")}</span>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -105,6 +110,7 @@ export function BattlePage() {
                 yourTeam={yourTeam}
                 yourTeamLabel={teamName}
                 schema={schema}
+                trainerPresets={curatedPresetTeams}
               />
             )}
 

@@ -38,12 +38,28 @@ function mergeSchema(base: EncyclopediaSchema, overlay: Partial<EncyclopediaSche
   };
 }
 
+function mergeFormsPreservingLearnsets(
+  seed: EncyclopediaSchema["forms"],
+  generated: EncyclopediaSchema["forms"],
+): EncyclopediaSchema["forms"] {
+  const merged = { ...seed, ...generated };
+  // If a generated form has an empty learnset but the seed has one, keep the seed's learnset.
+  for (const [formId, genForm] of Object.entries(generated)) {
+    const seedForm = seed[formId as keyof typeof seed];
+    if (seedForm && seedForm.learnset.length > 0 && genForm.learnset.length === 0) {
+      merged[formId as keyof typeof merged] = { ...genForm, learnset: seedForm.learnset };
+    }
+  }
+  return merged;
+}
+
 function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema {
   // Seed fills gaps for entities missing from the generated dataset,
   // but generated data takes precedence when both exist (richer game associations, etc.).
+  // Forms get special handling: keep seed learnsets when generated ones are empty.
   return {
     pokemon: { ...encyclopediaSeed.pokemon, ...schema.pokemon },
-    forms: { ...encyclopediaSeed.forms, ...schema.forms },
+    forms: mergeFormsPreservingLearnsets(encyclopediaSeed.forms, schema.forms),
     evolutions: { ...encyclopediaSeed.evolutions, ...schema.evolutions },
     moves: { ...encyclopediaSeed.moves, ...schema.moves },
     abilities: { ...encyclopediaSeed.abilities, ...schema.abilities },

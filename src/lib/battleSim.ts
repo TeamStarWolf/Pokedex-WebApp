@@ -2,7 +2,9 @@ import type { EncyclopediaSchema, PokemonStatKey, TypeId } from "./encyclopedia-
 import type {
   BattleMove,
   BattlePokemon,
+  DuelResult,
   MatchupResult,
+  MoveOption,
   SimulationResult,
   TeamAnalysis,
   TypeCoverageEntry,
@@ -77,6 +79,7 @@ export function resolveBattlePokemon(
     moves: topMoves,
     isLegendary: species.isLegendary,
     isMythical: species.isMythical,
+    artworkUrl: form.artworkUrl,
   };
 }
 
@@ -121,23 +124,29 @@ export function estimateDamage(
   };
 }
 
+export function getAllMoveOptions(
+  attacker: BattlePokemon,
+  defender: BattlePokemon,
+  schema: EncyclopediaSchema,
+): MoveOption[] {
+  return attacker.moves.map((move) => {
+    const result = estimateDamage(attacker, defender, move, schema);
+    return { move, ...result };
+  }).sort((a, b) => b.damagePercent - a.damagePercent);
+}
+
 export function pickBestMove(
   attacker: BattlePokemon,
   defender: BattlePokemon,
   schema: EncyclopediaSchema,
 ): { move: BattleMove; damage: number; damagePercent: number; typeEffectiveness: number; stabApplied: boolean } | null {
-  if (attacker.moves.length === 0) return null;
+  const options = getAllMoveOptions(attacker, defender, schema);
+  return options.length > 0 ? options[0] : null;
+}
 
-  let best: ReturnType<typeof pickBestMove> = null;
-
-  for (const move of attacker.moves) {
-    const result = estimateDamage(attacker, defender, move, schema);
-    if (!best || result.damagePercent > best.damagePercent) {
-      best = { move, ...result };
-    }
-  }
-
-  return best;
+function turnsToKo(damagePercent: number): number | null {
+  if (damagePercent <= 0) return null;
+  return Math.ceil(100 / damagePercent);
 }
 
 function classifyFavorability(damagePercent: number, typeEffectiveness: number): MatchupResult["favorability"] {
@@ -145,6 +154,28 @@ function classifyFavorability(damagePercent: number, typeEffectiveness: number):
   if (damagePercent >= 50) return "strong";
   if (damagePercent >= 25) return "neutral";
   return "weak";
+}
+
+function buildMatchupResult(
+  attacker: BattlePokemon,
+  defender: BattlePokemon,
+  schema: EncyclopediaSchema,
+): MatchupResult {
+  const allMoves = getAllMoveOptions(attacker, defender, schema);
+  const best = allMoves[0] ?? null;
+
+  return {
+    attackerId: attacker.pokemonId,
+    defenderId: defender.pokemonId,
+    attackerName: attacker.nickname,
+    defenderName: defender.nickname,
+    bestMove: best?.move ?? null,
+    estimatedDamage: best?.damagePercent ?? 0,
+    typeEffectiveness: best?.typeEffectiveness ?? 1,
+    stabApplied: best?.stabApplied ?? false,
+    favorability: classifyFavorability(best?.damagePercent ?? 0, best?.typeEffectiveness ?? 1),
+    allMoves,
+  };
 }
 
 export function simulateMatchup(
@@ -155,6 +186,7 @@ export function simulateMatchup(
   schema: EncyclopediaSchema,
 ): SimulationResult {
   const matchups: MatchupResult[] = [];
+  const duels: DuelResult[] = [];
   let teamAScore = 0;
   let teamBScore = 0;
   let teamAWins = 0;
@@ -163,29 +195,44 @@ export function simulateMatchup(
 
   for (const memberA of teamA) {
     for (const memberB of teamB) {
-      const aAttacks = pickBestMove(memberA, memberB, schema);
-      const bAttacks = pickBestMove(memberB, memberA, schema);
+      const aAttacks = buildMatchupResult(memberA, memberB, schema);
+      const bAttacks = buildMatchupResult(memberB, memberA, schema);
 
-      const aDamagePercent = aAttacks?.damagePercent ?? 0;
-      const bDamagePercent = bAttacks?.damagePercent ?? 0;
+      matchups.push(aAttacks);
 
-      matchups.push({
-        attackerId: memberA.pokemonId,
-        defenderId: memberB.pokemonId,
-        attackerName: memberA.nickname,
-        defenderName: memberB.nickname,
-        bestMove: aAttacks?.move ?? null,
-        estimatedDamage: aDamagePercent,
-        typeEffectiveness: aAttacks?.typeEffectiveness ?? 1,
-        stabApplied: aAttacks?.stabApplied ?? false,
-        favorability: classifyFavorability(aDamagePercent, aAttacks?.typeEffectiveness ?? 1),
+      const aDamagePercent = aAttacks.estimatedDamage;
+      const bDamagePercent = bAttacks.estimatedDamage;
+      const aKo = turnsToKo(aDamagePercent);
+      const bKo = turnsToKo(bDamagePercent);
+      const aFaster = memberA.stats.speed >= memberB.stats.speed;
+
+      let duelWinner: DuelResult["duelWinner"] = "tie";
+      if (aKo !== null && bKo !== null) {
+        if (aKo < bKo) duelWinner = "A";
+        else if (bKo < aKo) duelWinner = "B";
+        else duelWinner = aFaster ? "A" : "B";
+      } else if (aKo !== null) {
+        duelWinner = "A";
+      } else if (bKo !== null) {
+        duelWinner = "B";
+      }
+
+      duels.push({
+        memberA,
+        memberB,
+        aAttacks,
+        bAttacks,
+        turnsToKoA: aKo,
+        turnsToKoB: bKo,
+        aMovesFirst: aFaster,
+        duelWinner,
       });
 
       teamAScore += aDamagePercent;
       teamBScore += bDamagePercent;
 
-      if (aDamagePercent > bDamagePercent) teamAWins++;
-      else if (bDamagePercent > aDamagePercent) teamBWins++;
+      if (duelWinner === "A") teamAWins++;
+      else if (duelWinner === "B") teamBWins++;
       else ties++;
     }
   }
@@ -197,6 +244,7 @@ export function simulateMatchup(
     teamALabel,
     teamBLabel,
     matchups,
+    duels,
     teamAWins,
     teamBWins,
     ties,
