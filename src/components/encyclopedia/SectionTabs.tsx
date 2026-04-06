@@ -1,6 +1,9 @@
 // PokeNav - Copyright (c) 2026 TeamStarWolf
 // https://github.com/TeamStarWolf/PokeNav - MIT License
+<<<<<<< HEAD
 import { useCallback, useEffect, useRef, useState } from "react";
+=======
+>>>>>>> 56d28b7 (Add TeamStarWolf copyright headers to all source files)
 import type { DataStatus } from "../../lib/encyclopedia-schema";
 
 type TabDefinition = {

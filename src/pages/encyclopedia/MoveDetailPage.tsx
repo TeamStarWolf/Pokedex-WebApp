@@ -1,6 +1,9 @@
 // PokeNav - Copyright (c) 2026 TeamStarWolf
 // https://github.com/TeamStarWolf/PokeNav - MIT License
+<<<<<<< HEAD
 import { useState, useMemo } from "react";
+=======
+>>>>>>> 56d28b7 (Add TeamStarWolf copyright headers to all source files)
 import { Link, useParams } from "react-router-dom";
 import { ArticleSupportPanel } from "../../components/encyclopedia/ArticleSupportPanel";
 import { Breadcrumbs } from "../../components/encyclopedia/Breadcrumbs";
