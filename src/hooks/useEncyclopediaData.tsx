@@ -53,10 +53,31 @@ function mergeFormsPreservingLearnsets(
   return merged;
 }
 
+function mergeTypesPreservingMatchups(
+  seed: EncyclopediaSchema["types"],
+  generated: EncyclopediaSchema["types"],
+): EncyclopediaSchema["types"] {
+  const merged = { ...seed, ...generated };
+  // If a generated type has empty matchups but the seed has them, keep the seed's matchups.
+  for (const [typeId, genType] of Object.entries(generated)) {
+    const seedType = seed[typeId as keyof typeof seed];
+    if (!seedType) continue;
+    const key = typeId as keyof typeof merged;
+    if (genType.defensiveMatchups.length === 0 && seedType.defensiveMatchups.length > 0) {
+      merged[key] = { ...merged[key], defensiveMatchups: seedType.defensiveMatchups };
+    }
+    if (genType.offensiveMatchups.length === 0 && seedType.offensiveMatchups.length > 0) {
+      merged[key] = { ...merged[key], offensiveMatchups: seedType.offensiveMatchups };
+    }
+  }
+  return merged;
+}
+
 function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema {
   // Seed fills gaps for entities missing from the generated dataset,
   // but generated data takes precedence when both exist (richer game associations, etc.).
   // Forms get special handling: keep seed learnsets when generated ones are empty.
+  // Types get special handling: keep seed matchups when generated ones are empty.
   return {
     pokemon: { ...encyclopediaSeed.pokemon, ...schema.pokemon },
     forms: mergeFormsPreservingLearnsets(encyclopediaSeed.forms, schema.forms),
@@ -66,7 +87,7 @@ function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema 
     items: { ...encyclopediaSeed.items, ...schema.items },
     regions: { ...encyclopediaSeed.regions, ...schema.regions },
     gameVersions: { ...encyclopediaSeed.gameVersions, ...schema.gameVersions },
-    types: { ...encyclopediaSeed.types, ...schema.types },
+    types: mergeTypesPreservingMatchups(encyclopediaSeed.types, schema.types),
     locations: { ...encyclopediaSeed.locations, ...schema.locations },
   };
 }
