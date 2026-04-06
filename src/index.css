@@ -3324,8 +3324,8 @@ details:not([open]) > summary .learnset-count::after {
 .battle-matrix-table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 400px;
-  font-size: 0.8rem;
+  min-width: 500px;
+  font-size: 0.78rem;
 }
 
 .battle-matrix-table th,
@@ -3357,53 +3357,432 @@ details:not([open]) > summary .learnset-count::after {
   background: var(--color-surface-sunken);
   font-size: 0.75rem;
   font-weight: 600;
+  padding: var(--space-2) var(--space-2) !important;
 }
 
 .battle-matrix-row-header {
   background: var(--color-surface-sunken);
   text-align: left !important;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 0.78rem;
+  padding: var(--space-2) var(--space-3) !important;
+}
+
+.matrix-header-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.matrix-header-cell-row {
+  flex-direction: row;
+  gap: var(--space-2);
+}
+
+.matrix-header-cell-row > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+.matrix-header-art {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.matrix-header-types {
+  display: flex;
+  gap: 2px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .battle-matrix-cell {
   position: relative;
   vertical-align: middle;
+  padding: var(--space-1) var(--space-2) !important;
 }
 
-.matrix-dmg {
-  display: block;
-  font-weight: 600;
+.matrix-cell-bidirectional {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 2px;
+}
+
+.matrix-cell-attack,
+.matrix-cell-defend {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.72rem;
   font-variant-numeric: tabular-nums;
 }
 
+.matrix-cell-arrow {
+  font-size: 0.6rem;
+  color: var(--color-text-faint);
+  font-weight: 700;
+  width: 8px;
+  text-align: center;
+}
+
 .matrix-ko {
-  display: block;
-  font-size: 0.65rem;
+  font-size: 0.58rem;
   font-weight: 700;
   color: var(--color-text-muted);
   text-transform: uppercase;
 }
 
-.matrix-result-icon {
+.matrix-result-badge {
   display: inline-block;
-  font-size: 0.6rem;
+  font-size: 0.58rem;
   font-weight: 800;
   letter-spacing: 0.05em;
-  padding: 1px 4px;
+  padding: 1px 5px;
   border-radius: 3px;
-  margin-top: 2px;
+}
+
+.matrix-badge-win {
   background: color-mix(in srgb, #22c55e 25%, transparent);
   color: #22c55e;
 }
 
-.matrix-result-loss {
+.matrix-badge-loss {
   background: color-mix(in srgb, #ef4444 25%, transparent);
   color: #ef4444;
 }
 
-.battle-matrix-legend {
+.matrix-badge-tie {
+  background: color-mix(in srgb, #eab308 20%, transparent);
+  color: #a16207;
+}
+
+/* Matrix row/column summaries */
+
+.battle-matrix-summary-header {
+  background: var(--color-surface-sunken);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+}
+
+.battle-matrix-summary-cell,
+.battle-matrix-footer-cell {
+  background: var(--color-surface-raised);
+  vertical-align: middle;
+}
+
+.matrix-summary-record {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-1);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.matrix-summary-win {
+  color: #22c55e;
+}
+
+.matrix-summary-loss {
+  color: #ef4444;
+}
+
+.matrix-summary-dmg {
+  display: block;
+  font-size: 0.65rem;
+}
+
+.battle-matrix-footer-row th,
+.battle-matrix-footer-row td {
+  background: var(--color-surface-sunken);
+}
+
+.battle-matrix-footer-label {
+  text-align: left !important;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+}
+
+.battle-matrix-total-cell {
+  font-size: 0.85rem;
+}
+
+/* Matrix legend */
+
+.battle-matrix-legend-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.matrix-legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.matrix-legend-swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+}
+
+.matrix-legend-win {
+  background: color-mix(in srgb, #22c55e 35%, var(--color-surface));
+}
+
+.matrix-legend-loss {
+  background: color-mix(in srgb, #ef4444 25%, var(--color-surface));
+}
+
+.matrix-legend-tie {
+  background: color-mix(in srgb, #eab308 20%, var(--color-surface));
+}
+
+.matrix-legend-hint {
+  font-size: 0.72rem;
+}
+
+/* ============ Type Badge XS ============ */
+
+.battle-type-badge-xs {
+  font-size: 0.55rem;
+  padding: 0px 4px;
+  line-height: 1.4;
+}
+
+/* ============ Counter Suggestion ============ */
+
+.battle-counter-suggestion {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-3);
+  background: color-mix(in srgb, #3b82f6 8%, transparent);
+  border: 1px solid color-mix(in srgb, #3b82f6 20%, transparent);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  color: var(--color-text-body);
+  margin-bottom: var(--space-3);
+}
+
+.battle-counter-suggestion svg {
+  color: #3b82f6;
+  flex-shrink: 0;
+}
+
+/* ============ Synergy Grade ============ */
+
+.battle-synergy-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.battle-synergy-score-group {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-3);
+}
+
+.battle-synergy-grade {
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: var(--radius-pill);
+}
+
+.synergy-excellent {
+  background: color-mix(in srgb, #22c55e 15%, transparent);
+  color: #16a34a;
+}
+
+.synergy-good {
+  background: color-mix(in srgb, #3b82f6 15%, transparent);
+  color: #2563eb;
+}
+
+.synergy-fair {
+  background: color-mix(in srgb, #eab308 15%, transparent);
+  color: #a16207;
+}
+
+.synergy-poor {
+  background: color-mix(in srgb, #ef4444 15%, transparent);
+  color: #dc2626;
+}
+
+.battle-synergy-number {
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.battle-synergy-number .muted {
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
+.battle-synergy-fill.synergy-excellent { background: #22c55e; }
+.battle-synergy-fill.synergy-good { background: #3b82f6; }
+.battle-synergy-fill.synergy-fair { background: #eab308; }
+.battle-synergy-fill.synergy-poor { background: #ef4444; }
+
+/* ============ Analysis Alert Types ============ */
+
+.battle-alert-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+.battle-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+}
+
+.battle-coverage-members {
   font-size: 0.78rem;
+}
+
+/* ============ Team Compare Panel ============ */
+
+.team-compare {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.team-compare h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.team-compare-labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--space-2);
+}
+
+.team-compare-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+}
+
+.team-compare-label-a {
+  color: #3b82f6;
+}
+
+.team-compare-label-b {
+  color: #f97316;
+}
+
+.team-compare-bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.team-compare-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.team-compare-value {
+  width: 32px;
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+}
+
+.team-compare-leading {
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.team-compare-bar-group {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.team-compare-bar {
+  flex: 1;
+  height: 10px;
+  background: var(--color-surface-sunken);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.team-compare-bar-a {
+  direction: rtl;
+}
+
+.team-compare-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+.team-compare-fill-a {
+  background: #3b82f6;
+}
+
+.team-compare-fill-b {
+  background: #f97316;
+}
+
+.team-compare-stat-label {
+  width: 28px;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+}
+
+.team-compare-summary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+}
+
+.team-compare-summary-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--space-2);
+  font-size: 0.82rem;
+}
+
+.team-compare-summary-row .muted {
+  flex: 1;
+  text-align: center;
 }
 
 /* ============ Stat Bars ============ */

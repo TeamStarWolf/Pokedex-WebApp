@@ -4,7 +4,7 @@ import { capitalize } from "../../lib/format";
 type Props = {
   typeId: TypeId;
   schema: EncyclopediaSchema;
-  size?: "sm" | "md";
+  size?: "xs" | "sm" | "md";
 };
 
 export function TypeBadge({ typeId, schema, size = "sm" }: Props) {
@@ -12,9 +12,11 @@ export function TypeBadge({ typeId, schema, size = "sm" }: Props) {
   const name = type?.name ?? typeId.replace("type:", "");
   const color = type?.colorToken ?? "#475569";
 
+  const sizeClass = size === "md" ? "battle-type-badge-md" : size === "xs" ? "battle-type-badge-xs" : "";
+
   return (
     <span
-      className={`battle-type-badge ${size === "md" ? "battle-type-badge-md" : ""}`}
+      className={`battle-type-badge ${sizeClass}`}
       style={{ ["--type-color" as string]: color }}
     >
       {capitalize(name)}

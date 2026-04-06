@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown } from "lucide-react";
+import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight } from "lucide-react";
 import type { BattlePokemon, DuelResult, PokemonPerformance, SimulationResult } from "../../lib/battleTypes";
 import type { EncyclopediaSchema, PokemonStatKey } from "../../lib/encyclopedia-schema";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
@@ -92,10 +92,45 @@ function PerformanceCard({ perf, label, icon }: { perf: PokemonPerformance; labe
   );
 }
 
-function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchema }) {
+type CounterSuggestion = {
+  pokemon: BattlePokemon;
+  damage: number;
+  duelWinner: DuelResult["duelWinner"];
+};
+
+function findBestCounter(
+  opponent: BattlePokemon,
+  currentMember: BattlePokemon,
+  allDuels: DuelResult[],
+): CounterSuggestion | null {
+  let best: CounterSuggestion | null = null;
+
+  for (const duel of allDuels) {
+    // Find duels where team A faces this opponent
+    if (duel.memberB.pokemonId !== opponent.pokemonId) continue;
+    // Skip the current member (they're the one losing)
+    if (duel.memberA.pokemonId === currentMember.pokemonId) continue;
+    // Only suggest if this teammate wins or ties better
+    if (duel.duelWinner !== "A") continue;
+
+    const dmg = duel.aAttacks.estimatedDamage;
+    if (!best || dmg > best.damage) {
+      best = { pokemon: duel.memberA, damage: dmg, duelWinner: duel.duelWinner };
+    }
+  }
+
+  return best;
+}
+
+function DuelRow({ duel, schema, allDuels }: { duel: DuelResult; schema: EncyclopediaSchema; allDuels: DuelResult[] }) {
   const [expanded, setExpanded] = useState(false);
 
   const { memberA, memberB, aAttacks, bAttacks, turnsToKoA, turnsToKoB, aMovesFirst, duelWinner } = duel;
+
+  const counter = useMemo(() => {
+    if (duelWinner !== "B") return null;
+    return findBestCounter(memberB, memberA, allDuels);
+  }, [duelWinner, memberB, memberA, allDuels]);
 
   return (
     <div className={`battle-duel ${duelWinnerClass(duelWinner)}`}>
@@ -131,6 +166,15 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
 
       {expanded && (
         <div className="battle-duel-detail">
+          {counter && (
+            <div className="battle-counter-suggestion">
+              <ArrowRight size={14} />
+              <span>
+                Better matchup: <strong>{capitalize(counter.pokemon.nickname)}</strong> deals {counter.damage}% to {capitalize(memberB.nickname)}
+              </span>
+            </div>
+          )}
+
           <div className="battle-duel-stats">
             <div className="battle-duel-side">
               <h4><Zap size={14} /> {capitalize(memberA.nickname)} attacks</h4>
@@ -323,6 +367,7 @@ export function BattleResultCard({ result, schema }: Props) {
               key={`${duel.memberA.pokemonId}-${duel.memberB.pokemonId}`}
               duel={duel}
               schema={schema}
+              allDuels={result.duels}
             />
           ))}
         </div>

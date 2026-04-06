@@ -244,7 +244,7 @@ export function BattlePage() {
             )}
 
             {activeTab === "analysis" && analysis && (
-              <TeamAnalysisPanel analysis={analysis} />
+              <TeamAnalysisPanel analysis={analysis} schema={schema} />
             )}
           </>
         )}

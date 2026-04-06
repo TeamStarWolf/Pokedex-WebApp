@@ -6,6 +6,7 @@ import type { PresetTeam } from "../../lib/types";
 import { resolveBattlePokemon, simulateMatchup } from "../../lib/battleSim";
 import { BattleResultCard } from "./BattleResultCard";
 import { MatchupMatrix } from "./MatchupMatrix";
+import { TeamComparePanel } from "./TeamComparePanel";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
 import { capitalize } from "../../lib/format";
 
@@ -25,7 +26,7 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets
   const [searchOpen, setSearchOpen] = useState(false);
   const [presetOpen, setPresetOpen] = useState(false);
   const [presetQuery, setPresetQuery] = useState("");
-  const [resultView, setResultView] = useState<"breakdown" | "matrix">("breakdown");
+  const [resultView, setResultView] = useState<"breakdown" | "matrix" | "compare">("breakdown");
   const [result, setResult] = useState<SimulationResult | null>(null);
 
   const pokemonList = useMemo(() => {
@@ -288,11 +289,27 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets
             >
               Matrix
             </button>
+            <button
+              type="button"
+              className={`tab-pill ${resultView === "compare" ? "active" : ""}`}
+              onClick={() => setResultView("compare")}
+            >
+              Compare
+            </button>
           </div>
-          {resultView === "breakdown" ? (
+          {resultView === "breakdown" && (
             <BattleResultCard result={result} schema={schema} />
-          ) : (
-            <MatchupMatrix result={result} />
+          )}
+          {resultView === "matrix" && (
+            <MatchupMatrix result={result} schema={schema} />
+          )}
+          {resultView === "compare" && (
+            <TeamComparePanel
+              teamA={yourTeam}
+              teamB={opponentTeam}
+              teamALabel={yourTeamLabel}
+              teamBLabel={opponentLabel}
+            />
           )}
         </>
       )}
