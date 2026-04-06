@@ -1,6 +1,6 @@
-import { useCallback, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
-import { Shield, Swords, BarChart3, Plus, Search, X } from "lucide-react";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import { Link, useSearchParams } from "react-router-dom";
+import { Shield, Swords, BarChart3, Plus, Search, X, Share2, Check } from "lucide-react";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
 import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 import { readAppStorage, writeAppStorage } from "../../lib/storage";
@@ -8,6 +8,7 @@ import { resolveBattlePokemon, analyzeTeam } from "../../lib/battleSim";
 import type { BattlePokemon } from "../../lib/battleTypes";
 import { TeamAnalysisPanel } from "../../components/battle/TeamAnalysisPanel";
 import { BattleSimPanel } from "../../components/battle/BattleSimPanel";
+import { PokemonSearchDropdown } from "../../components/battle/PokemonSearchDropdown";
 import { PokemonImage } from "../../components/encyclopedia/PokemonImage";
 import { TypeBadge } from "../../components/battle/TypeBadge";
 import { capitalize } from "../../lib/format";
@@ -15,16 +16,53 @@ import { curatedPresetTeams } from "../../data/presetTeams";
 
 type Tab = "analysis" | "battle";
 
+function encodeTeamToParam(team: { pokemonId: number }[]): string {
+  return team.map((m) => m.pokemonId).join(",");
+}
+
+function decodeTeamFromParam(param: string): number[] {
+  return param
+    .split(",")
+    .map((s) => parseInt(s, 10))
+    .filter((n) => !isNaN(n) && n > 0);
+}
+
 export function BattlePage() {
   useDocumentTitle("Battle Simulator");
   const { schema } = useEncyclopediaData();
+  const [searchParams, setSearchParams] = useSearchParams();
   const [activeTab, setActiveTab] = useState<Tab>("battle");
   const [teamKey, setTeamKey] = useState(0);
-  const [quickSearch, setQuickSearch] = useState("");
   const [quickSearchOpen, setQuickSearchOpen] = useState(false);
+  const [shareConfirm, setShareConfirm] = useState(false);
 
   const storage = readAppStorage();
   const teamName = storage.currentTeamProfile.name || "Your Team";
+
+  // Load team from URL param on mount
+  useEffect(() => {
+    const teamParam = searchParams.get("team");
+    if (!teamParam) return;
+    const dexNumbers = decodeTeamFromParam(teamParam);
+    if (dexNumbers.length === 0) return;
+
+    const current = readAppStorage();
+    // Only overwrite if current team is empty or different
+    const currentIds = current.currentTeam.map((m) => m.pokemonId);
+    if (JSON.stringify(currentIds) === JSON.stringify(dexNumbers)) return;
+
+    current.currentTeam = dexNumbers.slice(0, 6).map((dexNum) => {
+      const species = Object.values(schema.pokemon).find((s) => s.nationalDexNumber === dexNum);
+      return {
+        pokemonId: dexNum,
+        nickname: species?.name ?? "",
+        role: "",
+        notes: "",
+      };
+    });
+    writeAppStorage(current);
+    setTeamKey((k) => k + 1);
+  }, []); // Run only on mount
 
   const yourTeam = useMemo(() => {
     void teamKey; // dependency to force re-resolve when team changes
@@ -33,22 +71,31 @@ export function BattlePage() {
       .filter((pokemon): pokemon is BattlePokemon => pokemon !== null);
   }, [storage.currentTeam, schema, teamKey]);
 
-  const pokemonList = useMemo(() => {
-    return Object.values(schema.pokemon).sort((a, b) => a.nationalDexNumber - b.nationalDexNumber);
-  }, [schema.pokemon]);
+  // Update URL when team changes
+  useEffect(() => {
+    if (yourTeam.length > 0) {
+      const encoded = encodeTeamToParam(yourTeam);
+      if (searchParams.get("team") !== encoded) {
+        setSearchParams({ team: encoded }, { replace: true });
+      }
+    } else if (searchParams.has("team")) {
+      searchParams.delete("team");
+      setSearchParams(searchParams, { replace: true });
+    }
+  }, [yourTeam]);
 
-  const quickResults = useMemo(() => {
-    if (!quickSearch.trim()) return pokemonList.slice(0, 50);
-    const q = quickSearch.toLowerCase();
-    return pokemonList
-      .filter((s) => s.name.toLowerCase().includes(q) || String(s.nationalDexNumber).includes(q))
-      .slice(0, 50);
-  }, [pokemonList, quickSearch]);
+  const shareTeam = useCallback(() => {
+    const url = window.location.href;
+    navigator.clipboard.writeText(url).then(() => {
+      setShareConfirm(true);
+      setTimeout(() => setShareConfirm(false), 2000);
+    });
+  }, []);
 
   const addToTeam = useCallback((dexNum: number) => {
     const current = readAppStorage();
     if (current.currentTeam.length >= 6) return;
-    const species = pokemonList.find((s) => s.nationalDexNumber === dexNum);
+    const species = Object.values(schema.pokemon).find((s) => s.nationalDexNumber === dexNum);
     current.currentTeam.push({
       pokemonId: dexNum,
       nickname: species?.name ?? "",
@@ -57,9 +104,8 @@ export function BattlePage() {
     });
     writeAppStorage(current);
     setTeamKey((k) => k + 1);
-    setQuickSearch("");
     setQuickSearchOpen(false);
-  }, [pokemonList]);
+  }, [schema.pokemon]);
 
   const removeFromTeam = useCallback((index: number) => {
     const current = readAppStorage();
@@ -110,32 +156,7 @@ export function BattlePage() {
                 Add Pokemon
               </button>
               {quickSearchOpen && (
-                <div className="battle-search-dropdown">
-                  <input
-                    className="battle-search-input"
-                    value={quickSearch}
-                    onChange={(e) => setQuickSearch(e.target.value)}
-                    placeholder="Type a name or dex number..."
-                    autoFocus
-                  />
-                  <div className="battle-search-results" role="listbox">
-                    {quickResults.map((species) => (
-                      <button
-                        key={species.nationalDexNumber}
-                        type="button"
-                        className="battle-search-option"
-                        role="option"
-                        onClick={() => addToTeam(species.nationalDexNumber)}
-                      >
-                        <span className="mono">#{String(species.nationalDexNumber).padStart(4, "0")}</span>
-                        <span>{capitalize(species.name)}</span>
-                      </button>
-                    ))}
-                    {quickResults.length === 0 && (
-                      <p className="muted battle-search-empty">No Pokemon found</p>
-                    )}
-                  </div>
-                </div>
+                <PokemonSearchDropdown schema={schema} onSelect={addToTeam} />
               )}
             </div>
             <div className="battle-empty-links">
@@ -146,10 +167,16 @@ export function BattlePage() {
         ) : (
           <>
             <div className="battle-your-team">
-              <h3>
-                <Shield size={16} /> {teamName}
-                <span className="muted battle-team-count">{yourTeam.length}/6</span>
-              </h3>
+              <div className="battle-team-header-row">
+                <h3>
+                  <Shield size={16} /> {teamName}
+                  <span className="muted battle-team-count">{yourTeam.length}/6</span>
+                </h3>
+                <button type="button" className="ghost-button battle-share-btn" onClick={shareTeam}>
+                  {shareConfirm ? <Check size={14} /> : <Share2 size={14} />}
+                  {shareConfirm ? "Copied!" : "Share team"}
+                </button>
+              </div>
               <div className="battle-team-roster">
                 {yourTeam.map((pokemon, index) => (
                   <div key={`${pokemon.pokemonId}-${index}`} className="battle-roster-member">
@@ -184,32 +211,7 @@ export function BattlePage() {
                     {quickSearchOpen ? "Close" : "Add Pokemon"}
                   </button>
                   {quickSearchOpen && (
-                    <div className="battle-search-dropdown">
-                      <input
-                        className="battle-search-input"
-                        value={quickSearch}
-                        onChange={(e) => setQuickSearch(e.target.value)}
-                        placeholder="Type a name or dex number..."
-                        autoFocus
-                      />
-                      <div className="battle-search-results" role="listbox">
-                        {quickResults.map((species) => (
-                          <button
-                            key={species.nationalDexNumber}
-                            type="button"
-                            className="battle-search-option"
-                            role="option"
-                            onClick={() => addToTeam(species.nationalDexNumber)}
-                          >
-                            <span className="mono">#{String(species.nationalDexNumber).padStart(4, "0")}</span>
-                            <span>{capitalize(species.name)}</span>
-                          </button>
-                        ))}
-                        {quickResults.length === 0 && (
-                          <p className="muted battle-search-empty">No Pokemon found</p>
-                        )}
-                      </div>
-                    </div>
+                    <PokemonSearchDropdown schema={schema} onSelect={addToTeam} />
                   )}
                 </div>
               )}

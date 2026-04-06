@@ -1,5 +1,5 @@
 import { Swords, Shuffle, Trash2, Plus, Search, Users } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import type { EncyclopediaSchema } from "../../lib/encyclopedia-schema";
 import type { BattlePokemon, SimulationResult } from "../../lib/battleTypes";
 import type { PresetTeam } from "../../lib/types";
@@ -7,6 +7,7 @@ import { resolveBattlePokemon, simulateMatchup } from "../../lib/battleSim";
 import { BattleResultCard } from "./BattleResultCard";
 import { MatchupMatrix } from "./MatchupMatrix";
 import { TeamComparePanel } from "./TeamComparePanel";
+import { PokemonSearchDropdown } from "./PokemonSearchDropdown";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
 import { capitalize } from "../../lib/format";
 
@@ -22,7 +23,6 @@ const MAX_TEAM = 6;
 export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets }: Props) {
   const [opponentIds, setOpponentIds] = useState<number[]>([]);
   const [opponentLabel, setOpponentLabel] = useState("Opponent");
-  const [searchQuery, setSearchQuery] = useState("");
   const [searchOpen, setSearchOpen] = useState(false);
   const [presetOpen, setPresetOpen] = useState(false);
   const [presetQuery, setPresetQuery] = useState("");
@@ -33,17 +33,6 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets
     return Object.values(schema.pokemon)
       .sort((a, b) => a.nationalDexNumber - b.nationalDexNumber);
   }, [schema.pokemon]);
-
-  const filteredPokemon = useMemo(() => {
-    if (!searchQuery.trim()) return pokemonList.slice(0, 50);
-    const query = searchQuery.toLowerCase();
-    return pokemonList
-      .filter((species) =>
-        species.name.toLowerCase().includes(query) ||
-        String(species.nationalDexNumber).includes(query),
-      )
-      .slice(0, 50);
-  }, [pokemonList, searchQuery]);
 
   const filteredPresets = useMemo(() => {
     if (!trainerPresets) return [];
@@ -61,13 +50,12 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets
       .filter((pokemon): pokemon is BattlePokemon => pokemon !== null);
   }, [opponentIds, schema]);
 
-  function addOpponent(pokemonId: number) {
+  const addOpponent = useCallback((pokemonId: number) => {
     if (opponentIds.length >= MAX_TEAM) return;
     setOpponentIds((ids) => [...ids, pokemonId]);
-    setSearchQuery("");
     setSearchOpen(false);
     setResult(null);
-  }
+  }, [opponentIds.length]);
 
   function removeOpponent(index: number) {
     setOpponentIds((ids) => ids.filter((_, i) => i !== index));
@@ -195,32 +183,7 @@ export function BattleSimPanel({ yourTeam, yourTeamLabel, schema, trainerPresets
           </button>
 
           {searchOpen && (
-            <div className="battle-search-dropdown">
-              <input
-                className="battle-search-input"
-                value={searchQuery}
-                onChange={(event) => setSearchQuery(event.target.value)}
-                placeholder="Type a name or dex number..."
-                autoFocus
-              />
-              <div className="battle-search-results" role="listbox">
-                {filteredPokemon.map((species) => (
-                  <button
-                    key={species.nationalDexNumber}
-                    type="button"
-                    className="battle-search-option"
-                    role="option"
-                    onClick={() => addOpponent(species.nationalDexNumber)}
-                  >
-                    <span className="mono">#{String(species.nationalDexNumber).padStart(4, "0")}</span>
-                    <span>{capitalize(species.name)}</span>
-                  </button>
-                ))}
-                {filteredPokemon.length === 0 && (
-                  <p className="muted battle-search-empty">No Pokemon found</p>
-                )}
-              </div>
-            </div>
+            <PokemonSearchDropdown schema={schema} onSelect={addOpponent} />
           )}
         </div>
       )}

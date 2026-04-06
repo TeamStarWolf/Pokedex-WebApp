@@ -1,5 +1,5 @@
-import { useMemo, useState } from "react";
-import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight } from "lucide-react";
+import { useCallback, useMemo, useState } from "react";
+import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight, Filter, ArrowUpDown } from "lucide-react";
 import type { BattlePokemon, DuelResult, PokemonPerformance, SimulationResult } from "../../lib/battleTypes";
 import type { EncyclopediaSchema, PokemonStatKey } from "../../lib/encyclopedia-schema";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
@@ -262,8 +262,40 @@ function DuelRow({ duel, schema, allDuels }: { duel: DuelResult; schema: Encyclo
   );
 }
 
+type DuelFilter = "all" | "wins" | "losses" | "ties";
+type DuelSort = "default" | "damage-desc" | "damage-asc" | "ko-speed";
+
 export function BattleResultCard({ result, schema }: Props) {
   const [showPerf, setShowPerf] = useState(false);
+  const [duelFilter, setDuelFilter] = useState<DuelFilter>("all");
+  const [duelSort, setDuelSort] = useState<DuelSort>("default");
+
+  const filteredDuels = useMemo(() => {
+    let duels = [...result.duels];
+
+    if (duelFilter === "wins") duels = duels.filter((d) => d.duelWinner === "A");
+    else if (duelFilter === "losses") duels = duels.filter((d) => d.duelWinner === "B");
+    else if (duelFilter === "ties") duels = duels.filter((d) => d.duelWinner === "tie");
+
+    if (duelSort === "damage-desc") duels.sort((a, b) => b.aAttacks.estimatedDamage - a.aAttacks.estimatedDamage);
+    else if (duelSort === "damage-asc") duels.sort((a, b) => a.aAttacks.estimatedDamage - b.aAttacks.estimatedDamage);
+    else if (duelSort === "ko-speed") duels.sort((a, b) => (a.turnsToKoA ?? 999) - (b.turnsToKoA ?? 999));
+
+    return duels;
+  }, [result.duels, duelFilter, duelSort]);
+
+  const cycleFilter = useCallback(() => {
+    const order: DuelFilter[] = ["all", "wins", "losses", "ties"];
+    setDuelFilter((prev) => order[(order.indexOf(prev) + 1) % order.length]);
+  }, []);
+
+  const cycleSort = useCallback(() => {
+    const order: DuelSort[] = ["default", "damage-desc", "damage-asc", "ko-speed"];
+    setDuelSort((prev) => order[(order.indexOf(prev) + 1) % order.length]);
+  }, []);
+
+  const filterLabel: Record<DuelFilter, string> = { all: "All", wins: "Wins", losses: "Losses", ties: "Ties" };
+  const sortLabel: Record<DuelSort, string> = { default: "Default", "damage-desc": "Dmg high→low", "damage-asc": "Dmg low→high", "ko-speed": "Fastest KO" };
 
   const sortedTeamA = useMemo(
     () => [...result.teamAPerformance].sort((a, b) => b.wins - a.wins || b.totalDamageDealt - a.totalDamageDealt),
@@ -359,10 +391,25 @@ export function BattleResultCard({ result, schema }: Props) {
       </div>
 
       <div className="battle-section">
-        <h3>Duel breakdown</h3>
+        <div className="battle-duel-toolbar">
+          <h3>Duel breakdown</h3>
+          <div className="battle-duel-controls">
+            <button type="button" className="ghost-button battle-duel-control-btn" onClick={cycleFilter}>
+              <Filter size={12} />
+              {filterLabel[duelFilter]}
+            </button>
+            <button type="button" className="ghost-button battle-duel-control-btn" onClick={cycleSort}>
+              <ArrowUpDown size={12} />
+              {sortLabel[duelSort]}
+            </button>
+          </div>
+        </div>
         <p className="muted">Each duel compares your Pokemon vs an opponent. Click to expand move details, speed, and KO analysis.</p>
         <div className="battle-duel-list">
-          {result.duels.map((duel) => (
+          {filteredDuels.length === 0 && (
+            <p className="muted">No duels match the current filter.</p>
+          )}
+          {filteredDuels.map((duel) => (
             <DuelRow
               key={`${duel.memberA.pokemonId}-${duel.memberB.pokemonId}`}
               duel={duel}

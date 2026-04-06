@@ -2691,10 +2691,23 @@ details:not([open]) > summary .learnset-count::after {
   margin: 0 0 var(--space-3) 0;
 }
 
+.battle-team-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
 .battle-team-count {
   font-weight: 400;
   font-size: 0.85rem;
-  margin-left: auto;
+  margin-left: var(--space-2);
+}
+
+.battle-share-btn {
+  font-size: 0.78rem !important;
+  gap: var(--space-1) !important;
 }
 
 .battle-team-roster {
@@ -2850,7 +2863,8 @@ details:not([open]) > summary .learnset-count::after {
   text-align: left;
 }
 
-.battle-search-option:hover {
+.battle-search-option:hover,
+.battle-search-option-active {
   background: var(--color-surface-sunken);
 }
 
@@ -3148,6 +3162,31 @@ details:not([open]) > summary .learnset-count::after {
 .battle-view-toggle {
   display: flex;
   gap: var(--space-2);
+}
+
+/* ============ Battle Duel Toolbar ============ */
+
+.battle-duel-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.battle-duel-toolbar h3 {
+  margin: 0;
+}
+
+.battle-duel-controls {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.battle-duel-control-btn {
+  font-size: 0.78rem !important;
+  padding: var(--space-1) var(--space-3) !important;
+  gap: var(--space-1) !important;
 }
 
 /* ============ Battle Duel List ============ */
