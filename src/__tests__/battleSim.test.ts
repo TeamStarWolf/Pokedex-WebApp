@@ -106,6 +106,7 @@ describe("estimateDamage", () => {
       typeIds: ["type:fire" as TypeId],
       stats: { hp: 100, attack: 120, defense: 80, "special-attack": 80, "special-defense": 80, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -116,6 +117,7 @@ describe("estimateDamage", () => {
       typeIds: ["type:water" as TypeId],
       stats: { hp: 100, attack: 80, defense: 100, "special-attack": 80, "special-defense": 80, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -142,6 +144,7 @@ describe("estimateDamage", () => {
       typeIds: ["type:fire" as TypeId],
       stats: { hp: 100, attack: 100, defense: 80, "special-attack": 100, "special-defense": 80, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -152,6 +155,7 @@ describe("estimateDamage", () => {
       typeIds: ["type:normal" as TypeId],
       stats: { hp: 100, attack: 80, defense: 100, "special-attack": 80, "special-defense": 100, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -178,6 +182,7 @@ describe("pickBestMove", () => {
       typeIds: ["type:normal" as TypeId],
       stats: { hp: 100, attack: 100, defense: 100, "special-attack": 100, "special-defense": 100, speed: 100 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -195,6 +200,7 @@ describe("pickBestMove", () => {
         { moveId: "move:scratch" as MoveId, name: "Scratch", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
         { moveId: "move:fire-punch" as MoveId, name: "Fire Punch", typeId: "type:fire" as TypeId, power: 75, accuracy: 100, damageClass: "physical" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -205,6 +211,7 @@ describe("pickBestMove", () => {
       typeIds: ["type:grass" as TypeId],
       stats: { hp: 100, attack: 80, defense: 80, "special-attack": 80, "special-defense": 80, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -227,6 +234,7 @@ describe("simulateMatchup", () => {
       moves: [
         { moveId: "move:flamethrower" as MoveId, name: "Flamethrower", typeId: "type:fire" as TypeId, power: 90, accuracy: 100, damageClass: "special" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -239,6 +247,7 @@ describe("simulateMatchup", () => {
       moves: [
         { moveId: "move:surf" as MoveId, name: "Surf", typeId: "type:water" as TypeId, power: 90, accuracy: 100, damageClass: "special" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -262,6 +271,7 @@ describe("simulateMatchup", () => {
       moves: [
         { moveId: "move:tackle" as MoveId, name: "Tackle", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     });
@@ -286,6 +296,7 @@ describe("simulateMatchup", () => {
       moves: [
         { moveId: "move:fire-punch" as MoveId, name: "Fire Punch", typeId: "type:fire" as TypeId, power: 75, accuracy: 100, damageClass: "physical" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -298,6 +309,7 @@ describe("simulateMatchup", () => {
       moves: [
         { moveId: "move:vine-whip" as MoveId, name: "Vine Whip", typeId: "type:grass" as TypeId, power: 45, accuracy: 100, damageClass: "physical" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -322,6 +334,7 @@ describe("simulateMatchup", () => {
         { moveId: "move:scratch" as MoveId, name: "Scratch", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
         { moveId: "move:ember" as MoveId, name: "Ember", typeId: "type:fire" as TypeId, power: 40, accuracy: 100, damageClass: "special" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -332,6 +345,7 @@ describe("simulateMatchup", () => {
       typeIds: ["type:normal" as TypeId],
       stats: { hp: 100, attack: 80, defense: 100, "special-attack": 80, "special-defense": 100, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -357,6 +371,7 @@ describe("getAllMoveOptions", () => {
         { moveId: "move:scratch" as MoveId, name: "Scratch", typeId: "type:normal" as TypeId, power: 40, accuracy: 100, damageClass: "physical" },
         { moveId: "move:fire-punch" as MoveId, name: "Fire Punch", typeId: "type:fire" as TypeId, power: 75, accuracy: 100, damageClass: "physical" },
       ],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -367,6 +382,7 @@ describe("getAllMoveOptions", () => {
       typeIds: ["type:grass" as TypeId],
       stats: { hp: 100, attack: 80, defense: 80, "special-attack": 80, "special-defense": 80, speed: 80 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };
@@ -386,6 +402,7 @@ describe("getAllMoveOptions", () => {
       typeIds: ["type:normal" as TypeId],
       stats: { hp: 100, attack: 100, defense: 100, "special-attack": 100, "special-defense": 100, speed: 100 },
       moves: [],
+      abilities: [],
       isLegendary: false,
       isMythical: false,
     };

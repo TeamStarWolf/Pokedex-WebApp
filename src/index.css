@@ -3406,6 +3406,214 @@ details:not([open]) > summary .learnset-count::after {
   font-size: 0.78rem;
 }
 
+/* ============ Stat Bars ============ */
+
+.battle-stat-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+.battle-stat-row {
+  display: grid;
+  grid-template-columns: 28px 1fr 30px;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.7rem;
+}
+
+.battle-stat-label {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-muted);
+}
+
+.battle-stat-track {
+  height: 6px;
+  background: var(--color-surface-sunken);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.battle-stat-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+.battle-stat-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  text-align: right;
+  color: var(--color-text-body);
+}
+
+/* ============ Performance Cards ============ */
+
+.battle-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-3);
+}
+
+.battle-perf-card {
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+}
+
+.battle-perf-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.battle-perf-body {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.battle-perf-art,
+.battle-perf-card .pokemon-image-fallback {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.battle-perf-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.85rem;
+  min-width: 0;
+}
+
+.battle-perf-record {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+/* Performance toggle and tables */
+
+.battle-perf-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: 0.85rem;
+}
+
+.battle-perf-tables {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+  margin-top: var(--space-3);
+}
+
+.battle-perf-table h4 {
+  margin: 0 0 var(--space-2) 0;
+  font-size: 0.85rem;
+}
+
+.battle-perf-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.battle-perf-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+}
+
+.battle-perf-row-art,
+.battle-perf-row .pokemon-image-fallback {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.battle-perf-row-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* ============ Roster Remove & Quick Add ============ */
+
+.battle-roster-member {
+  position: relative;
+}
+
+.battle-roster-remove {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: var(--color-surface-sunken);
+  border-radius: 50%;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.battle-roster-member:hover .battle-roster-remove {
+  opacity: 1;
+}
+
+.battle-roster-remove:hover {
+  background: color-mix(in srgb, #ef4444 20%, var(--color-surface));
+  color: #ef4444;
+}
+
+.battle-quick-add {
+  margin-top: var(--space-3);
+}
+
+.battle-quick-add-centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.battle-quick-add-centered .battle-search-dropdown {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Ability line */
+
+.battle-ability-line {
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
 /* Matrix responsive */
 
 @media (max-width: 640px) {
@@ -3421,5 +3629,13 @@ details:not([open]) > summary .learnset-count::after {
 
   .battle-duel-vs {
     display: none;
+  }
+
+  .battle-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .battle-perf-tables {
+    grid-template-columns: 1fr;
   }
 }

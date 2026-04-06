@@ -1,7 +1,8 @@
-import { useState } from "react";
-import { Trophy, ChevronDown, ChevronUp, Zap, Shield } from "lucide-react";
-import type { DuelResult, SimulationResult } from "../../lib/battleTypes";
-import type { EncyclopediaSchema } from "../../lib/encyclopedia-schema";
+import { useMemo, useState } from "react";
+import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown } from "lucide-react";
+import type { BattlePokemon, DuelResult, PokemonPerformance, SimulationResult } from "../../lib/battleTypes";
+import type { EncyclopediaSchema, PokemonStatKey } from "../../lib/encyclopedia-schema";
+import { PokemonImage } from "../encyclopedia/PokemonImage";
 import { TypeBadge } from "./TypeBadge";
 import { capitalize } from "../../lib/format";
 
@@ -32,6 +33,63 @@ function koLabel(turns: number | null): string {
   if (turns === null) return "—";
   if (turns === 1) return "OHKO";
   return `${turns}HKO`;
+}
+
+const STAT_KEYS: PokemonStatKey[] = ["hp", "attack", "defense", "special-attack", "special-defense", "speed"];
+const STAT_LABELS: Record<PokemonStatKey, string> = {
+  hp: "HP", attack: "ATK", defense: "DEF",
+  "special-attack": "SpA", "special-defense": "SpD", speed: "SPD",
+};
+const STAT_MAX = 255;
+
+function StatBar({ label, value }: { label: string; value: number }) {
+  const pct = Math.min(100, (value / STAT_MAX) * 100);
+  const hue = pct < 30 ? 0 : pct < 50 ? 30 : pct < 70 ? 50 : 120;
+  return (
+    <div className="battle-stat-row">
+      <span className="battle-stat-label">{label}</span>
+      <div className="battle-stat-track">
+        <div className="battle-stat-fill" style={{ width: `${pct}%`, background: `hsl(${hue}, 60%, 50%)` }} />
+      </div>
+      <span className="battle-stat-value">{value}</span>
+    </div>
+  );
+}
+
+function StatBars({ pokemon }: { pokemon: BattlePokemon }) {
+  return (
+    <div className="battle-stat-bars">
+      {STAT_KEYS.map((key) => (
+        <StatBar key={key} label={STAT_LABELS[key]} value={pokemon.stats[key]} />
+      ))}
+    </div>
+  );
+}
+
+function PerformanceCard({ perf, label, icon }: { perf: PokemonPerformance; label: string; icon: React.ReactNode }) {
+  return (
+    <div className="battle-perf-card">
+      <div className="battle-perf-header">
+        {icon}
+        <span className="battle-perf-label">{label}</span>
+      </div>
+      <div className="battle-perf-body">
+        <PokemonImage src={perf.pokemon.artworkUrl} alt={perf.pokemon.name} className="battle-perf-art" />
+        <div className="battle-perf-info">
+          <strong>{capitalize(perf.pokemon.nickname)}</strong>
+          <span className="mono battle-perf-record">
+            {perf.wins}W {perf.losses}L {perf.ties}T
+          </span>
+          {perf.ohkoCount > 0 && (
+            <span className="muted">{perf.ohkoCount} OHKO{perf.ohkoCount > 1 ? "s" : ""}</span>
+          )}
+          {perf.bestMatchup && (
+            <span className="muted">Best vs {capitalize(perf.bestMatchup.opponent)}</span>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 }
 
 function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchema }) {
@@ -86,6 +144,11 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                 )}
               </p>
               <p className="muted">KO in: {koLabel(turnsToKoA)}</p>
+              {memberA.abilities.length > 0 && (
+                <p className="muted battle-ability-line">
+                  Ability: {memberA.abilities.filter((a) => !a.isHidden).map((a) => capitalize(a.name)).join(" / ")}
+                </p>
+              )}
               {aAttacks.allMoves.length > 1 && (
                 <div className="battle-move-options">
                   {aAttacks.allMoves.map((opt) => (
@@ -103,6 +166,7 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                   ))}
                 </div>
               )}
+              <StatBars pokemon={memberA} />
             </div>
             <div className="battle-duel-side">
               <h4><Shield size={14} /> {capitalize(memberB.nickname)} attacks</h4>
@@ -116,6 +180,11 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                 )}
               </p>
               <p className="muted">KO in: {koLabel(turnsToKoB)}</p>
+              {memberB.abilities.length > 0 && (
+                <p className="muted battle-ability-line">
+                  Ability: {memberB.abilities.filter((a) => !a.isHidden).map((a) => capitalize(a.name)).join(" / ")}
+                </p>
+              )}
               {bAttacks.allMoves.length > 1 && (
                 <div className="battle-move-options">
                   {bAttacks.allMoves.map((opt) => (
@@ -133,6 +202,7 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
                   ))}
                 </div>
               )}
+              <StatBars pokemon={memberB} />
             </div>
           </div>
           <div className="battle-duel-meta">
@@ -149,6 +219,17 @@ function DuelRow({ duel, schema }: { duel: DuelResult; schema: EncyclopediaSchem
 }
 
 export function BattleResultCard({ result, schema }: Props) {
+  const [showPerf, setShowPerf] = useState(false);
+
+  const sortedTeamA = useMemo(
+    () => [...result.teamAPerformance].sort((a, b) => b.wins - a.wins || b.totalDamageDealt - a.totalDamageDealt),
+    [result.teamAPerformance],
+  );
+  const sortedTeamB = useMemo(
+    () => [...result.teamBPerformance].sort((a, b) => b.wins - a.wins || b.totalDamageDealt - a.totalDamageDealt),
+    [result.teamBPerformance],
+  );
+
   return (
     <div className="battle-result">
       <div className={`battle-verdict-banner ${verdictClass(result.overallVerdict)}`}>
@@ -163,6 +244,74 @@ export function BattleResultCard({ result, schema }: Props) {
         <div><strong>{result.teamBWins}</strong><span>{result.teamBLabel} wins</span></div>
         <div><strong>{result.ties}</strong><span>Ties</span></div>
         <div><strong>{result.teamAScore} – {result.teamBScore}</strong><span>Total damage %</span></div>
+      </div>
+
+      {(result.mvp || result.biggestThreat) && (
+        <div className="battle-highlights">
+          {result.mvp && (
+            <PerformanceCard perf={result.mvp} label="MVP" icon={<Crown size={14} />} />
+          )}
+          {result.biggestThreat && (
+            <PerformanceCard perf={result.biggestThreat} label="Biggest Threat" icon={<AlertTriangle size={14} />} />
+          )}
+        </div>
+      )}
+
+      <div className="battle-section">
+        <button
+          type="button"
+          className="battle-perf-toggle ghost-button"
+          onClick={() => setShowPerf(!showPerf)}
+        >
+          <Star size={14} />
+          {showPerf ? "Hide" : "Show"} individual performance
+          {showPerf ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+        </button>
+
+        {showPerf && (
+          <div className="battle-perf-tables">
+            <div className="battle-perf-table">
+              <h4>{result.teamALabel}</h4>
+              <div className="battle-perf-list">
+                {sortedTeamA.map((perf) => (
+                  <div key={perf.pokemon.pokemonId} className="battle-perf-row">
+                    <PokemonImage src={perf.pokemon.artworkUrl} alt={perf.pokemon.name} className="battle-perf-row-art" />
+                    <div className="battle-perf-row-info">
+                      <strong>{capitalize(perf.pokemon.nickname)}</strong>
+                      <span className="battle-duel-types">
+                        {perf.pokemon.typeIds.map((id) => <TypeBadge key={id} typeId={id} schema={schema} />)}
+                      </span>
+                    </div>
+                    <span className="mono battle-perf-record">
+                      {perf.wins}W {perf.losses}L
+                    </span>
+                    <span className="muted mono">{perf.totalDamageDealt}%</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="battle-perf-table">
+              <h4>{result.teamBLabel}</h4>
+              <div className="battle-perf-list">
+                {sortedTeamB.map((perf) => (
+                  <div key={perf.pokemon.pokemonId} className="battle-perf-row">
+                    <PokemonImage src={perf.pokemon.artworkUrl} alt={perf.pokemon.name} className="battle-perf-row-art" />
+                    <div className="battle-perf-row-info">
+                      <strong>{capitalize(perf.pokemon.nickname)}</strong>
+                      <span className="battle-duel-types">
+                        {perf.pokemon.typeIds.map((id) => <TypeBadge key={id} typeId={id} schema={schema} />)}
+                      </span>
+                    </div>
+                    <span className="mono battle-perf-record">
+                      {perf.wins}W {perf.losses}L
+                    </span>
+                    <span className="muted mono">{perf.totalDamageDealt}%</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="battle-section">

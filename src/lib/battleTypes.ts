@@ -9,6 +9,12 @@ export type BattleMove = {
   damageClass: DamageClass;
 };
 
+export type BattleAbility = {
+  abilityId: string;
+  name: string;
+  isHidden: boolean;
+};
+
 export type BattlePokemon = {
   pokemonId: number;
   name: string;
@@ -16,9 +22,22 @@ export type BattlePokemon = {
   typeIds: TypeId[];
   stats: Record<PokemonStatKey, number>;
   moves: BattleMove[];
+  abilities: BattleAbility[];
   isLegendary: boolean;
   isMythical: boolean;
   artworkUrl?: string;
+};
+
+export type PokemonPerformance = {
+  pokemon: BattlePokemon;
+  wins: number;
+  losses: number;
+  ties: number;
+  totalDamageDealt: number;
+  totalDamageTaken: number;
+  bestMatchup: { opponent: string; damage: number } | null;
+  worstMatchup: { opponent: string; damage: number } | null;
+  ohkoCount: number;
 };
 
 export type MatchupResult = {
@@ -64,6 +83,10 @@ export type SimulationResult = {
   overallVerdict: "A wins" | "B wins" | "Even";
   teamAScore: number;
   teamBScore: number;
+  teamAPerformance: PokemonPerformance[];
+  teamBPerformance: PokemonPerformance[];
+  mvp: PokemonPerformance | null;
+  biggestThreat: PokemonPerformance | null;
 };
 
 export type TypeCoverageEntry = {

@@ -5,6 +5,7 @@ import type {
   DuelResult,
   MatchupResult,
   MoveOption,
+  PokemonPerformance,
   SimulationResult,
   TeamAnalysis,
   TypeCoverageEntry,
@@ -117,6 +118,15 @@ export function resolveBattlePokemon(
   // Greedy: pick the best move of each unique type first, then fill with strongest remaining.
   const topMoves = selectBestMoves(moves, form.typeIds, MAX_MOVES);
 
+  const abilities = form.abilitySlots.map((slot) => {
+    const ability = schema.abilities[slot.abilityId];
+    return {
+      abilityId: slot.abilityId,
+      name: ability?.name ?? slot.abilityId.replace("ability:", "").replace(/-/g, " "),
+      isHidden: slot.isHidden,
+    };
+  });
+
   return {
     pokemonId,
     name: species.name,
@@ -124,6 +134,7 @@ export function resolveBattlePokemon(
     typeIds: form.typeIds,
     stats: form.stats,
     moves: topMoves,
+    abilities,
     isLegendary: species.isLegendary,
     isMythical: species.isMythical,
     artworkUrl: form.artworkUrl,
@@ -287,6 +298,12 @@ export function simulateMatchup(
   const overallVerdict: SimulationResult["overallVerdict"] =
     teamAWins > teamBWins ? "A wins" : teamBWins > teamAWins ? "B wins" : "Even";
 
+  const teamAPerformance = buildPerformance(teamA, duels, "A");
+  const teamBPerformance = buildPerformance(teamB, duels, "B");
+
+  const mvp = [...teamAPerformance].sort((a, b) => b.wins - a.wins || b.totalDamageDealt - a.totalDamageDealt)[0] ?? null;
+  const biggestThreat = [...teamBPerformance].sort((a, b) => b.wins - a.wins || b.totalDamageDealt - a.totalDamageDealt)[0] ?? null;
+
   return {
     teamALabel,
     teamBLabel,
@@ -298,7 +315,69 @@ export function simulateMatchup(
     overallVerdict,
     teamAScore: Math.round(teamAScore),
     teamBScore: Math.round(teamBScore),
+    teamAPerformance,
+    teamBPerformance,
+    mvp,
+    biggestThreat,
   };
+}
+
+function buildPerformance(
+  team: BattlePokemon[],
+  duels: DuelResult[],
+  side: "A" | "B",
+): PokemonPerformance[] {
+  return team.map((pokemon) => {
+    const relevantDuels = duels.filter(
+      (d) => (side === "A" ? d.memberA : d.memberB).pokemonId === pokemon.pokemonId,
+    );
+
+    let wins = 0;
+    let losses = 0;
+    let ties = 0;
+    let totalDamageDealt = 0;
+    let totalDamageTaken = 0;
+    let ohkoCount = 0;
+    let bestMatchup: PokemonPerformance["bestMatchup"] = null;
+    let worstMatchup: PokemonPerformance["worstMatchup"] = null;
+
+    for (const duel of relevantDuels) {
+      const myAttack = side === "A" ? duel.aAttacks : duel.bAttacks;
+      const theirAttack = side === "A" ? duel.bAttacks : duel.aAttacks;
+      const opponent = side === "A" ? duel.memberB : duel.memberA;
+      const iWin = (side === "A" && duel.duelWinner === "A") || (side === "B" && duel.duelWinner === "B");
+      const iLose = (side === "A" && duel.duelWinner === "B") || (side === "B" && duel.duelWinner === "A");
+
+      if (iWin) wins++;
+      else if (iLose) losses++;
+      else ties++;
+
+      totalDamageDealt += myAttack.estimatedDamage;
+      totalDamageTaken += theirAttack.estimatedDamage;
+
+      const myKo = side === "A" ? duel.turnsToKoA : duel.turnsToKoB;
+      if (myKo === 1) ohkoCount++;
+
+      if (!bestMatchup || myAttack.estimatedDamage > bestMatchup.damage) {
+        bestMatchup = { opponent: opponent.nickname, damage: myAttack.estimatedDamage };
+      }
+      if (!worstMatchup || myAttack.estimatedDamage < worstMatchup.damage) {
+        worstMatchup = { opponent: opponent.nickname, damage: myAttack.estimatedDamage };
+      }
+    }
+
+    return {
+      pokemon,
+      wins,
+      losses,
+      ties,
+      totalDamageDealt: Math.round(totalDamageDealt),
+      totalDamageTaken: Math.round(totalDamageTaken),
+      bestMatchup,
+      worstMatchup,
+      ohkoCount,
+    };
+  });
 }
 
 export function analyzeTeam(team: BattlePokemon[], schema: EncyclopediaSchema): TeamAnalysis {
