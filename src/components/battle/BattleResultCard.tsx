@@ -1,5 +1,5 @@
 import { useCallback, useMemo, useState } from "react";
-import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight, Filter, ArrowUpDown } from "lucide-react";
+import { Trophy, ChevronDown, ChevronUp, Zap, Shield, Star, AlertTriangle, Crown, ArrowRight, Filter, ArrowUpDown, ChevronsUpDown, Copy, Check, Gauge } from "lucide-react";
 import type { BattlePokemon, DuelResult, PokemonPerformance, SimulationResult } from "../../lib/battleTypes";
 import type { EncyclopediaSchema, PokemonStatKey } from "../../lib/encyclopedia-schema";
 import { PokemonImage } from "../encyclopedia/PokemonImage";
@@ -122,8 +122,9 @@ function findBestCounter(
   return best;
 }
 
-function DuelRow({ duel, schema, allDuels }: { duel: DuelResult; schema: EncyclopediaSchema; allDuels: DuelResult[] }) {
-  const [expanded, setExpanded] = useState(false);
+function DuelRow({ duel, schema, allDuels, forceExpanded }: { duel: DuelResult; schema: EncyclopediaSchema; allDuels: DuelResult[]; forceExpanded?: boolean }) {
+  const [localExpanded, setLocalExpanded] = useState(false);
+  const expanded = forceExpanded ?? localExpanded;
 
   const { memberA, memberB, aAttacks, bAttacks, turnsToKoA, turnsToKoB, aMovesFirst, duelWinner } = duel;
 
@@ -137,7 +138,7 @@ function DuelRow({ duel, schema, allDuels }: { duel: DuelResult; schema: Encyclo
       <button
         type="button"
         className="battle-duel-header"
-        onClick={() => setExpanded(!expanded)}
+        onClick={() => setLocalExpanded(!localExpanded)}
         aria-expanded={expanded}
       >
         <div className="battle-duel-matchup">
@@ -265,10 +266,65 @@ function DuelRow({ duel, schema, allDuels }: { duel: DuelResult; schema: Encyclo
 type DuelFilter = "all" | "wins" | "losses" | "ties";
 type DuelSort = "default" | "damage-desc" | "damage-asc" | "ko-speed";
 
+function SpeedTier({ result, schema }: { result: SimulationResult; schema: EncyclopediaSchema }) {
+  const allPokemon = useMemo(() => {
+    const teamA = [...new Map(result.duels.map((d) => [d.memberA.pokemonId, d.memberA])).values()];
+    const teamB = [...new Map(result.duels.map((d) => [d.memberB.pokemonId, d.memberB])).values()];
+    const all = [
+      ...teamA.map((p) => ({ pokemon: p, side: "A" as const })),
+      ...teamB.map((p) => ({ pokemon: p, side: "B" as const })),
+    ];
+    return all.sort((a, b) => b.pokemon.stats.speed - a.pokemon.stats.speed);
+  }, [result.duels]);
+
+  const maxSpeed = allPokemon[0]?.pokemon.stats.speed ?? 1;
+
+  return (
+    <div className="battle-speed-tier">
+      <h4><Gauge size={14} /> Speed tiers</h4>
+      <div className="speed-tier-list">
+        {allPokemon.map(({ pokemon, side }) => (
+          <div key={`${side}-${pokemon.pokemonId}`} className={`speed-tier-row ${side === "A" ? "speed-tier-a" : "speed-tier-b"}`}>
+            <PokemonImage src={pokemon.artworkUrl} alt={pokemon.name} className="speed-tier-art" />
+            <span className="speed-tier-name">{capitalize(pokemon.nickname)}</span>
+            <div className="speed-tier-bar-track">
+              <div
+                className={`speed-tier-bar-fill ${side === "A" ? "speed-fill-a" : "speed-fill-b"}`}
+                style={{ width: `${(pokemon.stats.speed / maxSpeed) * 100}%` }}
+              />
+            </div>
+            <span className="speed-tier-value mono">{pokemon.stats.speed}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function generateExportText(result: SimulationResult): string {
+  const lines: string[] = [];
+  lines.push(`Battle: ${result.teamALabel} vs ${result.teamBLabel}`);
+  lines.push(`Result: ${result.teamAWins}W – ${result.teamBWins}L – ${result.ties}T`);
+  lines.push(`Verdict: ${result.overallVerdict === "A wins" ? result.teamALabel + " wins" : result.overallVerdict === "B wins" ? result.teamBLabel + " wins" : "Even"}`);
+  lines.push(`Damage: ${result.teamAScore}% vs ${result.teamBScore}%`);
+  lines.push("");
+  if (result.mvp) lines.push(`MVP: ${capitalize(result.mvp.pokemon.nickname)} (${result.mvp.wins}W ${result.mvp.losses}L)`);
+  if (result.biggestThreat) lines.push(`Biggest threat: ${capitalize(result.biggestThreat.pokemon.nickname)} (${result.biggestThreat.wins}W ${result.biggestThreat.losses}L)`);
+  lines.push("");
+  lines.push("Duels:");
+  for (const duel of result.duels) {
+    const winner = duel.duelWinner === "A" ? "WIN" : duel.duelWinner === "B" ? "LOSS" : "TIE";
+    lines.push(`  ${capitalize(duel.memberA.nickname)} vs ${capitalize(duel.memberB.nickname)}: ${winner} (${duel.aAttacks.estimatedDamage}% / ${duel.bAttacks.estimatedDamage}%)`);
+  }
+  return lines.join("\n");
+}
+
 export function BattleResultCard({ result, schema }: Props) {
   const [showPerf, setShowPerf] = useState(false);
   const [duelFilter, setDuelFilter] = useState<DuelFilter>("all");
   const [duelSort, setDuelSort] = useState<DuelSort>("default");
+  const [expandAll, setExpandAll] = useState<boolean | null>(null);
+  const [copyConfirm, setCopyConfirm] = useState(false);
 
   const filteredDuels = useMemo(() => {
     let duels = [...result.duels];
@@ -390,6 +446,8 @@ export function BattleResultCard({ result, schema }: Props) {
         )}
       </div>
 
+      <SpeedTier result={result} schema={schema} />
+
       <div className="battle-section">
         <div className="battle-duel-toolbar">
           <h3>Duel breakdown</h3>
@@ -401,6 +459,14 @@ export function BattleResultCard({ result, schema }: Props) {
             <button type="button" className="ghost-button battle-duel-control-btn" onClick={cycleSort}>
               <ArrowUpDown size={12} />
               {sortLabel[duelSort]}
+            </button>
+            <button
+              type="button"
+              className="ghost-button battle-duel-control-btn"
+              onClick={() => setExpandAll((prev) => prev === true ? false : true)}
+            >
+              <ChevronsUpDown size={12} />
+              {expandAll ? "Collapse" : "Expand"}
             </button>
           </div>
         </div>
@@ -415,9 +481,26 @@ export function BattleResultCard({ result, schema }: Props) {
               duel={duel}
               schema={schema}
               allDuels={result.duels}
+              forceExpanded={expandAll ?? undefined}
             />
           ))}
         </div>
+      </div>
+
+      <div className="battle-export-bar">
+        <button
+          type="button"
+          className="ghost-button"
+          onClick={() => {
+            navigator.clipboard.writeText(generateExportText(result)).then(() => {
+              setCopyConfirm(true);
+              setTimeout(() => setCopyConfirm(false), 2000);
+            });
+          }}
+        >
+          {copyConfirm ? <Check size={14} /> : <Copy size={14} />}
+          {copyConfirm ? "Copied!" : "Copy results as text"}
+        </button>
       </div>
     </div>
   );

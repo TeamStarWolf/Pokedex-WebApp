@@ -236,14 +236,14 @@ export function BattlePage() {
               </button>
             </div>
 
-            {activeTab === "battle" && (
+            <div style={{ display: activeTab === "battle" ? "block" : "none" }}>
               <BattleSimPanel
                 yourTeam={yourTeam}
                 yourTeamLabel={teamName}
                 schema={schema}
                 trainerPresets={curatedPresetTeams}
               />
-            )}
+            </div>
 
             {activeTab === "analysis" && analysis && (
               <TeamAnalysisPanel analysis={analysis} schema={schema} />

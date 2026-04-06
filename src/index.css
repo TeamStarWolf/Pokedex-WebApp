@@ -4032,6 +4032,102 @@ details:not([open]) > summary .learnset-count::after {
   font-style: italic;
 }
 
+/* ============ Speed Tier Chart ============ */
+
+.battle-speed-tier {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.battle-speed-tier h4 {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.speed-tier-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.speed-tier-row {
+  display: grid;
+  grid-template-columns: 28px 90px 1fr 40px;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+}
+
+.speed-tier-a {
+  background: color-mix(in srgb, #3b82f6 6%, transparent);
+}
+
+.speed-tier-b {
+  background: color-mix(in srgb, #f97316 6%, transparent);
+}
+
+.speed-tier-art,
+.speed-tier-row .pokemon-image-fallback {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.speed-tier-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.speed-tier-bar-track {
+  height: 8px;
+  background: var(--color-surface-sunken);
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+}
+
+.speed-tier-bar-fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+.speed-fill-a {
+  background: #3b82f6;
+}
+
+.speed-fill-b {
+  background: #f97316;
+}
+
+.speed-tier-value {
+  text-align: right;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============ Export Bar ============ */
+
+.battle-export-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+}
+
+.battle-export-bar .ghost-button {
+  font-size: 0.82rem;
+  gap: var(--space-2);
+}
+
 /* Matrix responsive */
 
 @media (max-width: 640px) {
