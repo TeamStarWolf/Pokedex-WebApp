@@ -34,7 +34,7 @@
     "generate:encyclopedia": "python scripts/generate_encyclopedia_json.py --db ..\\..\\pokedex.sqlite --out-dir .\\public\\data\\encyclopedia"
   },
   "dependencies": {
-    "framer-motion": "^12.6.2",
+    "framer-motion": "^12.38.0",
     "lucide-react": "^0.511.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
