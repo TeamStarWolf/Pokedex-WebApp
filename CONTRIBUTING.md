@@ -1,18 +1,18 @@
-# Contributing To PokeNav
+# Contributing to PokeNav
 
-Thanks for helping improve PokeNav.
+Thanks for helping improve PokeNav. This project is a game-first Pokemon encyclopedia, so contributions should favor correctness, extensibility, and clarity over quick one-off patches.
 
-This project is moving toward a public-facing Pokemon encyclopedia, so contributions should favor correctness, extensibility, and clarity over quick one-off patches.
+## Table of Contents
 
-## Development Principles
+- [Development Setup](#development-setup)
+- [Project Structure](#project-structure)
+- [How to Contribute](#how-to-contribute)
+- [Project Philosophy](#project-philosophy)
+- [Code Conventions](#code-conventions)
+- [Commit Convention](#commit-convention)
+- [License](#license)
 
-- Keep the app schema-first
-- Prefer reusable components over route-specific hacks
-- Preserve game-specific data where possible
-- Treat missing data honestly
-- Keep browse flows fast and understandable
-
-## Local Setup
+## Development Setup
 
 ```bash
 npm install
@@ -21,69 +21,102 @@ npm run generate:encyclopedia
 npm run dev:local
 ```
 
-## Before You Open A PR
+## Project Structure
 
-Run:
+- `src/components/encyclopedia/` — Shared article, shell, and browse UI
+- `src/pages/encyclopedia/` — Route-level pages
+- `src/lib/` — Schema, linking, and transformation logic
+- `src/hooks/` — Data loading and route data access
+- `src/data/` — Curated data and seed records
+- `scripts/` — Import and export tooling
 
-```bash
-npm test
-npm run build
-```
+## How to Contribute
 
-If you change the trainer import or encyclopedia generation pipeline, regenerate the relevant JSON outputs too.
+### Bug Reports
 
-## Where To Make Changes
+- Use the [Bug Report](https://github.com/TeamStarWolf/PokeNav/issues/new?template=bug_report.md) template
+- Include your browser, OS, and steps to reproduce
 
-- `src/components/encyclopedia/`
-  Shared article, shell, and browse UI
-- `src/pages/encyclopedia/`
-  Route-level pages
-- `src/lib/`
-  Schema, linking, and transformation logic
-- `src/hooks/`
-  Data loading and route data access
-- `src/data/`
-  Curated data and seed records
-- `scripts/`
-  Import and export tooling
+### Feature Requests
 
-## Data Expectations
+- Use the [Feature Request](https://github.com/TeamStarWolf/PokeNav/issues/new?template=feature_request.md) template
+- Describe the use case, not just the solution
 
-When adding or changing content:
+### Pull Requests
 
-- keep entity relationships normalized
-- do not flatten game-specific differences unless unavoidable
-- prefer explicit status labels like `partial` over silent omissions
-- avoid adding sections that imply full coverage if the data is still thin
+1. Create a branch from `main`
+2. Keep changes focused — one feature or fix per PR
+3. Run tests and build before opening:
+   ```bash
+   npm test
+   npm run build
+   ```
+4. If you change the trainer import or encyclopedia generation pipeline, regenerate the relevant JSON outputs too
 
-## UI Expectations
+### Good Contribution Targets
 
-The app should feel like an encyclopedia, not a card dump.
+- Better game-aware browse flows
+- Improved trainer taxonomy and filtering
+- Stronger location and item data
+- Clearer section completeness handling
+- Performance improvements in data loading
 
-That means:
+## Project Philosophy
 
-- browse pages should be scannable
-- dense data should favor tables or compact structured lists
-- article pages should link outward to related entities
-- mobile layouts should reduce vertical clutter where possible
+### Development Principles
 
-## Good Contribution Targets
+- Keep the app schema-first
+- Prefer reusable components over route-specific hacks
+- Preserve game-specific data where possible
+- Treat missing data honestly
+- Keep browse flows fast and understandable
 
-- better game-aware browse flows
-- improved trainer taxonomy and filtering
-- stronger location and item data
-- clearer section completeness handling
-- performance improvements in data loading
+### Data Expectations
 
-## Please Avoid
+- Keep entity relationships normalized
+- Do not flatten game-specific differences unless unavoidable
+- Prefer explicit status labels like `partial` over silent omissions
+- Avoid adding sections that imply full coverage if the data is still thin
 
-- hardcoding page-specific logic that belongs in the schema or shared helpers
-- adding polished-looking sections with placeholder data and no status note
-- making navigation heavier when it can be simplified
+### UI Expectations
 
-## Questions To Ask While Changing The App
+The app should feel like an encyclopedia, not a card dump:
 
-- Does this make the encyclopedia easier to browse?
-- Does this preserve game context correctly?
-- Does this make incomplete data more honest or less honest?
-- Will this still make sense if the app moves to a database-backed API later?
+- Browse pages should be scannable
+- Dense data should favor tables or compact structured lists
+- Article pages should link outward to related entities
+- Mobile layouts should reduce vertical clutter where possible
+
+### Please Avoid
+
+- Hardcoding page-specific logic that belongs in the schema or shared helpers
+- Adding polished-looking sections with placeholder data and no status note
+- Making navigation heavier when it can be simplified
+
+## Code Conventions
+
+- Follow existing patterns in the codebase
+- Use TypeScript strict mode — no `any` unless unavoidable
+- Prefer named exports over default exports
+- Keep components focused — one responsibility per file
+
+## Commit Convention
+
+Use type-prefixed commit messages:
+
+| Prefix | Purpose |
+|--------|---------|
+| `feat:` | New feature |
+| `fix:` | Bug fix |
+| `refactor:` | Code restructuring (no behavior change) |
+| `style:` | Formatting, CSS changes |
+| `docs:` | Documentation only |
+| `test:` | Adding or updating tests |
+| `chore:` | Build, CI, dependency updates |
+| `perf:` | Performance improvement |
+
+Example: `feat: add game-scoped location browse page`
+
+## License
+
+By contributing, you agree that your contributions will be licensed under the MIT License.
