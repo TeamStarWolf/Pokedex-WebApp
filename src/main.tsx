@@ -9,13 +9,17 @@ import "./index.css";
 function applyGitHubPagesRedirect(locationObject: Location) {
   if (locationObject.search[1] !== "/") return;
 
+  const base = import.meta.env.BASE_URL.replace(/\/$/, "");
   const decoded = locationObject.search
     .slice(1)
     .split("&")
     .map((segment) => segment.replace(/~and~/g, "&"))
     .join("?");
 
-  window.history.replaceState(null, "", `${locationObject.pathname.slice(0, -1)}${decoded}${locationObject.hash}`);
+  const newPath = `${locationObject.pathname.slice(0, -1)}${decoded}`;
+  // Validate the redirect stays within the app's base path
+  if (!newPath.startsWith(base) || newPath.includes("//")) return;
+  window.history.replaceState(null, "", newPath + locationObject.hash);
 }
 
 applyGitHubPagesRedirect(window.location);

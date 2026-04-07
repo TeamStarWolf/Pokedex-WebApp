@@ -116,9 +116,18 @@ export function readAppStorage(storage: Storage = window.localStorage): AppStora
     .find(Boolean);
 
   try {
+    const parsedFavorites = favorites ? JSON.parse(favorites) : [];
+    const parsedTeam = team ? JSON.parse(team) : [];
+    // Runtime validation — reject tampered data
+    if (!Array.isArray(parsedFavorites) || !parsedFavorites.every((id: unknown) => typeof id === "number" && Number.isFinite(id))) {
+      return emptyStorage();
+    }
+    if (!Array.isArray(parsedTeam) || !parsedTeam.every((id: unknown) => typeof id === "number" && Number.isFinite(id))) {
+      return emptyStorage();
+    }
     return {
-      favorites: favorites ? JSON.parse(favorites) : [],
-      currentTeam: team ? JSON.parse(team).map((pokemonId: number) => ({ pokemonId, nickname: "", role: "", notes: "" })) : [],
+      favorites: parsedFavorites,
+      currentTeam: parsedTeam.map((pokemonId: number) => ({ pokemonId, nickname: "", role: "", notes: "" })),
       currentTeamProfile: { name: "Current Team", notes: "" },
       customTeamSets: [],
     };

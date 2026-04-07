@@ -150,8 +150,10 @@ def build_svg(trainer: str) -> str:
     accent = str(theme["accent"])
     body = draw_outerwear(theme)
     accessories = draw_optional_accessories(theme)
+    from xml.sax.saxutils import escape
+    safe_trainer = escape(trainer)
     initials = "".join(part[:1].upper() for part in re.split(r"\s+", trainer) if part)[:2]
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 120" role="img" aria-label="{trainer} trainer sprite">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 120" role="img" aria-label="{safe_trainer} trainer sprite">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="{theme["bg1"]}" />
