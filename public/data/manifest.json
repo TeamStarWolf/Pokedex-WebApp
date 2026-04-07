@@ -1,5 +1,5 @@
 {
   "speciesCount": 1025,
-  "dbPath": "C:\\Users\\ccwil\\Documents\\pokedex.sqlite",
-  "assetsPath": "C:\\Users\\ccwil\\Documents\\Projects\\Pokedex WebApp\\assets"
+  "dbPath": "pokedex.sqlite",
+  "assetsPath": "assets"
 }

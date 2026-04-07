@@ -262,7 +262,7 @@ Current source roles:
 - `Pokebase`
   Secondary browse/reference checks
 
-For more detail, see [source-policy.md](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\source-policy.md).
+For more detail, see [source-policy.md](source-policy.md).
 
 ## Current strengths
 
@@ -293,10 +293,10 @@ Contributors should be careful not to make those gaps look more complete than th
 
 Useful places to start:
 
-- [README.md](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\README.md)
-- [routes-and-pages.md](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\routes-and-pages.md)
-- [data-pipeline.md](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\data-pipeline.md)
-- [encyclopedia-architecture.md](C:\Users\ccwil\Documents\Projects\Pokedex WebApp\docs\encyclopedia-architecture.md)
+- [README.md](README.md)
+- [routes-and-pages.md](routes-and-pages.md)
+- [data-pipeline.md](data-pipeline.md)
+- [encyclopedia-architecture.md](encyclopedia-architecture.md)
 
 Useful implementation files:
 
