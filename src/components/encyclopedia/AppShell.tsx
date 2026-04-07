@@ -28,7 +28,7 @@ const utilityItems = [
   { to: "/abilities", label: "Abilities" },
   { to: "/items", label: "Items" },
   { to: "/locations", label: "Locations" },
-  { to: "/compare?left=charizard&right=venusaur", label: "Compare" },
+  { to: "/compare", label: "Compare" },
 ];
 
 export function AppShell({ children }: AppShellProps) {

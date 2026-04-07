@@ -34,16 +34,78 @@ const makeType = (
 });
 
 const types: TypeEntity[] = [
-  makeType("grass", "#6ee7b7", [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }], [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 2 }]),
-  makeType("poison", "#a78bfa", [{ attackingTypeId: "type:grass", multiplier: 2 }], [{ attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 2 }]),
-  makeType("fire", "#fb923c", [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:water", multiplier: 0.5 }], [{ attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 2 }]),
-  makeType("flying", "#93c5fd", [{ attackingTypeId: "type:grass", multiplier: 2 }], [{ attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0 }, { attackingTypeId: "type:electric", multiplier: 2 }]),
-  makeType("electric", "#facc15", [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 0 }], [{ attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 2 }]),
-  makeType("normal", "#d4d4d8", [], []),
-  makeType("dark", "#78716c", [], [{ attackingTypeId: "type:dark", multiplier: 0.5 }]),
-  makeType("steel", "#94a3b8", [{ attackingTypeId: "type:rock", multiplier: 2 }], [{ attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0 }, { attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }]),
-  makeType("ground", "#c08457", [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }], [{ attackingTypeId: "type:electric", multiplier: 0 }, { attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 0.5 }]),
-  makeType("water", "#60a5fa", [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }], [{ attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 2 }]),
+  // Normal
+  makeType("normal", "#d4d4d8",
+    [{ attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:ghost", multiplier: 0 }],
+    [{ attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:ghost", multiplier: 0 }]),
+  // Fire
+  makeType("fire", "#fb923c",
+    [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ice", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }]),
+  // Water
+  makeType("water", "#60a5fa",
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:electric", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:ice", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }]),
+  // Electric
+  makeType("electric", "#facc15",
+    [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0 }],
+    [{ attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }]),
+  // Grass
+  makeType("grass", "#6ee7b7",
+    [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0.5 }]),
+  // Ice
+  makeType("ice", "#67e8f9",
+    [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:dragon", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:ice", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 0.5 }]),
+  // Fighting
+  makeType("fighting", "#f87171",
+    [{ attackingTypeId: "type:normal", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:psychic", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }, { attackingTypeId: "type:ghost", multiplier: 0 }],
+    [{ attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:psychic", multiplier: 2 }, { attackingTypeId: "type:fairy", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:dark", multiplier: 0.5 }]),
+  // Poison
+  makeType("poison", "#a78bfa",
+    [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:fairy", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:ghost", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0 }],
+    [{ attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:psychic", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }]),
+  // Ground
+  makeType("ground", "#c08457",
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0 }],
+    [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:electric", multiplier: 0 }]),
+  // Flying
+  makeType("flying", "#93c5fd",
+    [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:electric", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0 }]),
+  // Psychic
+  makeType("psychic", "#f0abfc",
+    [{ attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 2 }, { attackingTypeId: "type:psychic", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:dark", multiplier: 0 }],
+    [{ attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:ghost", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:psychic", multiplier: 0.5 }]),
+  // Bug
+  makeType("bug", "#a3e635",
+    [{ attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:psychic", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:ghost", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0.5 }]),
+  // Rock
+  makeType("rock", "#d6d3d1",
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:flying", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:ground", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:water", multiplier: 2 }, { attackingTypeId: "type:grass", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:normal", multiplier: 0.5 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }]),
+  // Ghost
+  makeType("ghost", "#c4b5fd",
+    [{ attackingTypeId: "type:psychic", multiplier: 2 }, { attackingTypeId: "type:ghost", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 0.5 }, { attackingTypeId: "type:normal", multiplier: 0 }],
+    [{ attackingTypeId: "type:ghost", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 2 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:normal", multiplier: 0 }, { attackingTypeId: "type:fighting", multiplier: 0 }]),
+  // Dragon
+  makeType("dragon", "#818cf8",
+    [{ attackingTypeId: "type:dragon", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0 }],
+    [{ attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:dragon", multiplier: 2 }, { attackingTypeId: "type:fairy", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }]),
+  // Dark
+  makeType("dark", "#78716c",
+    [{ attackingTypeId: "type:psychic", multiplier: 2 }, { attackingTypeId: "type:ghost", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:dark", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:bug", multiplier: 2 }, { attackingTypeId: "type:fairy", multiplier: 2 }, { attackingTypeId: "type:ghost", multiplier: 0.5 }, { attackingTypeId: "type:dark", multiplier: 0.5 }, { attackingTypeId: "type:psychic", multiplier: 0 }]),
+  // Steel
+  makeType("steel", "#94a3b8",
+    [{ attackingTypeId: "type:ice", multiplier: 2 }, { attackingTypeId: "type:rock", multiplier: 2 }, { attackingTypeId: "type:fairy", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:water", multiplier: 0.5 }, { attackingTypeId: "type:electric", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:fire", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:ground", multiplier: 2 }, { attackingTypeId: "type:normal", multiplier: 0.5 }, { attackingTypeId: "type:grass", multiplier: 0.5 }, { attackingTypeId: "type:ice", multiplier: 0.5 }, { attackingTypeId: "type:flying", multiplier: 0.5 }, { attackingTypeId: "type:psychic", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:rock", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }, { attackingTypeId: "type:fairy", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0 }]),
+  // Fairy
+  makeType("fairy", "#f9a8d4",
+    [{ attackingTypeId: "type:fighting", multiplier: 2 }, { attackingTypeId: "type:dragon", multiplier: 2 }, { attackingTypeId: "type:dark", multiplier: 2 }, { attackingTypeId: "type:fire", multiplier: 0.5 }, { attackingTypeId: "type:poison", multiplier: 0.5 }, { attackingTypeId: "type:steel", multiplier: 0.5 }],
+    [{ attackingTypeId: "type:poison", multiplier: 2 }, { attackingTypeId: "type:steel", multiplier: 2 }, { attackingTypeId: "type:fighting", multiplier: 0.5 }, { attackingTypeId: "type:bug", multiplier: 0.5 }, { attackingTypeId: "type:dark", multiplier: 0.5 }, { attackingTypeId: "type:dragon", multiplier: 0 }]),
 ];
 
 const regions: RegionEntity[] = [
