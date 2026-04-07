@@ -188,14 +188,27 @@ select {
 
 .game-context-links {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: var(--space-2);
   align-items: center;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.game-context-links::-webkit-scrollbar {
+  height: 4px;
+}
+
+.game-context-links::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
 }
 
 .game-gen-group {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 6px;
   align-items: center;
 }
@@ -2056,15 +2069,7 @@ select {
 
   .game-context-links {
     gap: 6px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
-    padding-bottom: var(--space-1);
-  }
-
-  .game-gen-group {
-    flex-wrap: nowrap;
   }
 
   .game-context-links::-webkit-scrollbar {
