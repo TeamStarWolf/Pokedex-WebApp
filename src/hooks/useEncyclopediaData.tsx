@@ -75,11 +75,60 @@ function mergeTypesPreservingMatchups(
   return merged;
 }
 
+function mergeGameVersionsPreservingSeed(
+  seed: EncyclopediaSchema["gameVersions"],
+  generated: EncyclopediaSchema["gameVersions"],
+): EncyclopediaSchema["gameVersions"] {
+  const merged = { ...seed, ...generated };
+  for (const [gameId, genGame] of Object.entries(generated)) {
+    const seedGame = seed[gameId as keyof typeof seed];
+    if (!seedGame) continue;
+    const key = gameId as keyof typeof merged;
+    // If generated entry has no generation or regionId, keep seed values
+    if ((!genGame.generation || genGame.generation === 0) && seedGame.generation) {
+      merged[key] = { ...merged[key], generation: seedGame.generation };
+    }
+    if (!genGame.regionId && seedGame.regionId) {
+      merged[key] = { ...merged[key], regionId: seedGame.regionId };
+    }
+    if (seedGame.shortName && genGame.shortName !== seedGame.shortName) {
+      merged[key] = { ...merged[key], shortName: seedGame.shortName };
+    }
+    if (!genGame.releaseDate && seedGame.releaseDate) {
+      merged[key] = { ...merged[key], releaseDate: seedGame.releaseDate };
+    }
+    if (!genGame.platform && seedGame.platform) {
+      merged[key] = { ...merged[key], platform: seedGame.platform };
+    }
+  }
+  return merged;
+}
+
+function mergeRegionsPreservingLinks(
+  seed: EncyclopediaSchema["regions"],
+  generated: EncyclopediaSchema["regions"],
+): EncyclopediaSchema["regions"] {
+  const merged = { ...seed, ...generated };
+  for (const [regionId, genRegion] of Object.entries(generated)) {
+    const seedRegion = seed[regionId as keyof typeof seed];
+    if (!seedRegion) continue;
+    const key = regionId as keyof typeof merged;
+    if (genRegion.gameVersionIds.length === 0 && seedRegion.gameVersionIds.length > 0) {
+      merged[key] = { ...merged[key], gameVersionIds: seedRegion.gameVersionIds };
+    }
+    if (genRegion.locationIds.length === 0 && seedRegion.locationIds.length > 0) {
+      merged[key] = { ...merged[key], locationIds: seedRegion.locationIds };
+    }
+  }
+  return merged;
+}
+
 function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema {
   // Seed fills gaps for entities missing from the generated dataset,
   // but generated data takes precedence when both exist (richer game associations, etc.).
   // Forms get special handling: keep seed learnsets when generated ones are empty.
   // Types get special handling: keep seed matchups when generated ones are empty.
+  // Regions get special handling: keep seed gameVersionIds/locationIds when generated ones are empty.
   return {
     pokemon: { ...encyclopediaSeed.pokemon, ...schema.pokemon },
     forms: mergeFormsPreservingLearnsets(encyclopediaSeed.forms, schema.forms),
@@ -87,8 +136,8 @@ function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema 
     moves: { ...encyclopediaSeed.moves, ...schema.moves },
     abilities: { ...encyclopediaSeed.abilities, ...schema.abilities },
     items: { ...encyclopediaSeed.items, ...schema.items },
-    regions: { ...encyclopediaSeed.regions, ...schema.regions },
-    gameVersions: { ...encyclopediaSeed.gameVersions, ...schema.gameVersions },
+    regions: mergeRegionsPreservingLinks(encyclopediaSeed.regions, schema.regions),
+    gameVersions: mergeGameVersionsPreservingSeed(encyclopediaSeed.gameVersions, schema.gameVersions),
     types: mergeTypesPreservingMatchups(encyclopediaSeed.types, schema.types),
     locations: { ...encyclopediaSeed.locations, ...schema.locations },
   };
