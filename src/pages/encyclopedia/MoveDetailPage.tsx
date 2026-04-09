@@ -72,7 +72,7 @@ export function MoveDetailPage() {
         <div>
           <p className="eyebrow">Move article</p>
           <h1>{move.name}</h1>
-          <p className="lead">A linked move entry with learner coverage, type navigation, and room for version-specific text later.</p>
+          <p className="lead">Stats, type matchup, and every Pokemon that can learn {move.name}.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{learners.length}</strong><span>Known learners</span></div>
@@ -186,7 +186,7 @@ export function MoveDetailPage() {
               />
             )}
           </section>
-          <PlaceholderBlock title="Version text" body="Version-specific move text is modeled in the schema and can be expanded per game later." />
+          <PlaceholderBlock title="Flavor text" body="Version-specific move descriptions will be added in a future data import." />
         </div>
       </section>
     </main>

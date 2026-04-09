@@ -29,7 +29,7 @@ import {
   getSpeciesBySlug,
   getStatTotal,
   getTypeEffectivenessSummary,
-  groupLearnsetByMethod,
+  groupLearnsetDeduped,
 } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 import { getTrainerAppearancesForPokemon } from "../../lib/trainerEncyclopedia";
@@ -57,7 +57,7 @@ export function PokemonDetailPage() {
   const abilities = getAbilitiesForForm(schema, form);
   const forms = getFormsForSpecies(schema, species);
   const pokedexEntries = getPokedexEntriesForSpecies(species, activeGame?.id);
-  const learnsetGroups = groupLearnsetByMethod(schema, form, activeGame?.id);
+  const learnsetGroups = groupLearnsetDeduped(schema, form, activeGame?.id);
   const locations = getLocationsForSpecies(schema, species, activeGame?.id);
   const family = getEvolutionFamily(schema, species);
   const effectiveness = getTypeEffectivenessSummary(schema, form);
@@ -327,7 +327,7 @@ export function PokemonDetailPage() {
                 : "Stats, forms, and flavor text are wired. Some data still reflects a partial import."}
             />
             {source === "index" ? (
-              <PlaceholderBlock title="Loading full entry" body={loading ? "Fetching species dossier, learnsets, and flavor text..." : error ?? "Detailed species data is unavailable right now."} />
+              <PlaceholderBlock title="Loading full entry" body={loading ? "Loading detailed species data..." : error ?? "Detailed species data is unavailable right now."} />
             ) : null}
             <div className="info-columns">
               <div>
@@ -386,30 +386,28 @@ export function PokemonDetailPage() {
                 <summary className="learnset-group-header">
                   <div>
                     <h3>{formatMethodLabel(group.method)}</h3>
-                    <p className="muted">{group.entries.length} entries{group.entries.length > LEARNSET_PREVIEW_LIMIT ? ` · showing first ${LEARNSET_PREVIEW_LIMIT}` : ""}</p>
+                    <p className="muted">{group.entries.length} moves{group.entries.length > LEARNSET_PREVIEW_LIMIT ? ` · showing first ${LEARNSET_PREVIEW_LIMIT}` : ""}</p>
                   </div>
                   <span className="learnset-count">{group.entries.length}</span>
                 </summary>
                 <div className="compact-learnset-table" role="table" aria-label={`${formatMethodLabel(group.method)} learnset`}>
                   <div className="compact-learnset-head" role="row">
                     <span>Move</span>
-                    <span>Acquisition</span>
-                    <span>Game</span>
+                    <span>Level</span>
+                    <span>Games</span>
                   </div>
                   {group.entries.slice(0, LEARNSET_PREVIEW_LIMIT).map((entry) => (
-                    <div key={`${entry.move.id}-${entry.order}`} className="compact-learnset-row" role="row">
+                    <div key={entry.move.id} className="compact-learnset-row" role="row">
                       <GameScopedLink to={encyclopediaRoutes.move(entry.move.slug)} className="learnset-move-link">
                         <strong>{entry.move.name}</strong>
                       </GameScopedLink>
-                      <span>{entry.level ? `Lv. ${entry.level} ${formatMethodLabel(entry.method)}` : formatMethodLabel(entry.method)}</span>
-                      <GameScopedLink to={encyclopediaRoutes.game(entry.game.slug)} preserveGame={false} className="learnset-game-link">
-                        {entry.game.shortName}
-                      </GameScopedLink>
+                      <span>{entry.levelRange ? `Lv. ${entry.levelRange.min}–${entry.levelRange.max}` : entry.level ? `Lv. ${entry.level}` : "—"}</span>
+                      <span className="learnset-games-list">{entry.games.map((g) => g.shortName).join(", ")}</span>
                     </div>
                   ))}
                 </div>
               </details>
-            )) : <PlaceholderBlock title="Learnset pending" body={activeGame ? `No imported move records were found for ${species.name} in ${activeGame.name}.` : "This route is wired for per-species move data and will populate once the detail slice is available."} />}
+            )) : <PlaceholderBlock title="No learnset data" body={activeGame ? `No move records found for ${species.name} in ${activeGame.name}.` : "Learnset data for this Pokemon will be added in a future data import."} />}
           </section>
 
           <section id="locations" className="content-card">
@@ -473,7 +471,7 @@ export function PokemonDetailPage() {
                 ))}
               </div>
             ) : (
-              <PlaceholderBlock title="Locations pending" body={activeGame ? `No imported location records are currently linked for ${species.name} in ${activeGame.name}.` : "No wild encounter data is available yet for this species."} />
+              <PlaceholderBlock title="No location data" body={activeGame ? `No location records found for ${species.name} in ${activeGame.name}.` : "Wild encounter locations for this Pokemon will be added in a future data import."} />
             )}
             <h3>Held items</h3>
             <div className="chip-grid">

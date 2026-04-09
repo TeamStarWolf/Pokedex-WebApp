@@ -33,13 +33,13 @@ export function AbilityDetailPage() {
         <div>
           <p className="eyebrow">Ability article</p>
           <h1>{ability.name}</h1>
-          <p className="lead">An ability entry designed to connect effects, form coverage, and related species pages.</p>
+          <p className="lead">Effect description and all Pokemon with {ability.name}.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{pokemon.length}</strong><span>Species</span></div>
           <div><strong>{ability.pokemonFormIds.length}</strong><span>Forms</span></div>
           <div><strong>{ability.isMainSeries ? "Yes" : "No"}</strong><span>Main series</span></div>
-          <div><strong>{ability.status}</strong><span>Import state</span></div>
+          <div><strong>{ability.isMainSeries ? "Main series" : "Side game"}</strong><span>Category</span></div>
         </div>
       </section>
       <section className="content-layout">

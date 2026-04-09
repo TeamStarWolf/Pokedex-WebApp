@@ -33,7 +33,7 @@ export function ItemDetailPage() {
         <div>
           <p className="eyebrow">Item article</p>
           <h1>{item.name}</h1>
-          <p className="lead">Item reference page with held-item context, linked moves, related species, and room for version-specific effects.</p>
+          <p className="lead">Effect details, related Pokemon, and linked moves for {item.name}.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{pokemon.length}</strong><span>Related species</span></div>
@@ -74,7 +74,7 @@ export function ItemDetailPage() {
                 ))}
               </div>
             ) : (
-              <PlaceholderBlock title="Version-specific effects pending" body="The schema supports per-game item effects, but the current dataset is still thin here." />
+              <PlaceholderBlock title="No version-specific effects available" body="Per-game item effects will be added in a future data import." />
             )}
           </section>
           <section id="logistics" className="content-card">

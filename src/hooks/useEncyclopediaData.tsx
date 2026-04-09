@@ -2,7 +2,8 @@
 // https://github.com/TeamStarWolf/PokeNav - MIT License
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { encyclopediaSeed } from "../data/encyclopediaSeed";
-import { EMPTY_ENCYCLOPEDIA_SCHEMA, type EncyclopediaSchema } from "../lib/encyclopedia-schema";
+import { walkthroughs } from "../data/walkthroughData";
+import { EMPTY_ENCYCLOPEDIA_SCHEMA, type EncyclopediaSchema, type GameVersionId } from "../lib/encyclopedia-schema";
 
 type EncyclopediaDataContextValue = {
   schema: EncyclopediaSchema;
@@ -101,6 +102,42 @@ function mergeGameVersionsPreservingSeed(
       merged[key] = { ...merged[key], platform: seedGame.platform };
     }
   }
+  // Second pass: fix generation/region for individual games that have no seed entry
+  // by finding a seed game whose versionGroup contains this game's slug (e.g. "gold" → "gold-silver").
+  const seedGames = Object.values(seed);
+  for (const [gameId, game] of Object.entries(merged)) {
+    if (seed[gameId as keyof typeof seed]) continue; // already handled
+    const key = gameId as keyof typeof merged;
+    const slug = game.slug;
+    const parent = seedGames.find((s) => s.versionGroup.includes(slug) && s.versionGroup !== slug);
+    if (parent) {
+      if (game.generation !== parent.generation) {
+        merged[key] = { ...merged[key], generation: parent.generation };
+      }
+      if (!game.regionId && parent.regionId) {
+        merged[key] = { ...merged[key], regionId: parent.regionId };
+      }
+    }
+  }
+  return merged;
+}
+
+function mergeItemsPreservingLinks(
+  seed: EncyclopediaSchema["items"],
+  generated: EncyclopediaSchema["items"],
+): EncyclopediaSchema["items"] {
+  const merged = { ...seed, ...generated };
+  for (const [itemId, genItem] of Object.entries(generated)) {
+    const seedItem = seed[itemId as keyof typeof seed];
+    if (!seedItem) continue;
+    const key = itemId as keyof typeof merged;
+    if (genItem.relatedMoveIds.length === 0 && seedItem.relatedMoveIds.length > 0) {
+      merged[key] = { ...merged[key], relatedMoveIds: seedItem.relatedMoveIds };
+    }
+    if (genItem.relatedPokemonIds.length === 0 && seedItem.relatedPokemonIds.length > 0) {
+      merged[key] = { ...merged[key], relatedPokemonIds: seedItem.relatedPokemonIds };
+    }
+  }
   return merged;
 }
 
@@ -119,8 +156,36 @@ function mergeRegionsPreservingLinks(
     if (genRegion.locationIds.length === 0 && seedRegion.locationIds.length > 0) {
       merged[key] = { ...merged[key], locationIds: seedRegion.locationIds };
     }
+    if (!genRegion.introducedInGameId && seedRegion.introducedInGameId) {
+      merged[key] = { ...merged[key], introducedInGameId: seedRegion.introducedInGameId };
+    }
+    if ((!genRegion.generationLabel || genRegion.generationLabel === "Mixed") && seedRegion.generationLabel && seedRegion.generationLabel !== "Mixed") {
+      merged[key] = { ...merged[key], generationLabel: seedRegion.generationLabel };
+    }
   }
   return merged;
+}
+
+function applyWalkthroughs(
+  gameVersions: EncyclopediaSchema["gameVersions"],
+): EncyclopediaSchema["gameVersions"] {
+  const result = { ...gameVersions };
+  for (const [walkthroughGameId, chapters] of Object.entries(walkthroughs)) {
+    const gid = walkthroughGameId as GameVersionId;
+    if (result[gid]) {
+      result[gid] = { ...result[gid], walkthrough: chapters };
+    }
+    // Also apply to individual games whose versionGroup matches the walkthrough key's slug
+    // (e.g., walkthrough for "game:red-blue" also applies to "game:red" and "game:blue")
+    const walkthroughSlug = walkthroughGameId.replace("game:", "");
+    for (const [gameId, game] of Object.entries(result)) {
+      if (gameId === walkthroughGameId) continue;
+      if (!game.walkthrough && game.versionGroup === walkthroughSlug) {
+        result[gameId as GameVersionId] = { ...game, walkthrough: chapters };
+      }
+    }
+  }
+  return result;
 }
 
 function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema {
@@ -128,6 +193,7 @@ function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema 
   // but generated data takes precedence when both exist (richer game associations, etc.).
   // Forms get special handling: keep seed learnsets when generated ones are empty.
   // Types get special handling: keep seed matchups when generated ones are empty.
+  // Items get special handling: keep seed relatedMoveIds/relatedPokemonIds when generated ones are empty.
   // Regions get special handling: keep seed gameVersionIds/locationIds when generated ones are empty.
   return {
     pokemon: { ...encyclopediaSeed.pokemon, ...schema.pokemon },
@@ -135,9 +201,9 @@ function overlaySeedOnGenerated(schema: EncyclopediaSchema): EncyclopediaSchema 
     evolutions: { ...encyclopediaSeed.evolutions, ...schema.evolutions },
     moves: { ...encyclopediaSeed.moves, ...schema.moves },
     abilities: { ...encyclopediaSeed.abilities, ...schema.abilities },
-    items: { ...encyclopediaSeed.items, ...schema.items },
+    items: mergeItemsPreservingLinks(encyclopediaSeed.items, schema.items),
     regions: mergeRegionsPreservingLinks(encyclopediaSeed.regions, schema.regions),
-    gameVersions: mergeGameVersionsPreservingSeed(encyclopediaSeed.gameVersions, schema.gameVersions),
+    gameVersions: applyWalkthroughs(mergeGameVersionsPreservingSeed(encyclopediaSeed.gameVersions, schema.gameVersions)),
     types: mergeTypesPreservingMatchups(encyclopediaSeed.types, schema.types),
     locations: { ...encyclopediaSeed.locations, ...schema.locations },
   };

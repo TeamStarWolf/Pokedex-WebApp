@@ -11,7 +11,7 @@ import {
   getDefaultForm,
   getGameBySlug,
   getSpeciesBySlug,
-  groupLearnsetByMethod,
+  groupLearnsetDeduped,
 } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
@@ -39,9 +39,9 @@ export function PokemonMovesPage() {
 
   const activeGameSlug = searchParams.get("game") ?? "";
   const activeGame = activeGameSlug ? getGameBySlug(schema, activeGameSlug) ?? getGameBySlug(indexSchema, activeGameSlug) : null;
-  const groups = groupLearnsetByMethod(schema, form, activeGame?.id);
-  const uniqueMoveCount = new Set(groups.flatMap((group) => group.entries.map((entry) => entry.move.id))).size;
-  const learnsetRecordCount = groups.reduce((sum, group) => sum + group.entries.length, 0);
+  const groups = groupLearnsetDeduped(schema, form, activeGame?.id);
+  const uniqueMoveCount = groups.reduce((sum, group) => sum + group.entries.length, 0);
+  const totalGroups = groups.length;
 
   return (
     <main className="encyclopedia-page">
@@ -61,9 +61,8 @@ export function PokemonMovesPage() {
           {activeGame ? <p className="muted">Scoped to {activeGame.name}. Only move records for this game are shown below.</p> : null}
         </div>
         <div className="title-deck-metrics">
-          <div><strong>{uniqueMoveCount}</strong><span>Unique moves</span></div>
-          <div><strong>{learnsetRecordCount}</strong><span>Learnset records</span></div>
-          <div><strong>{groups.length}</strong><span>Move groups</span></div>
+          <div><strong>{uniqueMoveCount}</strong><span>Moves</span></div>
+          <div><strong>{totalGroups}</strong><span>Method groups</span></div>
         </div>
       </section>
 
@@ -90,7 +89,7 @@ export function PokemonMovesPage() {
               <div className="learnset-group-header">
                 <div>
                   <h3>{formatMethodLabel(group.method)}</h3>
-                  <p className="muted">{group.entries.length} entries in this method group.</p>
+                  <p className="muted">{group.entries.length} moves in this method group.</p>
                 </div>
                 <span className="learnset-count">{group.entries.length}</span>
               </div>
@@ -98,23 +97,19 @@ export function PokemonMovesPage() {
                 <div className="learnset-table-head" role="row">
                   <span>Move</span>
                   <span>Type</span>
-                  <span>Method</span>
                   <span>Level</span>
-                  <span>Game</span>
+                  <span>Games</span>
                 </div>
                 {group.entries.map((entry) => (
-                  <div key={`${entry.move.id}-${entry.order}`} className="learnset-row" role="row">
+                  <div key={entry.move.id} className="learnset-row" role="row">
                     <GameScopedLink to={encyclopediaRoutes.move(entry.move.slug)} className="learnset-move-link">
                       <strong>{entry.move.name}</strong>
                     </GameScopedLink>
                     <GameScopedLink to={encyclopediaRoutes.type(entry.move.typeId.replace("type:", ""))} className="type-chip muted-chip">
                       {schema.types[entry.move.typeId]?.name ?? entry.move.typeId.replace("type:", "")}
                     </GameScopedLink>
-                    <span>{formatMethodLabel(entry.method)}</span>
-                    <span>{entry.level ? `Lv. ${entry.level}` : "-"}</span>
-                    <GameScopedLink to={encyclopediaRoutes.game(entry.game.slug)} preserveGame={false} className="learnset-game-link">
-                      {entry.game.shortName}
-                    </GameScopedLink>
+                    <span>{entry.levelRange ? `Lv. ${entry.levelRange.min}–${entry.levelRange.max}` : entry.level ? `Lv. ${entry.level}` : "—"}</span>
+                    <span className="learnset-games-list">{entry.games.map((g) => g.shortName).join(", ")}</span>
                   </div>
                 ))}
               </div>

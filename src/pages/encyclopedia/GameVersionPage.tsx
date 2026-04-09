@@ -17,8 +17,9 @@ import { useEncyclopediaData } from "../../hooks/useEncyclopediaData";
 
 const POKEMON_PAGE_SIZE = 36;
 
-const tabs = [
+const baseTabs = [
   { id: "overview", label: "Overview" },
+  { id: "walkthrough", label: "Walkthrough" },
   { id: "trainer-groups", label: "Trainer roles" },
   { id: "region", label: "Region" },
   { id: "entries", label: "Pokemon" },
@@ -36,6 +37,9 @@ export function GameVersionPage() {
   const [pokemonSort, setPokemonSort] = useState<"name" | "dex">("dex");
 
   if (!game) return <main className="encyclopedia-page"><section className="content-card"><h1>Game not found</h1></section></main>;
+
+  const hasWalkthrough = game.walkthrough && game.walkthrough.length > 0;
+  const tabs = hasWalkthrough ? baseTabs : baseTabs.filter((t) => t.id !== "walkthrough");
 
   const allPokemon = getPokemonByGame(schema, game.id);
   const pairedGames = game.pairedGameIds.map((gameId) => schema.gameVersions[gameId]).filter(Boolean);
@@ -71,7 +75,7 @@ export function GameVersionPage() {
         <div>
           <p className="eyebrow">Game hub</p>
           <h1>{game.name}</h1>
-          <p className="lead">Game version entry with regional context, paired releases, and indexed species.</p>
+          <p className="lead">Region, Pokedex, trainers, and paired releases for {game.name}.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{allPokemon.length}</strong><span>Species</span></div>
@@ -127,6 +131,44 @@ export function GameVersionPage() {
               </div>
             </div>
           </section>
+          {hasWalkthrough && (
+            <section id="walkthrough" className="content-card">
+              <h2>Walkthrough</h2>
+              <p className="muted">Step-by-step progression guide for {game.name}.</p>
+              <div className="stack">
+                {game.walkthrough!.map((chapter, chapterIndex) => (
+                  <details key={chapterIndex} className="walkthrough-chapter" open={chapterIndex === 0}>
+                    <summary className="walkthrough-chapter-title"><h3>{chapter.title}</h3></summary>
+                    <div className="walkthrough-steps">
+                      {chapter.steps.map((step, stepIndex) => (
+                        <div key={stepIndex} className="walkthrough-step">
+                          <div className="walkthrough-step-header">
+                            <span className="walkthrough-step-number">{stepIndex + 1}</span>
+                            <div>
+                              <strong>{step.title}</strong>
+                              {step.recommendedLevel != null && <span className="walkthrough-level-badge">Lv {step.recommendedLevel}</span>}
+                            </div>
+                          </div>
+                          <p>{step.summary}</p>
+                          {step.keyBattles && step.keyBattles.length > 0 && (
+                            <div className="walkthrough-battles">
+                              <span className="walkthrough-label">Key battles:</span>
+                              {step.keyBattles.map((battle, i) => <span key={i} className="entity-chip">{battle}</span>)}
+                            </div>
+                          )}
+                          {step.tips && step.tips.length > 0 && (
+                            <ul className="walkthrough-tips">
+                              {step.tips.map((tip, i) => <li key={i}>{tip}</li>)}
+                            </ul>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
           <section id="trainer-groups" className="content-card">
             <h2>Trainer roles</h2>
             {trainerLoading ? (

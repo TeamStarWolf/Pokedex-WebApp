@@ -93,9 +93,17 @@ def theme_for(trainer: str) -> dict[str, str | bool]:
     return {**fallback_theme(trainer), **TRAINER_THEMES.get(trainer, {})}
 
 
+def _safe_color(val: str | bool) -> str:
+    """Validate a color value is safe for SVG attributes."""
+    s = str(val)
+    if not re.match(r'^[a-zA-Z0-9#(),.\s%]+$', s):
+        return '#888888'
+    return s
+
+
 def draw_optional_accessories(theme: dict[str, str | bool]) -> str:
-    accent = theme["accent"]
-    outfit = theme["outfit"]
+    accent = _safe_color(theme["accent"])
+    outfit = _safe_color(theme["outfit"])
     parts: list[str] = []
     if theme.get("hat"):
         parts.append(f'<path d="M21 34h54l-7-11H29z" fill="{accent}" /><rect x="23" y="33" width="50" height="6" rx="3" fill="{outfit}" />')
@@ -121,8 +129,8 @@ def draw_optional_accessories(theme: dict[str, str | bool]) -> str:
 
 
 def draw_outerwear(theme: dict[str, str | bool]) -> str:
-    accent = theme["accent"]
-    outfit = theme["outfit"]
+    accent = _safe_color(theme["accent"])
+    outfit = _safe_color(theme["outfit"])
     parts: list[str] = []
     if theme.get("cape"):
         parts.append(f'<path d="M18 80c8-17 20-26 30-26s22 9 30 26l-7 25H25z" fill="{outfit}" opacity="0.94" /><path d="M48 58l-7 14h14z" fill="{accent}" opacity="0.95" />')
@@ -147,7 +155,7 @@ def draw_outerwear(theme: dict[str, str | bool]) -> str:
 
 def build_svg(trainer: str) -> str:
     theme = theme_for(trainer)
-    accent = str(theme["accent"])
+    accent = _safe_color(theme["accent"])
     body = draw_outerwear(theme)
     accessories = draw_optional_accessories(theme)
     from xml.sax.saxutils import escape
@@ -156,8 +164,8 @@ def build_svg(trainer: str) -> str:
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 120" role="img" aria-label="{safe_trainer} trainer sprite">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="{theme["bg1"]}" />
-      <stop offset="100%" stop-color="{theme["bg2"]}" />
+      <stop offset="0%" stop-color="{_safe_color(theme["bg1"])}" />
+      <stop offset="100%" stop-color="{_safe_color(theme["bg2"])}" />
     </linearGradient>
     <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="rgba(255,255,255,0.22)" />
@@ -167,7 +175,7 @@ def build_svg(trainer: str) -> str:
   <rect width="96" height="120" rx="20" fill="url(#bg)" />
   <rect x="10" y="10" width="76" height="100" rx="16" fill="rgba(255,255,255,0.08)" />
   <ellipse cx="48" cy="101" rx="26" ry="8" fill="rgba(15,23,42,0.14)" />
-  <path d="M28 43c3-9 10-13 20-13s17 4 20 13v17H28z" fill="{theme["hair"]}" opacity="0.96" />
+  <path d="M28 43c3-9 10-13 20-13s17 4 20 13v17H28z" fill="{_safe_color(theme["hair"])}" opacity="0.96" />
   <circle cx="48" cy="45" r="14" fill="#f6d2b8" />
   <circle cx="42" cy="46" r="1.6" fill="#111827" />
   <circle cx="54" cy="46" r="1.6" fill="#111827" />

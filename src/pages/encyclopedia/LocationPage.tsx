@@ -31,7 +31,7 @@ export function LocationPage() {
         <div>
           <p className="eyebrow">Location article</p>
           <h1>{location.name}</h1>
-          <p className="lead">Location entry with regional context, encounter coverage, and linked game presence.</p>
+          <p className="lead">Wild encounters, game availability, and regional context for {location.name}.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{location.encounterTable.length}</strong><span>Encounters</span></div>
@@ -99,7 +99,7 @@ export function LocationPage() {
                 })}
               </div>
             ) : (
-              <PlaceholderBlock title="Encounter table pending" body="No encounter table is seeded for this location yet. The page is ready for per-game encounter imports." />
+              <PlaceholderBlock title="No encounter data available" body="Wild encounter tables for this location will be added in a future data import." />
             )}
           </section>
           <section id="games" className="content-card">

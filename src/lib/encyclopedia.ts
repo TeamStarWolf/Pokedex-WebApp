@@ -303,6 +303,31 @@ export function getTypeEffectivenessSummary(schema: EncyclopediaSchema, form: Po
     .sort((left, right) => right.multiplier - left.multiplier);
 }
 
+export function getHeadToHeadMatchup(
+  schema: EncyclopediaSchema,
+  attackerForm: PokemonFormEntity,
+  defenderForm: PokemonFormEntity,
+) {
+  // For each of the attacker's types, compute the combined multiplier against the defender's types.
+  const defenderTypes = defenderForm.typeIds.map((id) => schema.types[id]).filter(Boolean);
+  return attackerForm.typeIds.map((atkTypeId) => {
+    const atkType = schema.types[atkTypeId];
+    if (!atkType) return null;
+    let multiplier = 1;
+    for (const defType of defenderTypes) {
+      const matchup = defType.defensiveMatchups.find((m) => m.attackingTypeId === atkTypeId);
+      multiplier *= matchup?.multiplier ?? 1;
+    }
+    return { type: atkType, multiplier };
+  }).filter((e): e is NonNullable<typeof e> => e != null);
+}
+
+export function getSharedMoveIds(formA: PokemonFormEntity, formB: PokemonFormEntity) {
+  const movesA = new Set(formA.learnset.map((e) => e.moveId));
+  const movesB = new Set(formB.learnset.map((e) => e.moveId));
+  return Array.from(movesA).filter((id) => movesB.has(id));
+}
+
 export function groupLearnsetByMethod(schema: EncyclopediaSchema, form: PokemonFormEntity, gameVersionId?: GameVersionEntity["id"]) {
   const grouped = new Map<string, ReturnType<typeof getMovesForForm>>();
   for (const entry of getMovesForForm(schema, form, gameVersionId)) {
@@ -315,6 +340,60 @@ export function groupLearnsetByMethod(schema: EncyclopediaSchema, form: PokemonF
     method,
     entries: entries.sort((left, right) => (left.level ?? 999) - (right.level ?? 999) || left.move.name.localeCompare(right.move.name)),
   }));
+}
+
+export type DedupedMoveEntry = {
+  move: MoveEntity;
+  method: string;
+  level: number | null;
+  levelRange: { min: number; max: number } | null;
+  games: { id: string; shortName: string }[];
+};
+
+export function groupLearnsetDeduped(schema: EncyclopediaSchema, form: PokemonFormEntity, gameVersionId?: GameVersionEntity["id"]) {
+  const allEntries = getMovesForForm(schema, form, gameVersionId);
+  const grouped = new Map<string, typeof allEntries>();
+  for (const entry of allEntries) {
+    const current = grouped.get(entry.method) ?? [];
+    current.push(entry);
+    grouped.set(entry.method, current);
+  }
+
+  return Array.from(grouped.entries()).map(([method, entries]) => {
+    // Deduplicate: group by moveId, merge game versions
+    const byMove = new Map<string, DedupedMoveEntry>();
+    for (const entry of entries) {
+      const existing = byMove.get(entry.moveId);
+      if (existing) {
+        if (!existing.games.some((g) => g.id === entry.gameVersionId)) {
+          existing.games.push({ id: entry.gameVersionId, shortName: entry.game.shortName });
+        }
+        // Expand level range if levels differ across games
+        if (entry.level != null) {
+          if (existing.levelRange) {
+            existing.levelRange.min = Math.min(existing.levelRange.min, entry.level);
+            existing.levelRange.max = Math.max(existing.levelRange.max, entry.level);
+          } else if (existing.level != null && existing.level !== entry.level) {
+            existing.levelRange = { min: Math.min(existing.level, entry.level), max: Math.max(existing.level, entry.level) };
+          }
+        }
+      } else {
+        byMove.set(entry.moveId, {
+          move: entry.move,
+          method: entry.method,
+          level: entry.level,
+          levelRange: null,
+          games: [{ id: entry.gameVersionId, shortName: entry.game.shortName }],
+        });
+      }
+    }
+
+    const deduped = Array.from(byMove.values()).sort(
+      (a, b) => (a.level ?? 999) - (b.level ?? 999) || a.move.name.localeCompare(b.move.name),
+    );
+
+    return { method, entries: deduped };
+  });
 }
 
 export function getUniqueMoveCount(form: Pick<PokemonFormEntity, "learnset">) {

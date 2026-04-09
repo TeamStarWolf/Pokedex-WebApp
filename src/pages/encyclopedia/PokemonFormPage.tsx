@@ -9,7 +9,7 @@ import { SectionTabs } from "../../components/encyclopedia/SectionTabs";
 import { StatBarChart } from "../../components/encyclopedia/StatBarChart";
 import { useEncyclopediaData, usePokemonDetailData } from "../../hooks/useEncyclopediaData";
 import { useDocumentTitle } from "../../hooks/useDocumentTitle";
-import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, getUniqueMoveCount, groupLearnsetByMethod } from "../../lib/encyclopedia";
+import { formatHeight, formatWeight, getFormBySlug, getSpeciesBySlug, getUniqueMoveCount, groupLearnsetDeduped } from "../../lib/encyclopedia";
 import { encyclopediaRoutes } from "../../lib/encyclopedia-schema";
 
 const tabs = [
@@ -30,7 +30,7 @@ export function PokemonFormPage() {
     return <main className="encyclopedia-page"><section className="content-card"><h1>Form not found</h1></section></main>;
   }
 
-  const learnsetGroups = groupLearnsetByMethod(schema, form);
+  const learnsetGroups = groupLearnsetDeduped(schema, form);
   const uniqueMoveCount = getUniqueMoveCount(form);
 
   return (
@@ -40,7 +40,7 @@ export function PokemonFormPage() {
         <div>
           <p className="eyebrow">Form article</p>
           <h1>{species.name} {form.formName === "Standard" ? "" : form.formName}</h1>
-          <p className="lead">Dedicated form page with its own typing, stats, and learnset slice.</p>
+          <p className="lead">Typing, base stats, and learnset for this form.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{form.formKind}</strong><span>Form kind</span></div>
@@ -90,9 +90,9 @@ export function PokemonFormPage() {
             {learnsetGroups.length ? (
               <div className="chip-grid">
                 {learnsetGroups.flatMap((group) => group.entries.slice(0, 8)).map((entry) => (
-                  <Link key={`${entry.move.id}-${entry.order}`} to={encyclopediaRoutes.move(entry.move.slug)} className="entity-chip">
+                  <Link key={entry.move.id} to={encyclopediaRoutes.move(entry.move.slug)} className="entity-chip">
                     <strong>{entry.move.name}</strong>
-                    <span>{entry.game.shortName}</span>
+                    <span>{entry.level ? `Lv. ${entry.level}` : entry.method}</span>
                   </Link>
                 ))}
               </div>

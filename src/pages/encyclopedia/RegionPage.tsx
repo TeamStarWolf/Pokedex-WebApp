@@ -32,12 +32,12 @@ export function RegionPage() {
         <div>
           <p className="eyebrow">Region article</p>
           <h1>{region.name}</h1>
-          <p className="lead">Regional overview with linked games, locations, and the current species slice tied to this area.</p>
+          <p className="lead">Games, locations, and Pokemon found across the {region.name} region.</p>
         </div>
         <div className="title-deck-metrics">
           <div><strong>{region.locationIds.length}</strong><span>Locations</span></div>
           <div><strong>{region.gameVersionIds.length}</strong><span>Games</span></div>
-          <div><strong>{residents.length}</strong><span>Seeded species</span></div>
+          <div><strong>{residents.length}</strong><span>Species</span></div>
           <div><strong>{region.generationLabel}</strong><span>Generation</span></div>
         </div>
       </section>

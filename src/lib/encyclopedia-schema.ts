@@ -165,6 +165,19 @@ export type RegionEntity = BaseEntity<"region", RegionId> & {
   gameVersionIds: GameVersionId[];
 };
 
+export type WalkthroughStep = {
+  title: string;
+  summary: string;
+  recommendedLevel?: number;
+  keyBattles?: string[];
+  tips?: string[];
+};
+
+export type WalkthroughChapter = {
+  title: string;
+  steps: WalkthroughStep[];
+};
+
 export type GameVersionEntity = BaseEntity<"game-version", GameVersionId> & {
   shortName: string;
   regionId: RegionId | null;
@@ -174,6 +187,7 @@ export type GameVersionEntity = BaseEntity<"game-version", GameVersionId> & {
   platform: string | null;
   pairedGameIds: GameVersionId[];
   regionalDexName?: string;
+  walkthrough?: WalkthroughChapter[];
 };
 
 export type ItemEntity = BaseEntity<"item", ItemId> & {

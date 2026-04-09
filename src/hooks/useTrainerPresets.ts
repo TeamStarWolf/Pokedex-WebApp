@@ -50,7 +50,7 @@ export function useTrainerDetailPresets(trainerSlug: string) {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!trainerSlug) {
+    if (!trainerSlug || !/^[a-z0-9-]+$/.test(trainerSlug)) {
       setPresets(curated);
       setLoading(false);
       setError(null);
